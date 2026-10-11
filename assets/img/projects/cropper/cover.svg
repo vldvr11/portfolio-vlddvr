@@ -12,5 +12,5 @@
   <rect x="80" y="140" width="60" height="60" fill="none" stroke="#D4FF00" stroke-width="3"/>
   <rect x="1460" y="700" width="60" height="60" fill="none" stroke="#D4FF00" stroke-width="3"/>
   <text x="800" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-weight="800" font-size="110" fill="#ffffff" letter-spacing="2">CROPPER</text>
-  <text x="800" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-weight="500" font-size="34" fill="#D4FF00" letter-spacing="6">WEB TOOL · LICHNYI PROEKT</text>
+  <text x="800" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-weight="500" font-size="34" fill="#D4FF00" letter-spacing="6">ВЕБ-ИНСТРУМЕНТ · ЛИЧНЫЙ ПРОЕКТ</text>
 </svg>
