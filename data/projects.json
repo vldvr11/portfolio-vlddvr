@@ -601,8 +601,8 @@
       "en": "Haval — dealer conference 2026"
     },
     "summary": {
-      "ru": "Печать для дилерской конференции Haval / GWM 2026: афиша и бейджи участников на русском и узбекском.",
-      "en": "Print for the Haval / GWM 2026 dealer conference: poster and attendee badges in Russian and Uzbek."
+      "ru": "Оформление дилерской конференции Haval / GWM 2026 в едином стиле: афиша, бейджи участников, видеозаставки спикеров и шаблон презентаций.",
+      "en": "A unified look for the Haval / GWM 2026 dealer conference: poster, attendee badges, speaker video intros and a presentation template."
     },
     "task": null,
     "approach": {
@@ -611,10 +611,13 @@
     },
     "result": null,
     "directions": [
-      "print"
+      "print",
+      "motion"
     ],
     "branches": [
-      "outdoor"
+      "outdoor",
+      "intros",
+      "decks"
     ],
     "tags": {
       "industry": [
@@ -646,6 +649,14 @@
     },
     "blocks": [
       {
+        "type": "text",
+        "title": {
+          "ru": "Афиша и бейджи",
+          "en": "Poster and badges"
+        },
+        "text": null
+      },
+      {
         "type": "images",
         "images": [
           {
@@ -667,6 +678,141 @@
             }
           }
         ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "ru": "Заставки спикеров",
+          "en": "Speaker intros"
+        },
+        "text": null
+      },
+      {
+        "type": "video",
+        "src": "assets/video/haval-conference/haval-conference-intro-03-loop.mp4",
+        "poster": {
+          "src": "assets/img/projects/haval-conference/haval-conference-intro-03-poster-1200.webp",
+          "w": 1200,
+          "h": 675,
+          "alt": {
+            "ru": "Заставка спикера конференции",
+            "en": "Conference speaker intro"
+          }
+        },
+        "w": 1200,
+        "h": 675
+      },
+      {
+        "type": "video",
+        "src": "assets/video/haval-conference/haval-conference-intro-04-loop.mp4",
+        "poster": {
+          "src": "assets/img/projects/haval-conference/haval-conference-intro-04-poster-1200.webp",
+          "w": 1200,
+          "h": 675,
+          "alt": {
+            "ru": "Заставка спикера конференции",
+            "en": "Conference speaker intro"
+          }
+        },
+        "w": 1200,
+        "h": 675
+      },
+      {
+        "type": "video",
+        "src": "assets/video/haval-conference/haval-conference-intro-05-loop.mp4",
+        "poster": {
+          "src": "assets/img/projects/haval-conference/haval-conference-intro-05-poster-1200.webp",
+          "w": 1200,
+          "h": 675,
+          "alt": {
+            "ru": "Заставка спикера конференции",
+            "en": "Conference speaker intro"
+          }
+        },
+        "w": 1200,
+        "h": 675
+      },
+      {
+        "type": "video",
+        "src": "assets/video/haval-conference/haval-conference-intro-06-loop.mp4",
+        "poster": {
+          "src": "assets/img/projects/haval-conference/haval-conference-intro-06-poster-1200.webp",
+          "w": 1200,
+          "h": 675,
+          "alt": {
+            "ru": "Заставка спикера конференции",
+            "en": "Conference speaker intro"
+          }
+        },
+        "w": 1200,
+        "h": 675
+      },
+      {
+        "type": "text",
+        "title": {
+          "ru": "Презентации спикеров",
+          "en": "Speaker presentations"
+        },
+        "text": null
+      },
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/haval-conference/haval-conference-deck-01-page1-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Титульный слайд презентации конференции",
+              "en": "Conference presentation title slide"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-conference/haval-conference-deck-02-page1-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Титульный слайд презентации конференции",
+              "en": "Conference presentation title slide"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-conference/haval-conference-deck-03-page1-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Титульный слайд презентации конференции",
+              "en": "Conference presentation title slide"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-conference/haval-conference-deck-04-page1-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Титульный слайд презентации конференции",
+              "en": "Conference presentation title slide"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-conference/haval-conference-deck-05-page1-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Титульный слайд презентации конференции",
+              "en": "Conference presentation title slide"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-conference/haval-conference-deck-06-page1-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Титульный слайд презентации конференции",
+              "en": "Conference presentation title slide"
+            }
+          }
+        ]
       }
     ],
     "seo": {
@@ -675,8 +821,8 @@
         "en": "Haval — dealer conference 2026 · vlddvr"
       },
       "description": {
-        "ru": "Печать для дилерской конференции Haval / GWM 2026: афиша и бейджи участников на русском и узбекском.",
-        "en": "Print for the Haval / GWM 2026 dealer conference: poster and attendee badges in Russian and Uzbek."
+        "ru": "Оформление дилерской конференции Haval / GWM 2026 в едином стиле: афиша, бейджи участников, видеозаставки спикеров и шаблон презентаций.",
+        "en": "A unified look for the Haval / GWM 2026 dealer conference: poster, attendee badges, speaker video intros and a presentation template."
       }
     }
   },
@@ -1648,8 +1794,8 @@
       }
     },
     "summary": {
-      "ru": "Подборка 3D-объектов и персонажей: эмблема в камне, флаконы, модель Toretto, персонажи Chitir-Chitir и Somsa.",
-      "en": "A collection of 3D objects and characters: a stone emblem, bottles, a Toretto model, and the Chitir-Chitir and Somsa characters."
+      "ru": "Подборка 3D-объектов и персонажей: эмблема в камне, флаконы, персонажи Chitir-Chitir и Somsa.",
+      "en": "A collection of 3D objects and characters: a stone emblem, bottles, and the Chitir-Chitir and Somsa characters."
     },
     "task": null,
     "approach": {
@@ -1694,15 +1840,6 @@
             "src": "assets/img/projects/3d-objects/3d-objects-05-1600.webp",
             "w": 1280,
             "h": 1280,
-            "alt": {
-              "ru": "3D-объекты и персонажи",
-              "en": "3D objects & characters"
-            }
-          },
-          {
-            "src": "assets/img/projects/3d-objects/3d-objects-06-1600.webp",
-            "w": 1080,
-            "h": 1080,
             "alt": {
               "ru": "3D-объекты и персонажи",
               "en": "3D objects & characters"
@@ -2407,6 +2544,96 @@
         "src": "assets/video/holiday-videos/holiday-videos-10-loop.mp4",
         "embed": null,
         "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/holiday-videos/holiday-videos-r7bk-v1-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Праздничные ролики",
+            "en": "Holiday videos"
+          }
+        },
+        "src": "assets/video/holiday-videos/holiday-videos-r7bk-v1-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/holiday-videos/holiday-videos-r7bk-v2-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Праздничные ролики",
+            "en": "Holiday videos"
+          }
+        },
+        "src": "assets/video/holiday-videos/holiday-videos-r7bk-v2-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/holiday-videos/holiday-videos-r7bk-v3-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Праздничные ролики",
+            "en": "Holiday videos"
+          }
+        },
+        "src": "assets/video/holiday-videos/holiday-videos-r7bk-v3-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/holiday-videos/holiday-videos-r7bk-v4-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Праздничные ролики",
+            "en": "Holiday videos"
+          }
+        },
+        "src": "assets/video/holiday-videos/holiday-videos-r7bk-v4-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/holiday-videos/holiday-videos-r7bk-v5-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Праздничные ролики",
+            "en": "Holiday videos"
+          }
+        },
+        "src": "assets/video/holiday-videos/holiday-videos-r7bk-v5-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/holiday-videos/holiday-videos-r7bk-v6-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Праздничные ролики",
+            "en": "Holiday videos"
+          }
+        },
+        "src": "assets/video/holiday-videos/holiday-videos-r7bk-v6-loop.mp4",
+        "embed": null,
+        "caption": null
       }
     ],
     "seo": {
@@ -2849,8 +3076,8 @@
   {
     "slug": "product-animation",
     "title": {
-      "ru": "Продуктовая анимация для LED-экрана",
-      "en": "Product animation for an LED screen"
+      "ru": "Продуктовая анимация для экранов кофейни",
+      "en": "Product animation for café screens"
     },
     "client": null,
     "directions": [
@@ -2885,8 +3112,8 @@
       }
     },
     "summary": {
-      "ru": "Анимация продукции кофейни для LED-экрана: кофе, выпечка и десерты в движении.",
-      "en": "Café product animation for an LED screen: coffee, pastries and desserts in motion."
+      "ru": "Анимация продукции кофейни для LED-экрана и меню-экранов: кофе, напитки, выпечка и десерты в движении.",
+      "en": "Café product animation for LED and menu screens: coffee, drinks, pastries and desserts in motion."
     },
     "task": null,
     "approach": {
@@ -2911,129 +3138,72 @@
         "src": "assets/video/product-animation/product-animation-01-loop.mp4",
         "embed": null,
         "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/product-animation/product-animation-sy7a-v1-poster-1600.webp",
+          "w": 1600,
+          "h": 900,
+          "alt": {
+            "ru": "Продуктовая анимация для экранов кофейни",
+            "en": "Café screen product animation"
+          }
+        },
+        "src": "assets/video/product-animation/product-animation-sy7a-v1-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/product-animation/product-animation-sy7a-v2-poster-1600.webp",
+          "w": 1600,
+          "h": 900,
+          "alt": {
+            "ru": "Продуктовая анимация для экранов кофейни",
+            "en": "Café screen product animation"
+          }
+        },
+        "src": "assets/video/product-animation/product-animation-sy7a-v2-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/product-animation/product-animation-sy7a-v3-poster-1600.webp",
+          "w": 1600,
+          "h": 900,
+          "alt": {
+            "ru": "Продуктовая анимация для экранов кофейни",
+            "en": "Café screen product animation"
+          }
+        },
+        "src": "assets/video/product-animation/product-animation-sy7a-v3-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/product-animation/product-animation-sy7a-v4-poster-1600.webp",
+          "w": 1280,
+          "h": 960,
+          "alt": {
+            "ru": "Продуктовая анимация для экранов кофейни",
+            "en": "Café screen product animation"
+          }
+        },
+        "src": "assets/video/product-animation/product-animation-sy7a-v4-loop.mp4",
+        "embed": null,
+        "caption": null
       }
     ],
     "seo": {
       "description": {
         "ru": "Анимация продукции кофейни для LED-экрана: кофе, выпечка и десерты в движении.",
         "en": "Café product animation for an LED screen: coffee, pastries and desserts in motion."
-      }
-    }
-  },
-  {
-    "slug": "intros",
-    "title": {
-      "ru": "Заставки",
-      "en": "Intros"
-    },
-    "client": null,
-    "directions": [
-      "motion"
-    ],
-    "branches": [
-      "intros"
-    ],
-    "tags": {
-      "industry": [],
-      "format": [
-        "video"
-      ],
-      "tools": [
-        "After Effects"
-      ],
-      "region": [],
-      "lang": []
-    },
-    "personal": false,
-    "featured": false,
-    "order": 18,
-    "cover": {
-      "src": "assets/img/projects/intros/intros-03-poster-1200.webp",
-      "w": 1200,
-      "h": 675,
-      "alt": {
-        "ru": "Заставки",
-        "en": "Intros"
-      }
-    },
-    "summary": {
-      "ru": "Набор заставок: именные заставки, TV-заставка, концовки роликов.",
-      "en": "A set of intros: named intros, a TV intro, and video outros."
-    },
-    "task": null,
-    "approach": {
-      "ru": "Набор видео-заставок в After Effects: анимация логотипа, именные заставки и короткие концовки роликов.",
-      "en": "A set of video intros made in After Effects: animated logo reveals, named intros and short end cards."
-    },
-    "result": null,
-    "behance": "https://www.behance.net/deathhueth",
-    "aiContent": false,
-    "blocks": [
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/intros/intros-03-poster-1200.webp",
-          "w": 1200,
-          "h": 675,
-          "alt": {
-            "ru": "Заставки",
-            "en": "Intros"
-          }
-        },
-        "src": "assets/video/intros/intros-03-loop.mp4",
-        "embed": null,
-        "caption": null
-      },
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/intros/intros-04-poster-1200.webp",
-          "w": 1200,
-          "h": 675,
-          "alt": {
-            "ru": "Заставки",
-            "en": "Intros"
-          }
-        },
-        "src": "assets/video/intros/intros-04-loop.mp4",
-        "embed": null,
-        "caption": null
-      },
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/intros/intros-05-poster-1200.webp",
-          "w": 1200,
-          "h": 675,
-          "alt": {
-            "ru": "Заставки",
-            "en": "Intros"
-          }
-        },
-        "src": "assets/video/intros/intros-05-loop.mp4",
-        "embed": null,
-        "caption": null
-      },
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/intros/intros-06-poster-1200.webp",
-          "w": 1200,
-          "h": 675,
-          "alt": {
-            "ru": "Заставки",
-            "en": "Intros"
-          }
-        },
-        "src": "assets/video/intros/intros-06-loop.mp4",
-        "embed": null,
-        "caption": null
-      }
-    ],
-    "seo": {
-      "description": {
-        "ru": "Набор заставок: именные заставки, TV-заставка, концовки роликов.",
-        "en": "A set of intros: named intros, a TV intro, and video outros."
       }
     }
   },
@@ -3498,135 +3668,6 @@
     }
   },
   {
-    "slug": "cutout",
-    "title": {
-      "ru": "Cutout — личный проект",
-      "en": "Cutout — personal project"
-    },
-    "client": null,
-    "directions": [
-      "web"
-    ],
-    "branches": [
-      "extensions"
-    ],
-    "tags": {
-      "industry": [],
-      "format": [
-        "interactive"
-      ],
-      "tools": [],
-      "region": [],
-      "lang": [
-        "ru",
-        "en"
-      ]
-    },
-    "personal": true,
-    "featured": true,
-    "order": 23,
-    "cover": {
-      "src": "assets/img/projects/cutout/cutout-01-1600.webp",
-      "w": 1400,
-      "h": 560,
-      "alt": {
-        "ru": "Cutout — расширение для Chrome",
-        "en": "Cutout — Chrome extension"
-      }
-    },
-    "summary": {
-      "ru": "Личный проект: расширение Chrome, которое сделал для себя, — вырезает объекты с фото в один клик нейросетью SAM 2.1 прямо в браузере. Опубликовано в Chrome Web Store.",
-      "en": "A personal project: a Chrome extension I built for myself — it cuts objects out of photos in one click with the SAM 2.1 model, right in the browser. Published on the Chrome Web Store."
-    },
-    "task": null,
-    "approach": {
-      "ru": "Собран полный комплект для публикации в Chrome Web Store (описания RU/EN, локализация, privacy-policy), манифест v1.3.0 (попап, редактор, фоновый сервис-воркер, хоткей Alt+Shift+X), собственная дизайн-система «Cutout»: тёмная тема по умолчанию с сине-фиолетовым свечением, светлая тема, скругления 22–26px/14–16px/999px, градиент #4f8bff→#8b5cff, шрифт Onest. Функции: выделение одним кликом, уточнение Alt+клик/рамкой, кисть и ластик, доводка краёв нейросетью, работа с несколькими объектами, экспорт без потерь (меняется только альфа-канал).",
-      "en": "Built a full Chrome Web Store launch kit (RU/EN descriptions, localization, privacy policy), a v1.3.0 manifest (popup, editor, background service worker, Alt+Shift+X hotkey), and a dedicated 'Cutout' design system: dark theme by default with a blue-violet glow, a light theme, 22–26px/14–16px/999px corner radii, a #4f8bff→#8b5cff gradient, and the Onest typeface. Features: one-click selection, Alt-click/box refinement, brush and eraser touch-up, neural edge refinement, multi-object support, and lossless export (only the alpha channel changes)."
-    },
-    "result": null,
-    "behance": "https://www.behance.net/deathhueth",
-    "aiContent": false,
-    "blocks": [
-      {
-        "type": "images",
-        "images": [
-          {
-            "src": "assets/img/projects/cutout/cutout-02-1600.webp",
-            "w": 128,
-            "h": 128,
-            "alt": {
-              "ru": "Cutout — расширение для Chrome",
-              "en": "Cutout — Chrome extension"
-            }
-          },
-          {
-            "src": "assets/img/projects/cutout/cutout-03-1600.webp",
-            "w": 440,
-            "h": 280,
-            "alt": {
-              "ru": "Cutout — расширение для Chrome",
-              "en": "Cutout — Chrome extension"
-            }
-          },
-          {
-            "src": "assets/img/projects/cutout/cutout-04-1600.webp",
-            "w": 1280,
-            "h": 800,
-            "alt": {
-              "ru": "Cutout — расширение для Chrome",
-              "en": "Cutout — Chrome extension"
-            }
-          },
-          {
-            "src": "assets/img/projects/cutout/cutout-05-1600.webp",
-            "w": 1280,
-            "h": 800,
-            "alt": {
-              "ru": "Cutout — расширение для Chrome",
-              "en": "Cutout — Chrome extension"
-            }
-          },
-          {
-            "src": "assets/img/projects/cutout/cutout-06-1600.webp",
-            "w": 1280,
-            "h": 800,
-            "alt": {
-              "ru": "Cutout — расширение для Chrome",
-              "en": "Cutout — Chrome extension"
-            }
-          },
-          {
-            "src": "assets/img/projects/cutout/cutout-07-1600.webp",
-            "w": 1280,
-            "h": 800,
-            "alt": {
-              "ru": "Cutout — расширение для Chrome",
-              "en": "Cutout — Chrome extension"
-            }
-          },
-          {
-            "src": "assets/img/projects/cutout/cutout-08-1600.webp",
-            "w": 1280,
-            "h": 800,
-            "alt": {
-              "ru": "Cutout — расширение для Chrome",
-              "en": "Cutout — Chrome extension"
-            }
-          },
-          {
-            "src": "assets/img/projects/cutout/cutout-09-1600.webp",
-            "w": 1500,
-            "h": 1070,
-            "alt": {
-              "ru": "Cutout — расширение для Chrome",
-              "en": "Cutout — Chrome extension"
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
     "slug": "chitir-chitir",
     "title": {
       "ru": "Chitir-Chitir milk — маскот",
@@ -3641,7 +3682,8 @@
     "branches": [
       "mascot",
       "3d-characters",
-      "smm-graphics"
+      "smm-graphics",
+      "reels-stories"
     ],
     "tags": {
       "industry": [
@@ -3649,7 +3691,8 @@
       ],
       "format": [
         "static",
-        "3d"
+        "3d",
+        "video"
       ],
       "tools": [
         "Photoshop",
@@ -3675,8 +3718,8 @@
       "focus": "50% 30%"
     },
     "summary": {
-      "ru": "SMM для бренда орехов и сухофруктов Chitir-Chitir milk и переработка маскота бренда в 3D.",
-      "en": "Social media for the Chitir-Chitir milk nuts brand and a 3D rebuild of the brand mascot."
+      "ru": "SMM и ролики для бренда орехов и сухофруктов Chitir-Chitir milk и переработка маскота бренда в 3D.",
+      "en": "Social media and videos for the Chitir-Chitir milk nuts brand and a 3D rebuild of the brand mascot."
     },
     "task": null,
     "approach": {
@@ -3763,6 +3806,58 @@
             }
           }
         ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "ru": "Ролики",
+          "en": "Videos"
+        }
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/chitir-chitir/chitir-chitir-r7b1-v1-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Chitir-Chitir milk — ролик",
+            "en": "Chitir-Chitir milk video"
+          }
+        },
+        "src": "assets/video/chitir-chitir/chitir-chitir-r7b1-v1-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/chitir-chitir/chitir-chitir-r7b1-v2-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Chitir-Chitir milk — ролик",
+            "en": "Chitir-Chitir milk video"
+          }
+        },
+        "src": "assets/video/chitir-chitir/chitir-chitir-r7b1-v2-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/chitir-chitir/chitir-chitir-r7b1-v3-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Chitir-Chitir milk — ролик",
+            "en": "Chitir-Chitir milk video"
+          }
+        },
+        "src": "assets/video/chitir-chitir/chitir-chitir-r7b1-v3-loop.mp4",
+        "embed": null,
+        "caption": null
       }
     ],
     "seo": {
@@ -3773,266 +3868,1520 @@
     }
   },
   {
-    "slug": "presentations",
+    "slug": "toretto",
     "title": {
-      "ru": "Презентации",
-      "en": "Presentations"
+      "ru": "Toretto — 3D-ролики для бренда чипсов",
+      "en": "Toretto — 3D videos for a chips brand"
     },
-    "client": "Sojitz Corporation",
+    "client": "Toretto",
     "directions": [
-      "print"
+      "motion",
+      "3d"
     ],
     "branches": [
-      "decks"
+      "reels-stories",
+      "ads",
+      "3d-objects"
     ],
     "tags": {
       "industry": [
-        "corporate"
+        "food"
       ],
       "format": [
-        "print"
+        "video",
+        "3d"
       ],
-      "tools": [],
-      "region": [],
-      "lang": []
+      "tools": [
+        "Blender",
+        "After Effects"
+      ],
+      "region": [
+        "uz"
+      ],
+      "lang": [
+        "ru",
+        "uz"
+      ]
     },
     "personal": false,
     "featured": false,
-    "order": 21,
+    "order": 15.2,
     "cover": {
-      "src": "assets/img/projects/presentations/presentations-cover-1600.webp",
-      "w": 1600,
-      "h": 900,
+      "src": "assets/img/projects/toretto/toretto-ml28-01-1600.webp",
+      "w": 1080,
+      "h": 1080,
       "alt": {
-        "ru": "Корпоративная презентация Sojitz Corporation",
-        "en": "Sojitz Corporation presentation"
+        "ru": "Toretto — рекламный визуал",
+        "en": "Toretto ad visual"
       }
     },
     "summary": {
-      "ru": "Корпоративные презентации (Product, Marketing и др.) для Sojitz Corporation и других клиентов.",
-      "en": "Corporate presentations (product, marketing, and others) for Sojitz Corporation and other clients."
+      "ru": "Рилсы и визуалы для бренда чипсов Toretto: 3D-анимация пачек и чипсов, конкурсы и опросы, CGI-ролики с пачкой на городских зданиях.",
+      "en": "Reels and visuals for the Toretto chips brand: 3D animation of packs and chips, giveaways and polls, CGI videos with the pack on city buildings."
     },
     "task": null,
-    "approach": {
-      "ru": "Корпоративные презентации в PDF для Sojitz Corporation и других клиентов: структурированная вёрстка слайдов, фирменная типографика и инфографика.",
-      "en": "Corporate PDF presentations for Sojitz Corporation and other clients: structured slide layouts, brand typography and infographics."
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": true,
+    "blocks": [
+      {
+        "type": "text",
+        "title": {
+          "ru": "Визуалы",
+          "en": "Key visuals"
+        }
+      },
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/toretto/toretto-ml28-01-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "Toretto — рекламный визуал",
+              "en": "Toretto ad visual"
+            }
+          },
+          {
+            "src": "assets/img/projects/toretto/toretto-ml28-02-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "Toretto — рекламный визуал",
+              "en": "Toretto ad visual"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "ru": "3D-рилсы",
+          "en": "3D reels"
+        }
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-ml28-v1-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — 3D-ролик",
+            "en": "Toretto — 3D video"
+          }
+        },
+        "src": "assets/video/toretto/toretto-ml28-v1-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-ml28-v2-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — 3D-ролик",
+            "en": "Toretto — 3D video"
+          }
+        },
+        "src": "assets/video/toretto/toretto-ml28-v2-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-ml28-v3-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — 3D-ролик",
+            "en": "Toretto — 3D video"
+          }
+        },
+        "src": "assets/video/toretto/toretto-ml28-v3-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-ml28-v4-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — 3D-ролик",
+            "en": "Toretto — 3D video"
+          }
+        },
+        "src": "assets/video/toretto/toretto-ml28-v4-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-ml28-v5-poster-1600.webp",
+          "w": 1440,
+          "h": 2560,
+          "alt": {
+            "ru": "Toretto — 3D-ролик",
+            "en": "Toretto — 3D video"
+          }
+        },
+        "src": "assets/video/toretto/toretto-ml28-v5-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-ml28-v6-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — 3D-ролик",
+            "en": "Toretto — 3D video"
+          }
+        },
+        "src": "assets/video/toretto/toretto-ml28-v6-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-ml28-v7-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — 3D-ролик",
+            "en": "Toretto — 3D video"
+          }
+        },
+        "src": "assets/video/toretto/toretto-ml28-v7-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-ml28-v8-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — 3D-ролик",
+            "en": "Toretto — 3D video"
+          }
+        },
+        "src": "assets/video/toretto/toretto-ml28-v8-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-ml28-v11-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — 3D-ролик",
+            "en": "Toretto — 3D video"
+          }
+        },
+        "src": "assets/video/toretto/toretto-ml28-v11-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-ml28-v12-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — 3D-ролик",
+            "en": "Toretto — 3D video"
+          }
+        },
+        "src": "assets/video/toretto/toretto-ml28-v12-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "text",
+        "title": {
+          "ru": "CGI в городе",
+          "en": "CGI in the city"
+        }
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-ml28-v9-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — 3D-ролик",
+            "en": "Toretto — 3D video"
+          }
+        },
+        "src": "assets/video/toretto/toretto-ml28-v9-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-ml28-v10-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — 3D-ролик",
+            "en": "Toretto — 3D video"
+          }
+        },
+        "src": "assets/video/toretto/toretto-ml28-v10-loop.mp4",
+        "embed": null,
+        "caption": null
+      }
+    ]
+  },
+  {
+    "slug": "ertaklar-dunyosi",
+    "title": {
+      "ru": "Ertaklar Dunyosi — сторис детского парка",
+      "en": "Ertaklar Dunyosi — kids park stories"
     },
+    "client": "Ertaklar Dunyosi",
+    "directions": [
+      "motion"
+    ],
+    "branches": [
+      "reels-stories"
+    ],
+    "tags": {
+      "industry": [],
+      "format": [
+        "video"
+      ],
+      "tools": [
+        "After Effects"
+      ],
+      "region": [
+        "uz"
+      ],
+      "lang": [
+        "uz"
+      ]
+    },
+    "personal": false,
+    "featured": false,
+    "order": 15.4,
+    "cover": {
+      "src": "assets/img/projects/ertaklar-dunyosi/ertaklar-dunyosi-ml3d-v8-poster-1600.webp",
+      "w": 1080,
+      "h": 1920,
+      "alt": {
+        "ru": "Анимированная сторис детского парка",
+        "en": "Animated story for a kids park"
+      }
+    },
+    "summary": {
+      "ru": "Анимированные сторис для детского парка Ertaklar Dunyosi в ТРЦ Alfraganus (работа в Dream City): расписание шоу, акции, праздники, баннер для LED-экрана.",
+      "en": "Animated stories for the Ertaklar Dunyosi kids park in Alfraganus mall (made at Dream City): show schedules, promos, holidays and an LED-screen banner."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": true,
+    "blocks": [
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ertaklar-dunyosi/ertaklar-dunyosi-ml3d-v1-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Анимированная сторис детского парка",
+            "en": "Animated story for a kids park"
+          }
+        },
+        "src": "assets/video/ertaklar-dunyosi/ertaklar-dunyosi-ml3d-v1-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ertaklar-dunyosi/ertaklar-dunyosi-ml3d-v2-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Анимированная сторис детского парка",
+            "en": "Animated story for a kids park"
+          }
+        },
+        "src": "assets/video/ertaklar-dunyosi/ertaklar-dunyosi-ml3d-v2-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ertaklar-dunyosi/ertaklar-dunyosi-ml3d-v3-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Анимированная сторис детского парка",
+            "en": "Animated story for a kids park"
+          }
+        },
+        "src": "assets/video/ertaklar-dunyosi/ertaklar-dunyosi-ml3d-v3-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ertaklar-dunyosi/ertaklar-dunyosi-ml3d-v4-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Анимированная сторис детского парка",
+            "en": "Animated story for a kids park"
+          }
+        },
+        "src": "assets/video/ertaklar-dunyosi/ertaklar-dunyosi-ml3d-v4-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ertaklar-dunyosi/ertaklar-dunyosi-ml3d-v5-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Анимированная сторис детского парка",
+            "en": "Animated story for a kids park"
+          }
+        },
+        "src": "assets/video/ertaklar-dunyosi/ertaklar-dunyosi-ml3d-v5-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ertaklar-dunyosi/ertaklar-dunyosi-ml3d-v6-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Анимированная сторис детского парка",
+            "en": "Animated story for a kids park"
+          }
+        },
+        "src": "assets/video/ertaklar-dunyosi/ertaklar-dunyosi-ml3d-v6-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ertaklar-dunyosi/ertaklar-dunyosi-ml3d-v7-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Анимированная сторис детского парка",
+            "en": "Animated story for a kids park"
+          }
+        },
+        "src": "assets/video/ertaklar-dunyosi/ertaklar-dunyosi-ml3d-v7-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ertaklar-dunyosi/ertaklar-dunyosi-ml3d-v8-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Анимированная сторис детского парка",
+            "en": "Animated story for a kids park"
+          }
+        },
+        "src": "assets/video/ertaklar-dunyosi/ertaklar-dunyosi-ml3d-v8-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ertaklar-dunyosi/ertaklar-dunyosi-ml3d-v9-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Анимированная сторис детского парка",
+            "en": "Animated story for a kids park"
+          }
+        },
+        "src": "assets/video/ertaklar-dunyosi/ertaklar-dunyosi-ml3d-v9-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ertaklar-dunyosi/ertaklar-dunyosi-ml3d-v10-poster-1600.webp",
+          "w": 1080,
+          "h": 1080,
+          "alt": {
+            "ru": "Анимированная сторис детского парка",
+            "en": "Animated story for a kids park"
+          }
+        },
+        "src": "assets/video/ertaklar-dunyosi/ertaklar-dunyosi-ml3d-v10-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ertaklar-dunyosi/ertaklar-dunyosi-ml3d-v11-poster-1600.webp",
+          "w": 1600,
+          "h": 400,
+          "alt": {
+            "ru": "Анимированная сторис детского парка",
+            "en": "Animated story for a kids park"
+          }
+        },
+        "src": "assets/video/ertaklar-dunyosi/ertaklar-dunyosi-ml3d-v11-loop.mp4",
+        "embed": null,
+        "caption": null
+      }
+    ]
+  },
+  {
+    "slug": "real-estate-ads",
+    "title": {
+      "ru": "Реклама недвижимости — рилсы",
+      "en": "Real estate reels"
+    },
+    "client": null,
+    "directions": [
+      "motion"
+    ],
+    "branches": [
+      "ads",
+      "reels-stories"
+    ],
+    "tags": {
+      "industry": [
+        "realestate"
+      ],
+      "format": [
+        "video"
+      ],
+      "tools": [
+        "After Effects"
+      ],
+      "region": [
+        "uz"
+      ],
+      "lang": [
+        "ru",
+        "uz",
+        "en"
+      ]
+    },
+    "personal": false,
+    "featured": false,
+    "order": 16.2,
+    "cover": {
+      "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v5-poster-1600.webp",
+      "w": 1080,
+      "h": 1920,
+      "alt": {
+        "ru": "Рекламный ролик недвижимости",
+        "en": "Real estate ad video"
+      }
+    },
+    "summary": {
+      "ru": "Вертикальные ролики для жилых комплексов и коммерческой недвижимости: инфраструктура, паркинг, квартиры и помещения, рассрочка. Часть роликов — для Dream City Development (работа в Dream City).",
+      "en": "Vertical videos for residential complexes and commercial property: infrastructure, parking, apartments and retail units, installment plans. Some were made for Dream City Development (in-house at Dream City)."
+    },
+    "task": null,
+    "approach": null,
     "result": null,
     "behance": "https://www.behance.net/deathhueth",
     "aiContent": false,
     "blocks": [
       {
-        "type": "pdf",
-        "pages": [
-          {
-            "src": "assets/img/projects/presentations/presentations-01-page1-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-01-page2-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-01-page3-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v1-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Рекламный ролик недвижимости",
+            "en": "Real estate ad video"
           }
-        ]
+        },
+        "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v1-loop.mp4",
+        "embed": null,
+        "caption": null
       },
       {
-        "type": "pdf",
-        "pages": [
-          {
-            "src": "assets/img/projects/presentations/presentations-02-page1-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-02-page2-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-02-page3-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v2-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Рекламный ролик недвижимости",
+            "en": "Real estate ad video"
           }
-        ]
+        },
+        "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v2-loop.mp4",
+        "embed": null,
+        "caption": null
       },
       {
-        "type": "pdf",
-        "pages": [
-          {
-            "src": "assets/img/projects/presentations/presentations-03-page1-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-03-page2-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-03-page3-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v3-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Рекламный ролик недвижимости",
+            "en": "Real estate ad video"
           }
-        ]
+        },
+        "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v3-loop.mp4",
+        "embed": null,
+        "caption": null
       },
       {
-        "type": "pdf",
-        "pages": [
-          {
-            "src": "assets/img/projects/presentations/presentations-04-page1-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-04-page2-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-04-page3-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v4-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Рекламный ролик недвижимости",
+            "en": "Real estate ad video"
           }
-        ]
+        },
+        "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v4-loop.mp4",
+        "embed": null,
+        "caption": null
       },
       {
-        "type": "pdf",
-        "pages": [
-          {
-            "src": "assets/img/projects/presentations/presentations-05-page1-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-05-page2-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-05-page3-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v5-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Рекламный ролик недвижимости",
+            "en": "Real estate ad video"
           }
-        ]
+        },
+        "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v5-loop.mp4",
+        "embed": null,
+        "caption": null
       },
       {
-        "type": "pdf",
-        "pages": [
-          {
-            "src": "assets/img/projects/presentations/presentations-06-page1-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-06-page2-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-06-page3-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v6-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Рекламный ролик недвижимости",
+            "en": "Real estate ad video"
           }
-        ]
+        },
+        "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v6-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v7-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Рекламный ролик недвижимости",
+            "en": "Real estate ad video"
+          }
+        },
+        "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v7-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v8-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Рекламный ролик недвижимости",
+            "en": "Real estate ad video"
+          }
+        },
+        "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v8-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v9-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Рекламный ролик недвижимости",
+            "en": "Real estate ad video"
+          }
+        },
+        "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v9-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v10-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Рекламный ролик недвижимости",
+            "en": "Real estate ad video"
+          }
+        },
+        "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v10-loop.mp4",
+        "embed": null,
+        "caption": null
       }
-    ],
-    "seo": {
-      "description": {
-        "ru": "Корпоративные презентации (Product, Marketing и др.) для Sojitz Corporation и других клиентов.",
-        "en": "Corporate presentations (product, marketing, and others) for Sojitz Corporation and other clients."
-      }
-    }
+    ]
   },
   {
-    "slug": "cropper",
+    "slug": "alfraganus-mall",
     "title": {
-      "ru": "CROPPER и v/cropper",
-      "en": "CROPPER & v/cropper"
+      "ru": "Alfraganus — ролики для ТРЦ",
+      "en": "Alfraganus — mall videos"
+    },
+    "client": "Alfraganus",
+    "directions": [
+      "motion"
+    ],
+    "branches": [
+      "reels-stories"
+    ],
+    "tags": {
+      "industry": [
+        "retail"
+      ],
+      "format": [
+        "video"
+      ],
+      "tools": [
+        "After Effects"
+      ],
+      "region": [
+        "uz"
+      ],
+      "lang": [
+        "ru",
+        "uz"
+      ]
+    },
+    "personal": false,
+    "featured": false,
+    "order": 16.3,
+    "cover": {
+      "src": "assets/img/projects/alfraganus-mall/alfraganus-mall-pfi8-v1-poster-1600.webp",
+      "w": 1080,
+      "h": 1920,
+      "alt": {
+        "ru": "Ролик для торгового центра",
+        "en": "Shopping mall video"
+      }
+    },
+    "summary": {
+      "ru": "Рилсы для ТРЦ Alfraganus (работа в Dream City): анонсы концертов и вечеринок, ролики с магазинами-арендаторами, праздничный ролик.",
+      "en": "Reels for Alfraganus mall (made at Dream City): concert and party announcements, videos with tenant stores, a holiday greeting."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/alfraganus-mall/alfraganus-mall-pfi8-v1-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Ролик для торгового центра",
+            "en": "Shopping mall video"
+          }
+        },
+        "src": "assets/video/alfraganus-mall/alfraganus-mall-pfi8-v1-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/alfraganus-mall/alfraganus-mall-pfi8-v2-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Ролик для торгового центра",
+            "en": "Shopping mall video"
+          }
+        },
+        "src": "assets/video/alfraganus-mall/alfraganus-mall-pfi8-v2-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/alfraganus-mall/alfraganus-mall-pfi8-v3-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Ролик для торгового центра",
+            "en": "Shopping mall video"
+          }
+        },
+        "src": "assets/video/alfraganus-mall/alfraganus-mall-pfi8-v3-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/alfraganus-mall/alfraganus-mall-pfi8-v4-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Ролик для торгового центра",
+            "en": "Shopping mall video"
+          }
+        },
+        "src": "assets/video/alfraganus-mall/alfraganus-mall-pfi8-v4-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/alfraganus-mall/alfraganus-mall-pfi8-v5-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Ролик для торгового центра",
+            "en": "Shopping mall video"
+          }
+        },
+        "src": "assets/video/alfraganus-mall/alfraganus-mall-pfi8-v5-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/alfraganus-mall/alfraganus-mall-pfi8-v6-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Ролик для торгового центра",
+            "en": "Shopping mall video"
+          }
+        },
+        "src": "assets/video/alfraganus-mall/alfraganus-mall-pfi8-v6-loop.mp4",
+        "embed": null,
+        "caption": null
+      }
+    ]
+  },
+  {
+    "slug": "ev-energy",
+    "title": {
+      "ru": "Энергия и электромобили — рилсы",
+      "en": "Energy & EV reels"
     },
     "client": null,
+    "directions": [
+      "motion"
+    ],
+    "branches": [
+      "reels-stories"
+    ],
+    "tags": {
+      "industry": [
+        "energy"
+      ],
+      "format": [
+        "video"
+      ],
+      "tools": [
+        "After Effects"
+      ],
+      "region": [
+        "uz"
+      ],
+      "lang": [
+        "ru",
+        "uz"
+      ]
+    },
+    "personal": false,
+    "featured": false,
+    "order": 16.5,
+    "cover": {
+      "src": "assets/img/projects/ev-energy/ev-energy-pfk5-v6-poster-1600.webp",
+      "w": 1080,
+      "h": 1350,
+      "alt": {
+        "ru": "Рилс про энергию и электромобили",
+        "en": "Reel about energy and EVs"
+      }
+    },
+    "summary": {
+      "ru": "Рилсы для компаний из сферы солнечной энергетики, электрозарядок и лизинга авто: преимущества, виды подключения, акции и события.",
+      "en": "Reels for solar energy, EV charging and car leasing companies: benefits, connection types, promos and events."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ev-energy/ev-energy-pfk5-v1-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Рилс про энергию и электромобили",
+            "en": "Reel about energy and EVs"
+          }
+        },
+        "src": "assets/video/ev-energy/ev-energy-pfk5-v1-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ev-energy/ev-energy-pfk5-v2-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Рилс про энергию и электромобили",
+            "en": "Reel about energy and EVs"
+          }
+        },
+        "src": "assets/video/ev-energy/ev-energy-pfk5-v2-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ev-energy/ev-energy-pfk5-v3-poster-1600.webp",
+          "w": 1080,
+          "h": 1080,
+          "alt": {
+            "ru": "Рилс про энергию и электромобили",
+            "en": "Reel about energy and EVs"
+          }
+        },
+        "src": "assets/video/ev-energy/ev-energy-pfk5-v3-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ev-energy/ev-energy-pfk5-v4-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Рилс про энергию и электромобили",
+            "en": "Reel about energy and EVs"
+          }
+        },
+        "src": "assets/video/ev-energy/ev-energy-pfk5-v4-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ev-energy/ev-energy-pfk5-v5-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Рилс про энергию и электромобили",
+            "en": "Reel about energy and EVs"
+          }
+        },
+        "src": "assets/video/ev-energy/ev-energy-pfk5-v5-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ev-energy/ev-energy-pfk5-v6-poster-1600.webp",
+          "w": 1080,
+          "h": 1350,
+          "alt": {
+            "ru": "Рилс про энергию и электромобили",
+            "en": "Reel about energy and EVs"
+          }
+        },
+        "src": "assets/video/ev-energy/ev-energy-pfk5-v6-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ev-energy/ev-energy-pfk5-v7-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Рилс про энергию и электромобили",
+            "en": "Reel about energy and EVs"
+          }
+        },
+        "src": "assets/video/ev-energy/ev-energy-pfk5-v7-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ev-energy/ev-energy-pfk5-v8-poster-1600.webp",
+          "w": 1600,
+          "h": 900,
+          "alt": {
+            "ru": "Рилс про энергию и электромобили",
+            "en": "Reel about energy and EVs"
+          }
+        },
+        "src": "assets/video/ev-energy/ev-energy-pfk5-v8-loop.mp4",
+        "embed": null,
+        "caption": null
+      }
+    ]
+  },
+  {
+    "slug": "food-reels",
+    "title": {
+      "ru": "Рилсы для ресторанов и фуд-брендов",
+      "en": "Reels for restaurants & food brands"
+    },
+    "client": null,
+    "directions": [
+      "motion"
+    ],
+    "branches": [
+      "reels-stories"
+    ],
+    "tags": {
+      "industry": [
+        "food"
+      ],
+      "format": [
+        "video"
+      ],
+      "tools": [
+        "After Effects"
+      ],
+      "region": [
+        "uz"
+      ],
+      "lang": [
+        "ru",
+        "uz"
+      ]
+    },
+    "personal": false,
+    "featured": false,
+    "order": 16.6,
+    "cover": {
+      "src": "assets/img/projects/food-reels/food-reels-pflk-v4-poster-1600.webp",
+      "w": 1080,
+      "h": 1920,
+      "alt": {
+        "ru": "Рилс для фуд-бренда",
+        "en": "Food brand reel"
+      }
+    },
+    "summary": {
+      "ru": "Рилсы для бренда соусов, стейк-хауса и ресторана: конкурсы, поздравления, юбилей заведения, трендовые форматы.",
+      "en": "Reels for a sauce brand, a steakhouse and a restaurant: giveaways, greetings, an anniversary and trend formats."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/food-reels/food-reels-pflk-v1-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Рилс для фуд-бренда",
+            "en": "Food brand reel"
+          }
+        },
+        "src": "assets/video/food-reels/food-reels-pflk-v1-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/food-reels/food-reels-pflk-v2-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Рилс для фуд-бренда",
+            "en": "Food brand reel"
+          }
+        },
+        "src": "assets/video/food-reels/food-reels-pflk-v2-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/food-reels/food-reels-pflk-v3-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Рилс для фуд-бренда",
+            "en": "Food brand reel"
+          }
+        },
+        "src": "assets/video/food-reels/food-reels-pflk-v3-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/food-reels/food-reels-pflk-v4-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Рилс для фуд-бренда",
+            "en": "Food brand reel"
+          }
+        },
+        "src": "assets/video/food-reels/food-reels-pflk-v4-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/food-reels/food-reels-pflk-v5-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Рилс для фуд-бренда",
+            "en": "Food brand reel"
+          }
+        },
+        "src": "assets/video/food-reels/food-reels-pflk-v5-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/food-reels/food-reels-pflk-v6-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Рилс для фуд-бренда",
+            "en": "Food brand reel"
+          }
+        },
+        "src": "assets/video/food-reels/food-reels-pflk-v6-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/food-reels/food-reels-pflk-v7-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Рилс для фуд-бренда",
+            "en": "Food brand reel"
+          }
+        },
+        "src": "assets/video/food-reels/food-reels-pflk-v7-loop.mp4",
+        "embed": null,
+        "caption": null
+      }
+    ]
+  },
+  {
+    "slug": "brand-motion",
+    "title": {
+      "ru": "Моушн-графика для брендов",
+      "en": "Motion graphics for brands"
+    },
+    "client": null,
+    "directions": [
+      "motion"
+    ],
+    "branches": [
+      "ads",
+      "reels-stories"
+    ],
+    "tags": {
+      "industry": [],
+      "format": [
+        "video"
+      ],
+      "tools": [
+        "After Effects"
+      ],
+      "region": [
+        "uz"
+      ],
+      "lang": [
+        "ru"
+      ]
+    },
+    "personal": false,
+    "featured": false,
+    "order": 16.8,
+    "cover": {
+      "src": "assets/img/projects/brand-motion/brand-motion-r79o-v1-poster-1600.webp",
+      "w": 1080,
+      "h": 1080,
+      "alt": {
+        "ru": "Моушн-графика для бренда",
+        "en": "Brand motion graphics"
+      }
+    },
+    "summary": {
+      "ru": "Анимационные ролики для агентства MOLLEQULA (2023–2024) и брендов: клиника эстетической медицины и оптика — промо, анимация логотипов.",
+      "en": "Animated videos for the MOLLEQULA agency (2023–2024) and brands: an aesthetic clinic and an optics store — promos and logo animation."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "text",
+        "title": {
+          "ru": "Для агентства MOLLEQULA",
+          "en": "For the MOLLEQULA agency"
+        }
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v1-poster-1600.webp",
+          "w": 1080,
+          "h": 1080,
+          "alt": {
+            "ru": "Моушн-графика для бренда",
+            "en": "Brand motion graphics"
+          }
+        },
+        "src": "assets/video/brand-motion/brand-motion-r79o-v1-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v2-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Моушн-графика для бренда",
+            "en": "Brand motion graphics"
+          }
+        },
+        "src": "assets/video/brand-motion/brand-motion-r79o-v2-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v3-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Моушн-графика для бренда",
+            "en": "Brand motion graphics"
+          }
+        },
+        "src": "assets/video/brand-motion/brand-motion-r79o-v3-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v4-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Моушн-графика для бренда",
+            "en": "Brand motion graphics"
+          }
+        },
+        "src": "assets/video/brand-motion/brand-motion-r79o-v4-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v5-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Моушн-графика для бренда",
+            "en": "Brand motion graphics"
+          }
+        },
+        "src": "assets/video/brand-motion/brand-motion-r79o-v5-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "text",
+        "title": {
+          "ru": "Клиника эстетической медицины и оптика",
+          "en": "Aesthetic clinic and optics"
+        }
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v6-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Моушн-графика для бренда",
+            "en": "Brand motion graphics"
+          }
+        },
+        "src": "assets/video/brand-motion/brand-motion-r79o-v6-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v7-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Моушн-графика для бренда",
+            "en": "Brand motion graphics"
+          }
+        },
+        "src": "assets/video/brand-motion/brand-motion-r79o-v7-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v8-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Моушн-графика для бренда",
+            "en": "Brand motion graphics"
+          }
+        },
+        "src": "assets/video/brand-motion/brand-motion-r79o-v8-loop.mp4",
+        "embed": null,
+        "caption": null
+      }
+    ]
+  },
+  {
+    "slug": "la-scala-natuzzi",
+    "title": {
+      "ru": "La Scala и Natuzzi Italia — ролики мебельных салонов",
+      "en": "La Scala & Natuzzi Italia — furniture showroom videos"
+    },
+    "client": "La Scala, Natuzzi Italia",
+    "directions": [
+      "motion"
+    ],
+    "branches": [
+      "ads",
+      "reels-stories"
+    ],
+    "tags": {
+      "industry": [
+        "retail"
+      ],
+      "format": [
+        "video"
+      ],
+      "tools": [
+        "After Effects"
+      ],
+      "region": [
+        "uz"
+      ],
+      "lang": [
+        "ru"
+      ]
+    },
+    "personal": false,
+    "featured": false,
+    "order": 16.9,
+    "cover": {
+      "src": "assets/img/projects/brand-motion/brand-motion-r79o-v11-poster-1600.webp",
+      "w": 1080,
+      "h": 1080,
+      "alt": {
+        "ru": "Ролик мебельного салона",
+        "en": "Furniture showroom video"
+      }
+    },
+    "summary": {
+      "ru": "Ролики для мебельных салонов La Scala и Natuzzi Italia: анонс открытия шоурума, анимация логотипа, промо коллекции и баннер для LED-экрана.",
+      "en": "Videos for La Scala and Natuzzi Italia furniture showrooms: a showroom opening teaser, logo animation, a collection promo and an LED-screen banner."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v9-poster-1600.webp",
+          "w": 1080,
+          "h": 1080,
+          "alt": {
+            "ru": "Ролик мебельного салона",
+            "en": "Furniture showroom video"
+          }
+        },
+        "src": "assets/video/brand-motion/brand-motion-r79o-v9-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v10-poster-1600.webp",
+          "w": 720,
+          "h": 360,
+          "alt": {
+            "ru": "Ролик мебельного салона",
+            "en": "Furniture showroom video"
+          }
+        },
+        "src": "assets/video/brand-motion/brand-motion-r79o-v10-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v11-poster-1600.webp",
+          "w": 1080,
+          "h": 1080,
+          "alt": {
+            "ru": "Ролик мебельного салона",
+            "en": "Furniture showroom video"
+          }
+        },
+        "src": "assets/video/brand-motion/brand-motion-r79o-v11-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v12-poster-1600.webp",
+          "w": 720,
+          "h": 360,
+          "alt": {
+            "ru": "Ролик мебельного салона",
+            "en": "Furniture showroom video"
+          }
+        },
+        "src": "assets/video/brand-motion/brand-motion-r79o-v12-loop.mp4",
+        "embed": null,
+        "caption": null
+      }
+    ]
+  },
+  {
+    "slug": "tools",
+    "order": 23,
+    "featured": true,
+    "client": null,
+    "personal": true,
+    "aiContent": false,
+    "behance": null,
+    "title": {
+      "ru": "Инструменты — личные проекты",
+      "en": "Tools — personal projects"
+    },
+    "summary": {
+      "ru": "Веб-инструменты и расширение Chrome, которые сделал для себя и использую в работе: вырезка фона, кадрирование и сжатие фото и видео, подготовка товарных карточек.",
+      "en": "Web tools and a Chrome extension I built for myself and use at work: background removal, photo and video cropping and compression, and product card preparation."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
     "directions": [
       "web"
     ],
     "branches": [
-      "tools"
+      "tools",
+      "extensions"
     ],
     "tags": {
       "industry": [],
@@ -4042,34 +5391,119 @@
       "tools": [],
       "region": [],
       "lang": [
-        "ru"
+        "ru",
+        "en"
       ]
     },
-    "personal": true,
-    "featured": false,
-    "order": 24,
     "cover": {
-      "src": "assets/img/projects/cropper/cover.svg",
-      "w": 1600,
-      "h": 900,
+      "src": "assets/img/projects/cutout/cutout-01-1600.webp",
+      "w": 1400,
+      "h": 560,
       "alt": {
-        "ru": "CROPPER — личный веб-инструмент",
-        "en": "CROPPER — personal web tool"
+        "ru": "Cutout — расширение для Chrome",
+        "en": "Cutout — Chrome extension"
       }
     },
-    "summary": {
-      "ru": "Два веб-инструмента без сервера: CROPPER — кадрирование и экспорт изображений с логотипом и рамкой; v/cropper — обрезка и сжатие видео под точный вес файла с очередью, обложкой для Telegram/Instagram и встроенной инструкцией. Сделаны для себя и используются в работе в Terra Pro (THE ONE).",
-      "en": "Two serverless web tools: CROPPER for cropping and exporting images with a logo and frame; v/cropper for trimming and compressing video to an exact file size, with a queue, Telegram/Instagram cover generation, and a built-in guide. Built for personal use and used at work at Terra Pro (THE ONE)."
-    },
-    "task": null,
-    "approach": {
-      "ru": "У обоих инструментов есть две версии интерфейса — базовая и «new design». CROPPER: разделы «Экспорт», «Плашка», «Поля», «Журнал». v/cropper: очередь видео, управление размером файла/качеством/битрейтом, кадрирование не по центру, логотип поверх всех видео очереди, обложка для Telegram/Instagram, экспорт в H.264, инструкция на 10 пунктов.",
-      "en": "Both tools exist in two interface versions — a base one and a 'new design' one. CROPPER has sections for Export, Badge, Margins, and Log. v/cropper offers a video queue, file-size/quality/bitrate control, off-center cropping, a logo overlay across the whole queue, Telegram/Instagram cover generation, H.264 export, and a 10-point built-in guide."
-    },
-    "result": null,
-    "behance": "https://www.behance.net/deathhueth",
-    "aiContent": false,
     "blocks": [
+      {
+        "type": "text",
+        "title": {
+          "ru": "Cutout",
+          "en": "Cutout"
+        },
+        "text": {
+          "ru": "Личный проект: расширение Chrome, которое сделал для себя, — вырезает объекты с фото в один клик нейросетью SAM 2.1 прямо в браузере. Опубликовано в Chrome Web Store.",
+          "en": "A personal project: a Chrome extension I built for myself — it cuts objects out of photos in one click with the SAM 2.1 model, right in the browser. Published on the Chrome Web Store."
+        }
+      },
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/cutout/cutout-02-1600.webp",
+            "w": 128,
+            "h": 128,
+            "alt": {
+              "ru": "Cutout — расширение для Chrome",
+              "en": "Cutout — Chrome extension"
+            }
+          },
+          {
+            "src": "assets/img/projects/cutout/cutout-03-1600.webp",
+            "w": 440,
+            "h": 280,
+            "alt": {
+              "ru": "Cutout — расширение для Chrome",
+              "en": "Cutout — Chrome extension"
+            }
+          },
+          {
+            "src": "assets/img/projects/cutout/cutout-04-1600.webp",
+            "w": 1280,
+            "h": 800,
+            "alt": {
+              "ru": "Cutout — расширение для Chrome",
+              "en": "Cutout — Chrome extension"
+            }
+          },
+          {
+            "src": "assets/img/projects/cutout/cutout-05-1600.webp",
+            "w": 1280,
+            "h": 800,
+            "alt": {
+              "ru": "Cutout — расширение для Chrome",
+              "en": "Cutout — Chrome extension"
+            }
+          },
+          {
+            "src": "assets/img/projects/cutout/cutout-06-1600.webp",
+            "w": 1280,
+            "h": 800,
+            "alt": {
+              "ru": "Cutout — расширение для Chrome",
+              "en": "Cutout — Chrome extension"
+            }
+          },
+          {
+            "src": "assets/img/projects/cutout/cutout-07-1600.webp",
+            "w": 1280,
+            "h": 800,
+            "alt": {
+              "ru": "Cutout — расширение для Chrome",
+              "en": "Cutout — Chrome extension"
+            }
+          },
+          {
+            "src": "assets/img/projects/cutout/cutout-08-1600.webp",
+            "w": 1280,
+            "h": 800,
+            "alt": {
+              "ru": "Cutout — расширение для Chrome",
+              "en": "Cutout — Chrome extension"
+            }
+          },
+          {
+            "src": "assets/img/projects/cutout/cutout-09-1600.webp",
+            "w": 1500,
+            "h": 1070,
+            "alt": {
+              "ru": "Cutout — расширение для Chrome",
+              "en": "Cutout — Chrome extension"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "ru": "CROPPER и v/cropper",
+          "en": "CROPPER and v/cropper"
+        },
+        "text": {
+          "ru": "Два веб-инструмента без сервера: CROPPER — кадрирование и экспорт изображений с логотипом и рамкой; v/cropper — обрезка и сжатие видео под точный вес файла с очередью, обложкой для Telegram/Instagram и встроенной инструкцией. Сделаны для себя и используются в работе в Terra Pro (THE ONE).",
+          "en": "Two serverless web tools: CROPPER for cropping and exporting images with a logo and frame; v/cropper for trimming and compressing video to an exact file size, with a queue, Telegram/Instagram cover generation, and a built-in guide. Built for personal use and used at work at Terra Pro (THE ONE)."
+        }
+      },
       {
         "type": "embed",
         "url": "demos/cropper/index.html",
@@ -4093,63 +5527,18 @@
           "ru": "v/cropper — new design",
           "en": "v/cropper — new design"
         }
-      }
-    ]
-  },
-  {
-    "slug": "p-card",
-    "title": {
-      "ru": "p/card — товарные карточки",
-      "en": "p/card — product photo tool"
-    },
-    "client": null,
-    "directions": [
-      "web"
-    ],
-    "branches": [
-      "tools"
-    ],
-    "tags": {
-      "industry": [],
-      "format": [
-        "interactive"
-      ],
-      "tools": [
-        "Photoshop"
-      ],
-      "region": [],
-      "lang": [
-        "ru"
-      ]
-    },
-    "personal": true,
-    "featured": false,
-    "order": 25,
-    "cover": {
-      "src": "assets/img/projects/p-card/cover.svg",
-      "w": 1600,
-      "h": 900,
-      "alt": {
-        "ru": "p/card — личный веб-инструмент",
-        "en": "p/card — personal web tool"
-      }
-    },
-    "summary": {
-      "ru": "Веб-инструмент для подготовки товарных карточек: совмещение товара с фоном и тенью, цветокор, подгонка под эталон. Сделан для себя и используется в работе в Terra Pro (THE ONE).",
-      "en": "A web tool for preparing product photo cards: compositing a product onto a background and shadow, color matching, and matching a reference look. Built for personal use and used at work at Terra Pro (THE ONE)."
-    },
-    "task": null,
-    "approach": {
-      "ru": "Модули: калибровка тени (shadow), автоматический цветоматч (colormatch, ΔE снижается с 7.2 до 0.8), набор кистей clone/heal/spot/erase/restore/mask (brushes), выделение фона (keyer), цветокоррекция через LUT/.cube-файлы и зерно (grade). В v1.1 — автосейв в IndexedDB, автосопоставление пар изображений по имени файла, блок «Край», пипетка фона, поворот и отражение. В v1.2 — правая панель на вкладках Товар/Цвет/Сцена/Экспорт по аналогии с Photoshop, горячие клавиши F1–F4.",
-      "en": "Modules: shadow calibration, automatic color matching (ΔE down from 7.2 to 0.8), a clone/heal/spot/erase/restore/mask brush set, background keying, and color grading via LUT/.cube files plus grain. Version 1.1 added IndexedDB autosave, automatic image-pair matching by filename, an 'edge' block, a background eyedropper, and rotate/flip. Version 1.2 added a Photoshop-style tabbed right panel (Product/Color/Scene/Export) with F1–F4 hotkeys."
-    },
-    "result": {
-      "ru": "По собственной сверке автора (QA-агент не запускался): рамка совпадает с эталоном ±1–5 px, тень RMS 1.1–1.6 уровня, цвет ΔE ≤ 0.5.",
-      "en": "Per the author's own check (no QA agent run): the frame matches the reference within ±1–5 px, shadow RMS is 1.1–1.6 levels, and color ΔE is ≤ 0.5."
-    },
-    "behance": "https://www.behance.net/deathhueth",
-    "aiContent": false,
-    "blocks": [
+      },
+      {
+        "type": "text",
+        "title": {
+          "ru": "p/card",
+          "en": "p/card"
+        },
+        "text": {
+          "ru": "Веб-инструмент для подготовки товарных карточек: совмещение товара с фоном и тенью, цветокор, подгонка под эталон. Сделан для себя и используется в работе в Terra Pro (THE ONE).",
+          "en": "A web tool for preparing product photo cards: compositing a product onto a background and shadow, color matching, and matching a reference look. Built for personal use and used at work at Terra Pro (THE ONE)."
+        }
+      },
       {
         "type": "embed",
         "url": "demos/p-card/index.html",
@@ -4159,6 +5548,16 @@
         },
         "caption": null
       }
-    ]
+    ],
+    "seo": {
+      "title": {
+        "ru": "Инструменты — личные проекты · vlddvr",
+        "en": "Tools — personal projects · vlddvr"
+      },
+      "description": {
+        "ru": "Личные веб-инструменты и расширение Chrome: вырезка фона, кадрирование, сжатие, товарные карточки.",
+        "en": "Personal web tools and a Chrome extension: background removal, cropping, compression, product cards."
+      }
+    }
   }
 ]

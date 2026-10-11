@@ -130,7 +130,7 @@ body::after {
 .h-giant {
   font-family: var(--f-display);
   font-weight: 900;
-  font-size: min(var(--fs-hero-max), calc((100vw - 2 * var(--gut)) / (var(--fit, 8) * var(--glyph))));
+  font-size: min(var(--fs-hero-max), calc((min(100vw, var(--max)) - 2 * var(--gut)) / (var(--fit, 8) * var(--glyph))));
   line-height: 1;
   letter-spacing: 0;
   text-transform: uppercase;
@@ -255,7 +255,7 @@ body::after {
 .hero-tag small { display: block; font: 500 10px/1.3 var(--f-body); letter-spacing: 0.06em; margin-bottom: 4px; }
 
 .hero-copy {
-  --hfs: min(var(--fs-hero-max), calc((100vw - 2 * var(--gut)) / (var(--fit, 8) * var(--glyph))));
+  --hfs: min(var(--fs-hero-max), calc((min(100vw, var(--max)) - 2 * var(--gut)) / (var(--fit, 8) * var(--glyph))));
   position: relative; z-index: 2;
   margin-top: calc(-1 * (var(--hfs) * 0.45 + 34px));
 }
@@ -427,7 +427,7 @@ body::after {
 }
 .case-head,
 .page-head {
-  --tfs: min(var(--fs-title-max), calc((100vw - 2 * var(--gut)) / (var(--fit, 8) * var(--glyph))));
+  --tfs: min(var(--fs-title-max), calc((min(100vw, var(--max)) - 2 * var(--gut)) / (var(--fit, 8) * var(--glyph))));
 }
 .case-head {
   position: relative; z-index: 2;
@@ -541,7 +541,7 @@ body::after {
 }
 .next-media img { transition: filter 0.6s var(--ease), transform 1.6s var(--slow); }
 .next-copy {
-  --nfs: min(var(--fs-next-max), calc((100vw - 2 * var(--gut)) / (var(--fit, 8) * var(--glyph))));
+  --nfs: min(var(--fs-next-max), calc((min(100vw, var(--max)) - 2 * var(--gut)) / (var(--fit, 8) * var(--glyph))));
   position: absolute; left: 0; right: 0; bottom: 0; z-index: 2;
   display: block;
   padding-bottom: 24px;
@@ -890,11 +890,11 @@ body::after {
   opacity: 0; visibility: hidden;
   transition: opacity 1.1s var(--slow), visibility 0s linear 1.1s;
 }
-.hero-slide.is-active { opacity: 1; visibility: visible; transition: opacity 1.1s var(--slow), visibility 0s; z-index: 1; }
+.hero-slide.is-active { opacity: 1; visibility: visible; transition: opacity 1.1s var(--slow), visibility 0s; }
 .hero-slide .kb { animation: none; }
 .hero-slide.is-active .kb { animation: kb 9s var(--slow) both; }
 .hero-slider.is-paused .kb, .hero-slider.is-hidden-tab .kb { animation-play-state: paused; }
-.hero-slide .hero-tag { top: 22px; }
+.hero-slide .hero-tag { top: 22px; z-index: 3; }
 .hero-dots {
   position: absolute; top: 0; left: 0; right: 0; z-index: 3;
   display: flex; gap: 4px; padding: 0 var(--gut);
@@ -979,7 +979,7 @@ body::after {
     display: grid; grid-template-columns: minmax(0, 1fr) 380px; column-gap: 56px; align-items: end;
   }
   .case-intro .case-head {
-    --tfs: min(var(--fs-title-max), calc((min(100vw, var(--max)) - 2 * var(--gut) - 436px) / (var(--fit, 8) * var(--glyph))));
+    --tfs: min(116px, calc((min(100vw, var(--max)) - 2 * var(--gut) - 436px) / (var(--fit, 8) * var(--glyph))));
   }
   .case-aside { padding-bottom: 6px; }
   .case-aside .facts { grid-template-columns: 1fr; margin-top: 0; }
