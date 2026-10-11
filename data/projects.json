@@ -872,15 +872,6 @@
             }
           },
           {
-            "src": "assets/img/projects/nout-uz-store/nout-uz-store-07-1600.webp",
-            "w": 588,
-            "h": 193,
-            "alt": {
-              "ru": "NOUT.UZ — магазин ноутбуков",
-              "en": "NOUT.UZ — laptop store"
-            }
-          },
-          {
             "src": "assets/img/projects/nout-uz-store/nout-uz-store-08-1600.webp",
             "w": 1920,
             "h": 1080,
@@ -912,12 +903,12 @@
     ]
   },
   {
-    "slug": "korzinka-new-year",
+    "slug": "nikhan-new-year",
     "title": {
-      "ru": "Korzinka — новогодняя фотозона",
-      "en": "Korzinka — New Year photo zone"
+      "ru": "Nikhan — новогодняя фотозона",
+      "en": "Nikhan — New Year photo zone"
     },
-    "client": "Korzinka",
+    "client": "Nikhan",
     "directions": [
       "3d"
     ],
@@ -947,13 +938,13 @@
       "w": 1280,
       "h": 960,
       "alt": {
-        "ru": "Korzinka — новогодняя фотозона",
-        "en": "Korzinka — New Year photo zone"
+        "ru": "Nikhan — новогодняя фотозона",
+        "en": "Nikhan — New Year photo zone"
       }
     },
     "summary": {
-      "ru": "3D-концепт новогодней фотозоны 2025 для сети Korzinka.",
-      "en": "A 3D concept for a 2025 New Year photo zone for the Korzinka retail chain."
+      "ru": "3D-концепт новогодней фотозоны 2025 для сети Nikhan.",
+      "en": "A 3D concept for a 2025 New Year photo zone for the Nikhan retail chain."
     },
     "task": null,
     "approach": null,
@@ -969,8 +960,8 @@
             "w": 1920,
             "h": 1440,
             "alt": {
-              "ru": "Korzinka — новогодняя фотозона",
-              "en": "Korzinka — New Year photo zone"
+              "ru": "Nikhan — новогодняя фотозона",
+              "en": "Nikhan — New Year photo zone"
             }
           },
           {
@@ -978,8 +969,8 @@
             "w": 1920,
             "h": 1440,
             "alt": {
-              "ru": "Korzinka — новогодняя фотозона",
-              "en": "Korzinka — New Year photo zone"
+              "ru": "Nikhan — новогодняя фотозона",
+              "en": "Nikhan — New Year photo zone"
             }
           },
           {
@@ -987,8 +978,8 @@
             "w": 1920,
             "h": 1440,
             "alt": {
-              "ru": "Korzinka — новогодняя фотозона",
-              "en": "Korzinka — New Year photo zone"
+              "ru": "Nikhan — новогодняя фотозона",
+              "en": "Nikhan — New Year photo zone"
             }
           },
           {
@@ -996,8 +987,8 @@
             "w": 1920,
             "h": 1440,
             "alt": {
-              "ru": "Korzinka — новогодняя фотозона",
-              "en": "Korzinka — New Year photo zone"
+              "ru": "Nikhan — новогодняя фотозона",
+              "en": "Nikhan — New Year photo zone"
             }
           },
           {
@@ -1005,8 +996,8 @@
             "w": 1920,
             "h": 1440,
             "alt": {
-              "ru": "Korzinka — новогодняя фотозона",
-              "en": "Korzinka — New Year photo zone"
+              "ru": "Nikhan — новогодняя фотозона",
+              "en": "Nikhan — New Year photo zone"
             }
           },
           {
@@ -1014,8 +1005,8 @@
             "w": 1280,
             "h": 960,
             "alt": {
-              "ru": "Korzinka — новогодняя фотозона",
-              "en": "Korzinka — New Year photo zone"
+              "ru": "Nikhan — новогодняя фотозона",
+              "en": "Nikhan — New Year photo zone"
             }
           },
           {
@@ -1023,8 +1014,8 @@
             "w": 1280,
             "h": 960,
             "alt": {
-              "ru": "Korzinka — новогодняя фотозона",
-              "en": "Korzinka — New Year photo zone"
+              "ru": "Nikhan — новогодняя фотозона",
+              "en": "Nikhan — New Year photo zone"
             }
           },
           {
@@ -1032,8 +1023,8 @@
             "w": 1280,
             "h": 960,
             "alt": {
-              "ru": "Korzinka — новогодняя фотозона",
-              "en": "Korzinka — New Year photo zone"
+              "ru": "Nikhan — новогодняя фотозона",
+              "en": "Nikhan — New Year photo zone"
             }
           },
           {
@@ -1041,8 +1032,8 @@
             "w": 1280,
             "h": 960,
             "alt": {
-              "ru": "Korzinka — новогодняя фотозона",
-              "en": "Korzinka — New Year photo zone"
+              "ru": "Nikhan — новогодняя фотозона",
+              "en": "Nikhan — New Year photo zone"
             }
           },
           {
@@ -1050,8 +1041,8 @@
             "w": 1280,
             "h": 960,
             "alt": {
-              "ru": "Korzinka — новогодняя фотозона",
-              "en": "Korzinka — New Year photo zone"
+              "ru": "Nikhan — новогодняя фотозона",
+              "en": "Nikhan — New Year photo zone"
             }
           }
         ]
@@ -1063,8 +1054,8 @@
           "w": 1200,
           "h": 2133,
           "alt": {
-            "ru": "Korzinka — новогодняя фотозона",
-            "en": "Korzinka — New Year photo zone"
+            "ru": "Nikhan — новогодняя фотозона",
+            "en": "Nikhan — New Year photo zone"
           }
         },
         "src": "assets/video/korzinka-new-year/korzinka-new-year-01-loop.mp4",
@@ -1180,24 +1171,6 @@
             "src": "assets/img/projects/event-photozones/event-photozones-09-1600.webp",
             "w": 1440,
             "h": 1440,
-            "alt": {
-              "ru": "Фотозоны на события",
-              "en": "Event photo zones"
-            }
-          },
-          {
-            "src": "assets/img/projects/event-photozones/event-photozones-10-1600.webp",
-            "w": 1080,
-            "h": 1920,
-            "alt": {
-              "ru": "Фотозоны на события",
-              "en": "Event photo zones"
-            }
-          },
-          {
-            "src": "assets/img/projects/event-photozones/event-photozones-11-1600.webp",
-            "w": 1080,
-            "h": 1920,
             "alt": {
               "ru": "Фотозоны на события",
               "en": "Event photo zones"
@@ -2814,9 +2787,9 @@
     "featured": false,
     "order": 19,
     "cover": {
-      "src": "assets/img/projects/smm-graphics/smm-graphics-10-1600.webp",
+      "src": "assets/img/projects/smm-graphics/smm-graphics-01-1600.webp",
       "w": 1080,
-      "h": 1920,
+      "h": 1080,
       "alt": {
         "ru": "SMM-графика разных клиентов",
         "en": "Social graphics for various clients"
@@ -2915,24 +2888,6 @@
               "ru": "SMM-графика разных клиентов",
               "en": "Social graphics for various clients"
             }
-          },
-          {
-            "src": "assets/img/projects/smm-graphics/smm-graphics-11-1600.webp",
-            "w": 1080,
-            "h": 1080,
-            "alt": {
-              "ru": "SMM-графика разных клиентов",
-              "en": "Social graphics for various clients"
-            }
-          },
-          {
-            "src": "assets/img/projects/smm-graphics/smm-graphics-12-1600.webp",
-            "w": 1080,
-            "h": 1920,
-            "alt": {
-              "ru": "SMM-графика разных клиентов",
-              "en": "Social graphics for various clients"
-            }
           }
         ]
       }
@@ -3019,6 +2974,110 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "somang-poster",
+    "order": 22.5,
+    "featured": false,
+    "client": "Somang",
+    "title": {
+      "ru": "Somang — постеры Seoul Mun View",
+      "en": "Somang — Seoul Mun View posters"
+    },
+    "summary": {
+      "ru": "Серия печатных постеров для продажи апартаментов Seoul Mun View бренда Somang: на английском и китайском, рассрочка на 36 месяцев, QR-коды для связи.",
+      "en": "A series of print posters for Somang’s Seoul Mun View apartment sales in English and Chinese: a 36-month instalment offer and QR codes for contact."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "directions": [
+      "print"
+    ],
+    "branches": [
+      "outdoor"
+    ],
+    "tags": {
+      "industry": [
+        "realestate"
+      ],
+      "format": [
+        "print"
+      ],
+      "tools": [],
+      "region": [
+        "uz"
+      ],
+      "lang": [
+        "en",
+        "zh"
+      ]
+    },
+    "personal": false,
+    "aiContent": false,
+    "behance": null,
+    "cover": {
+      "src": "assets/img/projects/somang-poster/somang-poster-01-1600.webp",
+      "w": 1080,
+      "h": 1690,
+      "alt": {
+        "ru": "Постер Somang «Seoul Mun View»",
+        "en": "Somang “Seoul Mun View” poster"
+      }
+    },
+    "blocks": [
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/somang-poster/somang-poster-01-1600.webp",
+            "w": 1080,
+            "h": 1690,
+            "alt": {
+              "ru": "Постер Somang «Seoul Mun View»",
+              "en": "Somang “Seoul Mun View” poster"
+            }
+          },
+          {
+            "src": "assets/img/projects/somang-poster/somang-poster-02-1600.webp",
+            "w": 1080,
+            "h": 1690,
+            "alt": {
+              "ru": "Постер Somang «Seoul Mun View»",
+              "en": "Somang “Seoul Mun View” poster"
+            }
+          },
+          {
+            "src": "assets/img/projects/somang-poster/somang-poster-03-1600.webp",
+            "w": 1080,
+            "h": 1690,
+            "alt": {
+              "ru": "Постер Somang «Seoul Mun View»",
+              "en": "Somang “Seoul Mun View” poster"
+            }
+          },
+          {
+            "src": "assets/img/projects/somang-poster/somang-poster-04-1600.webp",
+            "w": 1080,
+            "h": 1690,
+            "alt": {
+              "ru": "Постер Somang «Seoul Mun View»",
+              "en": "Somang “Seoul Mun View” poster"
+            }
+          }
+        ]
+      }
+    ],
+    "seo": {
+      "title": {
+        "ru": "Somang — постеры Seoul Mun View · vlddvr",
+        "en": "Somang — Seoul Mun View posters · vlddvr"
+      },
+      "description": {
+        "ru": "Печатные постеры Seoul Mun View для бренда Somang.",
+        "en": "Print posters for Somang’s Seoul Mun View."
+      }
+    }
   },
   {
     "slug": "cutout",
