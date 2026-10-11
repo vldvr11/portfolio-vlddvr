@@ -1213,21 +1213,6 @@
             }
           }
         ]
-      },
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/event-photozones/event-photozones-07-poster-1200.webp",
-          "w": 1200,
-          "h": 2133,
-          "alt": {
-            "ru": "Фотозоны на события",
-            "en": "Event photo zones"
-          }
-        },
-        "src": "assets/video/event-photozones/event-photozones-07-loop.mp4",
-        "embed": null,
-        "caption": null
       }
     ]
   },
@@ -2532,6 +2517,21 @@
           }
         },
         "src": "assets/video/ad-videos/ad-videos-10-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-alfraganus-year-poster-1200.webp",
+          "w": 1200,
+          "h": 2133,
+          "alt": {
+            "ru": "Фотозоны на события",
+            "en": "Event photo zones"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-alfraganus-year-loop.mp4",
         "embed": null,
         "caption": null
       }
