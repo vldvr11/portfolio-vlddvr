@@ -924,7 +924,7 @@ body::after {
   padding: 9px 11px; border: 1px solid var(--line-strong); background: var(--bg);
 }
 .status-pill i { width: 8px; height: 8px; background: var(--acid); border-radius: 50%; box-shadow: 0 0 0 3px rgba(212, 255, 0, 0.18); }
-.status-fact b { font: 900 12px/1 var(--f-display); color: var(--acid); }
+.status-fact b { font: 900 15px/1 var(--f-display); color: var(--acid); margin-right: 2px; }
 .hero-tiles {
   display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1px; background: var(--line-strong); border: 1px solid var(--line-strong);
