@@ -1,0 +1,73 @@
+{
+  "_note": "Черновик таксономии 2026-10-11. Направление → ответвления (subdirections); плюс сквозные группы тегов. Кейс: directions[], branches[], tags{industry[],format[],tools[],region[],lang[]}, aiContent. Ответвление без работ на сайте не показывается.",
+  "directions": [
+    { "id": "branding", "ru": "Брендинг и айдентика", "en": "Branding & Identity", "branches": [
+      { "id": "logo", "ru": "Логотипы", "en": "Logos" },
+      { "id": "identity", "ru": "Фирменный стиль и брендбуки", "en": "Identity & Brand books" },
+      { "id": "icons", "ru": "Иконки и пиктограммы", "en": "Icons" },
+      { "id": "mascot", "ru": "Маскоты и персонажи", "en": "Mascots & Characters" }
+    ]},
+    { "id": "3d", "ru": "3D и стенды", "en": "3D & Exhibition", "branches": [
+      { "id": "stands", "ru": "Выставочные стенды", "en": "Exhibition stands" },
+      { "id": "photozones-pos", "ru": "Фотозоны и POS", "en": "Photo zones & POS" },
+      { "id": "interiors", "ru": "Интерьеры и пространства", "en": "Interiors & Spaces" },
+      { "id": "3d-objects", "ru": "3D-объекты и логотипы", "en": "3D objects & logos" },
+      { "id": "3d-characters", "ru": "3D-персонажи", "en": "3D characters" }
+    ]},
+    { "id": "motion", "ru": "Моушен и SMM", "en": "Motion & Social", "branches": [
+      { "id": "ads", "ru": "Рекламные ролики", "en": "Ad videos" },
+      { "id": "reels-stories", "ru": "Рилсы и сторис", "en": "Reels & Stories" },
+      { "id": "holidays", "ru": "Праздничные поздравления", "en": "Holiday greetings" },
+      { "id": "intros", "ru": "Заставки и анимация логотипа", "en": "Intros & Logo animation" },
+      { "id": "smm-graphics", "ru": "SMM-графика и посты", "en": "Social graphics" },
+      { "id": "ads-static", "ru": "Таргет-баннеры", "en": "Ad banners" }
+    ]},
+    { "id": "print", "ru": "Печать и презентации", "en": "Print & Decks", "branches": [
+      { "id": "brochures", "ru": "Брошюры и каталоги", "en": "Brochures & Catalogs" },
+      { "id": "menu", "ru": "Меню", "en": "Menus" },
+      { "id": "outdoor", "ru": "Наружка и баннеры", "en": "Outdoor & Banners" },
+      { "id": "awards", "ru": "Наградная продукция", "en": "Awards & Diplomas" },
+      { "id": "decks", "ru": "Презентации", "en": "Presentations" }
+    ]},
+    { "id": "web", "ru": "Веб и инструменты", "en": "Web & Tools", "branches": [
+      { "id": "sites", "ru": "Сайты и лендинги", "en": "Websites" },
+      { "id": "tools", "ru": "Веб-инструменты", "en": "Web tools" },
+      { "id": "extensions", "ru": "Расширения браузера", "en": "Browser extensions" },
+      { "id": "games", "ru": "Игры и интерактив", "en": "Games & Interactive" }
+    ]},
+    { "id": "ai-fashion", "ru": "AI-фэшн", "en": "AI Fashion", "hidden": true, "branches": [
+      { "id": "lookbooks", "ru": "Лукбуки", "en": "Lookbooks" },
+      { "id": "campaigns", "ru": "Кампании", "en": "Campaigns" }
+    ]}
+  ],
+  "tagGroups": {
+    "industry": [
+      { "id": "auto", "ru": "Авто", "en": "Automotive", "seed": ["Haval / GWM", "MyCar Group", "UCARS"] },
+      { "id": "food", "ru": "Еда и рестораны", "en": "Food & Restaurants", "seed": ["Sandwich & Co", "KFC", "Krispy", "Wendy's", "Chitir-Chitir milk"] },
+      { "id": "finance", "ru": "Финансы и банки", "en": "Finance & Banking", "seed": ["BCC", "Eurasian Bank", "Freedom Finance", "Лизинг / мурабаха"] },
+      { "id": "aviation", "ru": "Авиация", "en": "Aviation", "seed": ["Air Astana", "Ochig Avia"] },
+      { "id": "realestate", "ru": "Недвижимость", "en": "Real estate", "seed": ["Alfraganus"] },
+      { "id": "energy", "ru": "Энергетика", "en": "Energy", "seed": ["Energy Work (солнечные панели)", "Shell"] },
+      { "id": "gov", "ru": "Госсектор", "en": "Public sector", "seed": ["Правительство для граждан"] },
+      { "id": "it", "ru": "IT и digital", "en": "IT & Digital", "seed": ["DK Leading"] },
+      { "id": "retail", "ru": "Ритейл", "en": "Retail", "seed": ["FRETTA?"] },
+      { "id": "corporate", "ru": "Корпоративный сектор", "en": "Corporate", "seed": ["Sojitz Corporation"] }
+    ],
+    "format": [
+      { "id": "static", "ru": "Статика", "en": "Static" },
+      { "id": "video", "ru": "Видео", "en": "Video" },
+      { "id": "3d", "ru": "3D", "en": "3D" },
+      { "id": "print", "ru": "Печать", "en": "Print" },
+      { "id": "interactive", "ru": "Интерактив", "en": "Interactive" }
+    ],
+    "tools": ["Blender", "After Effects", "Illustrator", "CorelDRAW", "Photoshop", "Figma?", "Magnific", "Topaz", "Gemini", "Claude"],
+    "region": [
+      { "id": "uz", "ru": "Узбекистан", "en": "Uzbekistan" },
+      { "id": "kz", "ru": "Казахстан", "en": "Kazakhstan" }
+    ],
+    "lang": ["ru", "uz", "en", "kz"]
+  },
+  "flags": {
+    "aiContent": { "ru": "Сделано с ИИ", "en": "Made with AI", "note": "ставить везде, где был ИИ (генерация, апскейл Magnific/Topaz — уточнить у пользователя, считать ли апскейл)" }
+  }
+}

@@ -1,0 +1,312 @@
+(function () {
+  "use strict";
+
+  var LANG = (document.documentElement.getAttribute("lang") || "ru").slice(0, 2);
+  var T = {
+    ru: { close: "Закрыть", prev: "Предыдущее", next: "Следующее", dialog: "Просмотр изображения", open: "Открыть изображение" },
+    en: { close: "Close", prev: "Previous", next: "Next", dialog: "Image viewer", open: "Open image" },
+  }[LANG === "en" ? "en" : "ru"];
+
+  function toArray(list) { return Array.prototype.slice.call(list); }
+
+  var reduceMotion = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+
+  /* ---------- Появление при прокрутке ----------
+     Контент виден в покое: прячем (.reveal-pending) только то, что
+     сейчас ниже первого экрана. Видимое при загрузке не трогаем.
+     При prefers-reduced-motion ничего не прячем. */
+  function initReveal() {
+    var items = toArray(document.querySelectorAll(".reveal"));
+    if (!items.length || reduceMotion || !("IntersectionObserver" in window)) return;
+
+    var vh = window.innerHeight || document.documentElement.clientHeight;
+    var observer = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.remove("reveal-pending");
+            entry.target.classList.add("is-visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { rootMargin: "0px 0px -6% 0px", threshold: 0.01 }
+    );
+
+    items.forEach(function (el) {
+      var r = el.getBoundingClientRect();
+      var hiddenByFilter = r.width === 0 && r.height === 0;
+      if (!hiddenByFilter && r.top < vh && r.bottom > 0) {
+        el.classList.add("is-visible");
+        return;
+      }
+      if (!hiddenByFilter && r.bottom <= 0) {
+        // уже над экраном (переход по якорю) — не прячем
+        el.classList.add("is-visible");
+        return;
+      }
+      el.classList.add("reveal-pending");
+      observer.observe(el);
+    });
+
+    window.addEventListener("beforeprint", function () {
+      toArray(document.querySelectorAll(".reveal-pending")).forEach(function (el) {
+        el.classList.remove("reveal-pending");
+      });
+    });
+  }
+
+  /* ---------- Двухуровневый фильтр направлений (направление -> ответвление) ----------
+     Состояние в хэше: #3d, #3d/stands, #industry/auto */
+  function initFilter() {
+    var filtersRoot = document.querySelector("[data-filters]");
+    var dirFilter = document.querySelector(".direction-filter");
+    var grid = document.querySelector(".project-grid");
+    if (!filtersRoot || !dirFilter || !grid) return;
+
+    var branchGroups = toArray(document.querySelectorAll(".branch-filter"));
+    var cards = toArray(grid.querySelectorAll(".project-card"));
+    var dirButtons = toArray(dirFilter.querySelectorAll("button[data-direction]"));
+    var countEl = document.querySelector("[data-works-count]");
+
+    var state = { dir: "all", branch: "all", industry: null };
+
+    function groupFor(dir) {
+      return branchGroups.filter(function (g) { return g.getAttribute("data-for") === dir; })[0];
+    }
+
+    function setPressed(btn, on) {
+      btn.classList.toggle("is-active", on);
+      btn.setAttribute("aria-pressed", on ? "true" : "false");
+    }
+
+    function applyFilterToCards() {
+      var visible = 0;
+      cards.forEach(function (card) {
+        var dirs = (card.getAttribute("data-directions") || "").split(",");
+        var branches = (card.getAttribute("data-branches") || "").split(",");
+        var industries = (card.getAttribute("data-industry") || "").split(",");
+        var show;
+        if (state.industry) {
+          show = industries.indexOf(state.industry) !== -1;
+        } else {
+          show = state.dir === "all" || dirs.indexOf(state.dir) !== -1;
+          if (show && state.branch !== "all") {
+            show = branches.indexOf(state.branch) !== -1;
+          }
+        }
+        card.style.display = show ? "" : "none";
+        if (show) visible++;
+      });
+      if (countEl) countEl.textContent = (visible < 10 ? "0" : "") + visible;
+    }
+
+    function render() {
+      dirButtons.forEach(function (b) {
+        setPressed(b, !state.industry && b.getAttribute("data-direction") === state.dir);
+      });
+      branchGroups.forEach(function (g) {
+        var isCurrent = !state.industry && g.getAttribute("data-for") === state.dir;
+        g.hidden = !isCurrent;
+        if (isCurrent) {
+          toArray(g.querySelectorAll("button[data-branch]")).forEach(function (b) {
+            setPressed(b, b.getAttribute("data-branch") === state.branch);
+          });
+        }
+      });
+      applyFilterToCards();
+    }
+
+    function updateHash() {
+      var hash = "";
+      if (state.industry) {
+        hash = "industry/" + state.industry;
+      } else if (state.dir !== "all") {
+        hash = state.branch !== "all" ? state.dir + "/" + state.branch : state.dir;
+      }
+      var url = window.location.pathname + window.location.search + (hash ? "#" + hash : "");
+      window.history.replaceState(null, "", url);
+    }
+
+    function setDirection(dir) {
+      state.industry = null;
+      state.dir = dir;
+      state.branch = "all";
+      render();
+      updateHash();
+    }
+
+    function setBranch(branch) {
+      state.industry = null;
+      state.branch = branch;
+      render();
+      updateHash();
+    }
+
+    function applyFromHash() {
+      var hash = window.location.hash.replace(/^#/, "");
+      if (!hash || hash === "works" || hash === "contact" || hash === "main") {
+        state.dir = "all";
+        state.branch = "all";
+        state.industry = null;
+        render();
+        return;
+      }
+      var parts = hash.split("/");
+      if (parts[0] === "industry" && parts[1]) {
+        state.industry = parts[1];
+        state.dir = "all";
+        state.branch = "all";
+        render();
+        scrollToWorks();
+        return;
+      }
+      var dirId = parts[0];
+      var known = dirButtons.some(function (b) { return b.getAttribute("data-direction") === dirId; });
+      if (!known) {
+        state.dir = "all";
+        state.branch = "all";
+        state.industry = null;
+        render();
+        return;
+      }
+      state.industry = null;
+      state.dir = dirId;
+      state.branch = parts[1] && groupFor(dirId) ? parts[1] : "all";
+      render();
+      scrollToWorks();
+    }
+
+    // Ссылка с фильтром (#3d/stands) открывает страницу сразу на сетке работ
+    function scrollToWorks() {
+      var works = document.getElementById("works");
+      if (works && works.scrollIntoView) works.scrollIntoView({ block: "start" });
+    }
+
+    dirFilter.addEventListener("click", function (e) {
+      var btn = e.target.closest("button[data-direction]");
+      if (!btn) return;
+      setDirection(btn.getAttribute("data-direction"));
+    });
+
+    branchGroups.forEach(function (g) {
+      g.addEventListener("click", function (e) {
+        var btn = e.target.closest("button[data-branch]");
+        if (!btn) return;
+        setBranch(btn.getAttribute("data-branch"));
+      });
+    });
+
+    window.addEventListener("hashchange", applyFromHash);
+    applyFromHash();
+  }
+
+  /* ---------- Лайтбокс: кадр целиком, клавиатура, свайп ---------- */
+  function initLightbox() {
+    var triggers = toArray(document.querySelectorAll("[data-lightbox] img"));
+    if (!triggers.length) return;
+
+    var lightbox = document.createElement("div");
+    lightbox.className = "lightbox";
+    lightbox.setAttribute("role", "dialog");
+    lightbox.setAttribute("aria-modal", "true");
+    lightbox.setAttribute("aria-label", T.dialog);
+    lightbox.innerHTML =
+      '<button type="button" class="lightbox-close" aria-label="' + T.close + '">&times;</button>' +
+      '<button type="button" class="lightbox-prev" aria-label="' + T.prev + '">&#8249;</button>' +
+      '<img src="" alt="">' +
+      '<span class="lightbox-count" aria-live="polite"></span>' +
+      '<button type="button" class="lightbox-next" aria-label="' + T.next + '">&#8250;</button>';
+    document.body.appendChild(lightbox);
+
+    var imgEl = lightbox.querySelector("img");
+    var closeBtn = lightbox.querySelector(".lightbox-close");
+    var prevBtn = lightbox.querySelector(".lightbox-prev");
+    var nextBtn = lightbox.querySelector(".lightbox-next");
+    var countEl = lightbox.querySelector(".lightbox-count");
+    var buttons = [closeBtn, prevBtn, nextBtn];
+    var current = 0;
+    var lastFocus = null;
+    var single = triggers.length < 2;
+    prevBtn.hidden = single;
+    nextBtn.hidden = single;
+
+    function show(index) {
+      current = (index + triggers.length) % triggers.length;
+      var el = triggers[current];
+      imgEl.src = el.currentSrc || el.src;
+      imgEl.alt = el.alt || "";
+      countEl.textContent = single ? "" : current + 1 + " / " + triggers.length;
+    }
+    function open(index) {
+      lastFocus = document.activeElement;
+      show(index);
+      lightbox.classList.add("is-open");
+      document.body.style.overflow = "hidden";
+      closeBtn.focus();
+    }
+    function close() {
+      lightbox.classList.remove("is-open");
+      imgEl.removeAttribute("src");
+      document.body.style.overflow = "";
+      if (lastFocus && lastFocus.focus) lastFocus.focus();
+    }
+
+    triggers.forEach(function (el, i) {
+      el.setAttribute("tabindex", "0");
+      el.setAttribute("role", "button");
+      if (el.alt) el.setAttribute("aria-label", T.open + ": " + el.alt);
+      el.addEventListener("click", function () { open(i); });
+      el.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          open(i);
+        }
+      });
+    });
+    closeBtn.addEventListener("click", close);
+    prevBtn.addEventListener("click", function () { show(current - 1); });
+    nextBtn.addEventListener("click", function () { show(current + 1); });
+    lightbox.addEventListener("click", function (e) {
+      if (e.target === lightbox) close();
+    });
+    document.addEventListener("keydown", function (e) {
+      if (!lightbox.classList.contains("is-open")) return;
+      if (e.key === "Escape") close();
+      else if (e.key === "ArrowLeft" && !single) show(current - 1);
+      else if (e.key === "ArrowRight" && !single) show(current + 1);
+      else if (e.key === "Tab") {
+        // фокус не уходит из диалога
+        var focusable = buttons.filter(function (b) { return !b.hidden; });
+        var idx = focusable.indexOf(document.activeElement);
+        e.preventDefault();
+        var nextIdx = e.shiftKey ? idx - 1 : idx + 1;
+        focusable[(nextIdx + focusable.length) % focusable.length].focus();
+      }
+    });
+
+    // свайп на телефоне
+    var startX = null;
+    lightbox.addEventListener("touchstart", function (e) {
+      startX = e.touches && e.touches.length === 1 ? e.touches[0].clientX : null;
+    }, { passive: true });
+    lightbox.addEventListener("touchend", function (e) {
+      if (startX === null || single) return;
+      var dx = e.changedTouches[0].clientX - startX;
+      if (Math.abs(dx) > 50) show(current + (dx < 0 ? 1 : -1));
+      startX = null;
+    }, { passive: true });
+  }
+
+  function init() {
+    initFilter(); // сначала фильтр из хэша, потом reveal — чтобы скрытые карточки не мерили
+    initReveal();
+    initLightbox();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+})();

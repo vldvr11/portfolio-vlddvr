@@ -1,0 +1,30 @@
+{
+  "_note": "Список направлений и ответвлений теперь живёт в data/taxonomy.json (скопирован из корня проекта, не редактировать оригинал). Этот файл — только контакты и общие настройки сайта.",
+  "_textsNote": "hero/about/experience ниже — согласованные тексты (copy/site.json, вариант A + факты из facts.md). build.js пока хранит hero_eyebrow/hero_lines/hero_subtitle и about (a.positioning, timeline) как константы в коде, а не читает их отсюда — агенту, который правит build.js, нужно либо подключить эти поля, либо синхронизировать константы вручную.",
+  "PUBLIC": false,
+  "baseUrl": "https://vldvr11.github.io/portfolio-vlddvr/",
+  "nick": "vlddvr",
+  "contacts": {
+    "telegram": "https://t.me/vlddvr",
+    "email": "vladlenlukin213.3@gmail.com",
+    "behance": "https://www.behance.net/deathhueth"
+  },
+  "hero": {
+    "title": { "ru": "vlddvr — дизайнер, который делает и 3D, и моушен, и бренды", "en": "vlddvr — a designer who does 3D, motion, and brands" },
+    "subtitle": {
+      "ru": "Выставочные стенды, фирменный стиль, SMM-ролики и свои веб-инструменты — для клиентов из Узбекистана и Казахстана.",
+      "en": "Exhibition stands, brand identity, social videos, and self-made web tools — for clients in Uzbekistan and Kazakhstan."
+    }
+  },
+  "about": {
+    "ru": "Я — vlddvr, дизайнер. Работаю в нескольких направлениях: 3D и выставочные стенды, брендинг и айдентика, моушен и SMM, печать и презентации, а также собственные веб-инструменты. 6+ лет опыта. Среди клиентов — компании из Узбекистана и Казахстана. В работе использую Blender, After Effects, CorelDRAW, Illustrator и Photoshop. Часть работ в портфолио — личные проекты, сделанные без заказчика: расширение для Chrome Cutout, веб-инструменты CROPPER/v-cropper и p/card.",
+    "en": "I'm vlddvr, a designer. I work across several directions: 3D and exhibition stands, branding and identity, motion and social content, print and presentations, and my own web tools. 6+ years of experience. My clients are based in Uzbekistan and Kazakhstan. I work in Blender, After Effects, CorelDRAW, Illustrator, and Photoshop. Some of the work in this portfolio is personal — made without a client: the Cutout Chrome extension, the CROPPER/v-cropper web tools, and p/card."
+  },
+  "experience": [
+    { "company": "Great Wall Motors (Haval)", "role": { "ru": "дизайнер в штате", "en": "in-house designer" }, "from": "2025-12", "to": "2026-02" },
+    { "company": "EXZAP HOLDING", "role": { "ru": "дизайнер в штате", "en": "in-house designer" }, "from": "2020", "to": "2023" },
+    { "company": "Dream City", "role": { "ru": "единственный моушен-дизайнер", "en": "sole motion designer" }, "from": null, "to": null },
+    { "company": "DK Leading", "role": { "ru": "аутсорс", "en": "outsourced" }, "from": null, "to": null, "note": { "ru": "1 месяц", "en": "1 month" } },
+    { "company": "Terra Pro (THE ONE)", "role": { "ru": "использует собственные инструменты CROPPER/v-cropper и p/card в работе", "en": "uses own CROPPER/v-cropper and p/card tools at work" }, "from": null, "to": null }
+  ]
+}

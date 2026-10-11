@@ -1,0 +1,3777 @@
+[
+  {
+    "slug": "shell-stand",
+    "title": {
+      "ru": "Shell — выставочный стенд",
+      "en": "Shell — exhibition stand"
+    },
+    "client": "Shell",
+    "directions": [
+      "3d"
+    ],
+    "branches": [
+      "stands"
+    ],
+    "tags": {
+      "industry": [
+        "energy"
+      ],
+      "format": [
+        "3d"
+      ],
+      "tools": [
+        "Blender"
+      ],
+      "region": [],
+      "lang": []
+    },
+    "personal": false,
+    "featured": true,
+    "order": 1,
+    "cover": {
+      "src": "assets/img/projects/shell-stand/shell-stand-05-1600.webp",
+      "w": 1920,
+      "h": 1080,
+      "alt": {
+        "ru": "Shell — выставочный стенд",
+        "en": "Shell — exhibition stand"
+      }
+    },
+    "summary": {
+      "ru": "3D-стенд Shell для выставки: болид Формулы-1, экспозиция масел, ресепшн и зона симуляторов. Проект сделан в EXZAP HOLDING.",
+      "en": "A 3D exhibition stand for Shell: a Formula 1 car, an oil display, reception and a sim-racing zone. Done at EXZAP HOLDING."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/shell-stand/shell-stand-06-1600.webp",
+            "w": 1920,
+            "h": 1080,
+            "alt": {
+              "ru": "Shell — выставочный стенд",
+              "en": "Shell — exhibition stand"
+            }
+          },
+          {
+            "src": "assets/img/projects/shell-stand/shell-stand-07-1600.webp",
+            "w": 1920,
+            "h": 1080,
+            "alt": {
+              "ru": "Shell — выставочный стенд",
+              "en": "Shell — exhibition stand"
+            }
+          },
+          {
+            "src": "assets/img/projects/shell-stand/shell-stand-08-1600.webp",
+            "w": 1920,
+            "h": 1080,
+            "alt": {
+              "ru": "Shell — выставочный стенд",
+              "en": "Shell — exhibition stand"
+            }
+          },
+          {
+            "src": "assets/img/projects/shell-stand/shell-stand-09-1600.webp",
+            "w": 1920,
+            "h": 1080,
+            "alt": {
+              "ru": "Shell — выставочный стенд",
+              "en": "Shell — exhibition stand"
+            }
+          },
+          {
+            "src": "assets/img/projects/shell-stand/shell-stand-10-1600.webp",
+            "w": 1920,
+            "h": 1080,
+            "alt": {
+              "ru": "Shell — выставочный стенд",
+              "en": "Shell — exhibition stand"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "shell-oil-racks",
+    "title": {
+      "ru": "Shell — стеллажи для масел",
+      "en": "Shell — oil display shelving"
+    },
+    "client": "Shell",
+    "directions": [
+      "3d"
+    ],
+    "branches": [
+      "photozones-pos"
+    ],
+    "tags": {
+      "industry": [
+        "energy"
+      ],
+      "format": [
+        "3d",
+        "print"
+      ],
+      "tools": [
+        "Blender"
+      ],
+      "region": [],
+      "lang": []
+    },
+    "personal": false,
+    "featured": false,
+    "order": 1.5,
+    "cover": {
+      "src": "assets/img/projects/shell-oil-racks/shell-oil-racks-04-1600.webp",
+      "w": 1920,
+      "h": 1440,
+      "alt": {
+        "ru": "POS-стеллаж для масел Shell",
+        "en": "Shell oil POS shelving"
+      }
+    },
+    "summary": {
+      "ru": "POS-стеллажи для масел Shell: 3D-визуализация и печатный макет стеллажа. Проект сделан в EXZAP HOLDING.",
+      "en": "POS shelving for Shell oils: 3D visualisation and a print-ready shelving layout. Done at EXZAP HOLDING."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/shell-oil-racks/shell-oil-racks-02-1600.webp",
+            "w": 1440,
+            "h": 1440,
+            "alt": {
+              "ru": "POS-стеллаж для масел Shell",
+              "en": "Shell oil POS shelving"
+            }
+          },
+          {
+            "src": "assets/img/projects/shell-oil-racks/shell-oil-racks-03-1600.webp",
+            "w": 1440,
+            "h": 1440,
+            "alt": {
+              "ru": "POS-стеллаж для масел Shell",
+              "en": "Shell oil POS shelving"
+            }
+          },
+          {
+            "src": "assets/img/projects/shell-oil-racks/shell-oil-racks-04-1600.webp",
+            "w": 1920,
+            "h": 1440,
+            "alt": {
+              "ru": "POS-стеллаж для масел Shell",
+              "en": "Shell oil POS shelving"
+            }
+          }
+        ]
+      },
+      {
+        "type": "pdf",
+        "file": "assets/files/shell-oil-racks/shell-oil-racks-01.pdf",
+        "pages": [
+          {
+            "src": "assets/img/projects/shell-oil-racks/shell-oil-racks-01-page1-1200.webp",
+            "w": 827,
+            "h": 1170,
+            "alt": {
+              "ru": "Shell — выставочный стенд",
+              "en": "Shell — exhibition stand"
+            }
+          },
+          {
+            "src": "assets/img/projects/shell-oil-racks/shell-oil-racks-01-page2-1200.webp",
+            "w": 827,
+            "h": 1170,
+            "alt": {
+              "ru": "Shell — выставочный стенд",
+              "en": "Shell — exhibition stand"
+            }
+          },
+          {
+            "src": "assets/img/projects/shell-oil-racks/shell-oil-racks-01-page3-1200.webp",
+            "w": 827,
+            "h": 1170,
+            "alt": {
+              "ru": "Shell — выставочный стенд",
+              "en": "Shell — exhibition stand"
+            }
+          },
+          {
+            "src": "assets/img/projects/shell-oil-racks/shell-oil-racks-01-page4-1200.webp",
+            "w": 827,
+            "h": 1170,
+            "alt": {
+              "ru": "Shell — выставочный стенд",
+              "en": "Shell — exhibition stand"
+            }
+          },
+          {
+            "src": "assets/img/projects/shell-oil-racks/shell-oil-racks-01-page5-1200.webp",
+            "w": 827,
+            "h": 1170,
+            "alt": {
+              "ru": "Shell — выставочный стенд",
+              "en": "Shell — exhibition stand"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "haval-gwm",
+    "title": {
+      "ru": "Haval — работа в Great Wall Motors",
+      "en": "Haval — in-house at Great Wall Motors"
+    },
+    "client": "Haval / GWM",
+    "directions": [
+      "3d",
+      "print",
+      "motion"
+    ],
+    "branches": [
+      "stands",
+      "smm-graphics",
+      "reels-stories",
+      "brochures"
+    ],
+    "tags": {
+      "industry": [
+        "auto"
+      ],
+      "format": [
+        "3d",
+        "print",
+        "static",
+        "video"
+      ],
+      "tools": [
+        "Blender",
+        "After Effects",
+        "Illustrator",
+        "CorelDRAW"
+      ],
+      "region": [],
+      "lang": []
+    },
+    "personal": false,
+    "featured": true,
+    "order": 2,
+    "cover": {
+      "src": "assets/img/projects/haval-v7-stand/haval-v7-stand-02-1600.webp",
+      "w": 3000,
+      "h": 1500,
+      "alt": {
+        "ru": "Haval V7 / GWM — стенд",
+        "en": "Haval V7 / GWM — exhibition stand"
+      }
+    },
+    "summary": {
+      "ru": "Работа в штате Great Wall Motors (декабрь 2025 — февраль 2026): выставочный стенд Haval V7, печать для дилерской конференции, зимняя SMM-кампания и брошюры моделей H6, H9, M6 и Jolion на русском и узбекском.",
+      "en": "In-house at Great Wall Motors (Dec 2025 — Feb 2026): the Haval V7 exhibition stand, print for the dealer conference, a winter social campaign and brochures for the H6, H9, M6 and Jolion in Russian and Uzbek."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "text",
+        "title": {
+          "ru": "Стенд Haval V7 и дилерская конференция",
+          "en": "Haval V7 stand and dealer conference"
+        },
+        "text": null
+      },
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/haval-v7-stand/haval-v7-stand-01-1600.webp",
+            "w": 3000,
+            "h": 1500,
+            "alt": {
+              "ru": "Haval V7 / GWM — стенд",
+              "en": "Haval V7 / GWM — exhibition stand"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-v7-stand/haval-v7-stand-03-1600.webp",
+            "w": 3000,
+            "h": 1500,
+            "alt": {
+              "ru": "Haval V7 / GWM — стенд",
+              "en": "Haval V7 / GWM — exhibition stand"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-v7-stand/haval-v7-stand-04-1600.webp",
+            "w": 3000,
+            "h": 1500,
+            "alt": {
+              "ru": "Haval V7 / GWM — стенд",
+              "en": "Haval V7 / GWM — exhibition stand"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-v7-stand/haval-v7-stand-05-1600.webp",
+            "w": 1124,
+            "h": 760,
+            "alt": {
+              "ru": "Haval V7 / GWM — стенд",
+              "en": "Haval V7 / GWM — exhibition stand"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-v7-stand/haval-v7-stand-06-1600.webp",
+            "w": 1280,
+            "h": 1185,
+            "alt": {
+              "ru": "Haval V7 / GWM — стенд",
+              "en": "Haval V7 / GWM — exhibition stand"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-v7-stand/haval-v7-stand-07-1600.webp",
+            "w": 1280,
+            "h": 438,
+            "alt": {
+              "ru": "Haval V7 / GWM — стенд",
+              "en": "Haval V7 / GWM — exhibition stand"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-v7-stand/haval-v7-stand-08-1600.webp",
+            "w": 1280,
+            "h": 897,
+            "alt": {
+              "ru": "Haval V7 / GWM — стенд",
+              "en": "Haval V7 / GWM — exhibition stand"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-v7-stand/haval-v7-stand-09-1600.webp",
+            "w": 403,
+            "h": 1173,
+            "alt": {
+              "ru": "Haval V7 / GWM — стенд",
+              "en": "Haval V7 / GWM — exhibition stand"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-v7-stand/haval-v7-stand-10-1600.webp",
+            "w": 848,
+            "h": 1074,
+            "alt": {
+              "ru": "Haval V7 / GWM — стенд",
+              "en": "Haval V7 / GWM — exhibition stand"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-v7-stand/haval-v7-stand-11-1600.webp",
+            "w": 1280,
+            "h": 1176,
+            "alt": {
+              "ru": "Haval V7 / GWM — стенд",
+              "en": "Haval V7 / GWM — exhibition stand"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-v7-stand/haval-v7-stand-12-1600.webp",
+            "w": 862,
+            "h": 1240,
+            "alt": {
+              "ru": "Haval V7 / GWM — стенд",
+              "en": "Haval V7 / GWM — exhibition stand"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "ru": "Зимняя SMM-кампания",
+          "en": "Winter social campaign"
+        },
+        "text": null
+      },
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/haval-winter-smm/haval-winter-smm-02-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "Haval — зимняя SMM-кампания",
+              "en": "Haval — winter social campaign"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-winter-smm/haval-winter-smm-03-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "Haval — зимняя SMM-кампания",
+              "en": "Haval — winter social campaign"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-winter-smm/haval-winter-smm-04-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "Haval — зимняя SMM-кампания",
+              "en": "Haval — winter social campaign"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-winter-smm/haval-winter-smm-05-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "Haval — зимняя SMM-кампания",
+              "en": "Haval — winter social campaign"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-winter-smm/haval-winter-smm-06-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "Haval — зимняя SMM-кампания",
+              "en": "Haval — winter social campaign"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-winter-smm/haval-winter-smm-07-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "Haval — зимняя SMM-кампания",
+              "en": "Haval — winter social campaign"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-winter-smm/haval-winter-smm-08-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "Haval — зимняя SMM-кампания",
+              "en": "Haval — winter social campaign"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-winter-smm/haval-winter-smm-09-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "Haval — зимняя SMM-кампания",
+              "en": "Haval — winter social campaign"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-winter-smm/haval-winter-smm-10-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "Haval — зимняя SMM-кампания",
+              "en": "Haval — winter social campaign"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "ru": "Брошюры моделей",
+          "en": "Model brochures"
+        },
+        "text": null
+      },
+      {
+        "type": "pdf",
+        "file": null,
+        "pages": [
+          {
+            "src": "assets/img/projects/haval-brochures/haval-brochures-01-page1-1200.webp",
+            "w": 1170,
+            "h": 827,
+            "alt": {
+              "ru": "Haval — брошюры",
+              "en": "Haval — brochures"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-brochures/haval-brochures-01-page2-1200.webp",
+            "w": 1170,
+            "h": 827,
+            "alt": {
+              "ru": "Haval — брошюры",
+              "en": "Haval — brochures"
+            }
+          }
+        ]
+      },
+      {
+        "type": "pdf",
+        "file": null,
+        "pages": [
+          {
+            "src": "assets/img/projects/haval-brochures/haval-brochures-02-page1-1200.webp",
+            "w": 1170,
+            "h": 827,
+            "alt": {
+              "ru": "Haval — брошюры",
+              "en": "Haval — brochures"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-brochures/haval-brochures-02-page2-1200.webp",
+            "w": 1170,
+            "h": 827,
+            "alt": {
+              "ru": "Haval — брошюры",
+              "en": "Haval — brochures"
+            }
+          }
+        ]
+      },
+      {
+        "type": "pdf",
+        "file": null,
+        "pages": [
+          {
+            "src": "assets/img/projects/haval-brochures/haval-brochures-03-page1-1200.webp",
+            "w": 1200,
+            "h": 300,
+            "alt": {
+              "ru": "Haval — брошюры",
+              "en": "Haval — brochures"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-brochures/haval-brochures-03-page2-1200.webp",
+            "w": 1200,
+            "h": 300,
+            "alt": {
+              "ru": "Haval — брошюры",
+              "en": "Haval — brochures"
+            }
+          }
+        ]
+      },
+      {
+        "type": "pdf",
+        "file": null,
+        "pages": [
+          {
+            "src": "assets/img/projects/haval-brochures/haval-brochures-04-page1-1200.webp",
+            "w": 1200,
+            "h": 300,
+            "alt": {
+              "ru": "Haval — брошюры",
+              "en": "Haval — brochures"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-brochures/haval-brochures-04-page2-1200.webp",
+            "w": 1200,
+            "h": 300,
+            "alt": {
+              "ru": "Haval — брошюры",
+              "en": "Haval — brochures"
+            }
+          }
+        ]
+      },
+      {
+        "type": "pdf",
+        "file": null,
+        "pages": [
+          {
+            "src": "assets/img/projects/haval-brochures/haval-brochures-05-page1-1200.webp",
+            "w": 1170,
+            "h": 827,
+            "alt": {
+              "ru": "Haval — брошюры",
+              "en": "Haval — brochures"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-brochures/haval-brochures-05-page2-1200.webp",
+            "w": 1170,
+            "h": 827,
+            "alt": {
+              "ru": "Haval — брошюры",
+              "en": "Haval — brochures"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "exzap-showroom",
+    "title": {
+      "ru": "EXZAP — офис и шоурум",
+      "en": "EXZAP — office & showroom"
+    },
+    "client": "EXZAP",
+    "directions": [
+      "3d"
+    ],
+    "branches": [
+      "interiors"
+    ],
+    "tags": {
+      "industry": [],
+      "format": [
+        "3d"
+      ],
+      "tools": [
+        "Blender"
+      ],
+      "region": [
+        "uz"
+      ],
+      "lang": []
+    },
+    "personal": false,
+    "featured": true,
+    "order": 3,
+    "cover": {
+      "src": "assets/img/projects/exzap-showroom/exzap-showroom-04-1600.webp",
+      "w": 1440,
+      "h": 1440,
+      "alt": {
+        "ru": "EXZAP — офис и шоурум",
+        "en": "EXZAP — office & showroom"
+      }
+    },
+    "summary": {
+      "ru": "3D-визуализация офиса и шоурума EXZAP с картой Узбекистана в интерьере.",
+      "en": "3D visualization of the EXZAP office and showroom, featuring a map of Uzbekistan in the interior."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/exzap-showroom/exzap-showroom-01-1600.webp",
+            "w": 1920,
+            "h": 1080,
+            "alt": {
+              "ru": "EXZAP — офис и шоурум",
+              "en": "EXZAP — office & showroom"
+            }
+          },
+          {
+            "src": "assets/img/projects/exzap-showroom/exzap-showroom-02-1600.webp",
+            "w": 1440,
+            "h": 1440,
+            "alt": {
+              "ru": "EXZAP — офис и шоурум",
+              "en": "EXZAP — office & showroom"
+            }
+          },
+          {
+            "src": "assets/img/projects/exzap-showroom/exzap-showroom-03-1600.webp",
+            "w": 1440,
+            "h": 1920,
+            "alt": {
+              "ru": "EXZAP — офис и шоурум",
+              "en": "EXZAP — office & showroom"
+            }
+          },
+          {
+            "src": "assets/img/projects/exzap-showroom/exzap-showroom-05-1600.webp",
+            "w": 1440,
+            "h": 1440,
+            "alt": {
+              "ru": "EXZAP — офис и шоурум",
+              "en": "EXZAP — office & showroom"
+            }
+          },
+          {
+            "src": "assets/img/projects/exzap-showroom/exzap-showroom-06-1600.webp",
+            "w": 1440,
+            "h": 1440,
+            "alt": {
+              "ru": "EXZAP — офис и шоурум",
+              "en": "EXZAP — office & showroom"
+            }
+          },
+          {
+            "src": "assets/img/projects/exzap-showroom/exzap-showroom-07-1600.webp",
+            "w": 1440,
+            "h": 1440,
+            "alt": {
+              "ru": "EXZAP — офис и шоурум",
+              "en": "EXZAP — office & showroom"
+            }
+          },
+          {
+            "src": "assets/img/projects/exzap-showroom/exzap-showroom-08-1600.webp",
+            "w": 1440,
+            "h": 1440,
+            "alt": {
+              "ru": "EXZAP — офис и шоурум",
+              "en": "EXZAP — office & showroom"
+            }
+          },
+          {
+            "src": "assets/img/projects/exzap-showroom/exzap-showroom-09-1600.webp",
+            "w": 1440,
+            "h": 1440,
+            "alt": {
+              "ru": "EXZAP — офис и шоурум",
+              "en": "EXZAP — office & showroom"
+            }
+          },
+          {
+            "src": "assets/img/projects/exzap-showroom/exzap-showroom-10-1600.webp",
+            "w": 1440,
+            "h": 1440,
+            "alt": {
+              "ru": "EXZAP — офис и шоурум",
+              "en": "EXZAP — office & showroom"
+            }
+          },
+          {
+            "src": "assets/img/projects/exzap-showroom/exzap-showroom-11-1600.webp",
+            "w": 1440,
+            "h": 1440,
+            "alt": {
+              "ru": "EXZAP — офис и шоурум",
+              "en": "EXZAP — office & showroom"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "nout-uz-store",
+    "title": {
+      "ru": "NOUT.UZ — магазин ноутбуков",
+      "en": "NOUT.UZ — laptop store"
+    },
+    "client": "NOUT.UZ",
+    "directions": [
+      "3d"
+    ],
+    "branches": [
+      "interiors"
+    ],
+    "tags": {
+      "industry": [
+        "retail"
+      ],
+      "format": [
+        "3d"
+      ],
+      "tools": [
+        "Blender"
+      ],
+      "region": [
+        "uz"
+      ],
+      "lang": []
+    },
+    "personal": false,
+    "featured": true,
+    "order": 4,
+    "cover": {
+      "src": "assets/img/projects/nout-uz-store/nout-uz-store-01-1600.webp",
+      "w": 2560,
+      "h": 1440,
+      "alt": {
+        "ru": "NOUT.UZ — магазин ноутбуков",
+        "en": "NOUT.UZ — laptop store"
+      }
+    },
+    "summary": {
+      "ru": "3D-визуализация интерьера магазина ноутбуков NOUT.UZ: зонирование по брендам и выкладка товара.",
+      "en": "3D interior visualization for the NOUT.UZ laptop store: brand zoning and product layout."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/nout-uz-store/nout-uz-store-02-1600.webp",
+            "w": 2560,
+            "h": 1440,
+            "alt": {
+              "ru": "NOUT.UZ — магазин ноутбуков",
+              "en": "NOUT.UZ — laptop store"
+            }
+          },
+          {
+            "src": "assets/img/projects/nout-uz-store/nout-uz-store-03-1600.webp",
+            "w": 2560,
+            "h": 1440,
+            "alt": {
+              "ru": "NOUT.UZ — магазин ноутбуков",
+              "en": "NOUT.UZ — laptop store"
+            }
+          },
+          {
+            "src": "assets/img/projects/nout-uz-store/nout-uz-store-04-1600.webp",
+            "w": 2560,
+            "h": 1440,
+            "alt": {
+              "ru": "NOUT.UZ — магазин ноутбуков",
+              "en": "NOUT.UZ — laptop store"
+            }
+          },
+          {
+            "src": "assets/img/projects/nout-uz-store/nout-uz-store-05-1600.webp",
+            "w": 2560,
+            "h": 1440,
+            "alt": {
+              "ru": "NOUT.UZ — магазин ноутбуков",
+              "en": "NOUT.UZ — laptop store"
+            }
+          },
+          {
+            "src": "assets/img/projects/nout-uz-store/nout-uz-store-06-1600.webp",
+            "w": 2560,
+            "h": 1440,
+            "alt": {
+              "ru": "NOUT.UZ — магазин ноутбуков",
+              "en": "NOUT.UZ — laptop store"
+            }
+          },
+          {
+            "src": "assets/img/projects/nout-uz-store/nout-uz-store-07-1600.webp",
+            "w": 588,
+            "h": 193,
+            "alt": {
+              "ru": "NOUT.UZ — магазин ноутбуков",
+              "en": "NOUT.UZ — laptop store"
+            }
+          },
+          {
+            "src": "assets/img/projects/nout-uz-store/nout-uz-store-08-1600.webp",
+            "w": 1920,
+            "h": 1080,
+            "alt": {
+              "ru": "NOUT.UZ — магазин ноутбуков",
+              "en": "NOUT.UZ — laptop store"
+            }
+          },
+          {
+            "src": "assets/img/projects/nout-uz-store/nout-uz-store-09-1600.webp",
+            "w": 1920,
+            "h": 1080,
+            "alt": {
+              "ru": "NOUT.UZ — магазин ноутбуков",
+              "en": "NOUT.UZ — laptop store"
+            }
+          },
+          {
+            "src": "assets/img/projects/nout-uz-store/nout-uz-store-10-1600.webp",
+            "w": 1920,
+            "h": 1080,
+            "alt": {
+              "ru": "NOUT.UZ — магазин ноутбуков",
+              "en": "NOUT.UZ — laptop store"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "korzinka-new-year",
+    "title": {
+      "ru": "Korzinka — новогодняя фотозона",
+      "en": "Korzinka — New Year photo zone"
+    },
+    "client": "Korzinka",
+    "directions": [
+      "3d"
+    ],
+    "branches": [
+      "photozones-pos"
+    ],
+    "tags": {
+      "industry": [
+        "retail"
+      ],
+      "format": [
+        "3d"
+      ],
+      "tools": [
+        "Blender"
+      ],
+      "region": [
+        "uz"
+      ],
+      "lang": []
+    },
+    "personal": false,
+    "featured": false,
+    "order": 5,
+    "cover": {
+      "src": "assets/img/projects/korzinka-new-year/korzinka-new-year-07-1600.webp",
+      "w": 1280,
+      "h": 960,
+      "alt": {
+        "ru": "Korzinka — новогодняя фотозона",
+        "en": "Korzinka — New Year photo zone"
+      }
+    },
+    "summary": {
+      "ru": "3D-концепт новогодней фотозоны 2025 для сети Korzinka.",
+      "en": "A 3D concept for a 2025 New Year photo zone for the Korzinka retail chain."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/korzinka-new-year/korzinka-new-year-02-1600.webp",
+            "w": 1920,
+            "h": 1440,
+            "alt": {
+              "ru": "Korzinka — новогодняя фотозона",
+              "en": "Korzinka — New Year photo zone"
+            }
+          },
+          {
+            "src": "assets/img/projects/korzinka-new-year/korzinka-new-year-03-1600.webp",
+            "w": 1920,
+            "h": 1440,
+            "alt": {
+              "ru": "Korzinka — новогодняя фотозона",
+              "en": "Korzinka — New Year photo zone"
+            }
+          },
+          {
+            "src": "assets/img/projects/korzinka-new-year/korzinka-new-year-04-1600.webp",
+            "w": 1920,
+            "h": 1440,
+            "alt": {
+              "ru": "Korzinka — новогодняя фотозона",
+              "en": "Korzinka — New Year photo zone"
+            }
+          },
+          {
+            "src": "assets/img/projects/korzinka-new-year/korzinka-new-year-05-1600.webp",
+            "w": 1920,
+            "h": 1440,
+            "alt": {
+              "ru": "Korzinka — новогодняя фотозона",
+              "en": "Korzinka — New Year photo zone"
+            }
+          },
+          {
+            "src": "assets/img/projects/korzinka-new-year/korzinka-new-year-06-1600.webp",
+            "w": 1920,
+            "h": 1440,
+            "alt": {
+              "ru": "Korzinka — новогодняя фотозона",
+              "en": "Korzinka — New Year photo zone"
+            }
+          },
+          {
+            "src": "assets/img/projects/korzinka-new-year/korzinka-new-year-08-1600.webp",
+            "w": 1280,
+            "h": 960,
+            "alt": {
+              "ru": "Korzinka — новогодняя фотозона",
+              "en": "Korzinka — New Year photo zone"
+            }
+          },
+          {
+            "src": "assets/img/projects/korzinka-new-year/korzinka-new-year-09-1600.webp",
+            "w": 1280,
+            "h": 960,
+            "alt": {
+              "ru": "Korzinka — новогодняя фотозона",
+              "en": "Korzinka — New Year photo zone"
+            }
+          },
+          {
+            "src": "assets/img/projects/korzinka-new-year/korzinka-new-year-10-1600.webp",
+            "w": 1280,
+            "h": 960,
+            "alt": {
+              "ru": "Korzinka — новогодняя фотозона",
+              "en": "Korzinka — New Year photo zone"
+            }
+          },
+          {
+            "src": "assets/img/projects/korzinka-new-year/korzinka-new-year-11-1600.webp",
+            "w": 1280,
+            "h": 960,
+            "alt": {
+              "ru": "Korzinka — новогодняя фотозона",
+              "en": "Korzinka — New Year photo zone"
+            }
+          },
+          {
+            "src": "assets/img/projects/korzinka-new-year/korzinka-new-year-12-1600.webp",
+            "w": 1280,
+            "h": 960,
+            "alt": {
+              "ru": "Korzinka — новогодняя фотозона",
+              "en": "Korzinka — New Year photo zone"
+            }
+          }
+        ]
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/korzinka-new-year/korzinka-new-year-01-poster-1200.webp",
+          "w": 1200,
+          "h": 2133,
+          "alt": {
+            "ru": "Korzinka — новогодняя фотозона",
+            "en": "Korzinka — New Year photo zone"
+          }
+        },
+        "src": "assets/video/korzinka-new-year/korzinka-new-year-01-loop.mp4",
+        "embed": null,
+        "caption": null
+      }
+    ]
+  },
+  {
+    "slug": "event-photozones",
+    "title": {
+      "ru": "Фотозоны на события",
+      "en": "Event photo zones"
+    },
+    "client": null,
+    "directions": [
+      "3d"
+    ],
+    "branches": [
+      "photozones-pos"
+    ],
+    "tags": {
+      "industry": [],
+      "format": [
+        "3d"
+      ],
+      "tools": [
+        "Blender"
+      ],
+      "region": [],
+      "lang": []
+    },
+    "personal": false,
+    "featured": false,
+    "order": 6,
+    "cover": {
+      "src": "assets/img/projects/event-photozones/event-photozones-01-1600.webp",
+      "w": 1920,
+      "h": 1440,
+      "alt": {
+        "ru": "Фотозоны на события",
+        "en": "Event photo zones"
+      }
+    },
+    "summary": {
+      "ru": "Серия 3D-фотозон под разовые события: свадьба, день рождения, новогодняя арка для авто.",
+      "en": "A series of 3D photo zones for one-off events: a wedding, a birthday, a New Year arch for cars."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/event-photozones/event-photozones-02-1600.webp",
+            "w": 1920,
+            "h": 1440,
+            "alt": {
+              "ru": "Фотозоны на события",
+              "en": "Event photo zones"
+            }
+          },
+          {
+            "src": "assets/img/projects/event-photozones/event-photozones-03-1600.webp",
+            "w": 1920,
+            "h": 1440,
+            "alt": {
+              "ru": "Фотозоны на события",
+              "en": "Event photo zones"
+            }
+          },
+          {
+            "src": "assets/img/projects/event-photozones/event-photozones-04-1600.webp",
+            "w": 1920,
+            "h": 1440,
+            "alt": {
+              "ru": "Фотозоны на события",
+              "en": "Event photo zones"
+            }
+          },
+          {
+            "src": "assets/img/projects/event-photozones/event-photozones-05-1600.webp",
+            "w": 1920,
+            "h": 1440,
+            "alt": {
+              "ru": "Фотозоны на события",
+              "en": "Event photo zones"
+            }
+          },
+          {
+            "src": "assets/img/projects/event-photozones/event-photozones-06-1600.webp",
+            "w": 1920,
+            "h": 1080,
+            "alt": {
+              "ru": "Фотозоны на события",
+              "en": "Event photo zones"
+            }
+          },
+          {
+            "src": "assets/img/projects/event-photozones/event-photozones-08-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "Фотозоны на события",
+              "en": "Event photo zones"
+            }
+          },
+          {
+            "src": "assets/img/projects/event-photozones/event-photozones-09-1600.webp",
+            "w": 1440,
+            "h": 1440,
+            "alt": {
+              "ru": "Фотозоны на события",
+              "en": "Event photo zones"
+            }
+          },
+          {
+            "src": "assets/img/projects/event-photozones/event-photozones-10-1600.webp",
+            "w": 1080,
+            "h": 1920,
+            "alt": {
+              "ru": "Фотозоны на события",
+              "en": "Event photo zones"
+            }
+          },
+          {
+            "src": "assets/img/projects/event-photozones/event-photozones-11-1600.webp",
+            "w": 1080,
+            "h": 1920,
+            "alt": {
+              "ru": "Фотозоны на события",
+              "en": "Event photo zones"
+            }
+          },
+          {
+            "src": "assets/img/projects/event-photozones/event-photozones-12-1600.webp",
+            "w": 1440,
+            "h": 1440,
+            "alt": {
+              "ru": "Фотозоны на события",
+              "en": "Event photo zones"
+            }
+          }
+        ]
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/event-photozones/event-photozones-07-poster-1200.webp",
+          "w": 1200,
+          "h": 2133,
+          "alt": {
+            "ru": "Фотозоны на события",
+            "en": "Event photo zones"
+          }
+        },
+        "src": "assets/video/event-photozones/event-photozones-07-loop.mp4",
+        "embed": null,
+        "caption": null
+      }
+    ]
+  },
+  {
+    "slug": "facades-signage",
+    "title": {
+      "ru": "Фасады и вывески",
+      "en": "Facades & signage"
+    },
+    "client": null,
+    "directions": [
+      "3d"
+    ],
+    "branches": [
+      "interiors",
+      "3d-objects"
+    ],
+    "tags": {
+      "industry": [],
+      "format": [
+        "3d"
+      ],
+      "tools": [
+        "Blender"
+      ],
+      "region": [],
+      "lang": []
+    },
+    "personal": false,
+    "featured": false,
+    "order": 7,
+    "cover": {
+      "src": "assets/img/projects/facades-signage/facades-signage-02-1600.webp",
+      "w": 1920,
+      "h": 1920,
+      "alt": {
+        "ru": "Фасады и вывески",
+        "en": "Facades & signage"
+      }
+    },
+    "summary": {
+      "ru": "3D-визуализация фасадов и вывесок: Navruz Hotel, Za Travel, офисное здание в ночной подсветке.",
+      "en": "3D visualization of facades and signage: Navruz Hotel, Za Travel, and an office building lit at night."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/facades-signage/facades-signage-01-1600.webp",
+            "w": 1920,
+            "h": 1920,
+            "alt": {
+              "ru": "Фасады и вывески",
+              "en": "Facades & signage"
+            }
+          },
+          {
+            "src": "assets/img/projects/facades-signage/facades-signage-03-1600.webp",
+            "w": 1920,
+            "h": 1920,
+            "alt": {
+              "ru": "Фасады и вывески",
+              "en": "Facades & signage"
+            }
+          },
+          {
+            "src": "assets/img/projects/facades-signage/facades-signage-04-1600.webp",
+            "w": 1920,
+            "h": 1920,
+            "alt": {
+              "ru": "Фасады и вывески",
+              "en": "Facades & signage"
+            }
+          },
+          {
+            "src": "assets/img/projects/facades-signage/facades-signage-05-1600.webp",
+            "w": 1920,
+            "h": 1080,
+            "alt": {
+              "ru": "Фасады и вывески",
+              "en": "Facades & signage"
+            }
+          },
+          {
+            "src": "assets/img/projects/facades-signage/facades-signage-06-1600.webp",
+            "w": 1651,
+            "h": 1080,
+            "alt": {
+              "ru": "Фасады и вывески",
+              "en": "Facades & signage"
+            }
+          },
+          {
+            "src": "assets/img/projects/facades-signage/facades-signage-07-1600.webp",
+            "w": 3000,
+            "h": 2000,
+            "alt": {
+              "ru": "Фасады и вывески",
+              "en": "Facades & signage"
+            }
+          },
+          {
+            "src": "assets/img/projects/facades-signage/facades-signage-08-1600.webp",
+            "w": 3000,
+            "h": 2000,
+            "alt": {
+              "ru": "Фасады и вывески",
+              "en": "Facades & signage"
+            }
+          },
+          {
+            "src": "assets/img/projects/facades-signage/facades-signage-09-1600.webp",
+            "w": 3000,
+            "h": 2000,
+            "alt": {
+              "ru": "Фасады и вывески",
+              "en": "Facades & signage"
+            }
+          },
+          {
+            "src": "assets/img/projects/facades-signage/facades-signage-10-1600.webp",
+            "w": 3000,
+            "h": 2000,
+            "alt": {
+              "ru": "Фасады и вывески",
+              "en": "Facades & signage"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "3d-objects",
+    "title": {
+      "ru": "3D-объекты и персонажи",
+      "en": "3D objects & characters"
+    },
+    "client": null,
+    "directions": [
+      "3d"
+    ],
+    "branches": [
+      "3d-objects",
+      "3d-characters"
+    ],
+    "tags": {
+      "industry": [],
+      "format": [
+        "3d"
+      ],
+      "tools": [
+        "Blender"
+      ],
+      "region": [],
+      "lang": []
+    },
+    "personal": false,
+    "featured": false,
+    "order": 8,
+    "cover": {
+      "src": "assets/img/projects/3d-objects/3d-objects-01-1600.webp",
+      "w": 1280,
+      "h": 1280,
+      "alt": {
+        "ru": "3D-объекты и персонажи",
+        "en": "3D objects & characters"
+      }
+    },
+    "summary": {
+      "ru": "Подборка 3D-объектов и персонажей: эмблема в камне, флаконы, модель Toretto, персонажи Chitir-Chitir и Somsa.",
+      "en": "A collection of 3D objects and characters: a stone emblem, bottles, a Toretto model, and the Chitir-Chitir and Somsa characters."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/3d-objects/3d-objects-02-1600.webp",
+            "w": 1280,
+            "h": 1280,
+            "alt": {
+              "ru": "3D-объекты и персонажи",
+              "en": "3D objects & characters"
+            }
+          },
+          {
+            "src": "assets/img/projects/3d-objects/3d-objects-03-1600.webp",
+            "w": 1280,
+            "h": 1280,
+            "alt": {
+              "ru": "3D-объекты и персонажи",
+              "en": "3D objects & characters"
+            }
+          },
+          {
+            "src": "assets/img/projects/3d-objects/3d-objects-04-1600.webp",
+            "w": 1280,
+            "h": 1280,
+            "alt": {
+              "ru": "3D-объекты и персонажи",
+              "en": "3D objects & characters"
+            }
+          },
+          {
+            "src": "assets/img/projects/3d-objects/3d-objects-05-1600.webp",
+            "w": 1280,
+            "h": 1280,
+            "alt": {
+              "ru": "3D-объекты и персонажи",
+              "en": "3D objects & characters"
+            }
+          },
+          {
+            "src": "assets/img/projects/3d-objects/3d-objects-06-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "3D-объекты и персонажи",
+              "en": "3D objects & characters"
+            }
+          }
+        ]
+      },
+      {
+        "type": "pdf",
+        "file": "assets/files/3d-objects/3d-objects-07.pdf",
+        "pages": [
+          {
+            "src": "assets/img/projects/3d-objects/3d-objects-07-page1-1200.webp",
+            "w": 1200,
+            "h": 1200,
+            "alt": {
+              "ru": "3D-объекты и персонажи",
+              "en": "3D objects & characters"
+            }
+          },
+          {
+            "src": "assets/img/projects/3d-objects/3d-objects-07-page2-1200.webp",
+            "w": 1200,
+            "h": 1200,
+            "alt": {
+              "ru": "3D-объекты и персонажи",
+              "en": "3D objects & characters"
+            }
+          },
+          {
+            "src": "assets/img/projects/3d-objects/3d-objects-07-page3-1200.webp",
+            "w": 1200,
+            "h": 1200,
+            "alt": {
+              "ru": "3D-объекты и персонажи",
+              "en": "3D objects & characters"
+            }
+          }
+        ]
+      },
+      {
+        "type": "pdf",
+        "file": "assets/files/3d-objects/3d-objects-08.pdf",
+        "pages": [
+          {
+            "src": "assets/img/projects/3d-objects/3d-objects-08-page1-1200.webp",
+            "w": 1200,
+            "h": 1200,
+            "alt": {
+              "ru": "3D-объекты и персонажи",
+              "en": "3D objects & characters"
+            }
+          },
+          {
+            "src": "assets/img/projects/3d-objects/3d-objects-08-page2-1200.webp",
+            "w": 1200,
+            "h": 1200,
+            "alt": {
+              "ru": "3D-объекты и персонажи",
+              "en": "3D objects & characters"
+            }
+          },
+          {
+            "src": "assets/img/projects/3d-objects/3d-objects-08-page3-1200.webp",
+            "w": 1200,
+            "h": 1200,
+            "alt": {
+              "ru": "3D-объекты и персонажи",
+              "en": "3D objects & characters"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "sandwich-co",
+    "title": {
+      "ru": "Sandwich & Co",
+      "en": "Sandwich & Co"
+    },
+    "client": "Sandwich & Co (sandwichandco.uz)",
+    "directions": [
+      "branding",
+      "motion",
+      "print"
+    ],
+    "branches": [
+      "identity",
+      "logo",
+      "smm-graphics"
+    ],
+    "tags": {
+      "industry": [
+        "food"
+      ],
+      "format": [
+        "static",
+        "video",
+        "print"
+      ],
+      "tools": [
+        "Illustrator",
+        "Photoshop",
+        "After Effects"
+      ],
+      "region": [
+        "uz"
+      ],
+      "lang": [
+        "ru",
+        "uz"
+      ]
+    },
+    "personal": false,
+    "featured": true,
+    "order": 9,
+    "cover": {
+      "src": "assets/img/projects/sandwich-co/sandwich-co-01-1600.webp",
+      "w": 4500,
+      "h": 4500,
+      "alt": {
+        "ru": "Sandwich & Co",
+        "en": "Sandwich & Co"
+      }
+    },
+    "summary": {
+      "ru": "Фирменный стиль, логобук, меню, упаковка контент-плана и SMM-материалы для кафе-сэндвичей Sandwich & Co в Ташкенте.",
+      "en": "Brand identity, logobook, menu design, and SMM content for Sandwich & Co, a sandwich café in Tashkent."
+    },
+    "task": {
+      "ru": "По брифу заказчика ключевые проблемы — низкая узнаваемость формата «сэндвич» и отсутствие лица компании (мало посадочных мест, съёмки не планировались). Нужен был контент, который продаёт продукт без привязки к людям и без выездных съёмок.",
+      "en": "Per the client brief, the main problems were low recognition of the 'sandwich' format and no public face for the brand (few seats, no filming planned). The content needed to sell the product itself, without relying on people or on-site shoots."
+    },
+    "approach": {
+      "ru": "Разработан визуальный код (тёмно-зелёный/дерево/крафт, курсивный логотип «SCo», serif-заголовки), логобук, меню 62×100, формат «КБЖУ-карточка» (рука с тарелкой + стикеры калорийности) и контент-план сторис, пересобранный под 100%-статику без выездных съёмок — герой контента — продукт, руки, детали.",
+      "en": "Built a visual code (dark green / wood / craft textures, a cursive 'SCo' logo, serif headlines), a logobook, a 62×100 cm menu, a 'nutrition card' format (hand with a plate plus calorie/macro stickers), and a stories content plan rebuilt for pure static content with no shoots — the hero of the content is the product, hands and details."
+    },
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-02-1600.webp",
+            "w": 4500,
+            "h": 4500,
+            "alt": {
+              "ru": "Sandwich & Co",
+              "en": "Sandwich & Co"
+            }
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-05-1600.webp",
+            "w": 4500,
+            "h": 4500,
+            "alt": {
+              "ru": "Sandwich & Co",
+              "en": "Sandwich & Co"
+            }
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-06-1600.webp",
+            "w": 4500,
+            "h": 4500,
+            "alt": {
+              "ru": "Sandwich & Co",
+              "en": "Sandwich & Co"
+            }
+          }
+        ]
+      },
+      {
+        "type": "pdf",
+        "file": "assets/files/sandwich-co/sandwich-co-03.pdf",
+        "pages": [
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-03-page01-1200.webp",
+            "w": 1172,
+            "h": 759,
+            "alt": {
+              "ru": "Sandwich & Co",
+              "en": "Sandwich & Co"
+            }
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-03-page02-1200.webp",
+            "w": 1172,
+            "h": 730,
+            "alt": {
+              "ru": "Sandwich & Co",
+              "en": "Sandwich & Co"
+            }
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-03-page03-1200.webp",
+            "w": 1169,
+            "h": 728,
+            "alt": {
+              "ru": "Sandwich & Co",
+              "en": "Sandwich & Co"
+            }
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-03-page04-1200.webp",
+            "w": 1169,
+            "h": 728,
+            "alt": {
+              "ru": "Sandwich & Co",
+              "en": "Sandwich & Co"
+            }
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-03-page05-1200.webp",
+            "w": 1169,
+            "h": 728,
+            "alt": {
+              "ru": "Sandwich & Co",
+              "en": "Sandwich & Co"
+            }
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-03-page06-1200.webp",
+            "w": 1169,
+            "h": 728,
+            "alt": {
+              "ru": "Sandwich & Co",
+              "en": "Sandwich & Co"
+            }
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-03-page07-1200.webp",
+            "w": 1169,
+            "h": 728,
+            "alt": {
+              "ru": "Sandwich & Co",
+              "en": "Sandwich & Co"
+            }
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-03-page08-1200.webp",
+            "w": 1169,
+            "h": 728,
+            "alt": {
+              "ru": "Sandwich & Co",
+              "en": "Sandwich & Co"
+            }
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-03-page09-1200.webp",
+            "w": 1169,
+            "h": 728,
+            "alt": {
+              "ru": "Sandwich & Co",
+              "en": "Sandwich & Co"
+            }
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-03-page10-1200.webp",
+            "w": 1169,
+            "h": 728,
+            "alt": {
+              "ru": "Sandwich & Co",
+              "en": "Sandwich & Co"
+            }
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-03-page11-1200.webp",
+            "w": 1169,
+            "h": 728,
+            "alt": {
+              "ru": "Sandwich & Co",
+              "en": "Sandwich & Co"
+            }
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-03-page12-1200.webp",
+            "w": 1169,
+            "h": 728,
+            "alt": {
+              "ru": "Sandwich & Co",
+              "en": "Sandwich & Co"
+            }
+          }
+        ]
+      },
+      {
+        "type": "pdf",
+        "file": "assets/files/sandwich-co/sandwich-co-04.pdf",
+        "pages": [
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-04-page1-1200.webp",
+            "w": 1200,
+            "h": 1935,
+            "alt": {
+              "ru": "Sandwich & Co",
+              "en": "Sandwich & Co"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "bahodir-jalolov",
+    "title": {
+      "ru": "Bahodir Jalolov Boxing School — логотип",
+      "en": "Bahodir Jalolov Boxing School — logo"
+    },
+    "client": "Bahodir Jalolov Boxing School",
+    "directions": [
+      "branding"
+    ],
+    "branches": [
+      "logo"
+    ],
+    "tags": {
+      "industry": [],
+      "format": [
+        "static"
+      ],
+      "tools": [
+        "Illustrator",
+        "CorelDRAW"
+      ],
+      "region": [],
+      "lang": []
+    },
+    "personal": false,
+    "featured": false,
+    "order": 11,
+    "cover": {
+      "src": "assets/img/projects/bahodir-jalolov/bahodir-jalolov-01-1600.webp",
+      "w": 8000,
+      "h": 7076,
+      "alt": {
+        "ru": "Bahodir Jalolov Boxing School — логотип",
+        "en": "Bahodir Jalolov Boxing School — logo"
+      }
+    },
+    "summary": {
+      "ru": "Разработка логотипа для боксёрской школы Bahodir Jalolov.",
+      "en": "Logo design for the Bahodir Jalolov Boxing School."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": []
+  },
+  {
+    "slug": "dk-leading",
+    "title": {
+      "ru": "DK Leading — бренд, презентация, SMM",
+      "en": "DK Leading — brand, deck, social"
+    },
+    "client": "DK Leading (dkleading.com)",
+    "directions": [
+      "branding",
+      "motion",
+      "print"
+    ],
+    "branches": [
+      "icons",
+      "identity",
+      "smm-graphics",
+      "decks"
+    ],
+    "tags": {
+      "industry": [
+        "it"
+      ],
+      "format": [
+        "static",
+        "video",
+        "print"
+      ],
+      "tools": [],
+      "region": [],
+      "lang": [
+        "ru"
+      ]
+    },
+    "personal": false,
+    "featured": true,
+    "order": 14,
+    "cover": {
+      "src": "assets/img/projects/dk-leading/dk-leading-02-page1-1200.webp",
+      "w": 1600,
+      "h": 900,
+      "alt": {
+        "ru": "DK Leading — бренд, презентация, SMM",
+        "en": "DK Leading — brand, deck, social"
+      }
+    },
+    "summary": {
+      "ru": "Icon-pack из 537 иконок, брендбук, презентация «О компании» и серия SMM-сторис с разбором кейсов для софтверной студии DK Leading.",
+      "en": "A 537-icon pack, a brand book, a company presentation, and a stories series breaking down case studies for the software studio DK Leading."
+    },
+    "task": {
+      "ru": "Нужно было оформить кейсы компании (банки, госплатформы и др.) и команду в соцсетях честно: без выдуманных метрик результата — такого требования в сторис-ТЗ указано прямо.",
+      "en": "The brief was to present the company's cases (banks, government platforms, etc.) and team on social media honestly — explicitly without fabricated result metrics, as stated directly in the stories brief."
+    },
+    "approach": {
+      "ru": "Собран icon-pack на 537 иконок (14 категорий, сетка 24×24, монохром через currentColor, каталог с поиском и копированием SVG), разобран брендбук на 9 страниц по 27 проверенным исходникам (знак «облако-схема» в 4 обработках, палитра Navy/Индиго/Циан + суб-палитра продукта STENA), подготовлена презентация «О компании» и серия из 11+ сторис «Кейсы DK Leading» с 2–3 стек-чипами и фактом масштаба вместо метрики на каждый кейс, плюс 10 постов-разбавок (мемы, знакомство с командой, разбор процесса).",
+      "en": "Built a 537-icon pack (14 categories, 24×24 grid, monochrome via currentColor, searchable SVG catalog), audited a 9-page brand book from 27 verified source files (a 'cloud-diagram' mark in 4 treatments, a Navy/Indigo/Cyan palette plus a separate palette for the STENA product), prepared a company presentation, and a series of 11+ 'DK Leading Cases' stories with 2–3 tech-stack chips and a scale fact instead of a metric for each case, plus 10 filler posts (memes, team intros, process breakdowns)."
+    },
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-05-1600.webp",
+            "w": 1081,
+            "h": 1351,
+            "alt": {
+              "ru": "DK Leading — бренд, презентация, SMM",
+              "en": "DK Leading — brand, deck, social"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-06-1600.webp",
+            "w": 1080,
+            "h": 1350,
+            "alt": {
+              "ru": "DK Leading — бренд, презентация, SMM",
+              "en": "DK Leading — brand, deck, social"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-07-1600.webp",
+            "w": 1081,
+            "h": 1351,
+            "alt": {
+              "ru": "DK Leading — бренд, презентация, SMM",
+              "en": "DK Leading — brand, deck, social"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-08-1600.webp",
+            "w": 1081,
+            "h": 1081,
+            "alt": {
+              "ru": "DK Leading — бренд, презентация, SMM",
+              "en": "DK Leading — brand, deck, social"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-09-1600.webp",
+            "w": 1081,
+            "h": 1921,
+            "alt": {
+              "ru": "DK Leading — бренд, презентация, SMM",
+              "en": "DK Leading — brand, deck, social"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-10-1600.webp",
+            "w": 1080,
+            "h": 1920,
+            "alt": {
+              "ru": "DK Leading — бренд, презентация, SMM",
+              "en": "DK Leading — brand, deck, social"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-11-1600.webp",
+            "w": 1080,
+            "h": 1920,
+            "alt": {
+              "ru": "DK Leading — бренд, презентация, SMM",
+              "en": "DK Leading — brand, deck, social"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-12-1600.webp",
+            "w": 1081,
+            "h": 1351,
+            "alt": {
+              "ru": "DK Leading — бренд, презентация, SMM",
+              "en": "DK Leading — brand, deck, social"
+            }
+          }
+        ]
+      },
+      {
+        "type": "pdf",
+        "file": "assets/files/dk-leading/dk-leading-01.pdf",
+        "pages": [
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-01-page1-1200.webp",
+            "w": 1200,
+            "h": 676,
+            "alt": {
+              "ru": "DK Leading — бренд, презентация, SMM",
+              "en": "DK Leading — brand, deck, social"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-01-page2-1200.webp",
+            "w": 1200,
+            "h": 676,
+            "alt": {
+              "ru": "DK Leading — бренд, презентация, SMM",
+              "en": "DK Leading — brand, deck, social"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-01-page3-1200.webp",
+            "w": 1200,
+            "h": 676,
+            "alt": {
+              "ru": "DK Leading — бренд, презентация, SMM",
+              "en": "DK Leading — brand, deck, social"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-01-page4-1200.webp",
+            "w": 1200,
+            "h": 676,
+            "alt": {
+              "ru": "DK Leading — бренд, презентация, SMM",
+              "en": "DK Leading — brand, deck, social"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-01-page5-1200.webp",
+            "w": 1200,
+            "h": 676,
+            "alt": {
+              "ru": "DK Leading — бренд, презентация, SMM",
+              "en": "DK Leading — brand, deck, social"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-01-page6-1200.webp",
+            "w": 1200,
+            "h": 676,
+            "alt": {
+              "ru": "DK Leading — бренд, презентация, SMM",
+              "en": "DK Leading — brand, deck, social"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-01-page7-1200.webp",
+            "w": 1200,
+            "h": 676,
+            "alt": {
+              "ru": "DK Leading — бренд, презентация, SMM",
+              "en": "DK Leading — brand, deck, social"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-01-page8-1200.webp",
+            "w": 1200,
+            "h": 676,
+            "alt": {
+              "ru": "DK Leading — бренд, презентация, SMM",
+              "en": "DK Leading — brand, deck, social"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-01-page9-1200.webp",
+            "w": 1200,
+            "h": 676,
+            "alt": {
+              "ru": "DK Leading — бренд, презентация, SMM",
+              "en": "DK Leading — brand, deck, social"
+            }
+          }
+        ]
+      },
+      {
+        "type": "pdf",
+        "file": "assets/files/dk-leading/dk-leading-02.pdf",
+        "pages": [
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-02-page1-1200.webp",
+            "w": 828,
+            "h": 1170,
+            "alt": {
+              "ru": "DK Leading — бренд, презентация, SMM",
+              "en": "DK Leading — brand, deck, social"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-02-page2-1200.webp",
+            "w": 828,
+            "h": 1170,
+            "alt": {
+              "ru": "DK Leading — бренд, презентация, SMM",
+              "en": "DK Leading — brand, deck, social"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-02-page3-1200.webp",
+            "w": 828,
+            "h": 1170,
+            "alt": {
+              "ru": "DK Leading — бренд, презентация, SMM",
+              "en": "DK Leading — brand, deck, social"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-02-page4-1200.webp",
+            "w": 828,
+            "h": 1170,
+            "alt": {
+              "ru": "DK Leading — бренд, презентация, SMM",
+              "en": "DK Leading — brand, deck, social"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-02-page5-1200.webp",
+            "w": 828,
+            "h": 1170,
+            "alt": {
+              "ru": "DK Leading — бренд, презентация, SMM",
+              "en": "DK Leading — brand, deck, social"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-02-page6-1200.webp",
+            "w": 828,
+            "h": 1170,
+            "alt": {
+              "ru": "DK Leading — бренд, презентация, SMM",
+              "en": "DK Leading — brand, deck, social"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-02-page7-1200.webp",
+            "w": 828,
+            "h": 1170,
+            "alt": {
+              "ru": "DK Leading — бренд, презентация, SMM",
+              "en": "DK Leading — brand, deck, social"
+            }
+          }
+        ]
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/dk-leading/dk-leading-03-poster-1200.webp",
+          "w": 1200,
+          "h": 2133,
+          "alt": {
+            "ru": "DK Leading — бренд, презентация, SMM",
+            "en": "DK Leading — brand, deck, social"
+          }
+        },
+        "src": "assets/video/dk-leading/dk-leading-03-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/dk-leading/dk-leading-04-poster-1200.webp",
+          "w": 1200,
+          "h": 1200,
+          "alt": {
+            "ru": "DK Leading — бренд, презентация, SMM",
+            "en": "DK Leading — brand, deck, social"
+          }
+        },
+        "src": "assets/video/dk-leading/dk-leading-04-loop.mp4",
+        "embed": null,
+        "caption": null
+      }
+    ]
+  },
+  {
+    "slug": "holiday-videos",
+    "title": {
+      "ru": "Праздничные ролики",
+      "en": "Holiday videos"
+    },
+    "client": null,
+    "directions": [
+      "motion"
+    ],
+    "branches": [
+      "holidays"
+    ],
+    "tags": {
+      "industry": [],
+      "format": [
+        "video"
+      ],
+      "tools": [
+        "After Effects"
+      ],
+      "region": [],
+      "lang": []
+    },
+    "personal": false,
+    "featured": true,
+    "order": 15,
+    "cover": {
+      "src": "assets/img/projects/holiday-videos/holiday-videos-06-poster-1200.webp",
+      "w": 1600,
+      "h": 900,
+      "alt": {
+        "ru": "Праздничные ролики",
+        "en": "Holiday videos"
+      }
+    },
+    "summary": {
+      "ru": "Серия праздничных видео-поздравлений: Рамадан, Навруз, Курбан-хайит, 9 мая, Новый год, 1 сентября.",
+      "en": "A series of holiday greeting videos: Ramadan, Navruz, Qurban Bayram, Victory Day, New Year, and the start of the school year."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/holiday-videos/holiday-videos-01-poster-1200.webp",
+          "w": 1200,
+          "h": 2133,
+          "alt": {
+            "ru": "Праздничные ролики",
+            "en": "Holiday videos"
+          }
+        },
+        "src": "assets/video/holiday-videos/holiday-videos-01-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/holiday-videos/holiday-videos-02-poster-1200.webp",
+          "w": 1200,
+          "h": 2133,
+          "alt": {
+            "ru": "Праздничные ролики",
+            "en": "Holiday videos"
+          }
+        },
+        "src": "assets/video/holiday-videos/holiday-videos-02-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/holiday-videos/holiday-videos-03-poster-1200.webp",
+          "w": 1200,
+          "h": 2133,
+          "alt": {
+            "ru": "Праздничные ролики",
+            "en": "Holiday videos"
+          }
+        },
+        "src": "assets/video/holiday-videos/holiday-videos-03-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/holiday-videos/holiday-videos-04-poster-1200.webp",
+          "w": 1200,
+          "h": 2133,
+          "alt": {
+            "ru": "Праздничные ролики",
+            "en": "Holiday videos"
+          }
+        },
+        "src": "assets/video/holiday-videos/holiday-videos-04-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/holiday-videos/holiday-videos-05-poster-1200.webp",
+          "w": 1200,
+          "h": 2133,
+          "alt": {
+            "ru": "Праздничные ролики",
+            "en": "Holiday videos"
+          }
+        },
+        "src": "assets/video/holiday-videos/holiday-videos-05-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/holiday-videos/holiday-videos-06-poster-1200.webp",
+          "w": 1200,
+          "h": 2133,
+          "alt": {
+            "ru": "Праздничные ролики",
+            "en": "Holiday videos"
+          }
+        },
+        "src": "assets/video/holiday-videos/holiday-videos-06-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/holiday-videos/holiday-videos-07-poster-1200.webp",
+          "w": 1200,
+          "h": 2133,
+          "alt": {
+            "ru": "Праздничные ролики",
+            "en": "Holiday videos"
+          }
+        },
+        "src": "assets/video/holiday-videos/holiday-videos-07-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/holiday-videos/holiday-videos-08-poster-1200.webp",
+          "w": 1200,
+          "h": 2133,
+          "alt": {
+            "ru": "Праздничные ролики",
+            "en": "Holiday videos"
+          }
+        },
+        "src": "assets/video/holiday-videos/holiday-videos-08-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/holiday-videos/holiday-videos-09-poster-1200.webp",
+          "w": 1200,
+          "h": 2133,
+          "alt": {
+            "ru": "Праздничные ролики",
+            "en": "Holiday videos"
+          }
+        },
+        "src": "assets/video/holiday-videos/holiday-videos-09-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/holiday-videos/holiday-videos-10-poster-1200.webp",
+          "w": 1200,
+          "h": 2133,
+          "alt": {
+            "ru": "Праздничные ролики",
+            "en": "Holiday videos"
+          }
+        },
+        "src": "assets/video/holiday-videos/holiday-videos-10-loop.mp4",
+        "embed": null,
+        "caption": null
+      }
+    ]
+  },
+  {
+    "slug": "ad-videos",
+    "title": {
+      "ru": "Рекламные ролики",
+      "en": "Ad videos"
+    },
+    "client": null,
+    "directions": [
+      "motion"
+    ],
+    "branches": [
+      "ads",
+      "reels-stories"
+    ],
+    "tags": {
+      "industry": [
+        "realestate",
+        "energy",
+        "finance",
+        "food"
+      ],
+      "format": [
+        "video"
+      ],
+      "tools": [
+        "After Effects"
+      ],
+      "region": [],
+      "lang": []
+    },
+    "personal": false,
+    "featured": false,
+    "order": 16,
+    "cover": {
+      "src": "assets/img/projects/ad-videos/ad-videos-03-poster-1200.webp",
+      "w": 1600,
+      "h": 900,
+      "alt": {
+        "ru": "Рекламные ролики",
+        "en": "Ad videos"
+      }
+    },
+    "summary": {
+      "ru": "Подборка рекламных роликов: недвижимость Alfraganus, солнечные панели Energy Work, лизинг/мурабаха, сторис KFC/Krispy, напитки.",
+      "en": "A collection of ad videos: real-estate developer Alfraganus, solar-panel company Energy Work, leasing/murabaha ads, KFC/Krispy stories, and beverage ads."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-01-poster-1200.webp",
+          "w": 1200,
+          "h": 2133,
+          "alt": {
+            "ru": "Рекламные ролики",
+            "en": "Ad videos"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-01-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-02-poster-1200.webp",
+          "w": 1200,
+          "h": 2133,
+          "alt": {
+            "ru": "Рекламные ролики",
+            "en": "Ad videos"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-02-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-03-poster-1200.webp",
+          "w": 1200,
+          "h": 2133,
+          "alt": {
+            "ru": "Рекламные ролики",
+            "en": "Ad videos"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-03-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-04-poster-1200.webp",
+          "w": 1200,
+          "h": 2133,
+          "alt": {
+            "ru": "Рекламные ролики",
+            "en": "Ad videos"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-04-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-05-poster-1200.webp",
+          "w": 1200,
+          "h": 2133,
+          "alt": {
+            "ru": "Рекламные ролики",
+            "en": "Ad videos"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-05-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-06-poster-1200.webp",
+          "w": 1200,
+          "h": 1200,
+          "alt": {
+            "ru": "Рекламные ролики",
+            "en": "Ad videos"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-06-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-07-poster-1200.webp",
+          "w": 1200,
+          "h": 2133,
+          "alt": {
+            "ru": "Рекламные ролики",
+            "en": "Ad videos"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-07-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-08-poster-1200.webp",
+          "w": 1200,
+          "h": 2133,
+          "alt": {
+            "ru": "Рекламные ролики",
+            "en": "Ad videos"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-08-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-09-poster-1200.webp",
+          "w": 1200,
+          "h": 2133,
+          "alt": {
+            "ru": "Рекламные ролики",
+            "en": "Ad videos"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-09-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-10-poster-1200.webp",
+          "w": 1200,
+          "h": 2133,
+          "alt": {
+            "ru": "Рекламные ролики",
+            "en": "Ad videos"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-10-loop.mp4",
+        "embed": null,
+        "caption": null
+      }
+    ]
+  },
+  {
+    "slug": "product-animation",
+    "title": {
+      "ru": "FRETTA и Wendy's — продуктовая анимация",
+      "en": "FRETTA & Wendy's — product animation"
+    },
+    "client": "FRETTA, Wendy's",
+    "directions": [
+      "motion"
+    ],
+    "branches": [
+      "ads"
+    ],
+    "tags": {
+      "industry": [
+        "food"
+      ],
+      "format": [
+        "video"
+      ],
+      "tools": [
+        "After Effects"
+      ],
+      "region": [],
+      "lang": []
+    },
+    "personal": false,
+    "featured": false,
+    "order": 17,
+    "cover": {
+      "src": "assets/img/projects/product-animation/product-animation-01-poster-1200.webp",
+      "w": 1600,
+      "h": 900,
+      "alt": {
+        "ru": "FRETTA и Wendy's — продуктовая анимация",
+        "en": "FRETTA & Wendy's — product animation"
+      }
+    },
+    "summary": {
+      "ru": "Продуктовая анимация: кофе и выпечка для FRETTA, бургер и сыр для Wendy's.",
+      "en": "Product animation: coffee and pastries for FRETTA, a burger and cheese for Wendy's."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/product-animation/product-animation-01-poster-1200.webp",
+          "w": 1200,
+          "h": 675,
+          "alt": {
+            "ru": "FRETTA и Wendy's — продуктовая анимация",
+            "en": "FRETTA & Wendy's — product animation"
+          }
+        },
+        "src": "assets/video/product-animation/product-animation-01-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/product-animation/product-animation-02-poster-1200.webp",
+          "w": 1200,
+          "h": 675,
+          "alt": {
+            "ru": "FRETTA и Wendy's — продуктовая анимация",
+            "en": "FRETTA & Wendy's — product animation"
+          }
+        },
+        "src": "assets/video/product-animation/product-animation-02-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/product-animation/product-animation-03-poster-1200.webp",
+          "w": 1200,
+          "h": 2133,
+          "alt": {
+            "ru": "FRETTA и Wendy's — продуктовая анимация",
+            "en": "FRETTA & Wendy's — product animation"
+          }
+        },
+        "src": "assets/video/product-animation/product-animation-03-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/product-animation/product-animation-04-poster-1200.webp",
+          "w": 1200,
+          "h": 2149,
+          "alt": {
+            "ru": "FRETTA и Wendy's — продуктовая анимация",
+            "en": "FRETTA & Wendy's — product animation"
+          }
+        },
+        "src": "assets/video/product-animation/product-animation-04-loop.mp4",
+        "embed": null,
+        "caption": null
+      }
+    ]
+  },
+  {
+    "slug": "intros",
+    "title": {
+      "ru": "Заставки",
+      "en": "Intros"
+    },
+    "client": null,
+    "directions": [
+      "motion"
+    ],
+    "branches": [
+      "intros"
+    ],
+    "tags": {
+      "industry": [],
+      "format": [
+        "video"
+      ],
+      "tools": [
+        "After Effects"
+      ],
+      "region": [],
+      "lang": []
+    },
+    "personal": false,
+    "featured": false,
+    "order": 18,
+    "cover": {
+      "src": "assets/img/projects/intros/intros-01-poster-1200.webp",
+      "w": 1600,
+      "h": 900,
+      "alt": {
+        "ru": "Заставки",
+        "en": "Intros"
+      }
+    },
+    "summary": {
+      "ru": "Набор заставок: именные заставки, TV-заставка, концовки роликов.",
+      "en": "A set of intros: named intros, a TV intro, and video outros."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/intros/intros-01-poster-1200.webp",
+          "w": 1200,
+          "h": 675,
+          "alt": {
+            "ru": "Заставки",
+            "en": "Intros"
+          }
+        },
+        "src": "assets/video/intros/intros-01-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/intros/intros-02-poster-1200.webp",
+          "w": 1200,
+          "h": 675,
+          "alt": {
+            "ru": "Заставки",
+            "en": "Intros"
+          }
+        },
+        "src": "assets/video/intros/intros-02-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/intros/intros-03-poster-1200.webp",
+          "w": 1200,
+          "h": 675,
+          "alt": {
+            "ru": "Заставки",
+            "en": "Intros"
+          }
+        },
+        "src": "assets/video/intros/intros-03-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/intros/intros-04-poster-1200.webp",
+          "w": 1200,
+          "h": 675,
+          "alt": {
+            "ru": "Заставки",
+            "en": "Intros"
+          }
+        },
+        "src": "assets/video/intros/intros-04-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/intros/intros-05-poster-1200.webp",
+          "w": 1200,
+          "h": 675,
+          "alt": {
+            "ru": "Заставки",
+            "en": "Intros"
+          }
+        },
+        "src": "assets/video/intros/intros-05-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/intros/intros-06-poster-1200.webp",
+          "w": 1200,
+          "h": 675,
+          "alt": {
+            "ru": "Заставки",
+            "en": "Intros"
+          }
+        },
+        "src": "assets/video/intros/intros-06-loop.mp4",
+        "embed": null,
+        "caption": null
+      }
+    ]
+  },
+  {
+    "slug": "smm-graphics",
+    "title": {
+      "ru": "SMM-графика разных клиентов",
+      "en": "Social graphics for various clients"
+    },
+    "client": null,
+    "directions": [
+      "motion"
+    ],
+    "branches": [
+      "smm-graphics"
+    ],
+    "tags": {
+      "industry": [],
+      "format": [
+        "static"
+      ],
+      "tools": [
+        "Photoshop",
+        "Illustrator"
+      ],
+      "region": [],
+      "lang": []
+    },
+    "personal": false,
+    "featured": false,
+    "order": 19,
+    "cover": {
+      "src": "assets/img/projects/smm-graphics/smm-graphics-10-1600.webp",
+      "w": 1080,
+      "h": 1920,
+      "alt": {
+        "ru": "SMM-графика разных клиентов",
+        "en": "Social graphics for various clients"
+      }
+    },
+    "summary": {
+      "ru": "SMM-графика для Sihatko'z klinika, Rayhon milliy, Студии Иванов, Seoul Mun View.",
+      "en": "Social media graphics for Sihatko'z clinic, Rayhon milliy, Studio Ivanov, and Seoul Mun View."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-01-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "SMM-графика разных клиентов",
+              "en": "Social graphics for various clients"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-02-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "SMM-графика разных клиентов",
+              "en": "Social graphics for various clients"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-03-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "SMM-графика разных клиентов",
+              "en": "Social graphics for various clients"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-04-1600.webp",
+            "w": 622,
+            "h": 1280,
+            "alt": {
+              "ru": "SMM-графика разных клиентов",
+              "en": "Social graphics for various clients"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-05-1600.webp",
+            "w": 622,
+            "h": 1280,
+            "alt": {
+              "ru": "SMM-графика разных клиентов",
+              "en": "Social graphics for various clients"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-06-1600.webp",
+            "w": 622,
+            "h": 1280,
+            "alt": {
+              "ru": "SMM-графика разных клиентов",
+              "en": "Social graphics for various clients"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-07-1600.webp",
+            "w": 1081,
+            "h": 1081,
+            "alt": {
+              "ru": "SMM-графика разных клиентов",
+              "en": "Social graphics for various clients"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-08-1600.webp",
+            "w": 1081,
+            "h": 1081,
+            "alt": {
+              "ru": "SMM-графика разных клиентов",
+              "en": "Social graphics for various clients"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-09-1600.webp",
+            "w": 1081,
+            "h": 1081,
+            "alt": {
+              "ru": "SMM-графика разных клиентов",
+              "en": "Social graphics for various clients"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-11-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "SMM-графика разных клиентов",
+              "en": "Social graphics for various clients"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-12-1600.webp",
+            "w": 1080,
+            "h": 1920,
+            "alt": {
+              "ru": "SMM-графика разных клиентов",
+              "en": "Social graphics for various clients"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "outdoor-banners",
+    "title": {
+      "ru": "Наружка и баннеры",
+      "en": "Outdoor & banners"
+    },
+    "client": null,
+    "directions": [
+      "print"
+    ],
+    "branches": [
+      "outdoor"
+    ],
+    "tags": {
+      "industry": [
+        "aviation"
+      ],
+      "format": [
+        "print"
+      ],
+      "tools": [
+        "Illustrator"
+      ],
+      "region": [],
+      "lang": []
+    },
+    "personal": false,
+    "featured": false,
+    "order": 22,
+    "cover": {
+      "src": "assets/img/projects/outdoor-banners/outdoor-banners-01-1600.webp",
+      "w": 11008,
+      "h": 6144,
+      "alt": {
+        "ru": "Наружка и баннеры",
+        "en": "Outdoor & banners"
+      }
+    },
+    "summary": {
+      "ru": "Печатные баннеры для Ochig Avia и Valesco.",
+      "en": "Print banners for Ochig Avia and Valesco."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/outdoor-banners/outdoor-banners-02-1600.webp",
+            "w": 11008,
+            "h": 6144,
+            "alt": {
+              "ru": "Наружка и баннеры",
+              "en": "Outdoor & banners"
+            }
+          },
+          {
+            "src": "assets/img/projects/outdoor-banners/outdoor-banners-03-1600.webp",
+            "w": 11008,
+            "h": 6144,
+            "alt": {
+              "ru": "Наружка и баннеры",
+              "en": "Outdoor & banners"
+            }
+          },
+          {
+            "src": "assets/img/projects/outdoor-banners/outdoor-banners-04-1600.webp",
+            "w": 972,
+            "h": 617,
+            "alt": {
+              "ru": "Наружка и баннеры",
+              "en": "Outdoor & banners"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "cutout",
+    "title": {
+      "ru": "Cutout — расширение для Chrome",
+      "en": "Cutout — Chrome extension"
+    },
+    "client": null,
+    "directions": [
+      "web"
+    ],
+    "branches": [
+      "extensions"
+    ],
+    "tags": {
+      "industry": [],
+      "format": [
+        "interactive"
+      ],
+      "tools": [],
+      "region": [],
+      "lang": [
+        "ru",
+        "en"
+      ]
+    },
+    "personal": true,
+    "featured": true,
+    "order": 23,
+    "cover": {
+      "src": "assets/img/projects/cutout/cutout-01-1600.webp",
+      "w": 1400,
+      "h": 560,
+      "alt": {
+        "ru": "Cutout — расширение для Chrome",
+        "en": "Cutout — Chrome extension"
+      }
+    },
+    "summary": {
+      "ru": "Расширение Chrome для вырезки объектов с фото в один клик с помощью нейросети SAM 2.1, работающей локально в браузере.",
+      "en": "A Chrome extension that cuts objects out of photos in one click using the SAM 2.1 neural network, running locally in the browser."
+    },
+    "task": null,
+    "approach": {
+      "ru": "Собран полный комплект для публикации в Chrome Web Store (описания RU/EN, локализация, privacy-policy), манифест v1.3.0 (попап, редактор, фоновый сервис-воркер, хоткей Alt+Shift+X), собственная дизайн-система «Cutout»: тёмная тема по умолчанию с сине-фиолетовым свечением, светлая тема, скругления 22–26px/14–16px/999px, градиент #4f8bff→#8b5cff, шрифт Onest. Функции: выделение одним кликом, уточнение Alt+клик/рамкой, кисть и ластик, доводка краёв нейросетью, работа с несколькими объектами, экспорт без потерь (меняется только альфа-канал).",
+      "en": "Built a full Chrome Web Store launch kit (RU/EN descriptions, localization, privacy policy), a v1.3.0 manifest (popup, editor, background service worker, Alt+Shift+X hotkey), and a dedicated 'Cutout' design system: dark theme by default with a blue-violet glow, a light theme, 22–26px/14–16px/999px corner radii, a #4f8bff→#8b5cff gradient, and the Onest typeface. Features: one-click selection, Alt-click/box refinement, brush and eraser touch-up, neural edge refinement, multi-object support, and lossless export (only the alpha channel changes)."
+    },
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/cutout/cutout-02-1600.webp",
+            "w": 128,
+            "h": 128,
+            "alt": {
+              "ru": "Cutout — расширение для Chrome",
+              "en": "Cutout — Chrome extension"
+            }
+          },
+          {
+            "src": "assets/img/projects/cutout/cutout-03-1600.webp",
+            "w": 440,
+            "h": 280,
+            "alt": {
+              "ru": "Cutout — расширение для Chrome",
+              "en": "Cutout — Chrome extension"
+            }
+          },
+          {
+            "src": "assets/img/projects/cutout/cutout-04-1600.webp",
+            "w": 1280,
+            "h": 800,
+            "alt": {
+              "ru": "Cutout — расширение для Chrome",
+              "en": "Cutout — Chrome extension"
+            }
+          },
+          {
+            "src": "assets/img/projects/cutout/cutout-05-1600.webp",
+            "w": 1280,
+            "h": 800,
+            "alt": {
+              "ru": "Cutout — расширение для Chrome",
+              "en": "Cutout — Chrome extension"
+            }
+          },
+          {
+            "src": "assets/img/projects/cutout/cutout-06-1600.webp",
+            "w": 1280,
+            "h": 800,
+            "alt": {
+              "ru": "Cutout — расширение для Chrome",
+              "en": "Cutout — Chrome extension"
+            }
+          },
+          {
+            "src": "assets/img/projects/cutout/cutout-07-1600.webp",
+            "w": 1280,
+            "h": 800,
+            "alt": {
+              "ru": "Cutout — расширение для Chrome",
+              "en": "Cutout — Chrome extension"
+            }
+          },
+          {
+            "src": "assets/img/projects/cutout/cutout-08-1600.webp",
+            "w": 1280,
+            "h": 800,
+            "alt": {
+              "ru": "Cutout — расширение для Chrome",
+              "en": "Cutout — Chrome extension"
+            }
+          },
+          {
+            "src": "assets/img/projects/cutout/cutout-09-1600.webp",
+            "w": 1500,
+            "h": 1070,
+            "alt": {
+              "ru": "Cutout — расширение для Chrome",
+              "en": "Cutout — Chrome extension"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "chitir-chitir",
+    "title": {
+      "ru": "Chitir-Chitir milk — маскот",
+      "en": "Chitir-Chitir milk — mascot"
+    },
+    "client": "Chitir-Chitir milk",
+    "directions": [
+      "branding"
+    ],
+    "branches": [
+      "mascot"
+    ],
+    "tags": {
+      "industry": [
+        "food"
+      ],
+      "format": [
+        "static"
+      ],
+      "tools": [
+        "Photoshop"
+      ],
+      "region": [],
+      "lang": [
+        "ru",
+        "uz"
+      ]
+    },
+    "personal": false,
+    "featured": false,
+    "order": 12,
+    "cover": {
+      "src": "assets/img/projects/chitir-chitir/chitir-chitir-01-1600.webp",
+      "w": 1080,
+      "h": 1080,
+      "alt": {
+        "ru": "Chitir-Chitir milk — маскот бренда",
+        "en": "Chitir-Chitir milk brand mascot"
+      },
+      "focus": "50% 30%"
+    },
+    "summary": {
+      "ru": "Маскот молочного бренда Chitir-Chitir и праздничные SMM-постеры с его участием.",
+      "en": "Mascot design for the Chitir-Chitir dairy brand and holiday social posters featuring it."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": true,
+    "blocks": [
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/chitir-chitir/chitir-chitir-01-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "Chitir-Chitir milk — SMM-постер",
+              "en": "Chitir-Chitir milk — social media poster"
+            }
+          },
+          {
+            "src": "assets/img/projects/chitir-chitir/chitir-chitir-02-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "Chitir-Chitir milk — SMM-постер",
+              "en": "Chitir-Chitir milk — social media poster"
+            }
+          },
+          {
+            "src": "assets/img/projects/chitir-chitir/chitir-chitir-03-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "Chitir-Chitir milk — SMM-постер",
+              "en": "Chitir-Chitir milk — social media poster"
+            }
+          },
+          {
+            "src": "assets/img/projects/chitir-chitir/chitir-chitir-04-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "Chitir-Chitir milk — SMM-постер",
+              "en": "Chitir-Chitir milk — social media poster"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "presentations",
+    "title": {
+      "ru": "Презентации",
+      "en": "Presentations"
+    },
+    "client": "Sojitz Corporation",
+    "directions": [
+      "print"
+    ],
+    "branches": [
+      "decks"
+    ],
+    "tags": {
+      "industry": [
+        "corporate"
+      ],
+      "format": [
+        "print"
+      ],
+      "tools": [],
+      "region": [],
+      "lang": []
+    },
+    "personal": false,
+    "featured": false,
+    "order": 21,
+    "cover": {
+      "src": "assets/img/projects/presentations/presentations-cover-1600.webp",
+      "w": 1600,
+      "h": 900,
+      "alt": {
+        "ru": "Корпоративная презентация Sojitz Corporation",
+        "en": "Sojitz Corporation presentation"
+      }
+    },
+    "summary": {
+      "ru": "Корпоративные презентации (Product, Marketing и др.) для Sojitz Corporation и других клиентов.",
+      "en": "Corporate presentations (product, marketing, and others) for Sojitz Corporation and other clients."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "pdf",
+        "file": "assets/files/presentations/presentations-01.pdf",
+        "pages": [
+          {
+            "src": "assets/img/projects/presentations/presentations-01-page1-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-01-page2-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-01-page3-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-01-page4-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-01-page5-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-01-page6-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          }
+        ]
+      },
+      {
+        "type": "pdf",
+        "file": "assets/files/presentations/presentations-02.pdf",
+        "pages": [
+          {
+            "src": "assets/img/projects/presentations/presentations-02-page1-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-02-page2-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-02-page3-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-02-page4-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-02-page5-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-02-page6-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          }
+        ]
+      },
+      {
+        "type": "pdf",
+        "file": "assets/files/presentations/presentations-03.pdf",
+        "pages": [
+          {
+            "src": "assets/img/projects/presentations/presentations-03-page1-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-03-page2-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-03-page3-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-03-page4-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-03-page5-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-03-page6-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          }
+        ]
+      },
+      {
+        "type": "pdf",
+        "file": "assets/files/presentations/presentations-04.pdf",
+        "pages": [
+          {
+            "src": "assets/img/projects/presentations/presentations-04-page1-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-04-page2-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-04-page3-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-04-page4-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-04-page5-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-04-page6-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          }
+        ]
+      },
+      {
+        "type": "pdf",
+        "file": "assets/files/presentations/presentations-05.pdf",
+        "pages": [
+          {
+            "src": "assets/img/projects/presentations/presentations-05-page1-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-05-page2-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-05-page3-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-05-page4-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-05-page5-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-05-page6-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          }
+        ]
+      },
+      {
+        "type": "pdf",
+        "file": "assets/files/presentations/presentations-06.pdf",
+        "pages": [
+          {
+            "src": "assets/img/projects/presentations/presentations-06-page1-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-06-page2-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-06-page3-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          },
+          {
+            "src": "assets/img/projects/presentations/presentations-06-page4-1200.webp",
+            "w": 1200,
+            "h": 675,
+            "alt": {
+              "ru": "Презентации",
+              "en": "Presentations"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "cropper",
+    "title": {
+      "ru": "CROPPER и v/cropper",
+      "en": "CROPPER & v/cropper"
+    },
+    "client": null,
+    "directions": [
+      "web"
+    ],
+    "branches": [
+      "tools"
+    ],
+    "tags": {
+      "industry": [],
+      "format": [
+        "interactive"
+      ],
+      "tools": [],
+      "region": [],
+      "lang": [
+        "ru"
+      ]
+    },
+    "personal": true,
+    "featured": false,
+    "order": 24,
+    "cover": {
+      "src": "assets/img/projects/cropper/cover.svg",
+      "w": 1600,
+      "h": 900,
+      "alt": {
+        "ru": "CROPPER — личный веб-инструмент",
+        "en": "CROPPER — personal web tool"
+      }
+    },
+    "summary": {
+      "ru": "Два веб-инструмента без сервера: CROPPER — кадрирование и экспорт изображений с логотипом и рамкой; v/cropper — обрезка и сжатие видео под точный вес файла с очередью, обложкой для Telegram/Instagram и встроенной инструкцией. Сделаны для себя и используются в работе в Terra Pro (THE ONE).",
+      "en": "Two serverless web tools: CROPPER for cropping and exporting images with a logo and frame; v/cropper for trimming and compressing video to an exact file size, with a queue, Telegram/Instagram cover generation, and a built-in guide. Built for personal use and used at work at Terra Pro (THE ONE)."
+    },
+    "task": null,
+    "approach": {
+      "ru": "У обоих инструментов есть две версии интерфейса — базовая и «new design». CROPPER: разделы «Экспорт», «Плашка», «Поля», «Журнал». v/cropper: очередь видео, управление размером файла/качеством/битрейтом, кадрирование не по центру, логотип поверх всех видео очереди, обложка для Telegram/Instagram, экспорт в H.264, инструкция на 10 пунктов.",
+      "en": "Both tools exist in two interface versions — a base one and a 'new design' one. CROPPER has sections for Export, Badge, Margins, and Log. v/cropper offers a video queue, file-size/quality/bitrate control, off-center cropping, a logo overlay across the whole queue, Telegram/Instagram cover generation, H.264 export, and a 10-point built-in guide."
+    },
+    "result": null,
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "embed",
+        "url": "demos/cropper/index.html",
+        "label": {
+          "ru": "Открыть CROPPER",
+          "en": "Open CROPPER"
+        },
+        "caption": {
+          "ru": "CROPPER — new design",
+          "en": "CROPPER — new design"
+        }
+      },
+      {
+        "type": "embed",
+        "url": "demos/vcropper/index.html",
+        "label": {
+          "ru": "Открыть v/cropper",
+          "en": "Open v/cropper"
+        },
+        "caption": {
+          "ru": "v/cropper — new design",
+          "en": "v/cropper — new design"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "p-card",
+    "title": {
+      "ru": "p/card — товарные карточки",
+      "en": "p/card — product photo tool"
+    },
+    "client": null,
+    "directions": [
+      "web"
+    ],
+    "branches": [
+      "tools"
+    ],
+    "tags": {
+      "industry": [],
+      "format": [
+        "interactive"
+      ],
+      "tools": [
+        "Photoshop"
+      ],
+      "region": [],
+      "lang": [
+        "ru"
+      ]
+    },
+    "personal": true,
+    "featured": false,
+    "order": 25,
+    "cover": {
+      "src": "assets/img/projects/p-card/cover.svg",
+      "w": 1600,
+      "h": 900,
+      "alt": {
+        "ru": "p/card — личный веб-инструмент",
+        "en": "p/card — personal web tool"
+      }
+    },
+    "summary": {
+      "ru": "Веб-инструмент для подготовки товарных карточек: совмещение товара с фоном и тенью, цветокор, подгонка под эталон. Сделан для себя и используется в работе в Terra Pro (THE ONE).",
+      "en": "A web tool for preparing product photo cards: compositing a product onto a background and shadow, color matching, and matching a reference look. Built for personal use and used at work at Terra Pro (THE ONE)."
+    },
+    "task": null,
+    "approach": {
+      "ru": "Модули: калибровка тени (shadow), автоматический цветоматч (colormatch, ΔE снижается с 7.2 до 0.8), набор кистей clone/heal/spot/erase/restore/mask (brushes), выделение фона (keyer), цветокоррекция через LUT/.cube-файлы и зерно (grade). В v1.1 — автосейв в IndexedDB, автосопоставление пар изображений по имени файла, блок «Край», пипетка фона, поворот и отражение. В v1.2 — правая панель на вкладках Товар/Цвет/Сцена/Экспорт по аналогии с Photoshop, горячие клавиши F1–F4.",
+      "en": "Modules: shadow calibration, automatic color matching (ΔE down from 7.2 to 0.8), a clone/heal/spot/erase/restore/mask brush set, background keying, and color grading via LUT/.cube files plus grain. Version 1.1 added IndexedDB autosave, automatic image-pair matching by filename, an 'edge' block, a background eyedropper, and rotate/flip. Version 1.2 added a Photoshop-style tabbed right panel (Product/Color/Scene/Export) with F1–F4 hotkeys."
+    },
+    "result": {
+      "ru": "По собственной сверке автора (QA-агент не запускался): рамка совпадает с эталоном ±1–5 px, тень RMS 1.1–1.6 уровня, цвет ΔE ≤ 0.5.",
+      "en": "Per the author's own check (no QA agent run): the frame matches the reference within ±1–5 px, shadow RMS is 1.1–1.6 levels, and color ΔE is ≤ 0.5."
+    },
+    "behance": "https://www.behance.net/deathhueth",
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "embed",
+        "url": "demos/p-card/index.html",
+        "label": {
+          "ru": "Открыть p/card",
+          "en": "Open p/card"
+        },
+        "caption": null
+      }
+    ]
+  }
+]

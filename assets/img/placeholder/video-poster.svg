@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#161616"/>
+  <circle cx="640" cy="360" r="70" fill="#2a2a2a" stroke="#4a4a4a" stroke-width="2"/>
+  <polygon points="615,325 615,395 680,360" fill="#8a8a8a"/>
+  <text x="640" y="470" font-family="sans-serif" font-size="24" fill="#5a5a5a" text-anchor="middle">VIDEO POSTER 1280x720</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#0a0a0a"/>
+  <g stroke="#D4FF00" stroke-width="2" opacity="0.25">
+    <line x1="0" y1="225" x2="1600" y2="225"/>
+    <line x1="0" y1="450" x2="1600" y2="450"/>
+    <line x1="0" y1="675" x2="1600" y2="675"/>
+    <line x1="400" y1="0" x2="400" y2="900"/>
+    <line x1="800" y1="0" x2="800" y2="900"/>
+    <line x1="1200" y1="0" x2="1200" y2="900"/>
+  </g>
+  <rect x="120" y="180" width="1360" height="540" fill="none" stroke="#D4FF00" stroke-width="3"/>
+  <rect x="80" y="140" width="60" height="60" fill="none" stroke="#D4FF00" stroke-width="3"/>
+  <rect x="1460" y="700" width="60" height="60" fill="none" stroke="#D4FF00" stroke-width="3"/>
+  <text x="800" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-weight="800" font-size="110" fill="#ffffff" letter-spacing="2">p/card</text>
+  <text x="800" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-weight="500" font-size="34" fill="#D4FF00" letter-spacing="6">WEB TOOL · LICHNYI PROEKT</text>
+</svg>
