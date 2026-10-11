@@ -839,8 +839,8 @@
       "en": "MOLLEQULA — senior designer at the agency"
     },
     "summary": {
-      "ru": "Старший дизайнер маркетингового агентства MOLLEQULA с самого основания (май 2023 — апрель 2024): видео, SMM-посты, рилсы и сторис, полное оформление брендов — брендбук, логотип, типографика, айдентика. Шоурил агентства 2023.",
-      "en": "Senior designer at the MOLLEQULA marketing agency from its founding (May 2023 — April 2024): video, social posts, reels and stories, full brand design — brand book, logo, typography, identity. The agency’s 2023 showreel."
+      "ru": "Старший дизайнер маркетингового агентства MOLLEQULA с самого основания (май 2023 — апрель 2024): видео, SMM-посты, рилсы и сторис, полное оформление брендов — брендбук, логотип, типографика, айдентика. Шоурил агентства 2023, видеокейсы клиентов, ролики для клиники, оптики, фуд-брендов и Toretto.",
+      "en": "Senior designer at the MOLLEQULA marketing agency from its founding (May 2023 — April 2024): video, social posts, reels and stories, full brand design — brand book, logo, typography, identity. The agency’s 2023 showreel, client video cases, videos for a clinic, an optics store, food brands and Toretto."
     },
     "task": null,
     "approach": null,
@@ -897,6 +897,35 @@
       {
         "type": "video",
         "embed": "https://www.youtube-nocookie.com/embed/oVNx-Iq3ObI",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "type": "text",
+        "title": {
+          "ru": "Кейсы клиентов агентства",
+          "en": "Agency client cases"
+        },
+        "text": {
+          "ru": "Видеокейсы агентства: Food City, Senior Meat House, Qanot Sharq.",
+          "en": "Agency video case studies: Food City, Senior Meat House, Qanot Sharq."
+        }
+      },
+      {
+        "type": "video",
+        "embed": "https://www.youtube-nocookie.com/embed/nbBhv0DbLW4",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "type": "video",
+        "embed": "https://www.youtube-nocookie.com/embed/VE5WjTxz3MI",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "type": "video",
+        "embed": "https://www.youtube-nocookie.com/embed/CKUgK7sCLQw",
         "w": 1920,
         "h": 1080
       },
@@ -980,6 +1009,59 @@
           }
         },
         "src": "assets/video/brand-motion/brand-motion-r79o-v5-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "text",
+        "title": {
+          "ru": "Моушн для клиники и оптики",
+          "en": "Motion for a clinic and an optics store"
+        },
+        "text": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v6-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Ролик для клиента агентства",
+            "en": "Video for an agency client"
+          }
+        },
+        "src": "assets/video/brand-motion/brand-motion-r79o-v6-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v7-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Ролик для клиента агентства",
+            "en": "Video for an agency client"
+          }
+        },
+        "src": "assets/video/brand-motion/brand-motion-r79o-v7-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v8-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Ролик для клиента агентства",
+            "en": "Video for an agency client"
+          }
+        },
+        "src": "assets/video/brand-motion/brand-motion-r79o-v8-loop.mp4",
         "embed": null,
         "caption": null
       }
@@ -4085,14 +4167,14 @@
       }
     },
     "summary": {
-      "ru": "Рилсы и визуалы для бренда чипсов Toretto: 3D-анимация пачек и чипсов, конкурсы и опросы, CGI-ролики с пачкой на городских зданиях.",
-      "en": "Reels and visuals for the Toretto chips brand: 3D animation of packs and chips, giveaways and polls, CGI videos with the pack on city buildings."
+      "ru": "Рилсы и визуалы для бренда чипсов Toretto: 3D-анимация пачек и чипсов, конкурсы и опросы, CGI-ролики с пачкой на городских зданиях. Работа в агентстве MOLLEQULA.",
+      "en": "Reels and visuals for the Toretto chips brand: 3D animation of packs and chips, giveaways and polls, CGI videos with the pack on city buildings. Done at the MOLLEQULA agency."
     },
     "task": null,
     "approach": null,
     "result": null,
     "behance": "https://www.behance.net/deathhueth",
-    "aiContent": true,
+    "aiContent": false,
     "blocks": [
       {
         "type": "text",
@@ -4538,6 +4620,163 @@
     ]
   },
   {
+    "slug": "seoul-mun",
+    "order": 16.099999999999998,
+    "featured": false,
+    "client": "Seoul Mun",
+    "personal": false,
+    "aiContent": false,
+    "behance": null,
+    "title": {
+      "ru": "ТРК Seoul Mun — ролики",
+      "en": "Seoul Mun mall — videos"
+    },
+    "summary": {
+      "ru": "Серия вертикальных роликов для торгово-развлекательного комплекса Seoul Mun: аренда помещений, паркинг, праздничные анонсы. Работа в Dream City.",
+      "en": "A series of vertical videos for the Seoul Mun shopping and entertainment complex: retail space for rent, parking, holiday announcements. Done at Dream City."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "directions": [
+      "motion"
+    ],
+    "branches": [
+      "ads",
+      "reels-stories"
+    ],
+    "tags": {
+      "industry": [
+        "realestate"
+      ],
+      "format": [
+        "video"
+      ],
+      "tools": [
+        "After Effects"
+      ],
+      "region": [
+        "uz"
+      ],
+      "lang": [
+        "ru",
+        "uz",
+        "en"
+      ]
+    },
+    "cover": {
+      "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v7-poster-1600.webp",
+      "w": 1080,
+      "h": 1920,
+      "alt": {
+        "ru": "Ролик ТРК Seoul Mun",
+        "en": "Seoul Mun mall video"
+      }
+    },
+    "blocks": [
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v1-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Ролик ТРК Seoul Mun",
+            "en": "Seoul Mun mall video"
+          }
+        },
+        "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v1-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v3-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Ролик ТРК Seoul Mun",
+            "en": "Seoul Mun mall video"
+          }
+        },
+        "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v3-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v4-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Ролик ТРК Seoul Mun",
+            "en": "Seoul Mun mall video"
+          }
+        },
+        "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v4-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v5-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Ролик ТРК Seoul Mun",
+            "en": "Seoul Mun mall video"
+          }
+        },
+        "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v5-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v7-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Ролик ТРК Seoul Mun",
+            "en": "Seoul Mun mall video"
+          }
+        },
+        "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v7-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v8-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Ролик ТРК Seoul Mun",
+            "en": "Seoul Mun mall video"
+          }
+        },
+        "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v8-loop.mp4",
+        "embed": null,
+        "caption": null
+      }
+    ],
+    "seo": {
+      "title": {
+        "ru": "ТРК Seoul Mun — ролики · vlddvr",
+        "en": "Seoul Mun mall — videos · vlddvr"
+      },
+      "description": {
+        "ru": "Вертикальные ролики для ТРК Seoul Mun. Работа в Dream City.",
+        "en": "Vertical videos for the Seoul Mun mall. Done at Dream City."
+      }
+    }
+  },
+  {
     "slug": "real-estate-ads",
     "title": {
       "ru": "Реклама недвижимости — рилсы",
@@ -4574,7 +4813,7 @@
     "featured": false,
     "order": 16.2,
     "cover": {
-      "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v5-poster-1600.webp",
+      "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v2-poster-1600.webp",
       "w": 1080,
       "h": 1920,
       "alt": {
@@ -4583,8 +4822,8 @@
       }
     },
     "summary": {
-      "ru": "Вертикальные ролики для жилых комплексов и коммерческой недвижимости: инфраструктура, паркинг, квартиры и помещения, рассрочка. Часть роликов — для Dream City Development (работа в Dream City).",
-      "en": "Vertical videos for residential complexes and commercial property: infrastructure, parking, apartments and retail units, installment plans. Some were made for Dream City Development (in-house at Dream City)."
+      "ru": "Вертикальные ролики для жилых комплексов: Gardens, Boulevard, Chorvoq Darvozasi — паркинг, инфраструктура, анонсы. Работа в Dream City.",
+      "en": "Vertical videos for residential complexes — Gardens, Boulevard, Chorvoq Darvozasi: parking, amenities, announcements. Done at Dream City."
     },
     "task": null,
     "approach": null,
@@ -4592,21 +4831,6 @@
     "behance": "https://www.behance.net/deathhueth",
     "aiContent": false,
     "blocks": [
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v1-poster-1600.webp",
-          "w": 1080,
-          "h": 1920,
-          "alt": {
-            "ru": "Рекламный ролик недвижимости",
-            "en": "Real estate ad video"
-          }
-        },
-        "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v1-loop.mp4",
-        "embed": null,
-        "caption": null
-      },
       {
         "type": "video",
         "poster": {
@@ -4625,51 +4849,6 @@
       {
         "type": "video",
         "poster": {
-          "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v3-poster-1600.webp",
-          "w": 1080,
-          "h": 1920,
-          "alt": {
-            "ru": "Рекламный ролик недвижимости",
-            "en": "Real estate ad video"
-          }
-        },
-        "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v3-loop.mp4",
-        "embed": null,
-        "caption": null
-      },
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v4-poster-1600.webp",
-          "w": 1080,
-          "h": 1920,
-          "alt": {
-            "ru": "Рекламный ролик недвижимости",
-            "en": "Real estate ad video"
-          }
-        },
-        "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v4-loop.mp4",
-        "embed": null,
-        "caption": null
-      },
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v5-poster-1600.webp",
-          "w": 1080,
-          "h": 1920,
-          "alt": {
-            "ru": "Рекламный ролик недвижимости",
-            "en": "Real estate ad video"
-          }
-        },
-        "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v5-loop.mp4",
-        "embed": null,
-        "caption": null
-      },
-      {
-        "type": "video",
-        "poster": {
           "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v6-poster-1600.webp",
           "w": 1080,
           "h": 1920,
@@ -4679,36 +4858,6 @@
           }
         },
         "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v6-loop.mp4",
-        "embed": null,
-        "caption": null
-      },
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v7-poster-1600.webp",
-          "w": 1080,
-          "h": 1920,
-          "alt": {
-            "ru": "Рекламный ролик недвижимости",
-            "en": "Real estate ad video"
-          }
-        },
-        "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v7-loop.mp4",
-        "embed": null,
-        "caption": null
-      },
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v8-poster-1600.webp",
-          "w": 1080,
-          "h": 1920,
-          "alt": {
-            "ru": "Рекламный ролик недвижимости",
-            "en": "Real estate ad video"
-          }
-        },
-        "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v8-loop.mp4",
         "embed": null,
         "caption": null
       },
@@ -5108,8 +5257,8 @@
       }
     },
     "summary": {
-      "ru": "Рилсы для бренда соусов, стейк-хауса и ресторана: конкурсы, поздравления, юбилей заведения, трендовые форматы.",
-      "en": "Reels for a sauce brand, a steakhouse and a restaurant: giveaways, greetings, an anniversary and trend formats."
+      "ru": "Рилсы для бренда соусов, стейк-хауса и ресторана: конкурсы, поздравления, юбилей заведения, трендовые форматы. Работа в агентстве MOLLEQULA.",
+      "en": "Reels for a sauce brand, a steakhouse and a restaurant: giveaways, greetings, an anniversary and trend formats. Done at the MOLLEQULA agency."
     },
     "task": null,
     "approach": null,
@@ -5225,117 +5374,12 @@
     ]
   },
   {
-    "slug": "brand-motion",
-    "title": {
-      "ru": "Моушн для клиники и оптики",
-      "en": "Motion for a clinic and an optics store"
-    },
-    "client": null,
-    "directions": [
-      "motion"
-    ],
-    "branches": [
-      "ads",
-      "reels-stories"
-    ],
-    "tags": {
-      "industry": [],
-      "format": [
-        "video"
-      ],
-      "tools": [
-        "After Effects"
-      ],
-      "region": [
-        "uz"
-      ],
-      "lang": [
-        "ru"
-      ]
-    },
-    "personal": false,
-    "featured": false,
-    "order": 16.8,
-    "cover": {
-      "src": "assets/img/projects/brand-motion/brand-motion-r79o-v1-poster-1600.webp",
-      "w": 1080,
-      "h": 1080,
-      "alt": {
-        "ru": "Моушн-графика для бренда",
-        "en": "Brand motion graphics"
-      }
-    },
-    "summary": {
-      "ru": "Анимационные промо и анимация логотипов для клиники эстетической медицины и оптики.",
-      "en": "Animated promos and logo animation for an aesthetic clinic and an optics store."
-    },
-    "task": null,
-    "approach": null,
-    "result": null,
-    "behance": "https://www.behance.net/deathhueth",
-    "aiContent": false,
-    "blocks": [
-      {
-        "type": "text",
-        "title": {
-          "ru": "Клиника эстетической медицины и оптика",
-          "en": "Aesthetic clinic and optics"
-        }
-      },
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v6-poster-1600.webp",
-          "w": 1080,
-          "h": 1920,
-          "alt": {
-            "ru": "Моушн-графика для бренда",
-            "en": "Brand motion graphics"
-          }
-        },
-        "src": "assets/video/brand-motion/brand-motion-r79o-v6-loop.mp4",
-        "embed": null,
-        "caption": null
-      },
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v7-poster-1600.webp",
-          "w": 1080,
-          "h": 1920,
-          "alt": {
-            "ru": "Моушн-графика для бренда",
-            "en": "Brand motion graphics"
-          }
-        },
-        "src": "assets/video/brand-motion/brand-motion-r79o-v7-loop.mp4",
-        "embed": null,
-        "caption": null
-      },
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v8-poster-1600.webp",
-          "w": 1080,
-          "h": 1920,
-          "alt": {
-            "ru": "Моушн-графика для бренда",
-            "en": "Brand motion graphics"
-          }
-        },
-        "src": "assets/video/brand-motion/brand-motion-r79o-v8-loop.mp4",
-        "embed": null,
-        "caption": null
-      }
-    ]
-  },
-  {
     "slug": "la-scala-natuzzi",
     "title": {
-      "ru": "La Scala и Natuzzi Italia — ролики мебельных салонов",
-      "en": "La Scala & Natuzzi Italia — furniture showroom videos"
+      "ru": "La Scala и Natuzzi Italia",
+      "en": "La Scala and Natuzzi Italia"
     },
-    "client": "La Scala, Natuzzi Italia",
+    "client": "La Scala / Natuzzi Italia",
     "directions": [
       "motion"
     ],
@@ -5361,7 +5405,7 @@
       ]
     },
     "personal": false,
-    "featured": false,
+    "featured": true,
     "order": 16.9,
     "cover": {
       "src": "assets/img/projects/brand-motion/brand-motion-r79o-v11-poster-1600.webp",
@@ -5373,8 +5417,8 @@
       }
     },
     "summary": {
-      "ru": "Ролики для мебельных салонов La Scala и Natuzzi Italia: анонс открытия шоурума, анимация логотипа, промо коллекции и баннер для LED-экрана.",
-      "en": "Videos for La Scala and Natuzzi Italia furniture showrooms: a showroom opening teaser, logo animation, a collection promo and an LED-screen banner."
+      "ru": "Аутсорс-проект для мебельных салонов La Scala и Natuzzi Italia: анонс открытия шоурума, анимация логотипа, промо коллекции и ролик для LED-экрана.",
+      "en": "An outsourced project for the La Scala and Natuzzi Italia furniture showrooms: a showroom opening teaser, logo animation, a collection promo and LED screen content."
     },
     "task": null,
     "approach": null,
