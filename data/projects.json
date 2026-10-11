@@ -2390,21 +2390,6 @@
       {
         "type": "video",
         "poster": {
-          "src": "assets/img/projects/product-animation/product-animation-02-poster-1200.webp",
-          "w": 1200,
-          "h": 675,
-          "alt": {
-            "ru": "FRETTA и Wendy's — продуктовая анимация",
-            "en": "FRETTA & Wendy's — product animation"
-          }
-        },
-        "src": "assets/video/product-animation/product-animation-02-loop.mp4",
-        "embed": null,
-        "caption": null
-      },
-      {
-        "type": "video",
-        "poster": {
           "src": "assets/img/projects/product-animation/product-animation-03-poster-1200.webp",
           "w": 1200,
           "h": 2133,
