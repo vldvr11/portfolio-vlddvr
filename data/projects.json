@@ -328,78 +328,6 @@
               "ru": "Haval V7 / GWM — стенд",
               "en": "Haval V7 / GWM — exhibition stand"
             }
-          },
-          {
-            "src": "assets/img/projects/haval-v7-stand/haval-v7-stand-05-1600.webp",
-            "w": 1124,
-            "h": 760,
-            "alt": {
-              "ru": "Haval V7 / GWM — стенд",
-              "en": "Haval V7 / GWM — exhibition stand"
-            }
-          },
-          {
-            "src": "assets/img/projects/haval-v7-stand/haval-v7-stand-06-1600.webp",
-            "w": 1280,
-            "h": 1185,
-            "alt": {
-              "ru": "Haval V7 / GWM — стенд",
-              "en": "Haval V7 / GWM — exhibition stand"
-            }
-          },
-          {
-            "src": "assets/img/projects/haval-v7-stand/haval-v7-stand-07-1600.webp",
-            "w": 1280,
-            "h": 438,
-            "alt": {
-              "ru": "Haval V7 / GWM — стенд",
-              "en": "Haval V7 / GWM — exhibition stand"
-            }
-          },
-          {
-            "src": "assets/img/projects/haval-v7-stand/haval-v7-stand-08-1600.webp",
-            "w": 1280,
-            "h": 897,
-            "alt": {
-              "ru": "Haval V7 / GWM — стенд",
-              "en": "Haval V7 / GWM — exhibition stand"
-            }
-          },
-          {
-            "src": "assets/img/projects/haval-v7-stand/haval-v7-stand-09-1600.webp",
-            "w": 403,
-            "h": 1173,
-            "alt": {
-              "ru": "Haval V7 / GWM — стенд",
-              "en": "Haval V7 / GWM — exhibition stand"
-            }
-          },
-          {
-            "src": "assets/img/projects/haval-v7-stand/haval-v7-stand-10-1600.webp",
-            "w": 848,
-            "h": 1074,
-            "alt": {
-              "ru": "Haval V7 / GWM — стенд",
-              "en": "Haval V7 / GWM — exhibition stand"
-            }
-          },
-          {
-            "src": "assets/img/projects/haval-v7-stand/haval-v7-stand-11-1600.webp",
-            "w": 1280,
-            "h": 1176,
-            "alt": {
-              "ru": "Haval V7 / GWM — стенд",
-              "en": "Haval V7 / GWM — exhibition stand"
-            }
-          },
-          {
-            "src": "assets/img/projects/haval-v7-stand/haval-v7-stand-12-1600.webp",
-            "w": 862,
-            "h": 1240,
-            "alt": {
-              "ru": "Haval V7 / GWM — стенд",
-              "en": "Haval V7 / GWM — exhibition stand"
-            }
           }
         ]
       },
@@ -637,27 +565,24 @@
       "en": "Haval — dealer conference 2026"
     },
     "summary": {
-      "ru": "Оформление дилерской конференции Haval / GWM 2026: афиша, бейджи участников и контент для LED-экранов.",
-      "en": "Design for the Haval / GWM 2026 dealer conference: poster, attendee badges and LED screen content."
+      "ru": "Печать для дилерской конференции Haval / GWM 2026: афиша и бейджи участников на русском и узбекском.",
+      "en": "Print for the Haval / GWM 2026 dealer conference: poster and attendee badges in Russian and Uzbek."
     },
     "task": null,
     "approach": null,
     "result": null,
     "directions": [
-      "print",
-      "motion"
+      "print"
     ],
     "branches": [
-      "outdoor",
-      "intros"
+      "outdoor"
     ],
     "tags": {
       "industry": [
         "auto"
       ],
       "format": [
-        "print",
-        "video"
+        "print"
       ],
       "tools": [],
       "region": [
@@ -703,36 +628,6 @@
             }
           }
         ]
-      },
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/haval-conference/haval-conference-led1-poster-1200.webp",
-          "w": 1200,
-          "h": 675,
-          "alt": {
-            "ru": "LED-экран для дилерской конференции Haval",
-            "en": "LED screen content for the Haval dealer conference"
-          }
-        },
-        "src": "assets/video/haval-conference/haval-conference-led1-loop.mp4",
-        "embed": null,
-        "caption": null
-      },
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/haval-conference/haval-conference-led2-poster-1200.webp",
-          "w": 1200,
-          "h": 675,
-          "alt": {
-            "ru": "LED-экран для дилерской конференции Haval",
-            "en": "LED screen content for the Haval dealer conference"
-          }
-        },
-        "src": "assets/video/haval-conference/haval-conference-led2-loop.mp4",
-        "embed": null,
-        "caption": null
       }
     ],
     "seo": {
@@ -741,8 +636,8 @@
         "en": "Haval — dealer conference 2026 · vlddvr"
       },
       "description": {
-        "ru": "Афиша, бейджи и LED-контент для дилерской конференции Haval / GWM 2026.",
-        "en": "Poster, badges and LED content for the Haval / GWM 2026 dealer conference."
+        "ru": "Печать для дилерской конференции Haval / GWM 2026: афиша и бейджи участников на русском и узбекском.",
+        "en": "Print for the Haval / GWM 2026 dealer conference: poster and attendee badges in Russian and Uzbek."
       }
     }
   },
