@@ -1296,6 +1296,96 @@
               "ru": "Фотозоны на события",
               "en": "Event photo zones"
             }
+          },
+          {
+            "src": "assets/img/projects/event-photozones/event-photozones-161k-01-1600.webp",
+            "w": 1600,
+            "h": 1200,
+            "alt": {
+              "ru": "Фотозона на событие — визуализация",
+              "en": "Event photo zone — visualisation"
+            }
+          },
+          {
+            "src": "assets/img/projects/event-photozones/event-photozones-161k-02-1600.webp",
+            "w": 1600,
+            "h": 900,
+            "alt": {
+              "ru": "Фотозона на событие — визуализация",
+              "en": "Event photo zone — visualisation"
+            }
+          },
+          {
+            "src": "assets/img/projects/event-photozones/event-photozones-161k-03-1600.webp",
+            "w": 1600,
+            "h": 900,
+            "alt": {
+              "ru": "Фотозона на событие — визуализация",
+              "en": "Event photo zone — visualisation"
+            }
+          },
+          {
+            "src": "assets/img/projects/event-photozones/event-photozones-161k-04-1600.webp",
+            "w": 1600,
+            "h": 900,
+            "alt": {
+              "ru": "Фотозона на событие — визуализация",
+              "en": "Event photo zone — visualisation"
+            }
+          },
+          {
+            "src": "assets/img/projects/event-photozones/event-photozones-161k-05-1600.webp",
+            "w": 1600,
+            "h": 900,
+            "alt": {
+              "ru": "Фотозона на событие — визуализация",
+              "en": "Event photo zone — visualisation"
+            }
+          },
+          {
+            "src": "assets/img/projects/event-photozones/event-photozones-161k-06-1600.webp",
+            "w": 1600,
+            "h": 900,
+            "alt": {
+              "ru": "Фотозона на событие — визуализация",
+              "en": "Event photo zone — visualisation"
+            }
+          },
+          {
+            "src": "assets/img/projects/event-photozones/event-photozones-161k-07-1600.webp",
+            "w": 1440,
+            "h": 1440,
+            "alt": {
+              "ru": "Фотозона на событие — визуализация",
+              "en": "Event photo zone — visualisation"
+            }
+          },
+          {
+            "src": "assets/img/projects/event-photozones/event-photozones-161k-08-1600.webp",
+            "w": 1440,
+            "h": 1440,
+            "alt": {
+              "ru": "Фотозона на событие — визуализация",
+              "en": "Event photo zone — visualisation"
+            }
+          },
+          {
+            "src": "assets/img/projects/event-photozones/event-photozones-161k-09-1600.webp",
+            "w": 1440,
+            "h": 1440,
+            "alt": {
+              "ru": "Фотозона на событие — визуализация",
+              "en": "Event photo zone — visualisation"
+            }
+          },
+          {
+            "src": "assets/img/projects/event-photozones/event-photozones-161k-10-1600.webp",
+            "w": 1440,
+            "h": 1440,
+            "alt": {
+              "ru": "Фотозона на событие — визуализация",
+              "en": "Event photo zone — visualisation"
+            }
           }
         ]
       }
@@ -2437,10 +2527,10 @@
   {
     "slug": "product-animation",
     "title": {
-      "ru": "FRETTA и Wendy's — продуктовая анимация",
-      "en": "FRETTA & Wendy's — product animation"
+      "ru": "Продуктовая анимация для LED-экрана",
+      "en": "Product animation for an LED screen"
     },
-    "client": "FRETTA, Wendy's",
+    "client": null,
     "directions": [
       "motion"
     ],
@@ -2473,8 +2563,8 @@
       }
     },
     "summary": {
-      "ru": "Продуктовая анимация: кофе и выпечка для FRETTA, бургер и сыр для Wendy's.",
-      "en": "Product animation: coffee and pastries for FRETTA, a burger and cheese for Wendy's."
+      "ru": "Анимация продукции кофейни для LED-экрана: кофе, выпечка и десерты в движении.",
+      "en": "Café product animation for an LED screen: coffee, pastries and desserts in motion."
     },
     "task": null,
     "approach": null,
@@ -2494,36 +2584,6 @@
           }
         },
         "src": "assets/video/product-animation/product-animation-01-loop.mp4",
-        "embed": null,
-        "caption": null
-      },
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/product-animation/product-animation-03-poster-1200.webp",
-          "w": 1200,
-          "h": 2133,
-          "alt": {
-            "ru": "FRETTA и Wendy's — продуктовая анимация",
-            "en": "FRETTA & Wendy's — product animation"
-          }
-        },
-        "src": "assets/video/product-animation/product-animation-03-loop.mp4",
-        "embed": null,
-        "caption": null
-      },
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/product-animation/product-animation-04-poster-1200.webp",
-          "w": 1200,
-          "h": 2149,
-          "alt": {
-            "ru": "FRETTA и Wendy's — продуктовая анимация",
-            "en": "FRETTA & Wendy's — product animation"
-          }
-        },
-        "src": "assets/video/product-animation/product-animation-04-loop.mp4",
         "embed": null,
         "caption": null
       }
