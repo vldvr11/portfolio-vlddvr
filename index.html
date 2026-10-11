@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>vlddvr — портфолио</title>
   <meta name="description" content="Брендинг, 3D, моушен, печать, веб и AI-визуалы. Ниже — избранные работы по направлениям.">
-  <meta name="robots" content="noindex, nofollow">
-  <link rel="alternate" hreflang="ru" href="https://vldvr11.github.io/portfolio-vlddvr/index.html">
-  <link rel="alternate" hreflang="en" href="https://vldvr11.github.io/portfolio-vlddvr/en/index.html">
-  <link rel="alternate" hreflang="x-default" href="https://vldvr11.github.io/portfolio-vlddvr/index.html">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, notranslate">
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex, notranslate">
+  <meta name="yandex" content="noindex, nofollow, noarchive, nosnippet, noimageindex, notranslate">
+  
   
   <meta name="color-scheme" content="dark">
   <meta name="theme-color" content="#0a0a0a">
@@ -20,12 +20,13 @@
 </head>
 <body class="page-index">
   <a class="skip-link" href="#main">К содержанию</a>
+  <div class="test-strip" role="note">Сайт в тестовом режиме</div>
   <header class="site-header">
     <div class="container">
       <a class="logo" href="index.html">vlddvr<b>.</b></a>
       <nav class="main-nav" aria-label="Основное меню">
         <ul>
-          <li><a href="index.html" class="is-active" aria-current="page">Работы</a></li>
+          <li><a href="works.html">Все работы</a></li>
           <li><a href="about.html">Обо мне</a></li>
         </ul>
       </nav>
@@ -33,23 +34,54 @@
         <a href="index.html" hreflang="ru" lang="ru" class="is-active" aria-current="true">RU</a>
         <a href="en/index.html" hreflang="en" lang="en">EN</a>
       </div>
-      <a class="btn btn--sm header-cta" href="https://t.me/vlddvr" target="_blank" rel="noopener">Написать</a>
+      <span class="btn btn--sm header-cta is-disabled" role="button" aria-disabled="true" title="Контакты скоро">Написать · скоро</span>
     </div>
   </header>
   <main id="main">
     <section class="hero" aria-labelledby="hero-title">
-      <a class="hero-media" href="projects/shell-stand.html" style="--ar:1920 / 1080;--focus:50% 50%">
-        <picture><source srcset="assets/img/projects/shell-stand/shell-stand-05-800.webp 800w, assets/img/projects/shell-stand/shell-stand-05-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="assets/img/projects/shell-stand/shell-stand-05-1600.jpg" width="1920" height="1080" alt="Shell — выставочный стенд" class="kb" fetchpriority="high"></picture>
-        <span class="hero-tag"><small>★ Избранная работа · Shell</small>Shell — выставочный стенд →</span>
-      </a>
+      <div class="hero-slider" data-hero-slider tabindex="-1" aria-roledescription="carousel" aria-label="Избранные работы">
+      <div class="hero-media" style="--ar:1920 / 1080;--focus:50% 50%">
+        <a class="hero-slide is-active" href="projects/shell-stand.html" style="--focus:50% 50%" data-slide="0">
+          <picture><source srcset="assets/img/projects/shell-stand/shell-stand-05-800.webp 800w, assets/img/projects/shell-stand/shell-stand-05-1600.webp 1600w" sizes="100vw" type="image/webp"><img src="assets/img/projects/shell-stand/shell-stand-05-1600.jpg" width="1920" height="1080" alt="Shell — выставочный стенд" class="kb" fetchpriority="high"></picture>
+          <span class="hero-tag"><small>★ Избранная работа · Shell</small>Shell — выставочный стенд →</span>
+        </a>
+        <a class="hero-slide" href="projects/haval-gwm.html" style="--focus:50% 50%" aria-hidden="true" tabindex="-1" data-slide="1">
+          <picture><source srcset="assets/img/projects/haval-v7-stand/haval-v7-stand-02-800.webp 800w, assets/img/projects/haval-v7-stand/haval-v7-stand-02-1600.webp 1600w" sizes="100vw" type="image/webp"><img src="assets/img/projects/haval-v7-stand/haval-v7-stand-02-1600.jpg" width="3000" height="1500" alt="Haval V7 / GWM — стенд" class="kb" loading="lazy" decoding="async"></picture>
+          <span class="hero-tag"><small>★ Избранная работа · Haval / GWM</small>Haval — работа в Great Wall Motors →</span>
+        </a>
+        <a class="hero-slide" href="projects/exzap-showroom.html" style="--focus:50% 50%" aria-hidden="true" tabindex="-1" data-slide="2">
+          <picture><source srcset="assets/img/projects/exzap-showroom/exzap-showroom-04-800.webp 800w, assets/img/projects/exzap-showroom/exzap-showroom-04-1600.webp 1600w" sizes="100vw" type="image/webp"><img src="assets/img/projects/exzap-showroom/exzap-showroom-04-1600.jpg" width="1440" height="1440" alt="EXZAP — офис и шоурум" class="kb" loading="lazy" decoding="async"></picture>
+          <span class="hero-tag"><small>★ Избранная работа · EXZAP</small>EXZAP — офис и шоурум →</span>
+        </a>
+        <a class="hero-slide" href="projects/nout-uz-store.html" style="--focus:50% 50%" aria-hidden="true" tabindex="-1" data-slide="3">
+          <picture><source srcset="assets/img/projects/nout-uz-store/nout-uz-store-01-800.webp 800w, assets/img/projects/nout-uz-store/nout-uz-store-01-1600.webp 1600w" sizes="100vw" type="image/webp"><img src="assets/img/projects/nout-uz-store/nout-uz-store-01-1600.jpg" width="2560" height="1440" alt="NOUT.UZ — магазин ноутбуков" class="kb" loading="lazy" decoding="async"></picture>
+          <span class="hero-tag"><small>★ Избранная работа · NOUT.UZ</small>NOUT.UZ — магазин ноутбуков →</span>
+        </a>
+        <a class="hero-slide" href="projects/sandwich-co.html" style="--focus:50% 50%" aria-hidden="true" tabindex="-1" data-slide="4">
+          <picture><source srcset="assets/img/projects/sandwich-co/sandwich-co-nu3r-02-800.webp 800w, assets/img/projects/sandwich-co/sandwich-co-nu3r-02-1600.webp 1600w" sizes="100vw" type="image/webp"><img src="assets/img/projects/sandwich-co/sandwich-co-nu3r-02-1600.jpg" width="1600" height="1986" alt="Пост Sandwich &amp; Co" class="kb" loading="lazy" decoding="async"></picture>
+          <span class="hero-tag"><small>★ Избранная работа · Sandwich &amp; Co (sandwichandco.uz)</small>Sandwich &amp; Co — SMM →</span>
+        </a>
+        <a class="hero-slide" href="projects/dk-leading.html" style="--focus:50% 50%" aria-hidden="true" tabindex="-1" data-slide="5">
+          <picture><source srcset="assets/img/projects/dk-leading/dk-leading-02-page1-1200.webp 1200w" sizes="100vw" type="image/webp"><img src="assets/img/projects/dk-leading/dk-leading-02-page1-1200.webp" width="1600" height="900" alt="DK Leading — бренд, презентация, SMM" class="kb" loading="lazy" decoding="async"></picture>
+          <span class="hero-tag"><small>★ Избранная работа · DK Leading (dkleading.com)</small>DK Leading — SMM →</span>
+        </a>
+        <a class="hero-slide" href="projects/holiday-videos.html" style="--focus:50% 50%" aria-hidden="true" tabindex="-1" data-slide="6">
+          <picture><source srcset="assets/img/projects/holiday-videos/holiday-videos-06-poster-1200.webp 1200w" sizes="100vw" type="image/webp"><img src="assets/img/projects/holiday-videos/holiday-videos-06-poster-1200.webp" width="1600" height="900" alt="Праздничные ролики" class="kb" loading="lazy" decoding="async"></picture>
+          <span class="hero-tag"><small>★ Избранная работа</small>Праздничные ролики →</span>
+        </a>
+      </div>
+      <div class="hero-dots" role="group" aria-label="Избранные работы">
+        <button type="button" class="hero-dot is-active" data-go="0" aria-label="Слайд 1: Shell — выставочный стенд" aria-current="true"><i></i></button><button type="button" class="hero-dot" data-go="1" aria-label="Слайд 2: Haval — работа в Great Wall Motors"><i></i></button><button type="button" class="hero-dot" data-go="2" aria-label="Слайд 3: EXZAP — офис и шоурум"><i></i></button><button type="button" class="hero-dot" data-go="3" aria-label="Слайд 4: NOUT.UZ — магазин ноутбуков"><i></i></button><button type="button" class="hero-dot" data-go="4" aria-label="Слайд 5: Sandwich &amp; Co — SMM"><i></i></button><button type="button" class="hero-dot" data-go="5" aria-label="Слайд 6: DK Leading — SMM"><i></i></button><button type="button" class="hero-dot" data-go="6" aria-label="Слайд 7: Праздничные ролики"><i></i></button>
+      </div>
+    </div>
       <div class="hero-copy container" style="--fit:7">
-        <p class="eyebrow">vlddvr — универсальный дизайнер</p>
+        <div class="hero-kicker"><span class="status-pill"><i aria-hidden="true"></i>Открыт к проектам</span><p class="eyebrow">vlddvr — универсальный дизайнер</p></div>
         <h1 class="h-giant" id="hero-title"><span>Стенды.</span> <span class="acid">Бренды.</span> <span class="out">Моушен.</span></h1>
         <div class="hero-row">
           <p class="lead">Брендинг, 3D, моушен, печать, веб и AI-визуалы. Ниже — избранные работы по направлениям.</p>
           <div class="hero-ctas">
-            <a class="btn" href="https://t.me/vlddvr" target="_blank" rel="noopener">Обсудить проект →</a>
-            <a class="btn btn--ghost" href="#works">Работы</a>
+            <span class="btn is-disabled" role="button" aria-disabled="true" title="Контакты скоро">Обсудить проект · скоро</span>
+            <a class="btn btn--ghost" href="#proof">Работы</a>
           </div>
         </div>
       </div>
@@ -58,49 +90,95 @@
     <p class="sr-only">Клиенты: Shell, Haval / GWM, EXZAP, NOUT.UZ, Nikhan, Sandwich &amp; Co (sandwichandco.uz), Bahodir Jalolov Boxing School, Chitir-Chitir milk, DK Leading (dkleading.com), Sojitz Corporation, Somang</p>
     <div class="ticker-track" aria-hidden="true"><div class="ticker-half"><span>Shell</span><span>Haval / GWM</span><span>EXZAP</span><span>NOUT.UZ</span><span>Nikhan</span><span>Sandwich &amp; Co (sandwichandco.uz)</span><span>Bahodir Jalolov Boxing School</span><span>Chitir-Chitir milk</span><span>DK Leading (dkleading.com)</span><span>Sojitz Corporation</span><span>Somang</span></div><div class="ticker-half"><span>Shell</span><span>Haval / GWM</span><span>EXZAP</span><span>NOUT.UZ</span><span>Nikhan</span><span>Sandwich &amp; Co (sandwichandco.uz)</span><span>Bahodir Jalolov Boxing School</span><span>Chitir-Chitir milk</span><span>DK Leading (dkleading.com)</span><span>Sojitz Corporation</span><span>Somang</span></div></div>
   </div>
+    <section class="proof" id="proof" aria-labelledby="proof-title">
+    <div class="container">
+      <div class="sec-head"><h2 class="h2" id="proof-title">Лучшие кадры</h2><span class="count">04</span></div>
+      <ol class="proof-list">
+      <li class="proof-item">
+        <a class="proof-link" href="projects/shell-stand.html">
+          <span class="proof-media" style="--ar:1920 / 1080;--focus:50% 50%"><picture><source srcset="assets/img/projects/shell-stand/shell-stand-05-800.webp 800w, assets/img/projects/shell-stand/shell-stand-05-1600.webp 1600w" sizes="(min-width: 1100px) 860px, 100vw" type="image/webp"><img src="assets/img/projects/shell-stand/shell-stand-05-1600.jpg" width="1920" height="1080" alt="Shell — выставочный стенд" loading="lazy" decoding="async"></picture></span>
+          <span class="proof-cap">
+            <span class="proof-n" aria-hidden="true">01</span>
+            <span class="proof-title">Shell — выставочный стенд</span>
+            <span class="proof-client">Shell</span>
+            <span class="proof-go">Смотреть кейс →</span>
+          </span>
+        </a>
+      </li>
+      <li class="proof-item">
+        <a class="proof-link" href="projects/haval-gwm.html">
+          <span class="proof-media" style="--ar:3000 / 1500;--focus:50% 50%"><picture><source srcset="assets/img/projects/haval-v7-stand/haval-v7-stand-02-800.webp 800w, assets/img/projects/haval-v7-stand/haval-v7-stand-02-1600.webp 1600w" sizes="(min-width: 1100px) 860px, 100vw" type="image/webp"><img src="assets/img/projects/haval-v7-stand/haval-v7-stand-02-1600.jpg" width="3000" height="1500" alt="Haval V7 / GWM — стенд" loading="lazy" decoding="async"></picture></span>
+          <span class="proof-cap">
+            <span class="proof-n" aria-hidden="true">02</span>
+            <span class="proof-title">Haval — работа в Great Wall Motors</span>
+            <span class="proof-client">Haval / GWM</span>
+            <span class="proof-go">Смотреть кейс →</span>
+          </span>
+        </a>
+      </li>
+      <li class="proof-item">
+        <a class="proof-link" href="projects/nout-uz-store.html">
+          <span class="proof-media" style="--ar:2560 / 1440;--focus:50% 50%"><picture><source srcset="assets/img/projects/nout-uz-store/nout-uz-store-01-800.webp 800w, assets/img/projects/nout-uz-store/nout-uz-store-01-1600.webp 1600w" sizes="(min-width: 1100px) 860px, 100vw" type="image/webp"><img src="assets/img/projects/nout-uz-store/nout-uz-store-01-1600.jpg" width="2560" height="1440" alt="NOUT.UZ — магазин ноутбуков" loading="lazy" decoding="async"></picture></span>
+          <span class="proof-cap">
+            <span class="proof-n" aria-hidden="true">03</span>
+            <span class="proof-title">NOUT.UZ — магазин ноутбуков</span>
+            <span class="proof-client">NOUT.UZ</span>
+            <span class="proof-go">Смотреть кейс →</span>
+          </span>
+        </a>
+      </li>
+      <li class="proof-item">
+        <a class="proof-link" href="projects/exzap-showroom.html">
+          <span class="proof-media" style="--ar:1440 / 1440;--focus:50% 50%"><picture><source srcset="assets/img/projects/exzap-showroom/exzap-showroom-04-800.webp 800w, assets/img/projects/exzap-showroom/exzap-showroom-04-1600.webp 1600w" sizes="(min-width: 1100px) 860px, 100vw" type="image/webp"><img src="assets/img/projects/exzap-showroom/exzap-showroom-04-1600.jpg" width="1440" height="1440" alt="EXZAP — офис и шоурум" loading="lazy" decoding="async"></picture></span>
+          <span class="proof-cap">
+            <span class="proof-n" aria-hidden="true">04</span>
+            <span class="proof-title">EXZAP — офис и шоурум</span>
+            <span class="proof-client">EXZAP</span>
+            <span class="proof-go">Смотреть кейс →</span>
+          </span>
+        </a>
+      </li>
+      </ol>
+    </div>
+  </section>
+    <section class="container dirs" aria-labelledby="dirs-title">
+      <div class="sec-head"><h2 class="h2" id="dirs-title">Направления</h2><span class="count">24 кейсов</span></div>
+      <div class="hero-panel">
+          <div class="hero-status">
+            <span class="status-fact"><b>6+</b> лет опыта</span>
+            <span class="status-fact"><b>5</b> компаний</span>
+          </div>
+          <ul class="hero-tiles" aria-label="Направления">
+          <li><a class="hero-tile" href="works.html#3d">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z"/><path d="M3.5 7 12 11.5 20.5 7M12 11.5v10"/></svg>
+            <span class="tile-name">3D и стенды</span>
+            <span class="tile-n">10</span>
+          </a></li>
+          <li><a class="hero-tile" href="works.html#motion">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14"/><path d="M10 9.5v5l4.5-2.5z"/></svg>
+            <span class="tile-name">Моушен и SMM</span>
+            <span class="tile-n">09</span>
+          </a></li>
+          <li><a class="hero-tile" href="works.html#branding">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5v17M3.5 12h17"/></svg>
+            <span class="tile-name">Брендинг и печать</span>
+            <span class="tile-n">06</span>
+          </a></li>
+          <li><a class="hero-tile" href="works.html#web">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2.5" y="4" width="19" height="16"/><path d="M2.5 8.5h19M8 12.5l-2 2 2 2M16 12.5l2 2-2 2"/></svg>
+            <span class="tile-name">Веб и AI</span>
+            <span class="tile-n">03</span>
+          </a></li>
+          </ul>
+        </div>
+    </section>
     <section class="container works" id="works" aria-labelledby="works-title">
       <div class="sec-head">
-        <h2 class="h2" id="works-title">Работы</h2>
-        <span class="count"><span data-works-count>24</span> / 24</span>
+        <h2 class="h2" id="works-title">Избранное</h2>
+        <span class="count">08 / 24</span>
       </div>
-      <div class="filters" data-filters>
-      <div class="direction-filter" role="group" aria-label="Фильтр по направлениям">
-      <button type="button" class="chip is-active" data-direction="all" aria-pressed="true">Все<sup>24</sup></button><button type="button" class="chip" data-direction="branding" aria-pressed="false">Брендинг и айдентика<sup>02</sup></button>
-      <button type="button" class="chip" data-direction="3d" aria-pressed="false">3D и стенды<sup>10</sup></button>
-      <button type="button" class="chip" data-direction="motion" aria-pressed="false">Моушен и SMM<sup>09</sup></button>
-      <button type="button" class="chip" data-direction="print" aria-pressed="false">Печать и презентации<sup>04</sup></button>
-      <button type="button" class="chip" data-direction="web" aria-pressed="false">Веб и инструменты<sup>03</sup></button>
-      </div>
-    <div class="branch-filter" data-for="branding" role="group" aria-label="Фильтр по ответвлениям: Брендинг и айдентика" hidden>
-      <button type="button" class="chip chip--sub is-active" data-branch="all" aria-pressed="true">Все ответвления</button><button type="button" class="chip chip--sub" data-branch="logo" aria-pressed="false">Логотипы</button>
-      <button type="button" class="chip chip--sub" data-branch="mascot" aria-pressed="false">Маскоты и персонажи</button>
-      </div>
-    <div class="branch-filter" data-for="3d" role="group" aria-label="Фильтр по ответвлениям: 3D и стенды" hidden>
-      <button type="button" class="chip chip--sub is-active" data-branch="all" aria-pressed="true">Все ответвления</button><button type="button" class="chip chip--sub" data-branch="stands" aria-pressed="false">Выставочные стенды</button>
-      <button type="button" class="chip chip--sub" data-branch="photozones-pos" aria-pressed="false">Фотозоны и POS</button>
-      <button type="button" class="chip chip--sub" data-branch="interiors" aria-pressed="false">Интерьеры и пространства</button>
-      <button type="button" class="chip chip--sub" data-branch="3d-objects" aria-pressed="false">3D-объекты и логотипы</button>
-      <button type="button" class="chip chip--sub" data-branch="3d-characters" aria-pressed="false">3D-персонажи</button>
-      </div>
-    <div class="branch-filter" data-for="motion" role="group" aria-label="Фильтр по ответвлениям: Моушен и SMM" hidden>
-      <button type="button" class="chip chip--sub is-active" data-branch="all" aria-pressed="true">Все ответвления</button><button type="button" class="chip chip--sub" data-branch="ads" aria-pressed="false">Рекламные ролики</button>
-      <button type="button" class="chip chip--sub" data-branch="reels-stories" aria-pressed="false">Рилсы и сторис</button>
-      <button type="button" class="chip chip--sub" data-branch="holidays" aria-pressed="false">Праздничные поздравления</button>
-      <button type="button" class="chip chip--sub" data-branch="intros" aria-pressed="false">Заставки и анимация логотипа</button>
-      <button type="button" class="chip chip--sub" data-branch="smm-graphics" aria-pressed="false">SMM-графика и посты</button>
-      </div>
-    <div class="branch-filter" data-for="print" role="group" aria-label="Фильтр по ответвлениям: Печать и презентации" hidden>
-      <button type="button" class="chip chip--sub is-active" data-branch="all" aria-pressed="true">Все ответвления</button><button type="button" class="chip chip--sub" data-branch="brochures" aria-pressed="false">Брошюры и каталоги</button>
-      <button type="button" class="chip chip--sub" data-branch="outdoor" aria-pressed="false">Наружка и баннеры</button>
-      <button type="button" class="chip chip--sub" data-branch="decks" aria-pressed="false">Презентации</button>
-      </div>
-    <div class="branch-filter" data-for="web" role="group" aria-label="Фильтр по ответвлениям: Веб и инструменты" hidden>
-      <button type="button" class="chip chip--sub is-active" data-branch="all" aria-pressed="true">Все ответвления</button><button type="button" class="chip chip--sub" data-branch="tools" aria-pressed="false">Веб-инструменты</button>
-      <button type="button" class="chip chip--sub" data-branch="extensions" aria-pressed="false">Расширения браузера</button>
-      </div>
-      </div>
-      <div class="project-grid storyboard">
-      <a class="project-card shape-land reveal" href="projects/shell-stand.html" data-directions="3d" data-branches="stands" data-industry="energy">
+      <div class="project-grid card-grid">
+      <a class="project-card shape-land reveal" href="projects/shell-stand.html" data-directions="3d" data-branches="stands">
       <div class="thumb"><picture><source srcset="assets/img/projects/shell-stand/shell-stand-05-800.webp 800w, assets/img/projects/shell-stand/shell-stand-05-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="assets/img/projects/shell-stand/shell-stand-05-1600.jpg" width="1920" height="1080" alt="Shell — выставочный стенд" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">Смотреть кейс →</span></div>
       <div class="card-meta">
         <span class="no">01</span>
@@ -111,18 +189,7 @@
         </div>
       </div>
     </a>
-    <a class="project-card shape-land reveal" href="projects/shell-oil-racks.html" data-directions="3d" data-branches="photozones-pos" data-industry="energy">
-      <div class="thumb"><picture><source srcset="assets/img/projects/shell-oil-racks/shell-oil-racks-04-800.webp 800w, assets/img/projects/shell-oil-racks/shell-oil-racks-04-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="assets/img/projects/shell-oil-racks/shell-oil-racks-04-1600.jpg" width="1920" height="1440" alt="POS-стеллаж для масел Shell" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">Смотреть кейс →</span></div>
-      <div class="card-meta">
-        <span class="no">02</span>
-        <div class="card-text">
-          <h3>Shell — стеллажи для масел</h3>
-          <p class="client">Shell</p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-wide reveal" href="projects/haval-gwm.html" data-directions="3d,print,motion" data-branches="stands,smm-graphics,reels-stories,brochures" data-industry="auto">
+    <a class="project-card shape-wide reveal" href="projects/haval-gwm.html" data-directions="3d,print,motion" data-branches="stands,smm-graphics,reels-stories,brochures">
       <div class="thumb"><picture><source srcset="assets/img/projects/haval-v7-stand/haval-v7-stand-02-800.webp 800w, assets/img/projects/haval-v7-stand/haval-v7-stand-02-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="assets/img/projects/haval-v7-stand/haval-v7-stand-02-1600.jpg" width="3000" height="1500" alt="Haval V7 / GWM — стенд" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">Смотреть кейс →</span></div>
       <div class="card-meta">
         <span class="no">03</span>
@@ -133,18 +200,7 @@
         </div>
       </div>
     </a>
-    <a class="project-card shape-square reveal" href="projects/haval-conference.html" data-directions="print" data-branches="outdoor" data-industry="auto">
-      <div class="thumb"><picture><source srcset="assets/img/projects/haval-conference/haval-conference-siuz-01-800.webp 800w, assets/img/projects/haval-conference/haval-conference-siuz-01-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="assets/img/projects/haval-conference/haval-conference-siuz-01-1600.jpg" width="1080" height="1080" alt="Haval — дилерская конференция 2026" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">Смотреть кейс →</span></div>
-      <div class="card-meta">
-        <span class="no">04</span>
-        <div class="card-text">
-          <h3>Haval — дилерская конференция 2026</h3>
-          <p class="client">Haval / GWM</p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-square reveal" href="projects/exzap-showroom.html" data-directions="3d" data-branches="interiors" data-industry="">
+    <a class="project-card shape-square reveal" href="projects/exzap-showroom.html" data-directions="3d" data-branches="interiors">
       <div class="thumb"><picture><source srcset="assets/img/projects/exzap-showroom/exzap-showroom-04-800.webp 800w, assets/img/projects/exzap-showroom/exzap-showroom-04-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="assets/img/projects/exzap-showroom/exzap-showroom-04-1600.jpg" width="1440" height="1440" alt="EXZAP — офис и шоурум" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">Смотреть кейс →</span></div>
       <div class="card-meta">
         <span class="no">05</span>
@@ -155,7 +211,7 @@
         </div>
       </div>
     </a>
-    <a class="project-card shape-land reveal" href="projects/nout-uz-store.html" data-directions="3d" data-branches="interiors" data-industry="retail">
+    <a class="project-card shape-land reveal" href="projects/nout-uz-store.html" data-directions="3d" data-branches="interiors">
       <div class="thumb"><picture><source srcset="assets/img/projects/nout-uz-store/nout-uz-store-01-800.webp 800w, assets/img/projects/nout-uz-store/nout-uz-store-01-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="assets/img/projects/nout-uz-store/nout-uz-store-01-1600.jpg" width="2560" height="1440" alt="NOUT.UZ — магазин ноутбуков" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">Смотреть кейс →</span></div>
       <div class="card-meta">
         <span class="no">06</span>
@@ -166,51 +222,7 @@
         </div>
       </div>
     </a>
-    <a class="project-card shape-land reveal" href="projects/nikhan-new-year.html" data-directions="3d" data-branches="photozones-pos" data-industry="retail">
-      <div class="thumb"><picture><source srcset="assets/img/projects/korzinka-new-year/korzinka-new-year-07-800.webp 800w, assets/img/projects/korzinka-new-year/korzinka-new-year-07-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="assets/img/projects/korzinka-new-year/korzinka-new-year-07-1600.jpg" width="1280" height="960" alt="Nikhan — новогодняя фотозона" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">Смотреть кейс →</span></div>
-      <div class="card-meta">
-        <span class="no">07</span>
-        <div class="card-text">
-          <h3>Nikhan — новогодняя фотозона</h3>
-          <p class="client">Nikhan</p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-land reveal" href="projects/event-photozones.html" data-directions="3d" data-branches="photozones-pos" data-industry="">
-      <div class="thumb"><picture><source srcset="assets/img/projects/event-photozones/event-photozones-01-800.webp 800w, assets/img/projects/event-photozones/event-photozones-01-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="assets/img/projects/event-photozones/event-photozones-01-1600.jpg" width="1920" height="1440" alt="Фотозоны на события" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">Смотреть кейс →</span></div>
-      <div class="card-meta">
-        <span class="no">08</span>
-        <div class="card-text">
-          <h3>Фотозоны на события</h3>
-          <p class="client"></p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-square reveal" href="projects/facades-signage.html" data-directions="3d" data-branches="interiors,3d-objects" data-industry="">
-      <div class="thumb"><picture><source srcset="assets/img/projects/facades-signage/facades-signage-02-800.webp 800w, assets/img/projects/facades-signage/facades-signage-02-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="assets/img/projects/facades-signage/facades-signage-02-1600.jpg" width="1920" height="1920" alt="Фасады и вывески" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">Смотреть кейс →</span></div>
-      <div class="card-meta">
-        <span class="no">09</span>
-        <div class="card-text">
-          <h3>Фасады и вывески</h3>
-          <p class="client"></p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-square reveal" href="projects/3d-objects.html" data-directions="3d" data-branches="3d-objects,3d-characters" data-industry="">
-      <div class="thumb"><picture><source srcset="assets/img/projects/3d-objects/3d-objects-01-800.webp 800w, assets/img/projects/3d-objects/3d-objects-01-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="assets/img/projects/3d-objects/3d-objects-01-1600.jpg" width="1280" height="1280" alt="3D-объекты и персонажи" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">Смотреть кейс →</span></div>
-      <div class="card-meta">
-        <span class="no">10</span>
-        <div class="card-text">
-          <h3>3D-объекты и персонажи</h3>
-          <p class="client"></p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-tall reveal" href="projects/sandwich-co.html" data-directions="motion" data-branches="smm-graphics,reels-stories" data-industry="food">
+    <a class="project-card shape-tall reveal" href="projects/sandwich-co.html" data-directions="motion" data-branches="smm-graphics,reels-stories">
       <div class="thumb"><picture><source srcset="assets/img/projects/sandwich-co/sandwich-co-nu3r-02-800.webp 800w, assets/img/projects/sandwich-co/sandwich-co-nu3r-02-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="assets/img/projects/sandwich-co/sandwich-co-nu3r-02-1600.jpg" width="1600" height="1986" alt="Пост Sandwich &amp; Co" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">Смотреть кейс →</span></div>
       <div class="card-meta">
         <span class="no">11</span>
@@ -221,29 +233,7 @@
         </div>
       </div>
     </a>
-    <a class="project-card shape-square reveal" href="projects/bahodir-jalolov.html" data-directions="branding" data-branches="logo" data-industry="">
-      <div class="thumb"><picture><source srcset="assets/img/projects/bahodir-jalolov/bahodir-jalolov-01-800.webp 800w, assets/img/projects/bahodir-jalolov/bahodir-jalolov-01-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="assets/img/projects/bahodir-jalolov/bahodir-jalolov-01-1600.jpg" width="8000" height="7076" alt="Bahodir Jalolov Boxing School — логотип" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">Смотреть кейс →</span></div>
-      <div class="card-meta">
-        <span class="no">12</span>
-        <div class="card-text">
-          <h3>Bahodir Jalolov Boxing School — логотип</h3>
-          <p class="client">Bahodir Jalolov Boxing School</p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-square reveal" href="projects/chitir-chitir.html" data-directions="branding,3d,motion" data-branches="mascot,3d-characters,smm-graphics" data-industry="food">
-      <div class="thumb"><picture><source srcset="assets/img/projects/chitir-chitir/chitir-chitir-01-800.webp 800w, assets/img/projects/chitir-chitir/chitir-chitir-01-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="assets/img/projects/chitir-chitir/chitir-chitir-01-1600.jpg" width="1080" height="1080" alt="Chitir-Chitir milk — маскот бренда" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">Смотреть кейс →</span></div>
-      <div class="card-meta">
-        <span class="no">13</span>
-        <div class="card-text">
-          <h3>Chitir-Chitir milk — маскот</h3>
-          <p class="client">Chitir-Chitir milk</p>
-          <div class="badges"><span class="badge badge--ai">Сделано с ИИ</span></div>
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-land reveal" href="projects/dk-leading.html" data-directions="motion" data-branches="smm-graphics" data-industry="it">
+    <a class="project-card shape-land reveal" href="projects/dk-leading.html" data-directions="motion" data-branches="smm-graphics">
       <div class="thumb"><picture><source srcset="assets/img/projects/dk-leading/dk-leading-02-page1-1200.webp 1200w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="assets/img/projects/dk-leading/dk-leading-02-page1-1200.webp" width="1600" height="900" alt="DK Leading — бренд, презентация, SMM" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">Смотреть кейс →</span></div>
       <div class="card-meta">
         <span class="no">14</span>
@@ -254,7 +244,7 @@
         </div>
       </div>
     </a>
-    <a class="project-card shape-land reveal" href="projects/holiday-videos.html" data-directions="motion" data-branches="holidays" data-industry="">
+    <a class="project-card shape-land reveal" href="projects/holiday-videos.html" data-directions="motion" data-branches="holidays">
       <div class="thumb"><picture><source srcset="assets/img/projects/holiday-videos/holiday-videos-06-poster-1200.webp 1200w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="assets/img/projects/holiday-videos/holiday-videos-06-poster-1200.webp" width="1600" height="900" alt="Праздничные ролики" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">Смотреть кейс →</span></div>
       <div class="card-meta">
         <span class="no">15</span>
@@ -265,73 +255,7 @@
         </div>
       </div>
     </a>
-    <a class="project-card shape-land reveal" href="projects/ad-videos.html" data-directions="motion" data-branches="ads,reels-stories" data-industry="realestate,energy,finance,food">
-      <div class="thumb"><picture><source srcset="assets/img/projects/ad-videos/ad-videos-03-poster-1200.webp 1200w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="assets/img/projects/ad-videos/ad-videos-03-poster-1200.webp" width="1600" height="900" alt="Рекламные ролики" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">Смотреть кейс →</span></div>
-      <div class="card-meta">
-        <span class="no">16</span>
-        <div class="card-text">
-          <h3>Рекламные ролики</h3>
-          <p class="client"></p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-land reveal" href="projects/product-animation.html" data-directions="motion" data-branches="ads" data-industry="food">
-      <div class="thumb"><picture><source srcset="assets/img/projects/product-animation/product-animation-01-poster-1200.webp 1200w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="assets/img/projects/product-animation/product-animation-01-poster-1200.webp" width="1600" height="900" alt="FRETTA и Wendy's — продуктовая анимация" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">Смотреть кейс →</span></div>
-      <div class="card-meta">
-        <span class="no">17</span>
-        <div class="card-text">
-          <h3>Продуктовая анимация для LED-экрана</h3>
-          <p class="client"></p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-land reveal" href="projects/intros.html" data-directions="motion" data-branches="intros" data-industry="">
-      <div class="thumb"><picture><source srcset="assets/img/projects/intros/intros-03-poster-1200.webp 1200w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="assets/img/projects/intros/intros-03-poster-1200.webp" width="1200" height="675" alt="Заставки" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">Смотреть кейс →</span></div>
-      <div class="card-meta">
-        <span class="no">18</span>
-        <div class="card-text">
-          <h3>Заставки</h3>
-          <p class="client"></p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-square reveal" href="projects/smm-graphics.html" data-directions="motion" data-branches="smm-graphics" data-industry="">
-      <div class="thumb"><picture><source srcset="assets/img/projects/smm-graphics/smm-graphics-01-800.webp 800w, assets/img/projects/smm-graphics/smm-graphics-01-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="assets/img/projects/smm-graphics/smm-graphics-01-1600.jpg" width="1080" height="1080" alt="SMM-графика разных клиентов" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">Смотреть кейс →</span></div>
-      <div class="card-meta">
-        <span class="no">19</span>
-        <div class="card-text">
-          <h3>SMM-графика разных клиентов</h3>
-          <p class="client"></p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-land reveal" href="projects/presentations.html" data-directions="print" data-branches="decks" data-industry="corporate">
-      <div class="thumb"><picture><source srcset="assets/img/projects/presentations/presentations-cover-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="assets/img/projects/presentations/presentations-cover-1600.webp" width="1600" height="900" alt="Корпоративная презентация Sojitz Corporation" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">Смотреть кейс →</span></div>
-      <div class="card-meta">
-        <span class="no">20</span>
-        <div class="card-text">
-          <h3>Презентации</h3>
-          <p class="client">Sojitz Corporation</p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-tall reveal" href="projects/somang-poster.html" data-directions="print" data-branches="outdoor" data-industry="realestate">
-      <div class="thumb"><picture><source srcset="assets/img/projects/somang-poster/somang-poster-01-800.webp 800w, assets/img/projects/somang-poster/somang-poster-01-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="assets/img/projects/somang-poster/somang-poster-01-1600.jpg" width="1080" height="1690" alt="Постер Somang «Seoul Mun View»" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">Смотреть кейс →</span></div>
-      <div class="card-meta">
-        <span class="no">21</span>
-        <div class="card-text">
-          <h3>Somang — постеры Seoul Mun View</h3>
-          <p class="client">Somang</p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-wide reveal" href="projects/cutout.html" data-directions="web" data-branches="extensions" data-industry="">
+    <a class="project-card shape-wide reveal" href="projects/cutout.html" data-directions="web" data-branches="extensions">
       <div class="thumb"><picture><source srcset="assets/img/projects/cutout/cutout-01-800.webp 800w, assets/img/projects/cutout/cutout-01-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="assets/img/projects/cutout/cutout-01-1600.jpg" width="1400" height="560" alt="Cutout — расширение для Chrome" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">Смотреть кейс →</span></div>
       <div class="card-meta">
         <span class="no">22</span>
@@ -342,29 +266,94 @@
         </div>
       </div>
     </a>
-    <a class="project-card shape-land reveal" href="projects/cropper.html" data-directions="web" data-branches="tools" data-industry="">
-      <div class="thumb"><img src="assets/img/projects/cropper/cover.svg" width="1600" height="900" alt="CROPPER — личный веб-инструмент" loading="lazy" decoding="async"><span class="go" aria-hidden="true">Смотреть кейс →</span></div>
-      <div class="card-meta">
-        <span class="no">23</span>
-        <div class="card-text">
-          <h3>CROPPER и v/cropper</h3>
-          <p class="client"></p>
-          <div class="badges"><span class="badge">Личный проект</span></div>
-        </div>
       </div>
-    </a>
-    <a class="project-card shape-land reveal" href="projects/p-card.html" data-directions="web" data-branches="tools" data-industry="">
-      <div class="thumb"><img src="assets/img/projects/p-card/cover.svg" width="1600" height="900" alt="p/card — личный веб-инструмент" loading="lazy" decoding="async"><span class="go" aria-hidden="true">Смотреть кейс →</span></div>
-      <div class="card-meta">
-        <span class="no">24</span>
-        <div class="card-text">
-          <h3>p/card — товарные карточки</h3>
-          <p class="client"></p>
-          <div class="badges"><span class="badge">Личный проект</span></div>
-        </div>
+      <div class="sec-head sec-head--sub">
+        <h2 class="h2 h2--sm">Все проекты</h2>
+        <span class="count">16</span>
       </div>
-    </a>
+      <div class="mini-grid">
+      <a class="mini-card" href="projects/shell-oil-racks.html">
+        <span class="mini-thumb"><picture><source srcset="assets/img/projects/shell-oil-racks/shell-oil-racks-04-800.webp 800w, assets/img/projects/shell-oil-racks/shell-oil-racks-04-1600.webp 1600w" sizes="(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" type="image/webp"><img src="assets/img/projects/shell-oil-racks/shell-oil-racks-04-1600.jpg" width="1920" height="1440" alt="POS-стеллаж для масел Shell" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Shell — стеллажи для масел</span>
+        <span class="mini-dir">3D и стенды</span>
+      </a>
+      <a class="mini-card" href="projects/haval-conference.html">
+        <span class="mini-thumb"><picture><source srcset="assets/img/projects/haval-conference/haval-conference-siuz-01-800.webp 800w, assets/img/projects/haval-conference/haval-conference-siuz-01-1600.webp 1600w" sizes="(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" type="image/webp"><img src="assets/img/projects/haval-conference/haval-conference-siuz-01-1600.jpg" width="1080" height="1080" alt="Haval — дилерская конференция 2026" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Haval — дилерская конференция 2026</span>
+        <span class="mini-dir">Печать и презентации</span>
+      </a>
+      <a class="mini-card" href="projects/nikhan-new-year.html">
+        <span class="mini-thumb"><picture><source srcset="assets/img/projects/korzinka-new-year/korzinka-new-year-07-800.webp 800w, assets/img/projects/korzinka-new-year/korzinka-new-year-07-1600.webp 1600w" sizes="(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" type="image/webp"><img src="assets/img/projects/korzinka-new-year/korzinka-new-year-07-1600.jpg" width="1280" height="960" alt="Nikhan — новогодняя фотозона" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Nikhan — новогодняя фотозона</span>
+        <span class="mini-dir">3D и стенды</span>
+      </a>
+      <a class="mini-card" href="projects/event-photozones.html">
+        <span class="mini-thumb"><picture><source srcset="assets/img/projects/event-photozones/event-photozones-01-800.webp 800w, assets/img/projects/event-photozones/event-photozones-01-1600.webp 1600w" sizes="(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" type="image/webp"><img src="assets/img/projects/event-photozones/event-photozones-01-1600.jpg" width="1920" height="1440" alt="Фотозоны на события" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Фотозоны на события</span>
+        <span class="mini-dir">3D и стенды</span>
+      </a>
+      <a class="mini-card" href="projects/facades-signage.html">
+        <span class="mini-thumb"><picture><source srcset="assets/img/projects/facades-signage/facades-signage-02-800.webp 800w, assets/img/projects/facades-signage/facades-signage-02-1600.webp 1600w" sizes="(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" type="image/webp"><img src="assets/img/projects/facades-signage/facades-signage-02-1600.jpg" width="1920" height="1920" alt="Фасады и вывески" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Фасады и вывески</span>
+        <span class="mini-dir">3D и стенды</span>
+      </a>
+      <a class="mini-card" href="projects/3d-objects.html">
+        <span class="mini-thumb"><picture><source srcset="assets/img/projects/3d-objects/3d-objects-01-800.webp 800w, assets/img/projects/3d-objects/3d-objects-01-1600.webp 1600w" sizes="(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" type="image/webp"><img src="assets/img/projects/3d-objects/3d-objects-01-1600.jpg" width="1280" height="1280" alt="3D-объекты и персонажи" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">3D-объекты и персонажи</span>
+        <span class="mini-dir">3D и стенды</span>
+      </a>
+      <a class="mini-card" href="projects/bahodir-jalolov.html">
+        <span class="mini-thumb"><picture><source srcset="assets/img/projects/bahodir-jalolov/bahodir-jalolov-01-800.webp 800w, assets/img/projects/bahodir-jalolov/bahodir-jalolov-01-1600.webp 1600w" sizes="(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" type="image/webp"><img src="assets/img/projects/bahodir-jalolov/bahodir-jalolov-01-1600.jpg" width="8000" height="7076" alt="Bahodir Jalolov Boxing School — логотип" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Bahodir Jalolov Boxing School — логотип</span>
+        <span class="mini-dir">Брендинг и айдентика</span>
+      </a>
+      <a class="mini-card" href="projects/chitir-chitir.html">
+        <span class="mini-thumb"><picture><source srcset="assets/img/projects/chitir-chitir/chitir-chitir-01-800.webp 800w, assets/img/projects/chitir-chitir/chitir-chitir-01-1600.webp 1600w" sizes="(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" type="image/webp"><img src="assets/img/projects/chitir-chitir/chitir-chitir-01-1600.jpg" width="1080" height="1080" alt="Chitir-Chitir milk — маскот бренда" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Chitir-Chitir milk — маскот</span>
+        <span class="mini-dir">Брендинг и айдентика</span>
+      </a>
+      <a class="mini-card" href="projects/ad-videos.html">
+        <span class="mini-thumb"><picture><source srcset="assets/img/projects/ad-videos/ad-videos-03-poster-1200.webp 1200w" sizes="(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" type="image/webp"><img src="assets/img/projects/ad-videos/ad-videos-03-poster-1200.webp" width="1600" height="900" alt="Рекламный ролик" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Рекламные ролики</span>
+        <span class="mini-dir">Моушен и SMM</span>
+      </a>
+      <a class="mini-card" href="projects/product-animation.html">
+        <span class="mini-thumb"><picture><source srcset="assets/img/projects/product-animation/product-animation-01-poster-1200.webp 1200w" sizes="(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" type="image/webp"><img src="assets/img/projects/product-animation/product-animation-01-poster-1200.webp" width="1600" height="900" alt="FRETTA и Wendy's — продуктовая анимация" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Продуктовая анимация для LED-экрана</span>
+        <span class="mini-dir">Моушен и SMM</span>
+      </a>
+      <a class="mini-card" href="projects/intros.html">
+        <span class="mini-thumb"><picture><source srcset="assets/img/projects/intros/intros-03-poster-1200.webp" type="image/webp"><img src="assets/img/projects/intros/intros-03-poster-1200.webp" width="1200" height="675" alt="Заставки" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Заставки</span>
+        <span class="mini-dir">Моушен и SMM</span>
+      </a>
+      <a class="mini-card" href="projects/smm-graphics.html">
+        <span class="mini-thumb"><picture><source srcset="assets/img/projects/smm-graphics/smm-graphics-01-800.webp 800w, assets/img/projects/smm-graphics/smm-graphics-01-1600.webp 1600w" sizes="(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" type="image/webp"><img src="assets/img/projects/smm-graphics/smm-graphics-01-1600.jpg" width="1080" height="1080" alt="SMM-графика разных клиентов" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">SMM-графика разных клиентов</span>
+        <span class="mini-dir">Моушен и SMM</span>
+      </a>
+      <a class="mini-card" href="projects/presentations.html">
+        <span class="mini-thumb"><picture><source srcset="assets/img/projects/presentations/presentations-cover-1600.webp" type="image/webp"><img src="assets/img/projects/presentations/presentations-cover-1600.webp" width="1600" height="900" alt="Корпоративная презентация Sojitz Corporation" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Презентации</span>
+        <span class="mini-dir">Печать и презентации</span>
+      </a>
+      <a class="mini-card" href="projects/somang-poster.html">
+        <span class="mini-thumb"><picture><source srcset="assets/img/projects/somang-poster/somang-poster-01-800.webp 800w, assets/img/projects/somang-poster/somang-poster-01-1600.webp 1600w" sizes="(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" type="image/webp"><img src="assets/img/projects/somang-poster/somang-poster-01-1600.jpg" width="1080" height="1690" alt="Постер Somang «Seoul Mun View»" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Somang — постеры Seoul Mun View</span>
+        <span class="mini-dir">Печать и презентации</span>
+      </a>
+      <a class="mini-card" href="projects/cropper.html">
+        <span class="mini-thumb"><img src="assets/img/projects/cropper/cover.svg" width="1600" height="900" alt="CROPPER — личный веб-инструмент" loading="lazy" decoding="async"></span>
+        <span class="mini-title">CROPPER и v/cropper</span>
+        <span class="mini-dir">Веб и инструменты</span>
+      </a>
+      <a class="mini-card" href="projects/p-card.html">
+        <span class="mini-thumb"><img src="assets/img/projects/p-card/cover.svg" width="1600" height="900" alt="p/card — личный веб-инструмент" loading="lazy" decoding="async"></span>
+        <span class="mini-title">p/card — товарные карточки</span>
+        <span class="mini-dir">Веб и инструменты</span>
+      </a>
       </div>
+      <p class="works-more"><a class="btn btn--ghost" href="works.html">Все работы · 24 →</a></p>
     </section>
     <section class="who" id="who" aria-labelledby="who-title">
     <div class="container">
@@ -372,7 +361,7 @@
       <h2 class="h-giant who-name" id="who-title" style="--fit:7"><span>Владлен</span> <span class="acid">Лукин</span></h2>
       <div class="who-grid">
         <figure class="who-photo">
-          <picture><source type="image/webp" srcset="assets/img/about/portrait-main-800.webp 800w, assets/img/about/portrait-main-1159.webp 1159w" sizes="(min-width: 1100px) 520px, (min-width: 720px) 45vw, 100vw"><img src="assets/img/about/portrait-main-800.jpg" srcset="assets/img/about/portrait-main-800.jpg 800w, assets/img/about/portrait-main-1159.jpg 1159w" sizes="(min-width: 1100px) 520px, (min-width: 720px) 45vw, 100vw" width="1159" height="1449" alt="Владлен Лукин (vlddvr) — портрет" style="object-position:56% 40%" loading="lazy" decoding="async"></picture>
+          <picture><source type="image/webp" srcset="assets/img/about/portrait-main-800.webp 800w, assets/img/about/portrait-main-1159.webp 1159w" sizes="(min-width: 1100px) 520px, (min-width: 720px) 45vw, 100vw"><img src="assets/img/about/portrait-main-800.jpg" srcset="assets/img/about/portrait-main-800.jpg 800w, assets/img/about/portrait-main-1159.jpg 1159w" sizes="(min-width: 1100px) 520px, (min-width: 720px) 45vw, 100vw" width="1159" height="1449" alt="Портрет дизайнера" style="object-position:56% 40%" loading="lazy" decoding="async"></picture>
           <figcaption class="photo-plate">25 лет · Ташкент</figcaption>
         </figure>
         <div class="who-copy">
@@ -388,25 +377,25 @@
             <div><dt>Инструменты</dt><dd>Blender · Cinema 4D · After Effects · Photoshop · Illustrator · Figma</dd></div>
           </dl>
           <div class="hero-ctas">
-            <a class="btn" href="https://t.me/vlddvr" target="_blank" rel="noopener">Обсудить проект →</a>
+            <span class="btn is-disabled" role="button" aria-disabled="true" title="Контакты скоро">Обсудить проект · скоро</span>
             <a class="btn btn--ghost" href="about.html">Подробнее обо мне</a>
           </div>
         </div>
       </div>
     </div>
     <div class="company-strip" aria-label="Работал в">
-      <div class="container"><span class="company-label">Работал в</span><span class="company">Great Wall Motors</span><span class="company">Dream City</span><span class="company">MOLLEQULA</span><span class="company">EXZAP HOLDING</span><span class="company">THE ONE / Terra Pro</span></div>
+      <div class="container"><span class="company-label">Работал в</span><span class="company">THE ONE / Terra Pro <small class="company-years">2026 — н. в.</small></span><span class="company">Great Wall Motors <small class="company-years">2025–2026</small></span><span class="company">Dream City <small class="company-years">2024–2025</small></span><span class="company">MOLLEQULA <small class="company-years">2023–2024</small></span><span class="company">EXZAP HOLDING <small class="company-years">2020–2023</small></span></div>
     </div>
   </section>
     <section class="contact on-acid" id="contact" aria-labelledby="contact-title">
     <div class="container">
       <h2 class="h-giant" id="contact-title" style="--fit:7"><span>Есть</span> <span class="out">задача?</span></h2>
       <div class="contact-links">
-        <a href="https://t.me/vlddvr" target="_blank" rel="noopener"><span>Telegram</span><span aria-hidden="true">↗</span></a>
-        <a href="mailto:vladlenlukin213.3@gmail.com"><span>Почта</span><span aria-hidden="true">↗</span></a>
-        <a href="https://www.behance.net/deathhueth" target="_blank" rel="noopener"><span>Behance</span><span aria-hidden="true">↗</span></a>
+        <span class="is-disabled" aria-disabled="true"><span>Telegram</span><span>скоро</span></span>
+        <span class="is-disabled" aria-disabled="true"><span>Почта</span><span>скоро</span></span>
+        <span class="is-disabled" aria-disabled="true"><span>Behance</span><span>скоро</span></span>
       </div>
-      <p class="contact-email">vladlenlukin213.3@gmail.com</p>
+      <p class="contact-email">Контакты появятся здесь в ближайшее время.</p>
     </div>
   </section>
   </main>
@@ -414,9 +403,7 @@
     <div class="container">
       <span>&copy; 2026 vlddvr — дизайн-портфолио. Все права защищены.</span>
       <span class="footer-contacts">
-        <a href="https://t.me/vlddvr" target="_blank" rel="noopener">Telegram</a>
-        <a href="mailto:vladlenlukin213.3@gmail.com">Почта</a>
-        <a href="https://www.behance.net/deathhueth" target="_blank" rel="noopener">Behance</a>
+        <span aria-disabled="true">Контакты скоро</span>
       </span>
     </div>
   </footer>

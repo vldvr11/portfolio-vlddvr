@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>vlddvr — portfolio</title>
   <meta name="description" content="Branding, 3D, motion, print, web and AI visuals. Selected work by direction below.">
-  <meta name="robots" content="noindex, nofollow">
-  <link rel="alternate" hreflang="ru" href="https://vldvr11.github.io/portfolio-vlddvr/index.html">
-  <link rel="alternate" hreflang="en" href="https://vldvr11.github.io/portfolio-vlddvr/en/index.html">
-  <link rel="alternate" hreflang="x-default" href="https://vldvr11.github.io/portfolio-vlddvr/index.html">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, notranslate">
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex, notranslate">
+  <meta name="yandex" content="noindex, nofollow, noarchive, nosnippet, noimageindex, notranslate">
+  
   
   <meta name="color-scheme" content="dark">
   <meta name="theme-color" content="#0a0a0a">
@@ -20,12 +20,13 @@
 </head>
 <body class="page-index">
   <a class="skip-link" href="#main">Skip to content</a>
+  <div class="test-strip" role="note">Site in test mode</div>
   <header class="site-header">
     <div class="container">
       <a class="logo" href="../en/index.html">vlddvr<b>.</b></a>
       <nav class="main-nav" aria-label="Main menu">
         <ul>
-          <li><a href="../en/index.html" class="is-active" aria-current="page">Work</a></li>
+          <li><a href="../en/works.html">All work</a></li>
           <li><a href="../en/about.html">About</a></li>
         </ul>
       </nav>
@@ -33,23 +34,54 @@
         <a href="../index.html" hreflang="ru" lang="ru">RU</a>
         <a href="../en/index.html" hreflang="en" lang="en" class="is-active" aria-current="true">EN</a>
       </div>
-      <a class="btn btn--sm header-cta" href="https://t.me/vlddvr" target="_blank" rel="noopener">Message</a>
+      <span class="btn btn--sm header-cta is-disabled" role="button" aria-disabled="true" title="Contacts coming soon">Message · coming soon</span>
     </div>
   </header>
   <main id="main">
     <section class="hero" aria-labelledby="hero-title">
-      <a class="hero-media" href="../en/projects/shell-stand.html" style="--ar:1920 / 1080;--focus:50% 50%">
-        <picture><source srcset="../assets/img/projects/shell-stand/shell-stand-05-800.webp 800w, ../assets/img/projects/shell-stand/shell-stand-05-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="../assets/img/projects/shell-stand/shell-stand-05-1600.jpg" width="1920" height="1080" alt="Shell — exhibition stand" class="kb" fetchpriority="high"></picture>
-        <span class="hero-tag"><small>★ Featured work · Shell</small>Shell — exhibition stand →</span>
-      </a>
+      <div class="hero-slider" data-hero-slider tabindex="-1" aria-roledescription="carousel" aria-label="Featured work">
+      <div class="hero-media" style="--ar:1920 / 1080;--focus:50% 50%">
+        <a class="hero-slide is-active" href="../en/projects/shell-stand.html" style="--focus:50% 50%" data-slide="0">
+          <picture><source srcset="../assets/img/projects/shell-stand/shell-stand-05-800.webp 800w, ../assets/img/projects/shell-stand/shell-stand-05-1600.webp 1600w" sizes="100vw" type="image/webp"><img src="../assets/img/projects/shell-stand/shell-stand-05-1600.jpg" width="1920" height="1080" alt="Shell — exhibition stand" class="kb" fetchpriority="high"></picture>
+          <span class="hero-tag"><small>★ Featured work · Shell</small>Shell — exhibition stand →</span>
+        </a>
+        <a class="hero-slide" href="../en/projects/haval-gwm.html" style="--focus:50% 50%" aria-hidden="true" tabindex="-1" data-slide="1">
+          <picture><source srcset="../assets/img/projects/haval-v7-stand/haval-v7-stand-02-800.webp 800w, ../assets/img/projects/haval-v7-stand/haval-v7-stand-02-1600.webp 1600w" sizes="100vw" type="image/webp"><img src="../assets/img/projects/haval-v7-stand/haval-v7-stand-02-1600.jpg" width="3000" height="1500" alt="Haval V7 / GWM — exhibition stand" class="kb" loading="lazy" decoding="async"></picture>
+          <span class="hero-tag"><small>★ Featured work · Haval / GWM</small>Haval — in-house at Great Wall Motors →</span>
+        </a>
+        <a class="hero-slide" href="../en/projects/exzap-showroom.html" style="--focus:50% 50%" aria-hidden="true" tabindex="-1" data-slide="2">
+          <picture><source srcset="../assets/img/projects/exzap-showroom/exzap-showroom-04-800.webp 800w, ../assets/img/projects/exzap-showroom/exzap-showroom-04-1600.webp 1600w" sizes="100vw" type="image/webp"><img src="../assets/img/projects/exzap-showroom/exzap-showroom-04-1600.jpg" width="1440" height="1440" alt="EXZAP — office &amp; showroom" class="kb" loading="lazy" decoding="async"></picture>
+          <span class="hero-tag"><small>★ Featured work · EXZAP</small>EXZAP — office &amp; showroom →</span>
+        </a>
+        <a class="hero-slide" href="../en/projects/nout-uz-store.html" style="--focus:50% 50%" aria-hidden="true" tabindex="-1" data-slide="3">
+          <picture><source srcset="../assets/img/projects/nout-uz-store/nout-uz-store-01-800.webp 800w, ../assets/img/projects/nout-uz-store/nout-uz-store-01-1600.webp 1600w" sizes="100vw" type="image/webp"><img src="../assets/img/projects/nout-uz-store/nout-uz-store-01-1600.jpg" width="2560" height="1440" alt="NOUT.UZ — laptop store" class="kb" loading="lazy" decoding="async"></picture>
+          <span class="hero-tag"><small>★ Featured work · NOUT.UZ</small>NOUT.UZ — laptop store →</span>
+        </a>
+        <a class="hero-slide" href="../en/projects/sandwich-co.html" style="--focus:50% 50%" aria-hidden="true" tabindex="-1" data-slide="4">
+          <picture><source srcset="../assets/img/projects/sandwich-co/sandwich-co-nu3r-02-800.webp 800w, ../assets/img/projects/sandwich-co/sandwich-co-nu3r-02-1600.webp 1600w" sizes="100vw" type="image/webp"><img src="../assets/img/projects/sandwich-co/sandwich-co-nu3r-02-1600.jpg" width="1600" height="1986" alt="Sandwich &amp; Co social post" class="kb" loading="lazy" decoding="async"></picture>
+          <span class="hero-tag"><small>★ Featured work · Sandwich &amp; Co (sandwichandco.uz)</small>Sandwich &amp; Co — social media →</span>
+        </a>
+        <a class="hero-slide" href="../en/projects/dk-leading.html" style="--focus:50% 50%" aria-hidden="true" tabindex="-1" data-slide="5">
+          <picture><source srcset="../assets/img/projects/dk-leading/dk-leading-02-page1-1200.webp 1200w" sizes="100vw" type="image/webp"><img src="../assets/img/projects/dk-leading/dk-leading-02-page1-1200.webp" width="1600" height="900" alt="DK Leading — brand, deck, social" class="kb" loading="lazy" decoding="async"></picture>
+          <span class="hero-tag"><small>★ Featured work · DK Leading (dkleading.com)</small>DK Leading — social media →</span>
+        </a>
+        <a class="hero-slide" href="../en/projects/holiday-videos.html" style="--focus:50% 50%" aria-hidden="true" tabindex="-1" data-slide="6">
+          <picture><source srcset="../assets/img/projects/holiday-videos/holiday-videos-06-poster-1200.webp 1200w" sizes="100vw" type="image/webp"><img src="../assets/img/projects/holiday-videos/holiday-videos-06-poster-1200.webp" width="1600" height="900" alt="Holiday videos" class="kb" loading="lazy" decoding="async"></picture>
+          <span class="hero-tag"><small>★ Featured work</small>Holiday videos →</span>
+        </a>
+      </div>
+      <div class="hero-dots" role="group" aria-label="Featured work">
+        <button type="button" class="hero-dot is-active" data-go="0" aria-label="Slide 1: Shell — exhibition stand" aria-current="true"><i></i></button><button type="button" class="hero-dot" data-go="1" aria-label="Slide 2: Haval — in-house at Great Wall Motors"><i></i></button><button type="button" class="hero-dot" data-go="2" aria-label="Slide 3: EXZAP — office &amp; showroom"><i></i></button><button type="button" class="hero-dot" data-go="3" aria-label="Slide 4: NOUT.UZ — laptop store"><i></i></button><button type="button" class="hero-dot" data-go="4" aria-label="Slide 5: Sandwich &amp; Co — social media"><i></i></button><button type="button" class="hero-dot" data-go="5" aria-label="Slide 6: DK Leading — social media"><i></i></button><button type="button" class="hero-dot" data-go="6" aria-label="Slide 7: Holiday videos"><i></i></button>
+      </div>
+    </div>
       <div class="hero-copy container" style="--fit:7">
-        <p class="eyebrow">vlddvr — versatile designer</p>
+        <div class="hero-kicker"><span class="status-pill"><i aria-hidden="true"></i>Open to projects</span><p class="eyebrow">vlddvr — versatile designer</p></div>
         <h1 class="h-giant" id="hero-title"><span>Stands.</span> <span class="acid">Brands.</span> <span class="out">Motion.</span></h1>
         <div class="hero-row">
           <p class="lead">Branding, 3D, motion, print, web and AI visuals. Selected work by direction below.</p>
           <div class="hero-ctas">
-            <a class="btn" href="https://t.me/vlddvr" target="_blank" rel="noopener">Discuss a project →</a>
-            <a class="btn btn--ghost" href="#works">Work</a>
+            <span class="btn is-disabled" role="button" aria-disabled="true" title="Contacts coming soon">Discuss a project · coming soon</span>
+            <a class="btn btn--ghost" href="#proof">Work</a>
           </div>
         </div>
       </div>
@@ -58,49 +90,95 @@
     <p class="sr-only">Clients: Shell, Haval / GWM, EXZAP, NOUT.UZ, Nikhan, Sandwich &amp; Co (sandwichandco.uz), Bahodir Jalolov Boxing School, Chitir-Chitir milk, DK Leading (dkleading.com), Sojitz Corporation, Somang</p>
     <div class="ticker-track" aria-hidden="true"><div class="ticker-half"><span>Shell</span><span>Haval / GWM</span><span>EXZAP</span><span>NOUT.UZ</span><span>Nikhan</span><span>Sandwich &amp; Co (sandwichandco.uz)</span><span>Bahodir Jalolov Boxing School</span><span>Chitir-Chitir milk</span><span>DK Leading (dkleading.com)</span><span>Sojitz Corporation</span><span>Somang</span></div><div class="ticker-half"><span>Shell</span><span>Haval / GWM</span><span>EXZAP</span><span>NOUT.UZ</span><span>Nikhan</span><span>Sandwich &amp; Co (sandwichandco.uz)</span><span>Bahodir Jalolov Boxing School</span><span>Chitir-Chitir milk</span><span>DK Leading (dkleading.com)</span><span>Sojitz Corporation</span><span>Somang</span></div></div>
   </div>
+    <section class="proof" id="proof" aria-labelledby="proof-title">
+    <div class="container">
+      <div class="sec-head"><h2 class="h2" id="proof-title">Highlights</h2><span class="count">04</span></div>
+      <ol class="proof-list">
+      <li class="proof-item">
+        <a class="proof-link" href="../en/projects/shell-stand.html">
+          <span class="proof-media" style="--ar:1920 / 1080;--focus:50% 50%"><picture><source srcset="../assets/img/projects/shell-stand/shell-stand-05-800.webp 800w, ../assets/img/projects/shell-stand/shell-stand-05-1600.webp 1600w" sizes="(min-width: 1100px) 860px, 100vw" type="image/webp"><img src="../assets/img/projects/shell-stand/shell-stand-05-1600.jpg" width="1920" height="1080" alt="Shell — exhibition stand" loading="lazy" decoding="async"></picture></span>
+          <span class="proof-cap">
+            <span class="proof-n" aria-hidden="true">01</span>
+            <span class="proof-title">Shell — exhibition stand</span>
+            <span class="proof-client">Shell</span>
+            <span class="proof-go">View case →</span>
+          </span>
+        </a>
+      </li>
+      <li class="proof-item">
+        <a class="proof-link" href="../en/projects/haval-gwm.html">
+          <span class="proof-media" style="--ar:3000 / 1500;--focus:50% 50%"><picture><source srcset="../assets/img/projects/haval-v7-stand/haval-v7-stand-02-800.webp 800w, ../assets/img/projects/haval-v7-stand/haval-v7-stand-02-1600.webp 1600w" sizes="(min-width: 1100px) 860px, 100vw" type="image/webp"><img src="../assets/img/projects/haval-v7-stand/haval-v7-stand-02-1600.jpg" width="3000" height="1500" alt="Haval V7 / GWM — exhibition stand" loading="lazy" decoding="async"></picture></span>
+          <span class="proof-cap">
+            <span class="proof-n" aria-hidden="true">02</span>
+            <span class="proof-title">Haval — in-house at Great Wall Motors</span>
+            <span class="proof-client">Haval / GWM</span>
+            <span class="proof-go">View case →</span>
+          </span>
+        </a>
+      </li>
+      <li class="proof-item">
+        <a class="proof-link" href="../en/projects/nout-uz-store.html">
+          <span class="proof-media" style="--ar:2560 / 1440;--focus:50% 50%"><picture><source srcset="../assets/img/projects/nout-uz-store/nout-uz-store-01-800.webp 800w, ../assets/img/projects/nout-uz-store/nout-uz-store-01-1600.webp 1600w" sizes="(min-width: 1100px) 860px, 100vw" type="image/webp"><img src="../assets/img/projects/nout-uz-store/nout-uz-store-01-1600.jpg" width="2560" height="1440" alt="NOUT.UZ — laptop store" loading="lazy" decoding="async"></picture></span>
+          <span class="proof-cap">
+            <span class="proof-n" aria-hidden="true">03</span>
+            <span class="proof-title">NOUT.UZ — laptop store</span>
+            <span class="proof-client">NOUT.UZ</span>
+            <span class="proof-go">View case →</span>
+          </span>
+        </a>
+      </li>
+      <li class="proof-item">
+        <a class="proof-link" href="../en/projects/exzap-showroom.html">
+          <span class="proof-media" style="--ar:1440 / 1440;--focus:50% 50%"><picture><source srcset="../assets/img/projects/exzap-showroom/exzap-showroom-04-800.webp 800w, ../assets/img/projects/exzap-showroom/exzap-showroom-04-1600.webp 1600w" sizes="(min-width: 1100px) 860px, 100vw" type="image/webp"><img src="../assets/img/projects/exzap-showroom/exzap-showroom-04-1600.jpg" width="1440" height="1440" alt="EXZAP — office &amp; showroom" loading="lazy" decoding="async"></picture></span>
+          <span class="proof-cap">
+            <span class="proof-n" aria-hidden="true">04</span>
+            <span class="proof-title">EXZAP — office &amp; showroom</span>
+            <span class="proof-client">EXZAP</span>
+            <span class="proof-go">View case →</span>
+          </span>
+        </a>
+      </li>
+      </ol>
+    </div>
+  </section>
+    <section class="container dirs" aria-labelledby="dirs-title">
+      <div class="sec-head"><h2 class="h2" id="dirs-title">Directions</h2><span class="count">24 cases</span></div>
+      <div class="hero-panel">
+          <div class="hero-status">
+            <span class="status-fact"><b>6+</b> years of experience</span>
+            <span class="status-fact"><b>5</b> companies</span>
+          </div>
+          <ul class="hero-tiles" aria-label="Directions">
+          <li><a class="hero-tile" href="../en/works.html#3d">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z"/><path d="M3.5 7 12 11.5 20.5 7M12 11.5v10"/></svg>
+            <span class="tile-name">3D &amp; Stands</span>
+            <span class="tile-n">10</span>
+          </a></li>
+          <li><a class="hero-tile" href="../en/works.html#motion">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14"/><path d="M10 9.5v5l4.5-2.5z"/></svg>
+            <span class="tile-name">Motion &amp; Social</span>
+            <span class="tile-n">09</span>
+          </a></li>
+          <li><a class="hero-tile" href="../en/works.html#branding">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5v17M3.5 12h17"/></svg>
+            <span class="tile-name">Branding &amp; Print</span>
+            <span class="tile-n">06</span>
+          </a></li>
+          <li><a class="hero-tile" href="../en/works.html#web">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2.5" y="4" width="19" height="16"/><path d="M2.5 8.5h19M8 12.5l-2 2 2 2M16 12.5l2 2-2 2"/></svg>
+            <span class="tile-name">Web &amp; AI</span>
+            <span class="tile-n">03</span>
+          </a></li>
+          </ul>
+        </div>
+    </section>
     <section class="container works" id="works" aria-labelledby="works-title">
       <div class="sec-head">
-        <h2 class="h2" id="works-title">Work</h2>
-        <span class="count"><span data-works-count>24</span> / 24</span>
+        <h2 class="h2" id="works-title">Featured</h2>
+        <span class="count">08 / 24</span>
       </div>
-      <div class="filters" data-filters>
-      <div class="direction-filter" role="group" aria-label="Filter by direction">
-      <button type="button" class="chip is-active" data-direction="all" aria-pressed="true">All<sup>24</sup></button><button type="button" class="chip" data-direction="branding" aria-pressed="false">Branding &amp; Identity<sup>02</sup></button>
-      <button type="button" class="chip" data-direction="3d" aria-pressed="false">3D &amp; Exhibition<sup>10</sup></button>
-      <button type="button" class="chip" data-direction="motion" aria-pressed="false">Motion &amp; Social<sup>09</sup></button>
-      <button type="button" class="chip" data-direction="print" aria-pressed="false">Print &amp; Decks<sup>04</sup></button>
-      <button type="button" class="chip" data-direction="web" aria-pressed="false">Web &amp; Tools<sup>03</sup></button>
-      </div>
-    <div class="branch-filter" data-for="branding" role="group" aria-label="Filter by branch: Branding &amp; Identity" hidden>
-      <button type="button" class="chip chip--sub is-active" data-branch="all" aria-pressed="true">All branches</button><button type="button" class="chip chip--sub" data-branch="logo" aria-pressed="false">Logos</button>
-      <button type="button" class="chip chip--sub" data-branch="mascot" aria-pressed="false">Mascots &amp; Characters</button>
-      </div>
-    <div class="branch-filter" data-for="3d" role="group" aria-label="Filter by branch: 3D &amp; Exhibition" hidden>
-      <button type="button" class="chip chip--sub is-active" data-branch="all" aria-pressed="true">All branches</button><button type="button" class="chip chip--sub" data-branch="stands" aria-pressed="false">Exhibition stands</button>
-      <button type="button" class="chip chip--sub" data-branch="photozones-pos" aria-pressed="false">Photo zones &amp; POS</button>
-      <button type="button" class="chip chip--sub" data-branch="interiors" aria-pressed="false">Interiors &amp; Spaces</button>
-      <button type="button" class="chip chip--sub" data-branch="3d-objects" aria-pressed="false">3D objects &amp; logos</button>
-      <button type="button" class="chip chip--sub" data-branch="3d-characters" aria-pressed="false">3D characters</button>
-      </div>
-    <div class="branch-filter" data-for="motion" role="group" aria-label="Filter by branch: Motion &amp; Social" hidden>
-      <button type="button" class="chip chip--sub is-active" data-branch="all" aria-pressed="true">All branches</button><button type="button" class="chip chip--sub" data-branch="ads" aria-pressed="false">Ad videos</button>
-      <button type="button" class="chip chip--sub" data-branch="reels-stories" aria-pressed="false">Reels &amp; Stories</button>
-      <button type="button" class="chip chip--sub" data-branch="holidays" aria-pressed="false">Holiday greetings</button>
-      <button type="button" class="chip chip--sub" data-branch="intros" aria-pressed="false">Intros &amp; Logo animation</button>
-      <button type="button" class="chip chip--sub" data-branch="smm-graphics" aria-pressed="false">Social graphics</button>
-      </div>
-    <div class="branch-filter" data-for="print" role="group" aria-label="Filter by branch: Print &amp; Decks" hidden>
-      <button type="button" class="chip chip--sub is-active" data-branch="all" aria-pressed="true">All branches</button><button type="button" class="chip chip--sub" data-branch="brochures" aria-pressed="false">Brochures &amp; Catalogs</button>
-      <button type="button" class="chip chip--sub" data-branch="outdoor" aria-pressed="false">Outdoor &amp; Banners</button>
-      <button type="button" class="chip chip--sub" data-branch="decks" aria-pressed="false">Presentations</button>
-      </div>
-    <div class="branch-filter" data-for="web" role="group" aria-label="Filter by branch: Web &amp; Tools" hidden>
-      <button type="button" class="chip chip--sub is-active" data-branch="all" aria-pressed="true">All branches</button><button type="button" class="chip chip--sub" data-branch="tools" aria-pressed="false">Web tools</button>
-      <button type="button" class="chip chip--sub" data-branch="extensions" aria-pressed="false">Browser extensions</button>
-      </div>
-      </div>
-      <div class="project-grid storyboard">
-      <a class="project-card shape-land reveal" href="../en/projects/shell-stand.html" data-directions="3d" data-branches="stands" data-industry="energy">
+      <div class="project-grid card-grid">
+      <a class="project-card shape-land reveal" href="../en/projects/shell-stand.html" data-directions="3d" data-branches="stands">
       <div class="thumb"><picture><source srcset="../assets/img/projects/shell-stand/shell-stand-05-800.webp 800w, ../assets/img/projects/shell-stand/shell-stand-05-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="../assets/img/projects/shell-stand/shell-stand-05-1600.jpg" width="1920" height="1080" alt="Shell — exhibition stand" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">View case →</span></div>
       <div class="card-meta">
         <span class="no">01</span>
@@ -111,18 +189,7 @@
         </div>
       </div>
     </a>
-    <a class="project-card shape-land reveal" href="../en/projects/shell-oil-racks.html" data-directions="3d" data-branches="photozones-pos" data-industry="energy">
-      <div class="thumb"><picture><source srcset="../assets/img/projects/shell-oil-racks/shell-oil-racks-04-800.webp 800w, ../assets/img/projects/shell-oil-racks/shell-oil-racks-04-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="../assets/img/projects/shell-oil-racks/shell-oil-racks-04-1600.jpg" width="1920" height="1440" alt="Shell oil POS shelving" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">View case →</span></div>
-      <div class="card-meta">
-        <span class="no">02</span>
-        <div class="card-text">
-          <h3>Shell — oil display shelving</h3>
-          <p class="client">Shell</p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-wide reveal" href="../en/projects/haval-gwm.html" data-directions="3d,print,motion" data-branches="stands,smm-graphics,reels-stories,brochures" data-industry="auto">
+    <a class="project-card shape-wide reveal" href="../en/projects/haval-gwm.html" data-directions="3d,print,motion" data-branches="stands,smm-graphics,reels-stories,brochures">
       <div class="thumb"><picture><source srcset="../assets/img/projects/haval-v7-stand/haval-v7-stand-02-800.webp 800w, ../assets/img/projects/haval-v7-stand/haval-v7-stand-02-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="../assets/img/projects/haval-v7-stand/haval-v7-stand-02-1600.jpg" width="3000" height="1500" alt="Haval V7 / GWM — exhibition stand" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">View case →</span></div>
       <div class="card-meta">
         <span class="no">03</span>
@@ -133,18 +200,7 @@
         </div>
       </div>
     </a>
-    <a class="project-card shape-square reveal" href="../en/projects/haval-conference.html" data-directions="print" data-branches="outdoor" data-industry="auto">
-      <div class="thumb"><picture><source srcset="../assets/img/projects/haval-conference/haval-conference-siuz-01-800.webp 800w, ../assets/img/projects/haval-conference/haval-conference-siuz-01-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="../assets/img/projects/haval-conference/haval-conference-siuz-01-1600.jpg" width="1080" height="1080" alt="Haval dealer conference 2026" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">View case →</span></div>
-      <div class="card-meta">
-        <span class="no">04</span>
-        <div class="card-text">
-          <h3>Haval — dealer conference 2026</h3>
-          <p class="client">Haval / GWM</p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-square reveal" href="../en/projects/exzap-showroom.html" data-directions="3d" data-branches="interiors" data-industry="">
+    <a class="project-card shape-square reveal" href="../en/projects/exzap-showroom.html" data-directions="3d" data-branches="interiors">
       <div class="thumb"><picture><source srcset="../assets/img/projects/exzap-showroom/exzap-showroom-04-800.webp 800w, ../assets/img/projects/exzap-showroom/exzap-showroom-04-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="../assets/img/projects/exzap-showroom/exzap-showroom-04-1600.jpg" width="1440" height="1440" alt="EXZAP — office &amp; showroom" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">View case →</span></div>
       <div class="card-meta">
         <span class="no">05</span>
@@ -155,7 +211,7 @@
         </div>
       </div>
     </a>
-    <a class="project-card shape-land reveal" href="../en/projects/nout-uz-store.html" data-directions="3d" data-branches="interiors" data-industry="retail">
+    <a class="project-card shape-land reveal" href="../en/projects/nout-uz-store.html" data-directions="3d" data-branches="interiors">
       <div class="thumb"><picture><source srcset="../assets/img/projects/nout-uz-store/nout-uz-store-01-800.webp 800w, ../assets/img/projects/nout-uz-store/nout-uz-store-01-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="../assets/img/projects/nout-uz-store/nout-uz-store-01-1600.jpg" width="2560" height="1440" alt="NOUT.UZ — laptop store" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">View case →</span></div>
       <div class="card-meta">
         <span class="no">06</span>
@@ -166,51 +222,7 @@
         </div>
       </div>
     </a>
-    <a class="project-card shape-land reveal" href="../en/projects/nikhan-new-year.html" data-directions="3d" data-branches="photozones-pos" data-industry="retail">
-      <div class="thumb"><picture><source srcset="../assets/img/projects/korzinka-new-year/korzinka-new-year-07-800.webp 800w, ../assets/img/projects/korzinka-new-year/korzinka-new-year-07-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="../assets/img/projects/korzinka-new-year/korzinka-new-year-07-1600.jpg" width="1280" height="960" alt="Nikhan — New Year photo zone" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">View case →</span></div>
-      <div class="card-meta">
-        <span class="no">07</span>
-        <div class="card-text">
-          <h3>Nikhan — New Year photo zone</h3>
-          <p class="client">Nikhan</p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-land reveal" href="../en/projects/event-photozones.html" data-directions="3d" data-branches="photozones-pos" data-industry="">
-      <div class="thumb"><picture><source srcset="../assets/img/projects/event-photozones/event-photozones-01-800.webp 800w, ../assets/img/projects/event-photozones/event-photozones-01-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="../assets/img/projects/event-photozones/event-photozones-01-1600.jpg" width="1920" height="1440" alt="Event photo zones" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">View case →</span></div>
-      <div class="card-meta">
-        <span class="no">08</span>
-        <div class="card-text">
-          <h3>Event photo zones</h3>
-          <p class="client"></p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-square reveal" href="../en/projects/facades-signage.html" data-directions="3d" data-branches="interiors,3d-objects" data-industry="">
-      <div class="thumb"><picture><source srcset="../assets/img/projects/facades-signage/facades-signage-02-800.webp 800w, ../assets/img/projects/facades-signage/facades-signage-02-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="../assets/img/projects/facades-signage/facades-signage-02-1600.jpg" width="1920" height="1920" alt="Facades &amp; signage" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">View case →</span></div>
-      <div class="card-meta">
-        <span class="no">09</span>
-        <div class="card-text">
-          <h3>Facades &amp; signage</h3>
-          <p class="client"></p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-square reveal" href="../en/projects/3d-objects.html" data-directions="3d" data-branches="3d-objects,3d-characters" data-industry="">
-      <div class="thumb"><picture><source srcset="../assets/img/projects/3d-objects/3d-objects-01-800.webp 800w, ../assets/img/projects/3d-objects/3d-objects-01-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="../assets/img/projects/3d-objects/3d-objects-01-1600.jpg" width="1280" height="1280" alt="3D objects &amp; characters" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">View case →</span></div>
-      <div class="card-meta">
-        <span class="no">10</span>
-        <div class="card-text">
-          <h3>3D objects &amp; characters</h3>
-          <p class="client"></p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-tall reveal" href="../en/projects/sandwich-co.html" data-directions="motion" data-branches="smm-graphics,reels-stories" data-industry="food">
+    <a class="project-card shape-tall reveal" href="../en/projects/sandwich-co.html" data-directions="motion" data-branches="smm-graphics,reels-stories">
       <div class="thumb"><picture><source srcset="../assets/img/projects/sandwich-co/sandwich-co-nu3r-02-800.webp 800w, ../assets/img/projects/sandwich-co/sandwich-co-nu3r-02-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="../assets/img/projects/sandwich-co/sandwich-co-nu3r-02-1600.jpg" width="1600" height="1986" alt="Sandwich &amp; Co social post" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">View case →</span></div>
       <div class="card-meta">
         <span class="no">11</span>
@@ -221,29 +233,7 @@
         </div>
       </div>
     </a>
-    <a class="project-card shape-square reveal" href="../en/projects/bahodir-jalolov.html" data-directions="branding" data-branches="logo" data-industry="">
-      <div class="thumb"><picture><source srcset="../assets/img/projects/bahodir-jalolov/bahodir-jalolov-01-800.webp 800w, ../assets/img/projects/bahodir-jalolov/bahodir-jalolov-01-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="../assets/img/projects/bahodir-jalolov/bahodir-jalolov-01-1600.jpg" width="8000" height="7076" alt="Bahodir Jalolov Boxing School — logo" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">View case →</span></div>
-      <div class="card-meta">
-        <span class="no">12</span>
-        <div class="card-text">
-          <h3>Bahodir Jalolov Boxing School — logo</h3>
-          <p class="client">Bahodir Jalolov Boxing School</p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-square reveal" href="../en/projects/chitir-chitir.html" data-directions="branding,3d,motion" data-branches="mascot,3d-characters,smm-graphics" data-industry="food">
-      <div class="thumb"><picture><source srcset="../assets/img/projects/chitir-chitir/chitir-chitir-01-800.webp 800w, ../assets/img/projects/chitir-chitir/chitir-chitir-01-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="../assets/img/projects/chitir-chitir/chitir-chitir-01-1600.jpg" width="1080" height="1080" alt="Chitir-Chitir milk brand mascot" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">View case →</span></div>
-      <div class="card-meta">
-        <span class="no">13</span>
-        <div class="card-text">
-          <h3>Chitir-Chitir milk — mascot</h3>
-          <p class="client">Chitir-Chitir milk</p>
-          <div class="badges"><span class="badge badge--ai">Made with AI</span></div>
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-land reveal" href="../en/projects/dk-leading.html" data-directions="motion" data-branches="smm-graphics" data-industry="it">
+    <a class="project-card shape-land reveal" href="../en/projects/dk-leading.html" data-directions="motion" data-branches="smm-graphics">
       <div class="thumb"><picture><source srcset="../assets/img/projects/dk-leading/dk-leading-02-page1-1200.webp 1200w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="../assets/img/projects/dk-leading/dk-leading-02-page1-1200.webp" width="1600" height="900" alt="DK Leading — brand, deck, social" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">View case →</span></div>
       <div class="card-meta">
         <span class="no">14</span>
@@ -254,7 +244,7 @@
         </div>
       </div>
     </a>
-    <a class="project-card shape-land reveal" href="../en/projects/holiday-videos.html" data-directions="motion" data-branches="holidays" data-industry="">
+    <a class="project-card shape-land reveal" href="../en/projects/holiday-videos.html" data-directions="motion" data-branches="holidays">
       <div class="thumb"><picture><source srcset="../assets/img/projects/holiday-videos/holiday-videos-06-poster-1200.webp 1200w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="../assets/img/projects/holiday-videos/holiday-videos-06-poster-1200.webp" width="1600" height="900" alt="Holiday videos" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">View case →</span></div>
       <div class="card-meta">
         <span class="no">15</span>
@@ -265,73 +255,7 @@
         </div>
       </div>
     </a>
-    <a class="project-card shape-land reveal" href="../en/projects/ad-videos.html" data-directions="motion" data-branches="ads,reels-stories" data-industry="realestate,energy,finance,food">
-      <div class="thumb"><picture><source srcset="../assets/img/projects/ad-videos/ad-videos-03-poster-1200.webp 1200w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="../assets/img/projects/ad-videos/ad-videos-03-poster-1200.webp" width="1600" height="900" alt="Ad videos" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">View case →</span></div>
-      <div class="card-meta">
-        <span class="no">16</span>
-        <div class="card-text">
-          <h3>Ad videos</h3>
-          <p class="client"></p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-land reveal" href="../en/projects/product-animation.html" data-directions="motion" data-branches="ads" data-industry="food">
-      <div class="thumb"><picture><source srcset="../assets/img/projects/product-animation/product-animation-01-poster-1200.webp 1200w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="../assets/img/projects/product-animation/product-animation-01-poster-1200.webp" width="1600" height="900" alt="FRETTA &amp; Wendy's — product animation" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">View case →</span></div>
-      <div class="card-meta">
-        <span class="no">17</span>
-        <div class="card-text">
-          <h3>Product animation for an LED screen</h3>
-          <p class="client"></p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-land reveal" href="../en/projects/intros.html" data-directions="motion" data-branches="intros" data-industry="">
-      <div class="thumb"><picture><source srcset="../assets/img/projects/intros/intros-03-poster-1200.webp 1200w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="../assets/img/projects/intros/intros-03-poster-1200.webp" width="1200" height="675" alt="Intros" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">View case →</span></div>
-      <div class="card-meta">
-        <span class="no">18</span>
-        <div class="card-text">
-          <h3>Intros</h3>
-          <p class="client"></p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-square reveal" href="../en/projects/smm-graphics.html" data-directions="motion" data-branches="smm-graphics" data-industry="">
-      <div class="thumb"><picture><source srcset="../assets/img/projects/smm-graphics/smm-graphics-01-800.webp 800w, ../assets/img/projects/smm-graphics/smm-graphics-01-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="../assets/img/projects/smm-graphics/smm-graphics-01-1600.jpg" width="1080" height="1080" alt="Social graphics for various clients" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">View case →</span></div>
-      <div class="card-meta">
-        <span class="no">19</span>
-        <div class="card-text">
-          <h3>Social graphics for various clients</h3>
-          <p class="client"></p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-land reveal" href="../en/projects/presentations.html" data-directions="print" data-branches="decks" data-industry="corporate">
-      <div class="thumb"><picture><source srcset="../assets/img/projects/presentations/presentations-cover-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="../assets/img/projects/presentations/presentations-cover-1600.webp" width="1600" height="900" alt="Sojitz Corporation presentation" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">View case →</span></div>
-      <div class="card-meta">
-        <span class="no">20</span>
-        <div class="card-text">
-          <h3>Presentations</h3>
-          <p class="client">Sojitz Corporation</p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-tall reveal" href="../en/projects/somang-poster.html" data-directions="print" data-branches="outdoor" data-industry="realestate">
-      <div class="thumb"><picture><source srcset="../assets/img/projects/somang-poster/somang-poster-01-800.webp 800w, ../assets/img/projects/somang-poster/somang-poster-01-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="../assets/img/projects/somang-poster/somang-poster-01-1600.jpg" width="1080" height="1690" alt="Somang “Seoul Mun View” poster" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">View case →</span></div>
-      <div class="card-meta">
-        <span class="no">21</span>
-        <div class="card-text">
-          <h3>Somang — Seoul Mun View posters</h3>
-          <p class="client">Somang</p>
-          
-        </div>
-      </div>
-    </a>
-    <a class="project-card shape-wide reveal" href="../en/projects/cutout.html" data-directions="web" data-branches="extensions" data-industry="">
+    <a class="project-card shape-wide reveal" href="../en/projects/cutout.html" data-directions="web" data-branches="extensions">
       <div class="thumb"><picture><source srcset="../assets/img/projects/cutout/cutout-01-800.webp 800w, ../assets/img/projects/cutout/cutout-01-1600.webp 1600w" sizes="(min-width: 900px) 60vw, 100vw" type="image/webp"><img src="../assets/img/projects/cutout/cutout-01-1600.jpg" width="1400" height="560" alt="Cutout — Chrome extension" loading="lazy" decoding="async"></picture><span class="go" aria-hidden="true">View case →</span></div>
       <div class="card-meta">
         <span class="no">22</span>
@@ -342,29 +266,94 @@
         </div>
       </div>
     </a>
-    <a class="project-card shape-land reveal" href="../en/projects/cropper.html" data-directions="web" data-branches="tools" data-industry="">
-      <div class="thumb"><img src="../assets/img/projects/cropper/cover.svg" width="1600" height="900" alt="CROPPER — personal web tool" loading="lazy" decoding="async"><span class="go" aria-hidden="true">View case →</span></div>
-      <div class="card-meta">
-        <span class="no">23</span>
-        <div class="card-text">
-          <h3>CROPPER &amp; v/cropper</h3>
-          <p class="client"></p>
-          <div class="badges"><span class="badge">Personal project</span></div>
-        </div>
       </div>
-    </a>
-    <a class="project-card shape-land reveal" href="../en/projects/p-card.html" data-directions="web" data-branches="tools" data-industry="">
-      <div class="thumb"><img src="../assets/img/projects/p-card/cover.svg" width="1600" height="900" alt="p/card — personal web tool" loading="lazy" decoding="async"><span class="go" aria-hidden="true">View case →</span></div>
-      <div class="card-meta">
-        <span class="no">24</span>
-        <div class="card-text">
-          <h3>p/card — product photo tool</h3>
-          <p class="client"></p>
-          <div class="badges"><span class="badge">Personal project</span></div>
-        </div>
+      <div class="sec-head sec-head--sub">
+        <h2 class="h2 h2--sm">All projects</h2>
+        <span class="count">16</span>
       </div>
-    </a>
+      <div class="mini-grid">
+      <a class="mini-card" href="../en/projects/shell-oil-racks.html">
+        <span class="mini-thumb"><picture><source srcset="../assets/img/projects/shell-oil-racks/shell-oil-racks-04-800.webp 800w, ../assets/img/projects/shell-oil-racks/shell-oil-racks-04-1600.webp 1600w" sizes="(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" type="image/webp"><img src="../assets/img/projects/shell-oil-racks/shell-oil-racks-04-1600.jpg" width="1920" height="1440" alt="Shell oil POS shelving" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Shell — oil display shelving</span>
+        <span class="mini-dir">3D &amp; Exhibition</span>
+      </a>
+      <a class="mini-card" href="../en/projects/haval-conference.html">
+        <span class="mini-thumb"><picture><source srcset="../assets/img/projects/haval-conference/haval-conference-siuz-01-800.webp 800w, ../assets/img/projects/haval-conference/haval-conference-siuz-01-1600.webp 1600w" sizes="(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" type="image/webp"><img src="../assets/img/projects/haval-conference/haval-conference-siuz-01-1600.jpg" width="1080" height="1080" alt="Haval dealer conference 2026" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Haval — dealer conference 2026</span>
+        <span class="mini-dir">Print &amp; Decks</span>
+      </a>
+      <a class="mini-card" href="../en/projects/nikhan-new-year.html">
+        <span class="mini-thumb"><picture><source srcset="../assets/img/projects/korzinka-new-year/korzinka-new-year-07-800.webp 800w, ../assets/img/projects/korzinka-new-year/korzinka-new-year-07-1600.webp 1600w" sizes="(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" type="image/webp"><img src="../assets/img/projects/korzinka-new-year/korzinka-new-year-07-1600.jpg" width="1280" height="960" alt="Nikhan — New Year photo zone" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Nikhan — New Year photo zone</span>
+        <span class="mini-dir">3D &amp; Exhibition</span>
+      </a>
+      <a class="mini-card" href="../en/projects/event-photozones.html">
+        <span class="mini-thumb"><picture><source srcset="../assets/img/projects/event-photozones/event-photozones-01-800.webp 800w, ../assets/img/projects/event-photozones/event-photozones-01-1600.webp 1600w" sizes="(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" type="image/webp"><img src="../assets/img/projects/event-photozones/event-photozones-01-1600.jpg" width="1920" height="1440" alt="Event photo zones" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Event photo zones</span>
+        <span class="mini-dir">3D &amp; Exhibition</span>
+      </a>
+      <a class="mini-card" href="../en/projects/facades-signage.html">
+        <span class="mini-thumb"><picture><source srcset="../assets/img/projects/facades-signage/facades-signage-02-800.webp 800w, ../assets/img/projects/facades-signage/facades-signage-02-1600.webp 1600w" sizes="(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" type="image/webp"><img src="../assets/img/projects/facades-signage/facades-signage-02-1600.jpg" width="1920" height="1920" alt="Facades &amp; signage" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Facades &amp; signage</span>
+        <span class="mini-dir">3D &amp; Exhibition</span>
+      </a>
+      <a class="mini-card" href="../en/projects/3d-objects.html">
+        <span class="mini-thumb"><picture><source srcset="../assets/img/projects/3d-objects/3d-objects-01-800.webp 800w, ../assets/img/projects/3d-objects/3d-objects-01-1600.webp 1600w" sizes="(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" type="image/webp"><img src="../assets/img/projects/3d-objects/3d-objects-01-1600.jpg" width="1280" height="1280" alt="3D objects &amp; characters" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">3D objects &amp; characters</span>
+        <span class="mini-dir">3D &amp; Exhibition</span>
+      </a>
+      <a class="mini-card" href="../en/projects/bahodir-jalolov.html">
+        <span class="mini-thumb"><picture><source srcset="../assets/img/projects/bahodir-jalolov/bahodir-jalolov-01-800.webp 800w, ../assets/img/projects/bahodir-jalolov/bahodir-jalolov-01-1600.webp 1600w" sizes="(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" type="image/webp"><img src="../assets/img/projects/bahodir-jalolov/bahodir-jalolov-01-1600.jpg" width="8000" height="7076" alt="Bahodir Jalolov Boxing School — logo" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Bahodir Jalolov Boxing School — logo</span>
+        <span class="mini-dir">Branding &amp; Identity</span>
+      </a>
+      <a class="mini-card" href="../en/projects/chitir-chitir.html">
+        <span class="mini-thumb"><picture><source srcset="../assets/img/projects/chitir-chitir/chitir-chitir-01-800.webp 800w, ../assets/img/projects/chitir-chitir/chitir-chitir-01-1600.webp 1600w" sizes="(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" type="image/webp"><img src="../assets/img/projects/chitir-chitir/chitir-chitir-01-1600.jpg" width="1080" height="1080" alt="Chitir-Chitir milk brand mascot" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Chitir-Chitir milk — mascot</span>
+        <span class="mini-dir">Branding &amp; Identity</span>
+      </a>
+      <a class="mini-card" href="../en/projects/ad-videos.html">
+        <span class="mini-thumb"><picture><source srcset="../assets/img/projects/ad-videos/ad-videos-03-poster-1200.webp 1200w" sizes="(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" type="image/webp"><img src="../assets/img/projects/ad-videos/ad-videos-03-poster-1200.webp" width="1600" height="900" alt="Ad video" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Ad videos</span>
+        <span class="mini-dir">Motion &amp; Social</span>
+      </a>
+      <a class="mini-card" href="../en/projects/product-animation.html">
+        <span class="mini-thumb"><picture><source srcset="../assets/img/projects/product-animation/product-animation-01-poster-1200.webp 1200w" sizes="(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" type="image/webp"><img src="../assets/img/projects/product-animation/product-animation-01-poster-1200.webp" width="1600" height="900" alt="FRETTA &amp; Wendy's — product animation" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Product animation for an LED screen</span>
+        <span class="mini-dir">Motion &amp; Social</span>
+      </a>
+      <a class="mini-card" href="../en/projects/intros.html">
+        <span class="mini-thumb"><picture><source srcset="../assets/img/projects/intros/intros-03-poster-1200.webp" type="image/webp"><img src="../assets/img/projects/intros/intros-03-poster-1200.webp" width="1200" height="675" alt="Intros" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Intros</span>
+        <span class="mini-dir">Motion &amp; Social</span>
+      </a>
+      <a class="mini-card" href="../en/projects/smm-graphics.html">
+        <span class="mini-thumb"><picture><source srcset="../assets/img/projects/smm-graphics/smm-graphics-01-800.webp 800w, ../assets/img/projects/smm-graphics/smm-graphics-01-1600.webp 1600w" sizes="(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" type="image/webp"><img src="../assets/img/projects/smm-graphics/smm-graphics-01-1600.jpg" width="1080" height="1080" alt="Social graphics for various clients" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Social graphics for various clients</span>
+        <span class="mini-dir">Motion &amp; Social</span>
+      </a>
+      <a class="mini-card" href="../en/projects/presentations.html">
+        <span class="mini-thumb"><picture><source srcset="../assets/img/projects/presentations/presentations-cover-1600.webp" type="image/webp"><img src="../assets/img/projects/presentations/presentations-cover-1600.webp" width="1600" height="900" alt="Sojitz Corporation presentation" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Presentations</span>
+        <span class="mini-dir">Print &amp; Decks</span>
+      </a>
+      <a class="mini-card" href="../en/projects/somang-poster.html">
+        <span class="mini-thumb"><picture><source srcset="../assets/img/projects/somang-poster/somang-poster-01-800.webp 800w, ../assets/img/projects/somang-poster/somang-poster-01-1600.webp 1600w" sizes="(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" type="image/webp"><img src="../assets/img/projects/somang-poster/somang-poster-01-1600.jpg" width="1080" height="1690" alt="Somang “Seoul Mun View” poster" loading="lazy" decoding="async"></picture></span>
+        <span class="mini-title">Somang — Seoul Mun View posters</span>
+        <span class="mini-dir">Print &amp; Decks</span>
+      </a>
+      <a class="mini-card" href="../en/projects/cropper.html">
+        <span class="mini-thumb"><img src="../assets/img/projects/cropper/cover.svg" width="1600" height="900" alt="CROPPER — personal web tool" loading="lazy" decoding="async"></span>
+        <span class="mini-title">CROPPER &amp; v/cropper</span>
+        <span class="mini-dir">Web &amp; Tools</span>
+      </a>
+      <a class="mini-card" href="../en/projects/p-card.html">
+        <span class="mini-thumb"><img src="../assets/img/projects/p-card/cover.svg" width="1600" height="900" alt="p/card — personal web tool" loading="lazy" decoding="async"></span>
+        <span class="mini-title">p/card — product photo tool</span>
+        <span class="mini-dir">Web &amp; Tools</span>
+      </a>
       </div>
+      <p class="works-more"><a class="btn btn--ghost" href="../en/works.html">All work · 24 →</a></p>
     </section>
     <section class="who" id="who" aria-labelledby="who-title">
     <div class="container">
@@ -372,7 +361,7 @@
       <h2 class="h-giant who-name" id="who-title" style="--fit:7"><span>Vladlen</span> <span class="acid">Lukin</span></h2>
       <div class="who-grid">
         <figure class="who-photo">
-          <picture><source type="image/webp" srcset="../assets/img/about/portrait-main-800.webp 800w, ../assets/img/about/portrait-main-1159.webp 1159w" sizes="(min-width: 1100px) 520px, (min-width: 720px) 45vw, 100vw"><img src="../assets/img/about/portrait-main-800.jpg" srcset="../assets/img/about/portrait-main-800.jpg 800w, ../assets/img/about/portrait-main-1159.jpg 1159w" sizes="(min-width: 1100px) 520px, (min-width: 720px) 45vw, 100vw" width="1159" height="1449" alt="Vladlen Lukin (vlddvr) — portrait" style="object-position:56% 40%" loading="lazy" decoding="async"></picture>
+          <picture><source type="image/webp" srcset="../assets/img/about/portrait-main-800.webp 800w, ../assets/img/about/portrait-main-1159.webp 1159w" sizes="(min-width: 1100px) 520px, (min-width: 720px) 45vw, 100vw"><img src="../assets/img/about/portrait-main-800.jpg" srcset="../assets/img/about/portrait-main-800.jpg 800w, ../assets/img/about/portrait-main-1159.jpg 1159w" sizes="(min-width: 1100px) 520px, (min-width: 720px) 45vw, 100vw" width="1159" height="1449" alt="Designer portrait" style="object-position:56% 40%" loading="lazy" decoding="async"></picture>
           <figcaption class="photo-plate">25 y.o. · Tashkent</figcaption>
         </figure>
         <div class="who-copy">
@@ -388,25 +377,25 @@
             <div><dt>Tools</dt><dd>Blender · Cinema 4D · After Effects · Photoshop · Illustrator · Figma</dd></div>
           </dl>
           <div class="hero-ctas">
-            <a class="btn" href="https://t.me/vlddvr" target="_blank" rel="noopener">Discuss a project →</a>
+            <span class="btn is-disabled" role="button" aria-disabled="true" title="Contacts coming soon">Discuss a project · coming soon</span>
             <a class="btn btn--ghost" href="../en/about.html">More about me</a>
           </div>
         </div>
       </div>
     </div>
     <div class="company-strip" aria-label="Worked at">
-      <div class="container"><span class="company-label">Worked at</span><span class="company">Great Wall Motors</span><span class="company">Dream City</span><span class="company">MOLLEQULA</span><span class="company">EXZAP HOLDING</span><span class="company">THE ONE / Terra Pro</span></div>
+      <div class="container"><span class="company-label">Worked at</span><span class="company">THE ONE / Terra Pro <small class="company-years">2026 — now</small></span><span class="company">Great Wall Motors <small class="company-years">2025–2026</small></span><span class="company">Dream City <small class="company-years">2024–2025</small></span><span class="company">MOLLEQULA <small class="company-years">2023–2024</small></span><span class="company">EXZAP HOLDING <small class="company-years">2020–2023</small></span></div>
     </div>
   </section>
     <section class="contact on-acid" id="contact" aria-labelledby="contact-title">
     <div class="container">
       <h2 class="h-giant" id="contact-title" style="--fit:8"><span>Got a</span> <span class="out">project?</span></h2>
       <div class="contact-links">
-        <a href="https://t.me/vlddvr" target="_blank" rel="noopener"><span>Telegram</span><span aria-hidden="true">↗</span></a>
-        <a href="mailto:vladlenlukin213.3@gmail.com"><span>Email</span><span aria-hidden="true">↗</span></a>
-        <a href="https://www.behance.net/deathhueth" target="_blank" rel="noopener"><span>Behance</span><span aria-hidden="true">↗</span></a>
+        <span class="is-disabled" aria-disabled="true"><span>Telegram</span><span>coming soon</span></span>
+        <span class="is-disabled" aria-disabled="true"><span>Email</span><span>coming soon</span></span>
+        <span class="is-disabled" aria-disabled="true"><span>Behance</span><span>coming soon</span></span>
       </div>
-      <p class="contact-email">vladlenlukin213.3@gmail.com</p>
+      <p class="contact-email">Contacts will appear here soon.</p>
     </div>
   </section>
   </main>
@@ -414,9 +403,7 @@
     <div class="container">
       <span>&copy; 2026 vlddvr — design portfolio. All rights reserved.</span>
       <span class="footer-contacts">
-        <a href="https://t.me/vlddvr" target="_blank" rel="noopener">Telegram</a>
-        <a href="mailto:vladlenlukin213.3@gmail.com">Email</a>
-        <a href="https://www.behance.net/deathhueth" target="_blank" rel="noopener">Behance</a>
+        <span aria-disabled="true">Contacts coming soon</span>
       </span>
     </div>
   </footer>

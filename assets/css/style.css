@@ -31,7 +31,7 @@
 
   /* капс-заголовки подгоняются под ширину экрана:
      --fit (ставит build.js) = длина самого длинного слова */
-  --glyph: 1;              /* ширина буквы Unbounded 900 в em, с запасом */
+  --glyph: 1.1;            /* ширина буквы Unbounded 900 в em при letter-spacing 0, с запасом */
   --fs-hero-max: 188px;
   --fs-title-max: 168px;
   --fs-next-max: 140px;
@@ -131,8 +131,8 @@ body::after {
   font-family: var(--f-display);
   font-weight: 900;
   font-size: min(var(--fs-hero-max), calc((100vw - 2 * var(--gut)) / (var(--fit, 8) * var(--glyph))));
-  line-height: 0.88;
-  letter-spacing: -0.045em;
+  line-height: 1;
+  letter-spacing: 0;
   text-transform: uppercase;
   overflow-wrap: break-word;
 }
@@ -141,9 +141,9 @@ body::after {
 .h-giant .out { color: var(--ink); }
 
 .h2 {
-  font: 900 clamp(30px, 7vw, 96px)/0.92 var(--f-display);
+  font: 900 clamp(22px, 6.4vw, 96px)/1 var(--f-display);
   text-transform: uppercase;
-  letter-spacing: -0.04em;
+  letter-spacing: 0;
   overflow-wrap: break-word;
   min-width: 0;
 }
@@ -195,7 +195,7 @@ body::after {
   border-bottom: 1px solid var(--line);
 }
 .site-header .container { display: flex; align-items: center; gap: 12px; height: var(--header-h); }
-.logo { font: 900 18px/1 var(--f-display); letter-spacing: -0.02em; white-space: nowrap; padding: 6px 0; }
+.logo { font: 900 18px/1 var(--f-display); letter-spacing: 0; white-space: nowrap; padding: 6px 0; }
 .logo b { color: var(--acid); }
 .main-nav { margin-left: auto; }
 .main-nav ul { display: flex; gap: 14px; }
@@ -383,7 +383,7 @@ body::after {
    ========================================================= */
 .contact { margin-top: 72px; background: var(--acid); color: var(--on-acid); }
 .contact .container { padding-top: 48px; padding-bottom: 40px; }
-.contact .h-giant { --fs-hero-max: 176px; letter-spacing: -0.05em; }
+.contact .h-giant { --fs-hero-max: 176px; letter-spacing: 0; }
 .contact .h-giant .out { color: var(--on-acid); opacity: .55; }
 .contact-links { display: grid; margin-top: 32px; border-top: 2px solid var(--on-acid); }
 .contact-links a {
@@ -445,7 +445,7 @@ body::after {
 .case-title {
   font-family: var(--f-display); font-weight: 900;
   font-size: var(--tfs);
-  line-height: 0.86; letter-spacing: -0.05em;
+  line-height: 1; letter-spacing: 0;
   text-transform: uppercase;
   overflow-wrap: break-word;
   margin: 16px 0 18px;
@@ -481,7 +481,7 @@ body::after {
 .acts { margin-top: 64px; border-top: 1px solid var(--line); }
 .act { display: grid; gap: 14px; padding: 28px 0 32px; border-bottom: 1px solid var(--line); }
 .act-head { display: flex; gap: 16px; align-items: flex-start; }
-.act-n { flex: none; font: 900 clamp(56px, 14vw, 104px)/0.8 var(--f-display); color: var(--acid); letter-spacing: -0.06em; }
+.act-n { flex: none; font: 900 clamp(56px, 14vw, 104px)/0.8 var(--f-display); color: var(--acid); letter-spacing: 0; }
 .act h2 { font: 900 22px/1 var(--f-display); text-transform: uppercase; padding-top: 2px; }
 .act h2 small {
   display: block; margin-bottom: 10px;
@@ -525,8 +525,8 @@ body::after {
 .cta-band { margin-top: 80px; background: var(--acid); color: var(--on-acid); }
 .cta-band .container { display: grid; gap: 24px; padding-top: 44px; padding-bottom: 44px; }
 .cta-title {
-  font: 900 clamp(30px, 8.4vw, 120px)/0.9 var(--f-display);
-  text-transform: uppercase; letter-spacing: -0.05em;
+  font: 900 clamp(30px, 8.4vw, 120px)/1 var(--f-display);
+  text-transform: uppercase; letter-spacing: 0;
   overflow-wrap: break-word;
 }
 .cta-side p { font-size: 18px; max-width: 40ch; }
@@ -552,8 +552,8 @@ body::after {
 }
 .next-copy .nm {
   display: block;
-  font: 900 var(--nfs)/0.88 var(--f-display);
-  text-transform: uppercase; letter-spacing: -0.05em;
+  font: 900 var(--nfs)/1 var(--f-display);
+  text-transform: uppercase; letter-spacing: 0;
   overflow-wrap: break-word;
   transition: color 0.3s var(--ease);
 }
@@ -644,9 +644,6 @@ body::after {
   .hero-row { grid-template-columns: 1fr auto; }
   .lead { font-size: 20px; }
 
-  .storyboard { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-flow: row dense; }
-  .storyboard > .shape-wide,
-  .storyboard > .shape-land { grid-column: 1 / -1; }
 
   .facts { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .act { grid-template-columns: minmax(260px, 1fr) 2fr; gap: 40px; padding: 44px 0; }
@@ -661,9 +658,6 @@ body::after {
 
 @media (min-width: 1100px) {
   :root { --gut: 40px; --grid-gap: 20px; }
-  .storyboard { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .storyboard > .shape-land { grid-column: span 2; }
-  .storyboard > .shape-wide { grid-column: 1 / -1; }
   .case-media { max-height: 80vh; max-height: 80svh; }
   .pdf-pages { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .lead { font-size: 22px; }
@@ -726,8 +720,8 @@ body::after {
 .fact-plates li { background: var(--bg); padding: 14px 12px 16px; min-width: 0; }
 .fact-plates b {
   display: block;
-  font: 900 clamp(34px, 8vw, 64px)/0.9 var(--f-display);
-  color: var(--acid); letter-spacing: -0.04em;
+  font: 900 clamp(34px, 8vw, 64px)/1 var(--f-display);
+  color: var(--acid); letter-spacing: 0;
 }
 .fact-plates span {
   display: block; margin-top: 8px;
@@ -773,8 +767,8 @@ body::after {
 .job { display: grid; gap: 8px; padding: 24px 0; border-bottom: 1px solid var(--line); }
 .job-years { font: 700 12px/1.2 var(--f-display); text-transform: uppercase; color: var(--acid); }
 .job h3 {
-  font: 900 clamp(22px, 4vw, 44px)/0.95 var(--f-display);
-  text-transform: uppercase; letter-spacing: -0.03em;
+  font: 900 clamp(22px, 4vw, 44px)/1.05 var(--f-display);
+  text-transform: uppercase; letter-spacing: 0;
   overflow-wrap: anywhere;
 }
 .job-note { margin-top: 8px; color: var(--muted); font-size: 13px; }
@@ -798,8 +792,250 @@ body::after {
 
 /* Заголовок раздела внутри кейса (сборные кейсы: Haval и т.п.) */
 .block-text .block-title {
-  font: 900 clamp(26px, 6vw, 56px)/.95 var(--f-display, "Unbounded", system-ui, sans-serif);
-  text-transform: uppercase; letter-spacing: -.03em; margin: 56px 0 8px;
+  font: 900 clamp(26px, 6vw, 56px)/1.05 var(--f-display, "Unbounded", system-ui, sans-serif);
+  text-transform: uppercase; letter-spacing: 0; margin: 56px 0 8px;
   padding-top: 18px; border-top: 1px solid var(--line, #262626);
 }
 .block-text .block-title + p { margin-top: 0; color: var(--muted, #8c8c86); }
+
+/* =========================================================
+   2026-10-11 · Десктоп-вёрстка, hero-слайдер, сетки медиа,
+   «Все работы», контакты-заглушки, тестовый режим
+   ========================================================= */
+
+/* --- Плашка «Сайт в тестовом режиме» (только при PUBLIC=false) --- */
+.test-strip {
+  background: #000; color: var(--acid);
+  border-bottom: 1px solid var(--line);
+  font: 500 10px/1 ui-monospace, "SFMono-Regular", Consolas, monospace;
+  text-transform: uppercase; letter-spacing: 0.14em;
+  text-align: center; padding: 6px var(--gut);
+}
+
+/* --- Сетки работ: реальные пропорции, без обрезки ---
+   телефон: 1 в ряд; планшет (720+): 4 колонки — всё по 2 в ряд, wide на всю;
+   десктоп (1100+): 6 колонок — tall/square по 3, land по 2, wide на всю. */
+@media (min-width: 720px) {
+  .storyboard { grid-template-columns: repeat(4, minmax(0, 1fr)); grid-auto-flow: row dense; }
+  .storyboard > * { grid-column: span 2; }
+  .storyboard > .shape-wide { grid-column: 1 / -1; }
+}
+@media (min-width: 1100px) {
+  .storyboard { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .storyboard > .shape-tall,
+  .storyboard > .shape-square { grid-column: span 2; }
+  .storyboard > .shape-land { grid-column: span 3; }
+  .storyboard > .shape-wide { grid-column: 1 / -1; }
+}
+.shot--video { background: #000; }
+.shot--video video { width: 100%; height: auto; background: #000; }
+.shot--video figcaption { padding: 10px 12px; color: var(--muted); font-size: 13px; }
+.block-text + .block-videos, .block-text + .block-images { margin-top: -24px; }
+
+/* --- Карточки кейсов: ровная сетка (2 / 3 колонки), кадр целиком --- */
+.card-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--grid-gap); align-items: stretch; }
+@media (min-width: 720px) {
+  .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .card-grid .thumb { aspect-ratio: 4 / 3; }
+  .card-grid .thumb img { max-height: 100%; max-width: 100%; width: auto; height: auto; object-fit: contain; }
+  .card-grid .card-meta { flex: 1; }
+}
+@media (min-width: 1100px) {
+  .card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+/* --- «Все проекты» на главной — компактная сетка --- */
+.sec-head--sub { padding-top: 64px; }
+.sec-head--tight { padding-top: 8px; }
+.h2--sm { font-size: clamp(24px, 4vw, 48px); }
+.mini-grid {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px; background: var(--line); border: 1px solid var(--line);
+  margin-top: 18px;
+}
+.mini-card { display: flex; flex-direction: column; gap: 8px; background: var(--bg); padding: 10px 10px 14px; min-width: 0; }
+.mini-thumb { display: flex; align-items: center; justify-content: center; aspect-ratio: 4 / 3; background: var(--bg-2); overflow: hidden; }
+.mini-thumb img { max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; }
+.mini-title { font: 700 12px/1.25 var(--f-display); text-transform: uppercase; overflow-wrap: anywhere; }
+.mini-dir { font: 500 11px/1.2 var(--f-body); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+.mini-card:hover .mini-title { color: var(--acid); }
+.works-more { margin-top: 24px; }
+@media (min-width: 720px) { .mini-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (min-width: 1100px) { .mini-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
+
+/* --- Контакты-заглушки (CONTACTS_ENABLED=false) --- */
+.btn.is-disabled { opacity: 0.55; cursor: not-allowed; }
+.btn.is-disabled:hover { transform: none; box-shadow: none; }
+.contact-links > .is-disabled {
+  display: flex; justify-content: space-between; align-items: center; gap: 12px;
+  min-height: 56px; padding: 18px 0;
+  border-bottom: 2px solid var(--on-acid);
+  font: 700 clamp(16px, 2.6vw, 28px)/1.1 var(--f-display); text-transform: uppercase;
+}
+.contact-links > .is-disabled span + span { font: 500 12px/1 var(--f-body); letter-spacing: 0.12em; opacity: 0.6; }
+
+/* --- Компании с годами --- */
+.company-years {
+  font: 500 11px/1 ui-monospace, "SFMono-Regular", Consolas, monospace;
+  color: var(--acid); letter-spacing: 0.02em; margin-left: 6px; vertical-align: 0.2em;
+  white-space: nowrap;
+}
+
+/* --- Hero-слайдер --- */
+.hero-slider { position: relative; }
+.hero-slider:focus { outline: none; }
+.hero-slider .hero-media { display: block; }
+.hero-slide {
+  position: absolute; inset: 0; display: block;
+  opacity: 0; visibility: hidden;
+  transition: opacity 1.1s var(--slow), visibility 0s linear 1.1s;
+}
+.hero-slide.is-active { opacity: 1; visibility: visible; transition: opacity 1.1s var(--slow), visibility 0s; z-index: 1; }
+.hero-slide .kb { animation: none; }
+.hero-slide.is-active .kb { animation: kb 9s var(--slow) both; }
+.hero-slider.is-paused .kb, .hero-slider.is-hidden-tab .kb { animation-play-state: paused; }
+.hero-slide .hero-tag { top: 22px; }
+.hero-dots {
+  position: absolute; top: 0; left: 0; right: 0; z-index: 3;
+  display: flex; gap: 4px; padding: 0 var(--gut);
+}
+.hero-dot { flex: 1; height: 20px; display: flex; align-items: flex-start; padding-top: 8px; }
+.hero-dot i {
+  display: block; width: 100%; height: 3px;
+  background-color: rgba(244, 244, 239, 0.28);
+  background-image: linear-gradient(var(--acid), var(--acid));
+  background-repeat: no-repeat; background-size: 0% 100%;
+}
+.hero-dot.is-active i { animation: heroprog 5.5s linear forwards; }
+.hero-slider.is-paused .hero-dot i, .hero-slider.is-hidden-tab .hero-dot i { animation-play-state: paused; }
+.hero-dot:hover i { background-color: rgba(244, 244, 239, 0.5); }
+@keyframes heroprog { from { background-size: 0% 100%; } to { background-size: 100% 100%; } }
+@media (prefers-reduced-motion: reduce) {
+  .hero-dot.is-active i { background-size: 100% 100%; }
+  .hero-slide { transition: none; }
+}
+
+/* --- Панель с плитками направлений в hero --- */
+.hero-panel { display: grid; gap: 12px; margin-top: 28px; }
+.hero-status { display: flex; flex-wrap: wrap; gap: 6px; }
+.status-pill, .status-fact {
+  display: inline-flex; align-items: center; gap: 8px;
+  font: 500 11px/1 var(--f-body); text-transform: uppercase; letter-spacing: 0.1em;
+  padding: 9px 11px; border: 1px solid var(--line-strong); background: var(--bg);
+}
+.status-pill i { width: 8px; height: 8px; background: var(--acid); border-radius: 50%; box-shadow: 0 0 0 3px rgba(212, 255, 0, 0.18); }
+.status-fact b { font: 900 12px/1 var(--f-display); color: var(--acid); }
+.hero-tiles {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px; background: var(--line-strong); border: 1px solid var(--line-strong);
+}
+.hero-tile {
+  position: relative; display: grid; grid-template-rows: auto 1fr; gap: 14px;
+  min-height: 112px; padding: 14px 12px 12px;
+  background: var(--bg); min-width: 0;
+  transition: background 0.2s, color 0.2s;
+}
+.hero-tile svg { color: var(--acid); }
+.tile-name { align-self: end; font: 700 12px/1.2 var(--f-display); text-transform: uppercase; overflow-wrap: anywhere; padding-right: 26px; }
+.tile-n { position: absolute; top: 12px; right: 12px; font: 900 13px/1 var(--f-display); color: var(--muted); }
+.hero-tile:hover, .hero-tile:focus-visible { background: var(--acid); color: var(--on-acid); }
+.hero-tile:hover svg, .hero-tile:focus-visible svg, .hero-tile:hover .tile-n, .hero-tile:focus-visible .tile-n { color: var(--on-acid); }
+
+/* --- Десктоп: hero не выше ~86svh, заголовок целиком в первом экране --- */
+@media (min-width: 1100px) {
+  .hero { height: calc(86vh - var(--header-h)); height: calc(86svh - var(--header-h)); min-height: 600px; max-height: 1040px; padding-bottom: 0; }
+  .hero-slider { position: absolute; inset: 0; }
+  .hero-slider .hero-media { height: 100%; max-height: none; aspect-ratio: auto; }
+  .hero-media::after {
+    background:
+      linear-gradient(90deg, rgba(10,10,10,0.82) 0%, rgba(10,10,10,0.35) 48%, rgba(10,10,10,0.55) 100%),
+      linear-gradient(180deg, rgba(10,10,10,0) 40%, rgba(10,10,10,0.6) 78%, #0a0a0a 100%);
+    z-index: 2;
+  }
+  .hero-copy {
+    --hfs: min(
+      calc((min(100vw, var(--max)) - 2 * var(--gut)) / (var(--fit, 8) * var(--glyph))),
+      calc((86svh - var(--header-h) - 300px) / 3)
+    );
+    position: absolute; left: 0; right: 0; bottom: 0; z-index: 4;
+    margin: 0 auto; padding-bottom: 40px;
+    pointer-events: none;
+  }
+  .hero-copy > * { pointer-events: auto; }
+  .hero-row { grid-template-columns: minmax(0, 46ch) auto; justify-content: space-between; margin-top: 22px; }
+  .hero-row .lead { font-size: 19px; }
+  .hero-slide .hero-tag { top: 28px; left: var(--gut); }
+  .hero-dots { left: auto; width: min(420px, 40vw); right: var(--gut); }
+  .ticker { margin-top: 0; }
+}
+
+/* --- Кейс: шапка в две колонки на десктопе --- */
+.case-intro { position: relative; z-index: 2; }
+.case-intro .case-head { margin-top: calc(-1 * (var(--tfs) * 0.45 + 40px)); }
+.case-aside .facts { margin-top: 36px; }
+@media (min-width: 1100px) {
+  .case-media { max-height: 72vh; max-height: 72svh; }
+  .case-intro {
+    display: grid; grid-template-columns: minmax(0, 1fr) 380px; column-gap: 56px; align-items: end;
+  }
+  .case-intro .case-head {
+    --tfs: min(var(--fs-title-max), calc((min(100vw, var(--max)) - 2 * var(--gut) - 436px) / (var(--fit, 8) * var(--glyph))));
+  }
+  .case-aside { padding-bottom: 6px; }
+  .case-aside .facts { grid-template-columns: 1fr; margin-top: 0; }
+  .case-aside .facts > div { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 12px; align-items: baseline; padding: 12px 14px; }
+  .case-aside .facts dt { margin: 0; }
+  .case-head .lead { max-width: 60ch; }
+  .block-text p { max-width: 68ch; }
+}
+
+/* длинный текст не шире 68 знаков */
+.act-text, .job-what, .cta-side p { max-width: min(68ch, 100%); }
+
+/* --- Экран 1: слайдер + оффер. Телефон: кадр выше (обрезка допустима только в hero) --- */
+.hero-kicker { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
+.hero-kicker .eyebrow { margin: 0; }
+@media (max-width: 1099px) {
+  .hero-slider .hero-media { aspect-ratio: auto; height: 62vh; height: 62svh; min-height: 360px; max-height: 760px; }
+  .hero-media::after { background: linear-gradient(180deg, rgba(10,10,10,0) 30%, rgba(10,10,10,0.6) 68%, #0a0a0a 100%); }
+}
+
+/* --- Экран 2: сильные кадры крупно (кадр целиком, без обрезки) --- */
+.proof { margin-top: 8px; }
+.proof-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 48px; margin-top: 28px; }
+.proof-link { display: grid; gap: 16px; }
+.proof-media { display: block; position: relative; aspect-ratio: var(--ar); background: var(--bg-2); border: 1px solid var(--line); overflow: hidden; }
+.proof-media img { width: 100%; height: 100%; }
+.proof-cap { display: grid; gap: 8px; align-content: start; }
+.proof-n { font: 900 clamp(48px, 12vw, 120px)/1 var(--f-display); color: var(--acid); }
+.proof-title { font: 900 clamp(20px, 4.4vw, 40px)/1.1 var(--f-display); text-transform: uppercase; overflow-wrap: anywhere; }
+.proof-client { color: var(--muted); font-size: 14px; text-transform: uppercase; letter-spacing: 0.1em; }
+.proof-go { margin-top: 8px; font: 700 12px/1 var(--f-display); text-transform: uppercase; color: var(--acid); }
+.proof-link:hover .proof-title { color: var(--acid); }
+@media (min-width: 900px) {
+  .proof-list { gap: 96px; }
+  .proof-link { grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: 40px; align-items: center; }
+  .proof-item:nth-child(even) .proof-link { grid-template-columns: minmax(0, 4fr) minmax(0, 7fr); }
+  .proof-item:nth-child(even) .proof-media { order: 2; justify-self: end; }
+  .proof-media { width: min(100%, calc(78vh * var(--ar))); }
+}
+/* движение со смыслом: кадр «проявляется» при входе, номер — лёгкий параллакс.
+   Только CSS (scroll-driven), без JS; уважает reduced motion; конечное состояние — кадр целиком. */
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .proof-media img { animation: proof-in linear both; animation-timeline: view(); animation-range: entry 0% cover 40%; }
+    .proof-n { animation: proof-par linear both; animation-timeline: view(); animation-range: cover 0% cover 100%; }
+  }
+}
+@keyframes proof-in { from { clip-path: inset(14% 8% 14% 8%); opacity: 0.4; } to { clip-path: inset(0 0 0 0); opacity: 1; } }
+@keyframes proof-par { from { transform: translateY(48px); } to { transform: translateY(-48px); } }
+
+/* --- Направления (плитки) после «доказательств» --- */
+.dirs .hero-panel { margin-top: 20px; }
+@media (min-width: 900px) {
+  .dirs .hero-tiles { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .dirs .hero-tile { min-height: 180px; padding: 20px; }
+  .dirs .tile-name { font-size: 16px; }
+  .dirs .tile-n { top: 20px; right: 20px; font-size: 22px; }
+  .dirs .hero-tile svg { width: 40px; height: 40px; }
+}

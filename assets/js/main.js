@@ -57,7 +57,7 @@
   }
 
   /* ---------- Двухуровневый фильтр направлений (направление -> ответвление) ----------
-     Состояние в хэше: #3d, #3d/stands, #industry/auto */
+     Состояние в хэше: #3d, #3d/stands */
   function initFilter() {
     var filtersRoot = document.querySelector("[data-filters]");
     var dirFilter = document.querySelector(".direction-filter");
@@ -85,15 +85,9 @@
       cards.forEach(function (card) {
         var dirs = (card.getAttribute("data-directions") || "").split(",");
         var branches = (card.getAttribute("data-branches") || "").split(",");
-        var industries = (card.getAttribute("data-industry") || "").split(",");
-        var show;
-        if (state.industry) {
-          show = industries.indexOf(state.industry) !== -1;
-        } else {
-          show = state.dir === "all" || dirs.indexOf(state.dir) !== -1;
-          if (show && state.branch !== "all") {
-            show = branches.indexOf(state.branch) !== -1;
-          }
+        var show = state.dir === "all" || dirs.indexOf(state.dir) !== -1;
+        if (show && state.branch !== "all") {
+          show = branches.indexOf(state.branch) !== -1;
         }
         card.style.display = show ? "" : "none";
         if (show) visible++;
@@ -153,14 +147,6 @@
         return;
       }
       var parts = hash.split("/");
-      if (parts[0] === "industry" && parts[1]) {
-        state.industry = parts[1];
-        state.dir = "all";
-        state.branch = "all";
-        render();
-        scrollToWorks();
-        return;
-      }
       var dirId = parts[0];
       var known = dirButtons.some(function (b) { return b.getAttribute("data-direction") === dirId; });
       if (!known) {
@@ -298,7 +284,108 @@
     }, { passive: true });
   }
 
+  /* ---------- Hero-слайдер: кроссфейд + наезд, полоски прогресса ----------
+     Смена — по окончании CSS-анимации полоски (5 с). Пауза: наведение,
+     фокус внутри, скрытая вкладка. При reduced motion анимаций нет —
+     значит и автопрокрутки нет, только ручное переключение. */
+  function initHeroSlider() {
+    var root = document.querySelector("[data-hero-slider]");
+    if (!root) return;
+    var slides = toArray(root.querySelectorAll(".hero-slide"));
+    var dots = toArray(root.querySelectorAll(".hero-dot"));
+    if (slides.length < 2) return;
+    var current = 0;
+
+    function go(i) {
+      i = (i + slides.length) % slides.length;
+      if (i === current) return;
+      var prev = slides[current];
+      prev.classList.remove("is-active");
+      prev.setAttribute("aria-hidden", "true");
+      prev.setAttribute("tabindex", "-1");
+      dots[current].classList.remove("is-active");
+      dots[current].removeAttribute("aria-current");
+      current = i;
+      var s = slides[current];
+      var img = s.querySelector("img");
+      if (img && img.loading === "lazy") img.loading = "eager";
+      s.classList.add("is-active");
+      s.removeAttribute("aria-hidden");
+      s.removeAttribute("tabindex");
+      // перезапуск полоски и наезда
+      var d = dots[current];
+      d.classList.remove("is-active");
+      void d.offsetWidth;
+      d.classList.add("is-active");
+      d.setAttribute("aria-current", "true");
+      // подгрузить следующий кадр заранее
+      var nextImg = slides[(current + 1) % slides.length].querySelector("img");
+      if (nextImg && nextImg.loading === "lazy") nextImg.loading = "eager";
+    }
+
+    dots.forEach(function (d, i) {
+      d.addEventListener("click", function () { go(i); });
+      d.addEventListener("animationend", function (e) {
+        if (e.target.tagName === "I" && d.classList.contains("is-active")) go(current + 1);
+      });
+    });
+
+    function setPaused(on) { root.classList.toggle("is-paused", on); }
+    root.addEventListener("mouseenter", function () { setPaused(true); });
+    root.addEventListener("mouseleave", function () { setPaused(root.contains(document.activeElement)); });
+    root.addEventListener("focusin", function () { setPaused(true); });
+    root.addEventListener("focusout", function (e) {
+      if (!root.contains(e.relatedTarget)) setPaused(false);
+    });
+    document.addEventListener("visibilitychange", function () {
+      root.classList.toggle("is-hidden-tab", document.hidden);
+    });
+
+    root.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowRight") { e.preventDefault(); go(current + 1); }
+      else if (e.key === "ArrowLeft") { e.preventDefault(); go(current - 1); }
+    });
+
+    var startX = null, startY = null;
+    root.addEventListener("touchstart", function (e) {
+      if (e.touches.length !== 1) return;
+      startX = e.touches[0].clientX; startY = e.touches[0].clientY;
+    }, { passive: true });
+    root.addEventListener("touchend", function (e) {
+      if (startX === null) return;
+      var dx = e.changedTouches[0].clientX - startX;
+      var dy = e.changedTouches[0].clientY - startY;
+      if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) go(current + (dx < 0 ? 1 : -1));
+      startX = null;
+    }, { passive: true });
+    // свайп не должен открывать ссылку слайда
+    root.addEventListener("click", function (e) {
+      if (root.classList.contains("is-swiping")) e.preventDefault();
+    });
+  }
+
+  /* ---------- Лупы в сетках кейса: играют без звука, когда видны ---------- */
+  function initAutoplay() {
+    var vids = toArray(document.querySelectorAll("video[data-autoplay]"));
+    if (!vids.length || reduceMotion || !("IntersectionObserver" in window)) return;
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        var v = en.target;
+        if (en.isIntersecting) {
+          v.muted = true;
+          var p = v.play();
+          if (p && p.catch) p.catch(function () {});
+        } else if (!v.paused) {
+          v.pause();
+        }
+      });
+    }, { threshold: 0.35 });
+    vids.forEach(function (v) { io.observe(v); });
+  }
+
   function init() {
+    initHeroSlider();
+    initAutoplay();
     initFilter(); // сначала фильтр из хэша, потом reveal — чтобы скрытые карточки не мерили
     initReveal();
     initLightbox();

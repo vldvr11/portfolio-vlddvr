@@ -2,6 +2,7 @@
   "_note": "Список направлений и ответвлений теперь живёт в data/taxonomy.json (скопирован из корня проекта, не редактировать оригинал). Этот файл — только контакты и общие настройки сайта.",
   "_textsNote": "hero/about/experience ниже — согласованные тексты (copy/site.json, вариант A + факты из facts.md). build.js пока хранит hero_eyebrow/hero_lines/hero_subtitle и about (a.positioning, timeline) как константы в коде, а не читает их отсюда — агенту, который правит build.js, нужно либо подключить эти поля, либо синхронизировать константы вручную.",
   "PUBLIC": false,
+  "CONTACTS_ENABLED": false,
   "baseUrl": "https://vldvr11.github.io/portfolio-vlddvr/",
   "nick": "vlddvr",
   "contacts": {

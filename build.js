@@ -27,6 +27,8 @@ const taxonomy = JSON.parse(fs.readFileSync(path.join(DATA_DIR, "taxonomy.json")
 const projects = JSON.parse(fs.readFileSync(path.join(DATA_DIR, "projects.json"), "utf8"));
 
 const PUBLIC = site.PUBLIC === true;
+// CONTACTS_ENABLED = false — контакты-заглушки: реальные ссылки/почта в HTML не попадают вообще
+const CONTACTS = site.CONTACTS_ENABLED === true;
 const BASE_URL = site.baseUrl.endsWith("/") ? site.baseUrl : site.baseUrl + "/";
 
 const sortedProjects = projects.slice().sort((a, b) => (a.order || 0) - (b.order || 0));
@@ -80,7 +82,14 @@ taxonomy.directions.forEach((d) => {
 const L = {
   ru: {
     skip: "К содержанию",
-    nav_works: "Работы",
+    nav_works: "Все работы",
+    featured_title: "Избранное",
+    all_projects_title: "Все проекты",
+    all_works_title: "Все работы",
+    all_works_link: "Все работы",
+    hero_status: "Открыт к проектам",
+    proof_title: "Лучшие кадры",
+    hero_tiles_label: "Направления",
     nav_about: "Обо мне",
     nav_label: "Основное меню",
     lang_label: "Язык",
@@ -131,10 +140,23 @@ const L = {
     direction_no_branch: "Без ответвления",
     directions_title: "Направление",
     cases_word: "кейсов",
+    soon: "скоро",
+    contacts_soon: "Контакты скоро",
+    contacts_soon_note: "Контакты появятся здесь в ближайшее время.",
+    hero_slider_label: "Избранные работы",
+    hero_slide_go: "Слайд",
+    endings_title: "Эндинги для SMM",
   },
   en: {
     skip: "Skip to content",
-    nav_works: "Work",
+    nav_works: "All work",
+    featured_title: "Featured",
+    all_projects_title: "All projects",
+    all_works_title: "All work",
+    all_works_link: "All work",
+    hero_status: "Open to projects",
+    proof_title: "Highlights",
+    hero_tiles_label: "Directions",
     nav_about: "About",
     nav_label: "Main menu",
     lang_label: "Language",
@@ -185,6 +207,12 @@ const L = {
     direction_no_branch: "No branch",
     directions_title: "Direction",
     cases_word: "cases",
+    soon: "coming soon",
+    contacts_soon: "Contacts coming soon",
+    contacts_soon_note: "Contacts will appear here soon.",
+    hero_slider_label: "Featured work",
+    hero_slide_go: "Slide",
+    endings_title: "SMM endings",
   },
 };
 
@@ -234,8 +262,8 @@ const ABOUT = {
     skills_title: "Навыки",
     present: "н. в.",
     skills: ["Моушн", "VFX", "Композитинг", "Нейровизуализация", "Веб-дизайн", "Инфографика", "Цветокоррекция"],
-    photo_alt: "Владлен Лукин (vlddvr) — портрет",
-    photo2_alt: "Портрет Владлена Лукина в студии",
+    photo_alt: "Портрет дизайнера",
+    photo2_alt: "Портрет дизайнера в студии",
     timeline: [
       { from: "апр 2026", to: null, company: "THE ONE (Terra Pro)", note: "Розничная сеть: одежда, обувь, аксессуары", role: "Графический дизайнер (нейросети)", what: "" },
       { from: "дек 2025", to: "фев 2026", company: "Great Wall Motors", note: "", role: "Дизайнер", what: "Идеи и образы, дизайн рекламы для соцсетей, визуальные эффекты в компьютерной графике, презентации." },
@@ -264,8 +292,8 @@ const ABOUT = {
     skills_title: "Skills",
     present: "present",
     skills: ["Motion", "VFX", "Compositing", "AI visualization", "Web design", "Infographics", "Color grading"],
-    photo_alt: "Vladlen Lukin (vlddvr) — portrait",
-    photo2_alt: "Studio portrait of Vladlen Lukin",
+    photo_alt: "Designer portrait",
+    photo2_alt: "Designer studio portrait",
     timeline: [
       { from: "Apr 2026", to: null, company: "THE ONE (Terra Pro)", note: "Retail chain: clothing, footwear, accessories", role: "Graphic designer (AI)", what: "" },
       { from: "Dec 2025", to: "Feb 2026", company: "Great Wall Motors", note: "", role: "Designer", what: "Ideas and concepts, social media ad design, CG visual effects, presentations." },
@@ -276,7 +304,17 @@ const ABOUT = {
   },
 };
 // Компании строкой (как в резюме) и инструменты
-const ABOUT_COMPANIES = ["Great Wall Motors", "Dream City", "MOLLEQULA", "EXZAP HOLDING", "THE ONE / Terra Pro"];
+// Свежие первыми; to: null — «н. в.» / «now»
+const ABOUT_COMPANIES = [
+  { name: "THE ONE / Terra Pro", from: "2026", to: null },
+  { name: "Great Wall Motors", from: "2025", to: "2026" },
+  { name: "Dream City", from: "2024", to: "2025" },
+  { name: "MOLLEQULA", from: "2023", to: "2024" },
+  { name: "EXZAP HOLDING", from: "2020", to: "2023" },
+];
+function companyYears(c, lang) {
+  return c.to ? `${c.from}–${c.to}` : `${c.from} — ${lang === "ru" ? "н. в." : "now"}`;
+}
 const ABOUT_TOOLS_SHORT = ["Blender", "Cinema 4D", "After Effects", "Photoshop", "Illustrator", "Figma"];
 const ABOUT_TOOLS_FULL = ["Blender", "Cinema 4D", "Photoshop", "Illustrator", "InDesign", "After Effects", "Premiere Pro", "Figma"];
 
@@ -329,14 +367,14 @@ function renderWhoBlock(lang, depth) {
             <div><dt>${a.tools_label}</dt><dd>${ABOUT_TOOLS_SHORT.map(esc).join(" · ")}</dd></div>
           </dl>
           <div class="hero-ctas">
-            <a class="btn" href="${esc(site.contacts.telegram)}" target="_blank" rel="noopener">${t.contact_btn} →</a>
+            ${contactBtn(t.contact_btn, "btn", lang)}
             <a class="btn btn--ghost" href="${aboutHref}">${a.more}</a>
           </div>
         </div>
       </div>
     </div>
     <div class="company-strip" aria-label="${a.companies_label}">
-      <div class="container"><span class="company-label">${a.companies_label}</span>${ABOUT_COMPANIES.map((c) => `<span class="company">${esc(c)}</span>`).join("")}</div>
+      <div class="container"><span class="company-label">${a.companies_label}</span>${ABOUT_COMPANIES.map((c) => `<span class="company">${esc(c.name)} <small class="company-years">${companyYears(c, lang)}</small></span>`).join("")}</div>
     </div>
   </section>`;
 }
@@ -351,6 +389,7 @@ function rel(targetFromRoot, depth) {
 function rootPathFor(kind, slug, lang) {
   if (kind === "index") return lang === "ru" ? "index.html" : "en/index.html";
   if (kind === "about") return lang === "ru" ? "about.html" : "en/about.html";
+  if (kind === "works") return lang === "ru" ? "works.html" : "en/works.html";
   if (kind === "project")
     return lang === "ru" ? `projects/${slug}.html` : `en/projects/${slug}.html`;
   if (kind === "direction")
@@ -365,6 +404,17 @@ function esc(s) {
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;");
+}
+
+/* ------------------------------------------------------------------ */
+/* Контакты: при CONTACTS_ENABLED=false — неактивные заглушки без href */
+/* и без реальных значений (в HTML не попадают ни t.me, ни почта).     */
+/* ------------------------------------------------------------------ */
+function contactBtn(label, cls, lang) {
+  if (CONTACTS) {
+    return `<a class="${cls}" href="${esc(site.contacts.telegram)}" target="_blank" rel="noopener">${label} →</a>`;
+  }
+  return `<span class="${cls} is-disabled" role="button" aria-disabled="true" title="${esc(L[lang].contacts_soon)}">${label} · ${L[lang].soon}</span>`;
 }
 
 function pad2(n) {
@@ -462,6 +512,50 @@ function renderShot(img, lang, depth) {
   return `<figure class="shot shape-${shapeOf(img)}">${renderImg(img, lang, depth)}</figure>`;
 }
 
+/* Видео-кадр сетки: свой файл (луп без звука) или постер; пропорции из poster.w/h */
+function renderVideoShot(block, lang, depth) {
+  const p = block.poster;
+  const shape = shapeOf(p);
+  const caption = esc((block.caption && block.caption[lang]) || "");
+  const alt = esc((p && p.alt && p.alt[lang]) || "");
+  let media;
+  if (block.src) {
+    const ar = p ? ` style="aspect-ratio:${p.w} / ${p.h}"` : "";
+    const w = p ? ` width="${p.w}" height="${p.h}"` : "";
+    media = `<video controls muted loop playsinline preload="none" data-autoplay${w}${ar}${alt ? ` aria-label="${alt}"` : ""} poster="${p ? rel(p.src, depth) : ""}"><source src="${rel(block.src, depth)}" type="video/mp4"></video>`;
+  } else {
+    media = p ? renderImg(p, lang, depth, { sizes: "(min-width: 1100px) 30vw, (min-width: 720px) 45vw, 100vw" }) : "";
+  }
+  return `<figure class="shot shot--video shape-${shape}">${media}${caption ? `<figcaption>${caption}</figcaption>` : ""}</figure>`;
+}
+
+/* Подряд идущие видео-блоки (свой файл или постер) собираются в одну сетку
+   по тем же правилам, что и картинки: вертикальные/квадраты — 3 в ряд,
+   горизонтальные — 2, очень широкие — на всю ширину. Embed-видео — отдельно. */
+function renderBlocks(blocks, lang, depth, t) {
+  const out = [];
+  let group = [];
+  const flush = () => {
+    if (!group.length) return;
+    out.push(`<div class="case-block block-videos">
+      <div class="storyboard media-grid">
+      ${group.map((b) => renderVideoShot(b, lang, depth)).join("\n      ")}
+      </div>
+    </div>`);
+    group = [];
+  };
+  blocks.forEach((b) => {
+    if (b.type === "video" && !b.embed && (b.src || b.poster)) {
+      group.push(b);
+      return;
+    }
+    flush();
+    out.push(renderBlock(b, lang, depth, t));
+  });
+  flush();
+  return out.join("\n    ");
+}
+
 function renderBlock(block, lang, depth, t) {
   switch (block.type) {
     case "text": {
@@ -539,11 +633,13 @@ function renderHead(opts) {
   const { title, description, lang, depth, kind, slug, ogImage } = opts;
   const robots = PUBLIC
     ? `<meta name="robots" content="index, follow">`
-    : `<meta name="robots" content="noindex, nofollow">`;
+    : ["robots", "googlebot", "yandex"]
+        .map((n) => `<meta name="${n}" content="noindex, nofollow, noarchive, nosnippet, noimageindex, notranslate">`)
+        .join("\n  ");
 
   const ruRoot = rootPathFor(kind, slug, "ru");
   const enRoot = rootPathFor(kind, slug, "en");
-  const hreflang = `<link rel="alternate" hreflang="ru" href="${BASE_URL}${ruRoot}">
+  const hreflang = !PUBLIC ? "" : `<link rel="alternate" hreflang="ru" href="${BASE_URL}${ruRoot}">
   <link rel="alternate" hreflang="en" href="${BASE_URL}${enRoot}">
   <link rel="alternate" hreflang="x-default" href="${BASE_URL}${ruRoot}">`;
 
@@ -587,13 +683,15 @@ function renderHeader(lang, depth, activeKind) {
   const enHref = rel(rootPathFor(activeKind.kind, activeKind.slug, "en"), depth);
   const cur = (k) => (activeKind.kind === k ? ' class="is-active" aria-current="page"' : "");
 
+  const testStrip = PUBLIC ? "" : `<div class="test-strip" role="note">${lang === "ru" ? "Сайт в тестовом режиме" : "Site in test mode"}</div>
+  `;
   return `<a class="skip-link" href="#main">${t.skip}</a>
-  <header class="site-header">
+  ${testStrip}<header class="site-header">
     <div class="container">
       <a class="logo" href="${indexHref}">vlddvr<b>.</b></a>
       <nav class="main-nav" aria-label="${t.nav_label}">
         <ul>
-          <li><a href="${indexHref}"${cur("index")}>${t.nav_works}</a></li>
+          <li><a href="${rel(rootPathFor("works", null, lang), depth)}"${cur("works")}>${t.nav_works}</a></li>
           <li><a href="${aboutHref}"${cur("about")}>${t.nav_about}</a></li>
         </ul>
       </nav>
@@ -601,7 +699,7 @@ function renderHeader(lang, depth, activeKind) {
         <a href="${ruHref}" hreflang="ru" lang="ru"${lang === "ru" ? ' class="is-active" aria-current="true"' : ""}>RU</a>
         <a href="${enHref}" hreflang="en" lang="en"${lang === "en" ? ' class="is-active" aria-current="true"' : ""}>EN</a>
       </div>
-      <a class="btn btn--sm header-cta" href="${esc(site.contacts.telegram)}" target="_blank" rel="noopener">${t.write_btn}</a>
+      ${contactBtn(t.write_btn, "btn btn--sm header-cta", lang)}
     </div>
   </header>`;
 }
@@ -616,12 +714,15 @@ function renderContactBlock(lang, headingTag) {
   return `<section class="contact on-acid" id="contact" aria-labelledby="contact-title">
     <div class="container">
       <${tag} class="h-giant" id="contact-title" style="--fit:${fit}"><span>${esc(lines[0])}</span> <span class="out">${esc(lines[1])}</span></${tag}>
-      <div class="contact-links">
+      ${CONTACTS ? `<div class="contact-links">
         <a href="${esc(c.telegram)}" target="_blank" rel="noopener"><span>Telegram</span><span aria-hidden="true">↗</span></a>
         <a href="mailto:${esc(c.email)}"><span>${t.email_label}</span><span aria-hidden="true">↗</span></a>
         <a href="${esc(c.behance)}" target="_blank" rel="noopener"><span>Behance</span><span aria-hidden="true">↗</span></a>
       </div>
-      <p class="contact-email">${esc(c.email)}</p>
+      <p class="contact-email">${esc(c.email)}</p>` : `<div class="contact-links">
+        ${["Telegram", t.email_label, "Behance"].map((n) => `<span class="is-disabled" aria-disabled="true"><span>${esc(n)}</span><span>${t.soon}</span></span>`).join("\n        ")}
+      </div>
+      <p class="contact-email">${t.contacts_soon_note}</p>`}
     </div>
   </section>`;
 }
@@ -633,9 +734,9 @@ function renderFooter(lang, depth) {
     <div class="container">
       <span>&copy; ${new Date().getFullYear()} vlddvr — ${t.footer_tagline}. ${t.footer_rights}</span>
       <span class="footer-contacts">
-        <a href="${esc(c.telegram)}" target="_blank" rel="noopener">Telegram</a>
+        ${CONTACTS ? `<a href="${esc(c.telegram)}" target="_blank" rel="noopener">Telegram</a>
         <a href="mailto:${esc(c.email)}">${t.email_label}</a>
-        <a href="${esc(c.behance)}" target="_blank" rel="noopener">Behance</a>
+        <a href="${esc(c.behance)}" target="_blank" rel="noopener">Behance</a>` : `<span aria-disabled="true">${t.contacts_soon}</span>`}
       </span>
     </div>
   </footer>
@@ -676,8 +777,7 @@ function renderCard(p, lang, depth, t) {
   const badges = renderBadges(p, t);
   const directionsAttr = esc((p.directions || []).join(","));
   const branchesAttr = esc((p.branches || []).join(","));
-  const industryAttr = esc(((p.tags && p.tags.industry) || []).join(","));
-  return `<a class="project-card shape-${shapeOf(p.cover)} reveal" href="${href}" data-directions="${directionsAttr}" data-branches="${branchesAttr}" data-industry="${industryAttr}">
+  return `<a class="project-card shape-${shapeOf(p.cover)} reveal" href="${href}" data-directions="${directionsAttr}" data-branches="${branchesAttr}">
       <div class="thumb">${renderImg(p.cover, lang, depth)}<span class="go" aria-hidden="true">${t.view_case} →</span></div>
       <div class="card-meta">
         <span class="no">${projectNumber(p)}</span>
@@ -730,10 +830,170 @@ function renderFilters(lang, t) {
 /* ------------------------------------------------------------------ */
 /* Страница: index                                                    */
 /* ------------------------------------------------------------------ */
+/* ------------------------------------------------------------------ */
+/* Hero-слайдер: кейсы с featured:true (до 7), по heroOrder, иначе order */
+/* ------------------------------------------------------------------ */
+function heroProjects() {
+  const list = sortedProjects
+    .filter((p) => p.featured)
+    .sort((a, b) => {
+      const ha = typeof a.heroOrder === "number" ? a.heroOrder : Infinity;
+      const hb = typeof b.heroOrder === "number" ? b.heroOrder : Infinity;
+      return ha !== hb ? ha - hb : (a.order || 0) - (b.order || 0);
+    })
+    .slice(0, 7);
+  return list.length ? list : sortedProjects.slice(0, 1);
+}
+
+function renderHeroSlider(list, lang, depth, t) {
+  const first = list[0];
+  const slides = list
+    .map((p, i) => {
+      const href = rel(rootPathFor("project", p.slug, lang), depth);
+      return `<a class="hero-slide${i === 0 ? " is-active" : ""}" href="${href}" style="--focus:${esc(focusOf(p.cover))}"${i === 0 ? "" : ' aria-hidden="true" tabindex="-1"'} data-slide="${i}">
+          ${renderImg(p.cover, lang, depth, { eager: i === 0, class: "kb", sizes: "100vw" })}
+          <span class="hero-tag"><small>★ ${t.featured_label}${p.client ? " · " + esc(p.client) : ""}</small>${esc(p.title[lang])} →</span>
+        </a>`;
+    })
+    .join("\n        ");
+  const dots =
+    list.length > 1
+      ? `<div class="hero-dots" role="group" aria-label="${t.hero_slider_label}">
+        ${list
+          .map(
+            (p, i) =>
+              `<button type="button" class="hero-dot${i === 0 ? " is-active" : ""}" data-go="${i}" aria-label="${t.hero_slide_go} ${i + 1}: ${esc(p.title[lang])}"${i === 0 ? ' aria-current="true"' : ""}><i></i></button>`
+          )
+          .join("")}
+      </div>`
+      : "";
+  return `<div class="hero-slider" data-hero-slider tabindex="-1" aria-roledescription="carousel" aria-label="${t.hero_slider_label}">
+      <div class="hero-media" style="${frameStyle(first.cover)}">
+        ${slides}
+      </div>
+      ${dots}
+    </div>`;
+}
+
+/* Компактная карточка «Все проекты»: обложка целиком + название + направление */
+function renderMiniCard(p, lang, depth, t) {
+  const href = rel(rootPathFor("project", p.slug, lang), depth);
+  const dir = (p.directions || []).map((id) => directionById[id]).filter((d) => d && !d.hidden)[0];
+  return `<a class="mini-card" href="${href}">
+        <span class="mini-thumb">${renderImg(p.cover, lang, depth, { sizes: "(min-width: 1100px) 220px, (min-width: 720px) 30vw, 50vw" })}</span>
+        <span class="mini-title">${esc(p.title[lang])}</span>
+        ${dir ? `<span class="mini-dir">${esc(dir[lang])}</span>` : ""}
+      </a>`;
+}
+
+/* Плитки-направления в hero (идея «окна с плитками», в стиле сайта: линии 1px, лайм) */
+const HERO_TILES = [
+  { dirs: ["3d"], hash: "3d", ru: "3D и стенды", en: "3D & Stands",
+    icon: '<path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z"/><path d="M3.5 7 12 11.5 20.5 7M12 11.5v10"/>' },
+  { dirs: ["motion"], hash: "motion", ru: "Моушен и SMM", en: "Motion & Social",
+    icon: '<rect x="2.5" y="5" width="19" height="14"/><path d="M10 9.5v5l4.5-2.5z"/>' },
+  { dirs: ["branding", "print"], hash: "branding", ru: "Брендинг и печать", en: "Branding & Print",
+    icon: '<circle cx="12" cy="12" r="8.5"/><path d="M12 3.5v17M3.5 12h17"/>' },
+  { dirs: ["web", "ai-fashion"], hash: "web", ru: "Веб и AI", en: "Web & AI",
+    icon: '<rect x="2.5" y="4" width="19" height="16"/><path d="M2.5 8.5h19M8 12.5l-2 2 2 2M16 12.5l2 2-2 2"/>' },
+];
+function renderHeroPanel(lang, depth, t) {
+  const worksHref = rel(rootPathFor("works", null, lang), depth);
+  const a = ABOUT[lang];
+  const tiles = HERO_TILES.map((tile) => {
+    const n = sortedProjects.filter((p) =>
+      tile.dirs.some((d) => projectHasDirection(p, d) && directionById[d] && !directionById[d].hidden)
+    ).length;
+    const known = visibleDirections.some((d) => d.id === tile.hash);
+    return `<li><a class="hero-tile" href="${worksHref}${known ? "#" + tile.hash : ""}">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">${tile.icon}</svg>
+            <span class="tile-name">${esc(tile[lang])}</span>
+            <span class="tile-n">${pad2(n)}</span>
+          </a></li>`;
+  }).join("\n          ");
+  return `<div class="hero-panel">
+          <div class="hero-status">
+            <span class="status-fact"><b>${esc(a.facts[0].n)}</b> ${esc(a.facts[0].label)}</span>
+            <span class="status-fact"><b>${esc(a.facts[2].n)}</b> ${lang === "ru" ? "компаний" : "companies"}</span>
+          </div>
+          <ul class="hero-tiles" aria-label="${t.hero_tiles_label}">
+          ${tiles}
+          </ul>
+        </div>`;
+}
+
+/* Страница «Все работы»: полный список с двухуровневым фильтром */
+function buildWorks(lang) {
+  const t = L[lang];
+  const depth = lang === "ru" ? 0 : 1;
+  const head = renderHead({
+    title: `${t.all_works_title} — vlddvr`,
+    description: t.hero_subtitle,
+    lang, depth, kind: "works", slug: null, ogImage: null,
+  });
+  const header = renderHeader(lang, depth, { kind: "works", slug: null });
+  const footer = renderFooter(lang, depth);
+  const cards = sortedProjects.map((p) => renderCard(p, lang, depth, t)).join("\n    ");
+  return `${head}
+<body class="page-works">
+  ${header}
+  <main id="main">
+    <section class="container works works--all" id="works" aria-labelledby="works-title">
+      <header class="page-head" style="--fit:${fitOf(t.all_works_title)}">
+        <p class="eyebrow">vlddvr · ${pad2(sortedProjects.length)} ${t.cases_word}</p>
+        <h1 class="case-title" id="works-title">${t.all_works_title}</h1>
+      </header>
+      <div class="sec-head sec-head--tight">
+        <span class="count"><span data-works-count>${pad2(sortedProjects.length)}</span> / ${pad2(sortedProjects.length)}</span>
+      </div>
+      <div class="filters" data-filters>
+      ${renderFilters(lang, t)}
+      </div>
+      <div class="project-grid card-grid">
+      ${cards}
+      </div>
+    </section>
+    ${renderContactBlock(lang)}
+  </main>
+  ${footer}
+</body>
+</html>`;
+}
+
+/* Экран 2 — «доказательства»: 3–4 самых сильных кадра крупно, кадр целиком */
+const PROOF_SLUGS = ["shell-stand", "haval-gwm", "nout-uz-store", "exzap-showroom"];
+function renderProof(lang, depth, t) {
+  const list = PROOF_SLUGS.map((sl) => sortedProjects.find((p) => p.slug === sl)).filter(Boolean);
+  if (!list.length) return "";
+  const items = list.map((p, i) => {
+    const href = rel(rootPathFor("project", p.slug, lang), depth);
+    return `<li class="proof-item">
+        <a class="proof-link" href="${href}">
+          <span class="proof-media" style="${frameStyle(p.cover)}">${renderImg(p.cover, lang, depth, { sizes: "(min-width: 1100px) 860px, 100vw" })}</span>
+          <span class="proof-cap">
+            <span class="proof-n" aria-hidden="true">${pad2(i + 1)}</span>
+            <span class="proof-title">${esc(p.title[lang])}</span>
+            ${p.client ? `<span class="proof-client">${esc(p.client)}</span>` : ""}
+            <span class="proof-go">${t.view_case} →</span>
+          </span>
+        </a>
+      </li>`;
+  }).join("\n      ");
+  return `<section class="proof" id="proof" aria-labelledby="proof-title">
+    <div class="container">
+      <div class="sec-head"><h2 class="h2" id="proof-title">${t.proof_title}</h2><span class="count">${pad2(list.length)}</span></div>
+      <ol class="proof-list">
+      ${items}
+      </ol>
+    </div>
+  </section>`;
+}
+
 function buildIndex(lang) {
   const t = L[lang];
   const depth = lang === "ru" ? 0 : 1;
-  const featured = sortedProjects.find((p) => p.featured) || sortedProjects[0];
+  const heroSlides = heroProjects();
+  const featured = heroSlides[0] || null;
 
   const head = renderHead({
     title: `vlddvr — ${lang === "ru" ? "портфолио" : "portfolio"}`,
@@ -747,21 +1007,18 @@ function buildIndex(lang) {
 
   const header = renderHeader(lang, depth, { kind: "index", slug: null });
   const footer = renderFooter(lang, depth);
-  const filters = renderFilters(lang, t);
-  const cards = sortedProjects.map((p) => renderCard(p, lang, depth, t)).join("\n    ");
-  const featuredHref = featured ? rel(rootPathFor("project", featured.slug, lang), depth) : "#works";
+  const featuredList = sortedProjects.filter((p) => p.featured);
+  const restList = sortedProjects.filter((p) => !p.featured);
+  const cards = featuredList.map((p) => renderCard(p, lang, depth, t)).join("\n    ");
+  const miniCards = restList.map((p) => renderMiniCard(p, lang, depth, t)).join("\n      ");
+  const worksHref = rel(rootPathFor("works", null, lang), depth);
   const heroFit = Math.max(...t.hero_lines.map((l) => fitOf(l)));
   const lineCls = ["", "acid", "out"];
   const heroLines = t.hero_lines
     .map((l, i) => (lineCls[i] ? `<span class="${lineCls[i]}">` : `<span>`) + `${esc(l)}</span>`)
     .join(" ");
 
-  const heroMedia = featured
-    ? `<a class="hero-media" href="${featuredHref}" style="${frameStyle(featured.cover)}">
-        ${renderImg(featured.cover, lang, depth, { eager: true, class: "kb" })}
-        <span class="hero-tag"><small>★ ${t.featured_label}${featured.client ? " · " + esc(featured.client) : ""}</small>${esc(featured.title[lang])} →</span>
-      </a>`
-    : "";
+  const heroMedia = heroSlides.length ? renderHeroSlider(heroSlides, lang, depth, t) : "";
 
   const html = `${head}
 <body class="page-index">
@@ -770,29 +1027,39 @@ function buildIndex(lang) {
     <section class="hero${featured ? "" : " hero--plain"}" aria-labelledby="hero-title">
       ${heroMedia}
       <div class="hero-copy container" style="--fit:${heroFit}">
-        <p class="eyebrow">${t.hero_eyebrow}</p>
+        <div class="hero-kicker"><span class="status-pill"><i aria-hidden="true"></i>${t.hero_status}</span><p class="eyebrow">${t.hero_eyebrow}</p></div>
         <h1 class="h-giant" id="hero-title">${heroLines}</h1>
         <div class="hero-row">
           <p class="lead">${t.hero_subtitle}</p>
           <div class="hero-ctas">
-            <a class="btn" href="${esc(site.contacts.telegram)}" target="_blank" rel="noopener">${t.contact_btn} →</a>
-            <a class="btn btn--ghost" href="#works">${t.works_btn}</a>
+            ${contactBtn(t.contact_btn, "btn", lang)}
+            <a class="btn btn--ghost" href="#proof">${t.works_btn}</a>
           </div>
         </div>
       </div>
     </section>
     ${renderTicker(lang)}
+    ${renderProof(lang, depth, t)}
+    <section class="container dirs" aria-labelledby="dirs-title">
+      <div class="sec-head"><h2 class="h2" id="dirs-title">${t.hero_tiles_label}</h2><span class="count">${pad2(sortedProjects.length)} ${t.cases_word}</span></div>
+      ${renderHeroPanel(lang, depth, t)}
+    </section>
     <section class="container works" id="works" aria-labelledby="works-title">
       <div class="sec-head">
-        <h2 class="h2" id="works-title">${t.works_title}</h2>
-        <span class="count"><span data-works-count>${pad2(sortedProjects.length)}</span> / ${pad2(sortedProjects.length)}</span>
+        <h2 class="h2" id="works-title">${t.featured_title}</h2>
+        <span class="count">${pad2(featuredList.length)} / ${pad2(sortedProjects.length)}</span>
       </div>
-      <div class="filters" data-filters>
-      ${filters}
-      </div>
-      <div class="project-grid storyboard">
+      <div class="project-grid card-grid">
       ${cards}
       </div>
+      ${restList.length ? `<div class="sec-head sec-head--sub">
+        <h2 class="h2 h2--sm">${t.all_projects_title}</h2>
+        <span class="count">${pad2(restList.length)}</span>
+      </div>
+      <div class="mini-grid">
+      ${miniCards}
+      </div>` : ""}
+      <p class="works-more"><a class="btn btn--ghost" href="${worksHref}">${t.all_works_link} · ${pad2(sortedProjects.length)} →</a></p>
     </section>
     ${renderWhoBlock(lang, depth)}
     ${renderContactBlock(lang)}
@@ -811,7 +1078,7 @@ function buildAbout(lang) {
   const a = ABOUT[lang];
   const depth = lang === "ru" ? 0 : 1;
   const head = renderHead({
-    title: `${a.name.join(" ")} (vlddvr) — ${t.about_title}`,
+    title: PUBLIC ? `${a.name.join(" ")} (vlddvr) — ${t.about_title}` : `vlddvr — ${t.about_title}`,
     description: a.positioning,
     lang,
     depth,
@@ -863,7 +1130,7 @@ function buildAbout(lang) {
             ${renderPortrait("alt", a.photo2_alt, depth, "(min-width: 720px) 320px, 70vw")}
           </figure>
           <div class="hero-ctas">
-            <a class="btn" href="${esc(site.contacts.telegram)}" target="_blank" rel="noopener">${t.contact_btn} →</a>
+            ${contactBtn(t.contact_btn, "btn", lang)}
           </div>
         </div>
       </div>
@@ -911,19 +1178,13 @@ function renderCaseTagLinks(p, lang, depth, t, indexHref) {
     })
     .filter(Boolean);
 
-  const industryLinks = ((p.tags && p.tags.industry) || [])
-    .map((indId) => {
-      const ind = industryById[indId];
-      if (!ind) return "";
-      return `<a class="tag-link" href="${indexHref}#industry/${indId}">${esc(ind[lang])}</a>`;
-    })
-    .filter(Boolean);
+  // Индустрия на странице кейса не выводится (решение пользователя); данные tags.industry остаются
 
-  if (!branchLinks.length && !industryLinks.length) return "";
+  if (!branchLinks.length) return "";
 
   return `<div class="case-tag-links">
         ${branchLinks.length ? `<div class="tag-row"><span class="tag-row-label">${t.branches_label}</span> ${branchLinks.join(" ")}</div>` : ""}
-        ${industryLinks.length ? `<div class="tag-row"><span class="tag-row-label">${t.industry_label}</span> ${industryLinks.join(" ")}</div>` : ""}
+        
       </div>`;
 }
 
@@ -957,14 +1218,14 @@ function buildProjectPage(p, lang) {
     )
     .join("\n      ");
 
-  const blocks = (p.blocks || []).map((b) => renderBlock(b, lang, depth, t)).join("\n    ");
+  const blocks = renderBlocks(p.blocks || [], lang, depth, t);
 
   const idx = sortedProjects.findIndex((x) => x.slug === p.slug);
   const next = sortedProjects[(idx + 1) % sortedProjects.length];
   const nextHref = rel(rootPathFor("project", next.slug, lang), depth);
 
   const badges = renderBadges(p, t);
-  const behanceLink = p.behance
+  const behanceLink = CONTACTS && p.behance
     ? `<a class="btn btn--dark-ghost" href="${esc(p.behance)}" target="_blank" rel="noopener">${t.behance} ↗</a>`
     : "";
 
@@ -996,9 +1257,10 @@ function buildProjectPage(p, lang) {
   ${header}
   <main id="main">
     <section class="case-opening" aria-labelledby="case-title">
-      <div class="container case-backbar"><a class="case-back" href="${indexHref}#works">← ${t.back}</a></div>
+      <div class="container case-backbar"><a class="case-back" href="${rel(rootPathFor("works", null, lang), depth)}">← ${t.back}</a></div>
       <div class="case-media" style="${frameStyle(p.cover)}">${renderImg(p.cover, lang, depth, { eager: true, class: "kb" })}</div>
-      <div class="container case-head" style="--fit:${fitOf(p.title[lang])}">
+      <div class="container case-intro">
+      <div class="case-head" style="--fit:${fitOf(p.title[lang])}">
         <div class="case-tags">
           <span class="tag tag--acid">★ ${projectNumber(p)}</span>
           ${dirNames.map((d) => `<span class="tag">${d}</span>`).join("\n          ")}
@@ -1007,13 +1269,14 @@ function buildProjectPage(p, lang) {
         <h1 class="case-title" id="case-title">${esc(p.title[lang])}</h1>
         <p class="lead">${esc(p.summary[lang])}</p>
       </div>
-    </section>
-    <div class="container">
-      <dl class="facts">
+      <aside class="case-aside">
+        <dl class="facts">
         ${facts}
-      </dl>
-      ${tagLinks}
-    </div>
+        </dl>
+        ${tagLinks}
+      </aside>
+      </div>
+    </section>
     ${acts ? `<section class="container acts">\n      ${acts}\n    </section>` : ""}
     <div class="container case-blocks">
     ${blocks}
@@ -1022,9 +1285,9 @@ function buildProjectPage(p, lang) {
       <div class="container">
         <h2 class="cta-title">${t.cta_title}</h2>
         <div class="cta-side">
-          <p>${t.cta_text}</p>
+          <p>${CONTACTS ? t.cta_text : t.contacts_soon_note}</p>
           <div class="cta-actions">
-            <a class="btn btn--dark" href="${esc(site.contacts.telegram)}" target="_blank" rel="noopener">${t.discuss} →</a>
+            ${contactBtn(t.discuss, "btn btn--dark", lang)}
             ${behanceLink}
           </div>
         </div>
@@ -1124,6 +1387,8 @@ function buildSitemap() {
   urls.push(rootPathFor("index", null, "en"));
   urls.push(rootPathFor("about", null, "ru"));
   urls.push(rootPathFor("about", null, "en"));
+  urls.push(rootPathFor("works", null, "ru"));
+  urls.push(rootPathFor("works", null, "en"));
   sortedProjects.forEach((p) => {
     urls.push(rootPathFor("project", p.slug, "ru"));
     urls.push(rootPathFor("project", p.slug, "en"));
@@ -1149,8 +1414,21 @@ function writeFile(relPathFromRoot, content) {
 function main() {
   writeFile("index.html", buildIndex("ru"));
   writeFile("about.html", buildAbout("ru"));
+  writeFile("works.html", buildWorks("ru"));
+  writeFile("en/works.html", buildWorks("en"));
   writeFile("en/index.html", buildIndex("en"));
   writeFile("en/about.html", buildAbout("en"));
+
+  // удалить страницы кейсов, которых больше нет в данных (слияния/переименования)
+  const slugs = new Set(sortedProjects.map((p) => p.slug + ".html"));
+  ["projects", "en/projects"].forEach((dir) => {
+    const full = path.join(ROOT, dir);
+    if (!fs.existsSync(full)) return;
+    fs.readdirSync(full).filter((f) => f.endsWith(".html") && !slugs.has(f)).forEach((f) => {
+      fs.unlinkSync(path.join(full, f));
+      console.log("removed stale", dir + "/" + f);
+    });
+  });
 
   sortedProjects.forEach((p) => {
     writeFile(`projects/${p.slug}.html`, buildProjectPage(p, "ru"));

@@ -42,7 +42,10 @@
       "en": "A 3D exhibition stand for Shell: a Formula 1 car, an oil display, reception and a sim-racing zone. Done at EXZAP HOLDING."
     },
     "task": null,
-    "approach": null,
+    "approach": {
+      "ru": "3D-рендеры стенда в Blender: болид Формулы-1 в центре экспозиции, зона с продукцией и ресепшн — крупным планом, фирменные жёлто-красные цвета Shell в освещении.",
+      "en": "Blender renders of the stand: a Formula 1 car as the centerpiece, a product zone and reception shot up close, Shell's yellow-and-red palette carried through the lighting."
+    },
     "result": null,
     "behance": "https://www.behance.net/deathhueth",
     "aiContent": false,
@@ -97,7 +100,13 @@
           }
         ]
       }
-    ]
+    ],
+    "seo": {
+      "description": {
+        "ru": "3D-стенд Shell для выставки: болид Формулы-1, экспозиция масел, ресепшн и зона симуляторов. Проект сделан в EXZAP HOLDING.",
+        "en": "A 3D exhibition stand for Shell: a Formula 1 car, an oil display, reception and a sim-racing zone. Done at EXZAP HOLDING."
+      }
+    }
   },
   {
     "slug": "shell-oil-racks",
@@ -143,7 +152,10 @@
       "en": "POS shelving for Shell oils: 3D visualisation and a print-ready shelving layout. Done at EXZAP HOLDING."
     },
     "task": null,
-    "approach": null,
+    "approach": {
+      "ru": "3D-визуализация POS-стеллажей в Blender сверху — видно ряды и выкладку; фирменная красно-жёлтая графика Shell на панелях. Отдельно — печатный макет стеллажа в PDF.",
+      "en": "A top-down Blender visualization of the POS racks showing the rows and layout, with Shell's red-and-yellow branding on the panels. A separate PDF covers the print-ready rack artwork."
+    },
     "result": null,
     "behance": "https://www.behance.net/deathhueth",
     "aiContent": false,
@@ -230,7 +242,13 @@
           }
         ]
       }
-    ]
+    ],
+    "seo": {
+      "description": {
+        "ru": "POS-стеллажи для масел Shell: 3D-визуализация и печатный макет стеллажа. Проект сделан в EXZAP HOLDING.",
+        "en": "POS shelving for Shell oils: 3D visualisation and a print-ready shelving layout. Done at EXZAP HOLDING."
+      }
+    }
   },
   {
     "slug": "haval-gwm",
@@ -286,7 +304,10 @@
       "en": "In-house at Great Wall Motors (Dec 2025 — Feb 2026): the Haval V7 exhibition stand, a winter social campaign and brochures for the H6, H9, M6 and Jolion in Russian and Uzbek."
     },
     "task": null,
-    "approach": null,
+    "approach": {
+      "ru": "3D-рендеры стенда V7 в Blender, статика зимней SMM-кампании на русском и узбекском — автомобиль крупным планом на фоне заснеженной дороги, и брошюры моделей H6, H9, M6 и Jolion, свёрстанные в Illustrator/CorelDRAW.",
+      "en": "Blender renders of the V7 stand, static posts for the winter social campaign in Russian and Uzbek — the car shot large against a snowy road — and brochures for the H6, H9, M6 and Jolion models laid out in Illustrator/CorelDRAW."
+    },
     "result": null,
     "behance": "https://www.behance.net/deathhueth",
     "aiContent": false,
@@ -297,7 +318,10 @@
           "ru": "Выставочный стенд Haval V7",
           "en": "Haval V7 exhibition stand"
         },
-        "text": null
+        "text": {
+          "ru": "3D-рендеры стенда в Blender для дилерской выставки.",
+          "en": "Blender renders of the stand for the dealer exhibition."
+        }
       },
       {
         "type": "images",
@@ -337,7 +361,10 @@
           "ru": "Зимняя SMM-кампания",
           "en": "Winter social campaign"
         },
-        "text": null
+        "text": {
+          "ru": "Посты 1:1 на русском и узбекском — автомобиль крупным планом на фоне зимней дороги.",
+          "en": "1:1 posts in Russian and Uzbek — the car shot large against a winter road."
+        }
       },
       {
         "type": "images",
@@ -431,7 +458,10 @@
           "ru": "Брошюры моделей",
           "en": "Model brochures"
         },
-        "text": null
+        "text": {
+          "ru": "Брошюры H6, H9, M6 и Jolion в PDF.",
+          "en": "Brochures for the H6, H9, M6 and Jolion models, as PDF."
+        }
       },
       {
         "type": "pdf",
@@ -553,7 +583,13 @@
           }
         ]
       }
-    ]
+    ],
+    "seo": {
+      "description": {
+        "ru": "Работа в штате Great Wall Motors (декабрь 2025 — февраль 2026): выставочный стенд Haval V7, зимняя SMM-кампания и брошюры моделей H6, H9, M6 и Jolion на…",
+        "en": "In-house at Great Wall Motors (Dec 2025 — Feb 2026): the Haval V7 exhibition stand, a winter social campaign and brochures for the H6, H9, M6 and Jolion…"
+      }
+    }
   },
   {
     "slug": "haval-conference",
@@ -569,7 +605,10 @@
       "en": "Print for the Haval / GWM 2026 dealer conference: poster and attendee badges in Russian and Uzbek."
     },
     "task": null,
-    "approach": null,
+    "approach": {
+      "ru": "Афиша и бейджи дилерской конференции на русском и узбекском: контрастная монохромная графика, автомобиль Haval крупным планом на афише.",
+      "en": "A poster and attendee badges for the dealer conference in Russian and Uzbek: high-contrast monochrome graphics, the Haval car shot large on the poster."
+    },
     "result": null,
     "directions": [
       "print"
@@ -684,7 +723,10 @@
       "en": "3D visualization of the EXZAP office and showroom, featuring a map of Uzbekistan in the interior."
     },
     "task": null,
-    "approach": null,
+    "approach": {
+      "ru": "3D-визуализация офиса и шоурума в Blender: ресепшн со стойкой и логотипом EXZAP, стена с логотипами брендов-партнёров, карта Узбекистана в интерьере.",
+      "en": "Blender visualization of the office and showroom: a reception desk with the EXZAP logo, a wall of partner-brand logos, a map of Uzbekistan worked into the interior."
+    },
     "result": null,
     "behance": "https://www.behance.net/deathhueth",
     "aiContent": false,
@@ -784,7 +826,13 @@
           }
         ]
       }
-    ]
+    ],
+    "seo": {
+      "description": {
+        "ru": "3D-визуализация офиса и шоурума EXZAP с картой Узбекистана в интерьере.",
+        "en": "3D visualization of the EXZAP office and showroom, featuring a map of Uzbekistan in the interior."
+      }
+    }
   },
   {
     "slug": "nout-uz-store",
@@ -831,7 +879,10 @@
       "en": "3D interior visualization for the NOUT.UZ laptop store: brand zoning and product layout."
     },
     "task": null,
-    "approach": null,
+    "approach": {
+      "ru": "3D-визуализация интерьера магазина в Blender: зонирование по брендам, подсвеченные витрины, отдельная зона NVIDIA Studio с зелёной подсветкой.",
+      "en": "Blender interior visualization: zoning by brand, lit display shelves, a dedicated NVIDIA Studio zone with green accent lighting."
+    },
     "result": null,
     "behance": "https://www.behance.net/deathhueth",
     "aiContent": false,
@@ -913,7 +964,13 @@
           }
         ]
       }
-    ]
+    ],
+    "seo": {
+      "description": {
+        "ru": "3D-визуализация интерьера магазина ноутбуков NOUT.UZ: зонирование по брендам и выкладка товара.",
+        "en": "3D interior visualization for the NOUT.UZ laptop store: brand zoning and product layout."
+      }
+    }
   },
   {
     "slug": "nikhan-new-year",
@@ -960,7 +1017,10 @@
       "en": "A 3D concept for a 2025 New Year photo zone for the Nikhan retail chain."
     },
     "task": null,
-    "approach": null,
+    "approach": {
+      "ru": "3D-концепт новогодней фотозоны в Blender: гирлянда, подарочные кубы, фигуры в полный рост — и рендер-ролик с облётом камеры.",
+      "en": "A Blender concept for the New Year photo zone: string lights, oversized gift-box props, full-height figures — plus a camera-flythrough render."
+    },
     "result": null,
     "behance": "https://www.behance.net/deathhueth",
     "aiContent": false,
@@ -1174,7 +1234,13 @@
         "embed": null,
         "caption": null
       }
-    ]
+    ],
+    "seo": {
+      "description": {
+        "ru": "3D-концепт новогодней фотозоны 2025 для сети Nikhan.",
+        "en": "A 3D concept for a 2025 New Year photo zone for the Nikhan retail chain."
+      }
+    }
   },
   {
     "slug": "event-photozones",
@@ -1217,7 +1283,10 @@
       "en": "A series of 3D photo zones for one-off events: a wedding, a birthday, a New Year arch for cars."
     },
     "task": null,
-    "approach": null,
+    "approach": {
+      "ru": "3D-рендеры фотозон под конкретные события в Blender: неоновая вывеска и декор для свадьбы, тот же подход — для дня рождения и новогодней арки для авто.",
+      "en": "Blender renders of photo zones built for specific events: a neon sign and decor for a wedding, the same approach applied to a birthday and a New Year car arch."
+    },
     "result": null,
     "behance": "https://www.behance.net/deathhueth",
     "aiContent": false,
@@ -1389,7 +1458,13 @@
           }
         ]
       }
-    ]
+    ],
+    "seo": {
+      "description": {
+        "ru": "Серия 3D-фотозон под разовые события: свадьба, день рождения, новогодняя арка для авто.",
+        "en": "A series of 3D photo zones for one-off events: a wedding, a birthday, a New Year arch for cars."
+      }
+    }
   },
   {
     "slug": "facades-signage",
@@ -1433,7 +1508,10 @@
       "en": "3D visualization of facades and signage: Navruz Hotel, Za Travel, and an office building lit at night."
     },
     "task": null,
-    "approach": null,
+    "approach": {
+      "ru": "3D-визуализация вывесок и фасадов в Blender с ночным освещением: подсветка логотипа, реалистичные отражения на стекле и металле.",
+      "en": "Blender visualizations of signage and facades with night lighting: an illuminated logo and realistic reflections on glass and metal."
+    },
     "result": null,
     "behance": "https://www.behance.net/deathhueth",
     "aiContent": false,
@@ -1524,7 +1602,13 @@
           }
         ]
       }
-    ]
+    ],
+    "seo": {
+      "description": {
+        "ru": "3D-визуализация фасадов и вывесок: Navruz Hotel, Za Travel, офисное здание в ночной подсветке.",
+        "en": "3D visualization of facades and signage: Navruz Hotel, Za Travel, and an office building lit at night."
+      }
+    }
   },
   {
     "slug": "3d-objects",
@@ -1568,7 +1652,10 @@
       "en": "A collection of 3D objects and characters: a stone emblem, bottles, a Toretto model, and the Chitir-Chitir and Somsa characters."
     },
     "task": null,
-    "approach": null,
+    "approach": {
+      "ru": "Подборка отдельных 3D-объектов и персонажей в Blender: эмблема на каменном постаменте, флаконы, модель гоночного персонажа, маскоты брендов — плюс презентации в PDF.",
+      "en": "A collection of standalone 3D objects and characters built in Blender: an emblem on a stone pedestal, bottles, a racing-themed character model, brand mascots — plus PDF presentations."
+    },
     "result": null,
     "behance": "https://www.behance.net/deathhueth",
     "aiContent": false,
@@ -1687,7 +1774,13 @@
           }
         ]
       }
-    ]
+    ],
+    "seo": {
+      "description": {
+        "ru": "Подборка 3D-объектов и персонажей: эмблема в камне, флаконы, модель Toretto, персонажи Chitir-Chitir и Somsa.",
+        "en": "A collection of 3D objects and characters: a stone emblem, bottles, a Toretto model, and the Chitir-Chitir and Somsa characters."
+      }
+    }
   },
   {
     "slug": "sandwich-co",
@@ -1936,11 +2029,20 @@
       "en": "Logo design for the Bahodir Jalolov Boxing School."
     },
     "task": null,
-    "approach": null,
+    "approach": {
+      "ru": "Логотип боксёрской школы: перчатки в столкновении на фоне флага, монохромная обводка с цветным акцентом.",
+      "en": "A logo for the boxing school: gloves clashing over a flag motif, a bold outline with a color accent."
+    },
     "result": null,
     "behance": "https://www.behance.net/deathhueth",
     "aiContent": false,
-    "blocks": []
+    "blocks": [],
+    "seo": {
+      "description": {
+        "ru": "Разработка логотипа для боксёрской школы Bahodir Jalolov.",
+        "en": "Logo design for the Bahodir Jalolov Boxing School."
+      }
+    }
   },
   {
     "slug": "dk-leading",
@@ -2148,7 +2250,10 @@
       "en": "A series of holiday greeting videos: Ramadan, Navruz, Qurban Bayram, Victory Day, New Year, and the start of the school year."
     },
     "task": null,
-    "approach": null,
+    "approach": {
+      "ru": "Серия вертикальных видео-поздравлений в After Effects: анимированная типографика и праздничная атрибутика под каждый повод — Рамадан, Навруз, Курбан-хайит, 9 мая, Новый год, 1 сентября.",
+      "en": "A series of vertical holiday videos made in After Effects: animated typography and festive motifs tailored to each occasion — Ramadan, Navruz, Qurban Bayram, Victory Day, New Year, the first day of school."
+    },
     "result": null,
     "behance": "https://www.behance.net/deathhueth",
     "aiContent": false,
@@ -2303,7 +2408,13 @@
         "embed": null,
         "caption": null
       }
-    ]
+    ],
+    "seo": {
+      "description": {
+        "ru": "Серия праздничных видео-поздравлений: Рамадан, Навруз, Курбан-хайит, 9 мая, Новый год, 1 сентября.",
+        "en": "A series of holiday greeting videos: Ramadan, Navruz, Qurban Bayram, Victory Day, New Year, and the start of the school year."
+      }
+    }
   },
   {
     "slug": "ad-videos",
@@ -2343,49 +2454,33 @@
       "w": 1600,
       "h": 900,
       "alt": {
-        "ru": "Рекламные ролики",
-        "en": "Ad videos"
+        "ru": "Рекламный ролик",
+        "en": "Ad video"
       }
     },
     "summary": {
-      "ru": "Подборка рекламных роликов: недвижимость Alfraganus, солнечные панели Energy Work, лизинг/мурабаха, сторис KFC/Krispy, напитки.",
-      "en": "A collection of ad videos: real-estate developer Alfraganus, solar-panel company Energy Work, leasing/murabaha ads, KFC/Krispy stories, and beverage ads."
+      "ru": "Подборка рекламных роликов для соцсетей и офлайна: недвижимость, солнечные панели, лизинг и мурабаха, сторис для фастфуда — и отдельно короткие эндинги для SMM.",
+      "en": "A collection of ad videos for social media and offline: real estate, solar panels, leasing and murabaha, fast-food stories — plus a separate set of short SMM end cards."
     },
     "task": null,
-    "approach": null,
+    "approach": {
+      "ru": "Рекламные ролики в After Effects для разных брендов — недвижимость, солнечные панели, финансовые продукты, еда и напитки — плюс отдельный блок коротких эндингов для SMM.",
+      "en": "After Effects ad videos for different brands — real estate, solar panels, financial products, food and drinks — plus a separate set of short SMM end cards."
+    },
     "result": null,
     "behance": "https://www.behance.net/deathhueth",
     "aiContent": false,
     "blocks": [
       {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/ad-videos/ad-videos-01-poster-1200.webp",
-          "w": 1200,
-          "h": 2133,
-          "alt": {
-            "ru": "Рекламные ролики",
-            "en": "Ad videos"
-          }
+        "type": "text",
+        "title": {
+          "ru": "Рекламные ролики",
+          "en": "Ad videos"
         },
-        "src": "assets/video/ad-videos/ad-videos-01-loop.mp4",
-        "embed": null,
-        "caption": null
-      },
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/ad-videos/ad-videos-02-poster-1200.webp",
-          "w": 1200,
-          "h": 2133,
-          "alt": {
-            "ru": "Рекламные ролики",
-            "en": "Ad videos"
-          }
-        },
-        "src": "assets/video/ad-videos/ad-videos-02-loop.mp4",
-        "embed": null,
-        "caption": null
+        "text": {
+          "ru": "Ролики для соцсетей и наружной рекламы разных брендов.",
+          "en": "Videos for social media and outdoor ads across different brands."
+        }
       },
       {
         "type": "video",
@@ -2394,8 +2489,8 @@
           "w": 1200,
           "h": 2133,
           "alt": {
-            "ru": "Рекламные ролики",
-            "en": "Ad videos"
+            "ru": "Рекламный ролик",
+            "en": "Ad video"
           }
         },
         "src": "assets/video/ad-videos/ad-videos-03-loop.mp4",
@@ -2409,8 +2504,8 @@
           "w": 1200,
           "h": 2133,
           "alt": {
-            "ru": "Рекламные ролики",
-            "en": "Ad videos"
+            "ru": "Рекламный ролик",
+            "en": "Ad video"
           }
         },
         "src": "assets/video/ad-videos/ad-videos-04-loop.mp4",
@@ -2424,26 +2519,11 @@
           "w": 1200,
           "h": 2133,
           "alt": {
-            "ru": "Рекламные ролики",
-            "en": "Ad videos"
+            "ru": "Рекламный ролик",
+            "en": "Ad video"
           }
         },
         "src": "assets/video/ad-videos/ad-videos-05-loop.mp4",
-        "embed": null,
-        "caption": null
-      },
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/ad-videos/ad-videos-06-poster-1200.webp",
-          "w": 1200,
-          "h": 1200,
-          "alt": {
-            "ru": "Рекламные ролики",
-            "en": "Ad videos"
-          }
-        },
-        "src": "assets/video/ad-videos/ad-videos-06-loop.mp4",
         "embed": null,
         "caption": null
       },
@@ -2454,8 +2534,8 @@
           "w": 1200,
           "h": 2133,
           "alt": {
-            "ru": "Рекламные ролики",
-            "en": "Ad videos"
+            "ru": "Рекламный ролик",
+            "en": "Ad video"
           }
         },
         "src": "assets/video/ad-videos/ad-videos-07-loop.mp4",
@@ -2469,8 +2549,8 @@
           "w": 1200,
           "h": 2133,
           "alt": {
-            "ru": "Рекламные ролики",
-            "en": "Ad videos"
+            "ru": "Рекламный ролик",
+            "en": "Ad video"
           }
         },
         "src": "assets/video/ad-videos/ad-videos-08-loop.mp4",
@@ -2484,8 +2564,8 @@
           "w": 1200,
           "h": 2133,
           "alt": {
-            "ru": "Рекламные ролики",
-            "en": "Ad videos"
+            "ru": "Рекламный ролик",
+            "en": "Ad video"
           }
         },
         "src": "assets/video/ad-videos/ad-videos-09-loop.mp4",
@@ -2499,8 +2579,8 @@
           "w": 1200,
           "h": 2133,
           "alt": {
-            "ru": "Рекламные ролики",
-            "en": "Ad videos"
+            "ru": "Рекламный ролик",
+            "en": "Ad video"
           }
         },
         "src": "assets/video/ad-videos/ad-videos-10-loop.mp4",
@@ -2514,15 +2594,257 @@
           "w": 1200,
           "h": 2133,
           "alt": {
-            "ru": "Фотозоны на события",
-            "en": "Event photo zones"
+            "ru": "Рекламный ролик",
+            "en": "Ad video"
           }
         },
         "src": "assets/video/ad-videos/ad-videos-alfraganus-year-loop.mp4",
         "embed": null,
         "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-06-poster-1200.webp",
+          "w": 1200,
+          "h": 1200,
+          "alt": {
+            "ru": "Рекламный ролик",
+            "en": "Ad video"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-06-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-chorvoq-1-poster-1200.webp",
+          "w": 1200,
+          "h": 675,
+          "alt": {
+            "ru": "Рекламный ролик жилого комплекса",
+            "en": "Residential complex ad video"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-chorvoq-1-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-chorvoq-2-poster-1200.webp",
+          "w": 1200,
+          "h": 675,
+          "alt": {
+            "ru": "Рекламный ролик жилого комплекса",
+            "en": "Residential complex ad video"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-chorvoq-2-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "text",
+        "title": {
+          "ru": "Эндинги для SMM",
+          "en": "SMM endings"
+        },
+        "text": {
+          "ru": "Короткие концовки до 5 секунд для роликов в соцсетях.",
+          "en": "Short end cards under 5 seconds for social videos."
+        }
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-end-01-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Эндинг для SMM-ролика",
+            "en": "End card for a social video"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-end-01-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-end-02-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Эндинг для SMM-ролика",
+            "en": "End card for a social video"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-end-02-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-end-03-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Эндинг для SMM-ролика",
+            "en": "End card for a social video"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-end-03-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-end-04-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Эндинг для SMM-ролика",
+            "en": "End card for a social video"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-end-04-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-end-05-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Эндинг для SMM-ролика",
+            "en": "End card for a social video"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-end-05-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-end-06-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Эндинг для SMM-ролика",
+            "en": "End card for a social video"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-end-06-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-end-07-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Эндинг для SMM-ролика",
+            "en": "End card for a social video"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-end-07-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-end-09-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Эндинг для SMM-ролика",
+            "en": "End card for a social video"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-end-09-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-end-10-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Эндинг для SMM-ролика",
+            "en": "End card for a social video"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-end-10-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-end-11-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Эндинг для SMM-ролика",
+            "en": "End card for a social video"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-end-11-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-end-12-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Эндинг для SMM-ролика",
+            "en": "End card for a social video"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-end-12-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/ad-videos/ad-videos-end-13-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Эндинг для SMM-ролика",
+            "en": "End card for a social video"
+          }
+        },
+        "src": "assets/video/ad-videos/ad-videos-end-13-loop.mp4",
+        "embed": null,
+        "caption": null
       }
-    ]
+    ],
+    "seo": {
+      "description": {
+        "ru": "Подборка рекламных роликов: недвижимость Alfraganus, солнечные панели Energy Work, лизинг/мурабаха, сторис KFC/Krispy, напитки.",
+        "en": "A collection of ad videos: real-estate developer Alfraganus, solar-panel company Energy Work, leasing/murabaha ads, KFC/Krispy stories, and beverage ads."
+      }
+    }
   },
   {
     "slug": "product-animation",
@@ -2567,7 +2889,10 @@
       "en": "Café product animation for an LED screen: coffee, pastries and desserts in motion."
     },
     "task": null,
-    "approach": null,
+    "approach": {
+      "ru": "Анимация продукции в After Effects для LED-экрана: кофе, выпечка и десерты в движении, крупные планы и плавные переходы между кадрами.",
+      "en": "After Effects product animation for an LED screen: coffee, pastries and desserts in motion, with close-up shots and smooth transitions between frames."
+    },
     "result": null,
     "behance": "https://www.behance.net/deathhueth",
     "aiContent": false,
@@ -2587,7 +2912,13 @@
         "embed": null,
         "caption": null
       }
-    ]
+    ],
+    "seo": {
+      "description": {
+        "ru": "Анимация продукции кофейни для LED-экрана: кофе, выпечка и десерты в движении.",
+        "en": "Café product animation for an LED screen: coffee, pastries and desserts in motion."
+      }
+    }
   },
   {
     "slug": "intros",
@@ -2630,7 +2961,10 @@
       "en": "A set of intros: named intros, a TV intro, and video outros."
     },
     "task": null,
-    "approach": null,
+    "approach": {
+      "ru": "Набор видео-заставок в After Effects: анимация логотипа, именные заставки и короткие концовки роликов.",
+      "en": "A set of video intros made in After Effects: animated logo reveals, named intros and short end cards."
+    },
     "result": null,
     "behance": "https://www.behance.net/deathhueth",
     "aiContent": false,
@@ -2695,7 +3029,13 @@
         "embed": null,
         "caption": null
       }
-    ]
+    ],
+    "seo": {
+      "description": {
+        "ru": "Набор заставок: именные заставки, TV-заставка, концовки роликов.",
+        "en": "A set of intros: named intros, a TV intro, and video outros."
+      }
+    }
   },
   {
     "slug": "smm-graphics",
@@ -2735,11 +3075,14 @@
       }
     },
     "summary": {
-      "ru": "SMM-графика для Sihatko'z klinika, Rayhon milliy, Студии Иванов, Seoul Mun View.",
-      "en": "Social media graphics for Sihatko'z clinic, Rayhon milliy, Studio Ivanov, and Seoul Mun View."
+      "ru": "Подборка SMM-графики и роликов для разных брендов: посты, сторис, рекламные баннеры и рилсы.",
+      "en": "A collection of social media graphics and reels for different brands: posts, stories, ad banners and reels."
     },
     "task": null,
-    "approach": null,
+    "approach": {
+      "ru": "Подборка SMM-графики в Photoshop/Illustrator для разных брендов: посты и сторис с акцентом на продукт, плюс блок коротких роликов.",
+      "en": "A collection of SMM graphics made in Photoshop/Illustrator for different brands: product-focused posts and stories, plus a set of short videos."
+    },
     "result": null,
     "behance": "https://www.behance.net/deathhueth",
     "aiContent": false,
@@ -2769,33 +3112,6 @@
             "src": "assets/img/projects/smm-graphics/smm-graphics-03-1600.webp",
             "w": 1080,
             "h": 1080,
-            "alt": {
-              "ru": "SMM-графика разных клиентов",
-              "en": "Social graphics for various clients"
-            }
-          },
-          {
-            "src": "assets/img/projects/smm-graphics/smm-graphics-04-1600.webp",
-            "w": 622,
-            "h": 1280,
-            "alt": {
-              "ru": "SMM-графика разных клиентов",
-              "en": "Social graphics for various clients"
-            }
-          },
-          {
-            "src": "assets/img/projects/smm-graphics/smm-graphics-05-1600.webp",
-            "w": 622,
-            "h": 1280,
-            "alt": {
-              "ru": "SMM-графика разных клиентов",
-              "en": "Social graphics for various clients"
-            }
-          },
-          {
-            "src": "assets/img/projects/smm-graphics/smm-graphics-06-1600.webp",
-            "w": 622,
-            "h": 1280,
             "alt": {
               "ru": "SMM-графика разных клиентов",
               "en": "Social graphics for various clients"
@@ -2836,10 +3152,243 @@
               "ru": "Рекламный баннер",
               "en": "Ad banner"
             }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-9zqr-01-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "SMM-пост",
+              "en": "Social media post"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-9zqr-02-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "SMM-пост",
+              "en": "Social media post"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-9zqr-03-1600.webp",
+            "w": 1280,
+            "h": 720,
+            "alt": {
+              "ru": "SMM-пост",
+              "en": "Social media post"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-9zqr-04-1600.webp",
+            "w": 1280,
+            "h": 356,
+            "alt": {
+              "ru": "SMM-пост",
+              "en": "Social media post"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-9zqr-05-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "SMM-пост",
+              "en": "Social media post"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-9zqr-06-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "SMM-пост",
+              "en": "Social media post"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-9zqr-07-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "SMM-пост",
+              "en": "Social media post"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-9zqr-08-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "SMM-пост",
+              "en": "Social media post"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-9zqr-09-1600.webp",
+            "w": 1081,
+            "h": 1080,
+            "alt": {
+              "ru": "SMM-пост",
+              "en": "Social media post"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-9zqr-10-1600.webp",
+            "w": 1081,
+            "h": 1081,
+            "alt": {
+              "ru": "SMM-пост",
+              "en": "Social media post"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-9zqr-11-1600.webp",
+            "w": 1081,
+            "h": 1080,
+            "alt": {
+              "ru": "SMM-пост",
+              "en": "Social media post"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-9zqr-12-1600.webp",
+            "w": 1081,
+            "h": 1081,
+            "alt": {
+              "ru": "SMM-пост",
+              "en": "Social media post"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-9zqr-13-1600.webp",
+            "w": 1081,
+            "h": 1081,
+            "alt": {
+              "ru": "SMM-пост",
+              "en": "Social media post"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-9zqr-14-1600.webp",
+            "w": 1280,
+            "h": 1280,
+            "alt": {
+              "ru": "SMM-пост",
+              "en": "Social media post"
+            }
           }
         ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "ru": "Ролики",
+          "en": "Videos"
+        },
+        "text": {
+          "ru": "Короткие ролики для соцсетей разных брендов.",
+          "en": "Short social videos for different brands."
+        }
+      },
+      {
+        "type": "video",
+        "src": "assets/video/smm-graphics/smm-graphics-9zqr-v1-loop.mp4",
+        "poster": {
+          "src": "assets/img/projects/smm-graphics/smm-graphics-9zqr-v1-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "SMM-пост",
+            "en": "Social media post"
+          }
+        },
+        "w": 1080,
+        "h": 1920
+      },
+      {
+        "type": "video",
+        "src": "assets/video/smm-graphics/smm-graphics-9zqr-v2-loop.mp4",
+        "poster": {
+          "src": "assets/img/projects/smm-graphics/smm-graphics-9zqr-v2-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "SMM-пост",
+            "en": "Social media post"
+          }
+        },
+        "w": 1080,
+        "h": 1920
+      },
+      {
+        "type": "video",
+        "src": "assets/video/smm-graphics/smm-graphics-9zqr-v3-loop.mp4",
+        "poster": {
+          "src": "assets/img/projects/smm-graphics/smm-graphics-9zqr-v3-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "SMM-пост",
+            "en": "Social media post"
+          }
+        },
+        "w": 1080,
+        "h": 1920
+      },
+      {
+        "type": "video",
+        "src": "assets/video/smm-graphics/smm-graphics-9zqr-v4-loop.mp4",
+        "poster": {
+          "src": "assets/img/projects/smm-graphics/smm-graphics-9zqr-v4-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "SMM-пост",
+            "en": "Social media post"
+          }
+        },
+        "w": 1080,
+        "h": 1920
+      },
+      {
+        "type": "video",
+        "src": "assets/video/smm-graphics/smm-graphics-9zqr-v5-loop.mp4",
+        "poster": {
+          "src": "assets/img/projects/smm-graphics/smm-graphics-9zqr-v5-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "SMM-пост",
+            "en": "Social media post"
+          }
+        },
+        "w": 1080,
+        "h": 1920
+      },
+      {
+        "type": "video",
+        "src": "assets/video/smm-graphics/smm-graphics-9zqr-v6-loop.mp4",
+        "poster": {
+          "src": "assets/img/projects/smm-graphics/smm-graphics-9zqr-v6-poster-1600.webp",
+          "w": 1080,
+          "h": 1080,
+          "alt": {
+            "ru": "SMM-пост",
+            "en": "Social media post"
+          }
+        },
+        "w": 1080,
+        "h": 1080
       }
-    ]
+    ],
+    "seo": {
+      "description": {
+        "ru": "Подборка SMM-графики и роликов для разных брендов: посты, сторис, рекламные баннеры и рилсы.",
+        "en": "A collection of social media graphics and reels for different brands: posts, stories, ad banners and reels."
+      }
+    }
   },
   {
     "slug": "somang-poster",
@@ -2855,7 +3404,10 @@
       "en": "A series of print posters for Somang’s Seoul Mun View apartment sales in English and Chinese: a 36-month instalment offer and QR codes for contact."
     },
     "task": null,
-    "approach": null,
+    "approach": {
+      "ru": "Серия печатных постеров на английском и китайском: фото ЖК крупным планом, двуязычная типографика, условия рассрочки и QR-коды для связи.",
+      "en": "A series of print posters in English and Chinese: a large photo of the complex, bilingual typography, installment terms and QR codes to contact."
+    },
     "result": null,
     "directions": [
       "print"
@@ -2940,8 +3492,8 @@
         "en": "Somang — Seoul Mun View posters · vlddvr"
       },
       "description": {
-        "ru": "Печатные постеры Seoul Mun View для бренда Somang.",
-        "en": "Print posters for Somang’s Seoul Mun View."
+        "ru": "Серия печатных постеров для продажи апартаментов Seoul Mun View бренда Somang: на английском и китайском, рассрочка на 36 месяцев, QR-коды для связи.",
+        "en": "A series of print posters for Somang’s Seoul Mun View apartment sales in English and Chinese: a 36-month instalment offer and QR codes for contact."
       }
     }
   },
@@ -3127,7 +3679,10 @@
       "en": "Social media for the Chitir-Chitir milk nuts brand and a 3D rebuild of the brand mascot."
     },
     "task": null,
-    "approach": null,
+    "approach": {
+      "ru": "Переработка 2D-маскота бренда в 3D-персонажа в Blender и посты/сторис для соцсетей на русском и узбекском — продукт и маскот крупным планом на фоне праздничной атрибутики.",
+      "en": "The brand's 2D mascot rebuilt as a 3D character in Blender, plus posts and stories in Russian and Uzbek — the product and mascot shot large against festive props."
+    },
     "result": null,
     "behance": "https://www.behance.net/deathhueth",
     "aiContent": true,
@@ -3163,7 +3718,10 @@
           "ru": "SMM",
           "en": "Social media"
         },
-        "text": null
+        "text": {
+          "ru": "Посты и сторис на русском и узбекском.",
+          "en": "Posts and stories in Russian and Uzbek."
+        }
       },
       {
         "type": "images",
@@ -3206,7 +3764,13 @@
           }
         ]
       }
-    ]
+    ],
+    "seo": {
+      "description": {
+        "ru": "SMM для бренда орехов и сухофруктов Chitir-Chitir milk и переработка маскота бренда в 3D.",
+        "en": "Social media for the Chitir-Chitir milk nuts brand and a 3D rebuild of the brand mascot."
+      }
+    }
   },
   {
     "slug": "presentations",
@@ -3249,7 +3813,10 @@
       "en": "Corporate presentations (product, marketing, and others) for Sojitz Corporation and other clients."
     },
     "task": null,
-    "approach": null,
+    "approach": {
+      "ru": "Корпоративные презентации в PDF для Sojitz Corporation и других клиентов: структурированная вёрстка слайдов, фирменная типографика и инфографика.",
+      "en": "Corporate PDF presentations for Sojitz Corporation and other clients: structured slide layouts, brand typography and infographics."
+    },
     "result": null,
     "behance": "https://www.behance.net/deathhueth",
     "aiContent": false,
@@ -3446,7 +4013,13 @@
           }
         ]
       }
-    ]
+    ],
+    "seo": {
+      "description": {
+        "ru": "Корпоративные презентации (Product, Marketing и др.) для Sojitz Corporation и других клиентов.",
+        "en": "Corporate presentations (product, marketing, and others) for Sojitz Corporation and other clients."
+      }
+    }
   },
   {
     "slug": "cropper",
