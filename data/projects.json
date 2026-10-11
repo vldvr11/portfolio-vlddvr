@@ -827,6 +827,175 @@
     }
   },
   {
+    "slug": "mollequla",
+    "order": 2.8,
+    "featured": true,
+    "client": "MOLLEQULA Agency",
+    "personal": false,
+    "aiContent": false,
+    "behance": null,
+    "title": {
+      "ru": "MOLLEQULA — старший дизайнер агентства",
+      "en": "MOLLEQULA — senior designer at the agency"
+    },
+    "summary": {
+      "ru": "Старший дизайнер маркетингового агентства MOLLEQULA с самого основания (май 2023 — апрель 2024): видео, SMM-посты, рилсы и сторис, полное оформление брендов — брендбук, логотип, типографика, айдентика. Шоурил агентства 2023.",
+      "en": "Senior designer at the MOLLEQULA marketing agency from its founding (May 2023 — April 2024): video, social posts, reels and stories, full brand design — brand book, logo, typography, identity. The agency’s 2023 showreel."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "directions": [
+      "motion",
+      "branding"
+    ],
+    "branches": [
+      "ads",
+      "reels-stories",
+      "identity"
+    ],
+    "tags": {
+      "industry": [],
+      "format": [
+        "video",
+        "static"
+      ],
+      "tools": [
+        "After Effects",
+        "Illustrator",
+        "Photoshop"
+      ],
+      "region": [
+        "uz"
+      ],
+      "lang": [
+        "ru",
+        "uz"
+      ]
+    },
+    "cover": {
+      "src": "assets/img/projects/brand-motion/brand-motion-r79o-v1-poster-1600.webp",
+      "w": 1080,
+      "h": 1080,
+      "alt": {
+        "ru": "Ролик агентства MOLLEQULA",
+        "en": "MOLLEQULA agency video"
+      }
+    },
+    "blocks": [
+      {
+        "type": "text",
+        "title": {
+          "ru": "Шоурил агентства 2023",
+          "en": "Agency showreel 2023"
+        },
+        "text": {
+          "ru": "Шоурил MOLLEQULA 2023 — подборка проектов агентства в одном видео.",
+          "en": "MOLLEQULA 2023 showreel — the agency’s projects in one video."
+        }
+      },
+      {
+        "type": "video",
+        "embed": "https://www.youtube-nocookie.com/embed/oVNx-Iq3ObI",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "type": "text",
+        "title": {
+          "ru": "Ролики агентства",
+          "en": "Agency videos"
+        },
+        "text": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v1-poster-1600.webp",
+          "w": 1080,
+          "h": 1080,
+          "alt": {
+            "ru": "Ролик агентства MOLLEQULA",
+            "en": "MOLLEQULA agency video"
+          }
+        },
+        "src": "assets/video/brand-motion/brand-motion-r79o-v1-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v2-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Ролик агентства MOLLEQULA",
+            "en": "MOLLEQULA agency video"
+          }
+        },
+        "src": "assets/video/brand-motion/brand-motion-r79o-v2-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v3-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Ролик агентства MOLLEQULA",
+            "en": "MOLLEQULA agency video"
+          }
+        },
+        "src": "assets/video/brand-motion/brand-motion-r79o-v3-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v4-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Ролик агентства MOLLEQULA",
+            "en": "MOLLEQULA agency video"
+          }
+        },
+        "src": "assets/video/brand-motion/brand-motion-r79o-v4-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v5-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Ролик агентства MOLLEQULA",
+            "en": "MOLLEQULA agency video"
+          }
+        },
+        "src": "assets/video/brand-motion/brand-motion-r79o-v5-loop.mp4",
+        "embed": null,
+        "caption": null
+      }
+    ],
+    "seo": {
+      "title": {
+        "ru": "MOLLEQULA — старший дизайнер агентства · vlddvr",
+        "en": "MOLLEQULA — senior designer · vlddvr"
+      },
+      "description": {
+        "ru": "Старший дизайнер агентства MOLLEQULA с основания: видео, SMM, брендинг. Шоурил 2023.",
+        "en": "Senior designer at MOLLEQULA from its founding: video, social, branding. 2023 showreel."
+      }
+    }
+  },
+  {
     "slug": "exzap-showroom",
     "title": {
       "ru": "EXZAP — офис и шоурум",
@@ -5058,8 +5227,8 @@
   {
     "slug": "brand-motion",
     "title": {
-      "ru": "Моушн-графика для брендов",
-      "en": "Motion graphics for brands"
+      "ru": "Моушн для клиники и оптики",
+      "en": "Motion for a clinic and an optics store"
     },
     "client": null,
     "directions": [
@@ -5097,8 +5266,8 @@
       }
     },
     "summary": {
-      "ru": "Анимационные ролики для агентства MOLLEQULA (2023–2024) и брендов: клиника эстетической медицины и оптика — промо, анимация логотипов.",
-      "en": "Animated videos for the MOLLEQULA agency (2023–2024) and brands: an aesthetic clinic and an optics store — promos and logo animation."
+      "ru": "Анимационные промо и анимация логотипов для клиники эстетической медицины и оптики.",
+      "en": "Animated promos and logo animation for an aesthetic clinic and an optics store."
     },
     "task": null,
     "approach": null,
@@ -5106,88 +5275,6 @@
     "behance": "https://www.behance.net/deathhueth",
     "aiContent": false,
     "blocks": [
-      {
-        "type": "text",
-        "title": {
-          "ru": "Для агентства MOLLEQULA",
-          "en": "For the MOLLEQULA agency"
-        }
-      },
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v1-poster-1600.webp",
-          "w": 1080,
-          "h": 1080,
-          "alt": {
-            "ru": "Моушн-графика для бренда",
-            "en": "Brand motion graphics"
-          }
-        },
-        "src": "assets/video/brand-motion/brand-motion-r79o-v1-loop.mp4",
-        "embed": null,
-        "caption": null
-      },
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v2-poster-1600.webp",
-          "w": 1080,
-          "h": 1920,
-          "alt": {
-            "ru": "Моушн-графика для бренда",
-            "en": "Brand motion graphics"
-          }
-        },
-        "src": "assets/video/brand-motion/brand-motion-r79o-v2-loop.mp4",
-        "embed": null,
-        "caption": null
-      },
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v3-poster-1600.webp",
-          "w": 1080,
-          "h": 1920,
-          "alt": {
-            "ru": "Моушн-графика для бренда",
-            "en": "Brand motion graphics"
-          }
-        },
-        "src": "assets/video/brand-motion/brand-motion-r79o-v3-loop.mp4",
-        "embed": null,
-        "caption": null
-      },
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v4-poster-1600.webp",
-          "w": 1080,
-          "h": 1920,
-          "alt": {
-            "ru": "Моушн-графика для бренда",
-            "en": "Brand motion graphics"
-          }
-        },
-        "src": "assets/video/brand-motion/brand-motion-r79o-v4-loop.mp4",
-        "embed": null,
-        "caption": null
-      },
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v5-poster-1600.webp",
-          "w": 1080,
-          "h": 1920,
-          "alt": {
-            "ru": "Моушн-графика для бренда",
-            "en": "Brand motion graphics"
-          }
-        },
-        "src": "assets/video/brand-motion/brand-motion-r79o-v5-loop.mp4",
-        "embed": null,
-        "caption": null
-      },
       {
         "type": "text",
         "title": {

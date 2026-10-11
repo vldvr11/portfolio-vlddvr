@@ -1039,3 +1039,6 @@ body::after {
   .dirs .tile-n { top: 20px; right: 20px; font-size: 22px; }
   .dirs .hero-tile svg { width: 40px; height: 40px; }
 }
+
+/* заголовок секции и счётчик переносятся, а не ломают слово */
+.sec-head { flex-wrap: wrap; }
