@@ -283,8 +283,8 @@
       }
     },
     "summary": {
-      "ru": "Работа в штате Great Wall Motors (декабрь 2025 — февраль 2026): выставочный стенд Haval V7, печать для дилерской конференции, зимняя SMM-кампания и брошюры моделей H6, H9, M6 и Jolion на русском и узбекском.",
-      "en": "In-house at Great Wall Motors (Dec 2025 — Feb 2026): the Haval V7 exhibition stand, print for the dealer conference, a winter social campaign and brochures for the H6, H9, M6 and Jolion in Russian and Uzbek."
+      "ru": "Работа в штате Great Wall Motors (декабрь 2025 — февраль 2026): выставочный стенд Haval V7, зимняя SMM-кампания и брошюры моделей H6, H9, M6 и Jolion на русском и узбекском.",
+      "en": "In-house at Great Wall Motors (Dec 2025 — Feb 2026): the Haval V7 exhibition stand, a winter social campaign and brochures for the H6, H9, M6 and Jolion in Russian and Uzbek."
     },
     "task": null,
     "approach": null,
@@ -295,8 +295,8 @@
       {
         "type": "text",
         "title": {
-          "ru": "Стенд Haval V7 и дилерская конференция",
-          "en": "Haval V7 stand and dealer conference"
+          "ru": "Выставочный стенд Haval V7",
+          "en": "Haval V7 exhibition stand"
         },
         "text": null
       },
@@ -627,6 +627,143 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "haval-conference",
+    "order": 2.5,
+    "featured": false,
+    "client": "Haval / GWM",
+    "title": {
+      "ru": "Haval — дилерская конференция 2026",
+      "en": "Haval — dealer conference 2026"
+    },
+    "summary": {
+      "ru": "Оформление дилерской конференции Haval / GWM 2026: афиша, программа на русском и узбекском, бейджи участников и контент для LED-экранов.",
+      "en": "Design for the Haval / GWM 2026 dealer conference: poster, programme in Russian and Uzbek, attendee badges and LED screen content."
+    },
+    "task": null,
+    "approach": null,
+    "result": null,
+    "directions": [
+      "print",
+      "motion"
+    ],
+    "branches": [
+      "outdoor",
+      "intros"
+    ],
+    "tags": {
+      "industry": [
+        "auto"
+      ],
+      "format": [
+        "print",
+        "video"
+      ],
+      "tools": [],
+      "region": [
+        "uz"
+      ],
+      "lang": [
+        "ru",
+        "uz"
+      ]
+    },
+    "personal": false,
+    "aiContent": false,
+    "behance": null,
+    "cover": {
+      "src": "assets/img/projects/haval-conference/haval-conference-siuz-01-1600.webp",
+      "w": 1080,
+      "h": 1080,
+      "alt": {
+        "ru": "Haval — дилерская конференция 2026",
+        "en": "Haval dealer conference 2026"
+      }
+    },
+    "blocks": [
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/haval-conference/haval-conference-siuz-01-1600.webp",
+            "w": 1080,
+            "h": 1080,
+            "alt": {
+              "ru": "Haval — дилерская конференция 2026",
+              "en": "Haval dealer conference 2026"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-conference/haval-conference-siuz-02-1600.webp",
+            "w": 1080,
+            "h": 1650,
+            "alt": {
+              "ru": "Haval — дилерская конференция 2026",
+              "en": "Haval dealer conference 2026"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-conference/haval-conference-siuz-03-1600.webp",
+            "w": 1080,
+            "h": 1650,
+            "alt": {
+              "ru": "Haval — дилерская конференция 2026",
+              "en": "Haval dealer conference 2026"
+            }
+          },
+          {
+            "src": "assets/img/projects/haval-conference/haval-conference-siuz-04-1600.webp",
+            "w": 839,
+            "h": 1280,
+            "alt": {
+              "ru": "Haval — дилерская конференция 2026",
+              "en": "Haval dealer conference 2026"
+            }
+          }
+        ]
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/haval-conference/haval-conference-led1-poster-1200.webp",
+          "w": 1200,
+          "h": 675,
+          "alt": {
+            "ru": "LED-экран для дилерской конференции Haval",
+            "en": "LED screen content for the Haval dealer conference"
+          }
+        },
+        "src": "assets/video/haval-conference/haval-conference-led1-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/haval-conference/haval-conference-led2-poster-1200.webp",
+          "w": 1200,
+          "h": 675,
+          "alt": {
+            "ru": "LED-экран для дилерской конференции Haval",
+            "en": "LED screen content for the Haval dealer conference"
+          }
+        },
+        "src": "assets/video/haval-conference/haval-conference-led2-loop.mp4",
+        "embed": null,
+        "caption": null
+      }
+    ],
+    "seo": {
+      "title": {
+        "ru": "Haval — дилерская конференция 2026 · vlddvr",
+        "en": "Haval — dealer conference 2026 · vlddvr"
+      },
+      "description": {
+        "ru": "Афиша, программа, бейджи и LED-контент для дилерской конференции Haval / GWM 2026.",
+        "en": "Poster, programme, badges and LED content for the Haval / GWM 2026 dealer conference."
+      }
+    }
   },
   {
     "slug": "exzap-showroom",
@@ -2447,9 +2584,9 @@
     "featured": false,
     "order": 18,
     "cover": {
-      "src": "assets/img/projects/intros/intros-01-poster-1200.webp",
-      "w": 1600,
-      "h": 900,
+      "src": "assets/img/projects/intros/intros-03-poster-1200.webp",
+      "w": 1200,
+      "h": 675,
       "alt": {
         "ru": "Заставки",
         "en": "Intros"
@@ -2465,36 +2602,6 @@
     "behance": "https://www.behance.net/deathhueth",
     "aiContent": false,
     "blocks": [
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/intros/intros-01-poster-1200.webp",
-          "w": 1200,
-          "h": 675,
-          "alt": {
-            "ru": "Заставки",
-            "en": "Intros"
-          }
-        },
-        "src": "assets/video/intros/intros-01-loop.mp4",
-        "embed": null,
-        "caption": null
-      },
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/intros/intros-02-poster-1200.webp",
-          "w": 1200,
-          "h": 675,
-          "alt": {
-            "ru": "Заставки",
-            "en": "Intros"
-          }
-        },
-        "src": "assets/video/intros/intros-02-loop.mp4",
-        "embed": null,
-        "caption": null
-      },
       {
         "type": "video",
         "poster": {
