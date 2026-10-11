@@ -305,6 +305,18 @@ const ABOUT = {
 };
 // Компании строкой (как в резюме) и инструменты
 // Свежие первыми; to: null — «н. в.» / «now»
+
+// Отрасли — только те, что подтверждены кейсами на сайте (обновлять вместе с кейсами)
+const INDUSTRIES = [
+  { ru: "Автомобили", en: "Automotive" }, { ru: "Автозапчасти и масла", en: "Auto parts & oils" },
+  { ru: "FMCG и еда", en: "FMCG & food" }, { ru: "Рестораны", en: "Restaurants" },
+  { ru: "Недвижимость", en: "Real estate" }, { ru: "Торговые центры", en: "Shopping malls" },
+  { ru: "Энергетика", en: "Energy" }, { ru: "Электроника и ритейл", en: "Electronics & retail" },
+  { ru: "Мебель и интерьер", en: "Furniture & interiors" }, { ru: "Медицина", en: "Healthcare" },
+  { ru: "Оптика", en: "Optics" }, { ru: "Финансы и лизинг", en: "Finance & leasing" },
+  { ru: "IT", en: "IT" }, { ru: "Развлечения для детей", en: "Kids entertainment" },
+  { ru: "Мероприятия и выставки", en: "Events & exhibitions" },
+];
 const ABOUT_COMPANIES = [
   { name: "THE ONE / Terra Pro", from: "2026", to: null },
   { name: "Great Wall Motors", from: "2025", to: "2026" },
@@ -375,6 +387,12 @@ function renderWhoBlock(lang, depth) {
     </div>
     <div class="company-strip" aria-label="${a.companies_label}">
       <div class="container"><span class="company-label">${a.companies_label}</span>${ABOUT_COMPANIES.map((c) => `<span class="company">${esc(c.name)} <small class="company-years">${companyYears(c, lang)}</small></span>`).join("")}</div>
+    </div>
+    <div class="industry-strip" aria-label="${lang === "ru" ? "Отрасли" : "Industries"}">
+      <div class="container">
+        <h3 class="industry-title">${lang === "ru" ? "Отрасли, с которыми <em>работал</em>" : "Industries I’ve <em>worked with</em>"}</h3>
+        <ul class="industry-chips">${INDUSTRIES.map((i) => `<li>${esc(i[lang])}</li>`).join("")}</ul>
+      </div>
     </div>
   </section>`;
 }
