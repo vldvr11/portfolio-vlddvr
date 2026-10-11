@@ -182,7 +182,6 @@
       },
       {
         "type": "pdf",
-        "file": "assets/files/shell-oil-racks/shell-oil-racks-01.pdf",
         "pages": [
           {
             "src": "assets/img/projects/shell-oil-racks/shell-oil-racks-01-page1-1200.webp",
@@ -638,8 +637,8 @@
       "en": "Haval — dealer conference 2026"
     },
     "summary": {
-      "ru": "Оформление дилерской конференции Haval / GWM 2026: афиша, программа на русском и узбекском, бейджи участников и контент для LED-экранов.",
-      "en": "Design for the Haval / GWM 2026 dealer conference: poster, programme in Russian and Uzbek, attendee badges and LED screen content."
+      "ru": "Оформление дилерской конференции Haval / GWM 2026: афиша, бейджи участников и контент для LED-экранов.",
+      "en": "Design for the Haval / GWM 2026 dealer conference: poster, attendee badges and LED screen content."
     },
     "task": null,
     "approach": null,
@@ -695,24 +694,6 @@
             }
           },
           {
-            "src": "assets/img/projects/haval-conference/haval-conference-siuz-02-1600.webp",
-            "w": 1080,
-            "h": 1650,
-            "alt": {
-              "ru": "Haval — дилерская конференция 2026",
-              "en": "Haval dealer conference 2026"
-            }
-          },
-          {
-            "src": "assets/img/projects/haval-conference/haval-conference-siuz-03-1600.webp",
-            "w": 1080,
-            "h": 1650,
-            "alt": {
-              "ru": "Haval — дилерская конференция 2026",
-              "en": "Haval dealer conference 2026"
-            }
-          },
-          {
             "src": "assets/img/projects/haval-conference/haval-conference-siuz-04-1600.webp",
             "w": 839,
             "h": 1280,
@@ -760,8 +741,8 @@
         "en": "Haval — dealer conference 2026 · vlddvr"
       },
       "description": {
-        "ru": "Афиша, программа, бейджи и LED-контент для дилерской конференции Haval / GWM 2026.",
-        "en": "Poster, programme, badges and LED content for the Haval / GWM 2026 dealer conference."
+        "ru": "Афиша, бейджи и LED-контент для дилерской конференции Haval / GWM 2026.",
+        "en": "Poster, badges and LED content for the Haval / GWM 2026 dealer conference."
       }
     }
   },
@@ -1560,7 +1541,6 @@
       },
       {
         "type": "pdf",
-        "file": "assets/files/3d-objects/3d-objects-07.pdf",
         "pages": [
           {
             "src": "assets/img/projects/3d-objects/3d-objects-07-page1-1200.webp",
@@ -1593,7 +1573,6 @@
       },
       {
         "type": "pdf",
-        "file": "assets/files/3d-objects/3d-objects-08.pdf",
         "pages": [
           {
             "src": "assets/img/projects/3d-objects/3d-objects-08-page1-1200.webp",
@@ -2794,87 +2773,14 @@
               "ru": "SMM-графика разных клиентов",
               "en": "Social graphics for various clients"
             }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "outdoor-banners",
-    "title": {
-      "ru": "Наружка и баннеры",
-      "en": "Outdoor & banners"
-    },
-    "client": null,
-    "directions": [
-      "print"
-    ],
-    "branches": [
-      "outdoor"
-    ],
-    "tags": {
-      "industry": [
-        "aviation"
-      ],
-      "format": [
-        "print"
-      ],
-      "tools": [
-        "Illustrator"
-      ],
-      "region": [],
-      "lang": []
-    },
-    "personal": false,
-    "featured": false,
-    "order": 22,
-    "cover": {
-      "src": "assets/img/projects/outdoor-banners/outdoor-banners-01-1600.webp",
-      "w": 11008,
-      "h": 6144,
-      "alt": {
-        "ru": "Наружка и баннеры",
-        "en": "Outdoor & banners"
-      }
-    },
-    "summary": {
-      "ru": "Печатные баннеры для Ochig Avia и Valesco.",
-      "en": "Print banners for Ochig Avia and Valesco."
-    },
-    "task": null,
-    "approach": null,
-    "result": null,
-    "behance": "https://www.behance.net/deathhueth",
-    "aiContent": false,
-    "blocks": [
-      {
-        "type": "images",
-        "images": [
-          {
-            "src": "assets/img/projects/outdoor-banners/outdoor-banners-02-1600.webp",
-            "w": 11008,
-            "h": 6144,
-            "alt": {
-              "ru": "Наружка и баннеры",
-              "en": "Outdoor & banners"
-            }
           },
           {
-            "src": "assets/img/projects/outdoor-banners/outdoor-banners-03-1600.webp",
-            "w": 11008,
-            "h": 6144,
-            "alt": {
-              "ru": "Наружка и баннеры",
-              "en": "Outdoor & banners"
-            }
-          },
-          {
-            "src": "assets/img/projects/outdoor-banners/outdoor-banners-04-1600.webp",
+            "src": "assets/img/projects/smm-graphics/smm-graphics-banner-01-1600.webp",
             "w": 972,
             "h": 617,
             "alt": {
-              "ru": "Наружка и баннеры",
-              "en": "Outdoor & banners"
+              "ru": "Рекламный баннер",
+              "en": "Ad banner"
             }
           }
         ]
@@ -2988,8 +2894,8 @@
   {
     "slug": "cutout",
     "title": {
-      "ru": "Cutout — расширение для Chrome",
-      "en": "Cutout — Chrome extension"
+      "ru": "Cutout — личный проект",
+      "en": "Cutout — personal project"
     },
     "client": null,
     "directions": [
@@ -3023,8 +2929,8 @@
       }
     },
     "summary": {
-      "ru": "Расширение Chrome для вырезки объектов с фото в один клик с помощью нейросети SAM 2.1, работающей локально в браузере.",
-      "en": "A Chrome extension that cuts objects out of photos in one click using the SAM 2.1 neural network, running locally in the browser."
+      "ru": "Личный проект: расширение Chrome, которое сделал для себя, — вырезает объекты с фото в один клик нейросетью SAM 2.1 прямо в браузере. Опубликовано в Chrome Web Store.",
+      "en": "A personal project: a Chrome extension I built for myself — it cuts objects out of photos in one click with the SAM 2.1 model, right in the browser. Published on the Chrome Web Store."
     },
     "task": null,
     "approach": {
@@ -3296,7 +3202,6 @@
     "blocks": [
       {
         "type": "pdf",
-        "file": "assets/files/presentations/presentations-01.pdf",
         "pages": [
           {
             "src": "assets/img/projects/presentations/presentations-01-page1-1200.webp",
@@ -3324,39 +3229,11 @@
               "ru": "Презентации",
               "en": "Presentations"
             }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-01-page4-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-01-page5-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-01-page6-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
           }
         ]
       },
       {
         "type": "pdf",
-        "file": "assets/files/presentations/presentations-02.pdf",
         "pages": [
           {
             "src": "assets/img/projects/presentations/presentations-02-page1-1200.webp",
@@ -3384,39 +3261,11 @@
               "ru": "Презентации",
               "en": "Presentations"
             }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-02-page4-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-02-page5-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-02-page6-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
           }
         ]
       },
       {
         "type": "pdf",
-        "file": "assets/files/presentations/presentations-03.pdf",
         "pages": [
           {
             "src": "assets/img/projects/presentations/presentations-03-page1-1200.webp",
@@ -3444,39 +3293,11 @@
               "ru": "Презентации",
               "en": "Presentations"
             }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-03-page4-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-03-page5-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-03-page6-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
           }
         ]
       },
       {
         "type": "pdf",
-        "file": "assets/files/presentations/presentations-04.pdf",
         "pages": [
           {
             "src": "assets/img/projects/presentations/presentations-04-page1-1200.webp",
@@ -3504,39 +3325,11 @@
               "ru": "Презентации",
               "en": "Presentations"
             }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-04-page4-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-04-page5-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-04-page6-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
           }
         ]
       },
       {
         "type": "pdf",
-        "file": "assets/files/presentations/presentations-05.pdf",
         "pages": [
           {
             "src": "assets/img/projects/presentations/presentations-05-page1-1200.webp",
@@ -3564,39 +3357,11 @@
               "ru": "Презентации",
               "en": "Presentations"
             }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-05-page4-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-05-page5-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-05-page6-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
           }
         ]
       },
       {
         "type": "pdf",
-        "file": "assets/files/presentations/presentations-06.pdf",
         "pages": [
           {
             "src": "assets/img/projects/presentations/presentations-06-page1-1200.webp",
@@ -3618,15 +3383,6 @@
           },
           {
             "src": "assets/img/projects/presentations/presentations-06-page3-1200.webp",
-            "w": 1200,
-            "h": 675,
-            "alt": {
-              "ru": "Презентации",
-              "en": "Presentations"
-            }
-          },
-          {
-            "src": "assets/img/projects/presentations/presentations-06-page4-1200.webp",
             "w": 1200,
             "h": 675,
             "alt": {
