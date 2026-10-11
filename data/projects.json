@@ -1492,19 +1492,16 @@
   {
     "slug": "sandwich-co",
     "title": {
-      "ru": "Sandwich & Co",
-      "en": "Sandwich & Co"
+      "ru": "Sandwich & Co — SMM",
+      "en": "Sandwich & Co — social media"
     },
     "client": "Sandwich & Co (sandwichandco.uz)",
     "directions": [
-      "branding",
-      "motion",
-      "print"
+      "motion"
     ],
     "branches": [
-      "identity",
-      "logo",
-      "smm-graphics"
+      "smm-graphics",
+      "reels-stories"
     ],
     "tags": {
       "industry": [
@@ -1512,8 +1509,7 @@
       ],
       "format": [
         "static",
-        "video",
-        "print"
+        "video"
       ],
       "tools": [
         "Illustrator",
@@ -1532,25 +1528,25 @@
     "featured": true,
     "order": 9,
     "cover": {
-      "src": "assets/img/projects/sandwich-co/sandwich-co-01-1600.webp",
-      "w": 4500,
-      "h": 4500,
+      "src": "assets/img/projects/sandwich-co/sandwich-co-nu3r-02-1600.webp",
+      "w": 1600,
+      "h": 1986,
       "alt": {
-        "ru": "Sandwich & Co",
-        "en": "Sandwich & Co"
+        "ru": "Пост Sandwich & Co",
+        "en": "Sandwich & Co social post"
       }
     },
     "summary": {
-      "ru": "Фирменный стиль, логобук, меню, упаковка контент-плана и SMM-материалы для кафе-сэндвичей Sandwich & Co в Ташкенте.",
-      "en": "Brand identity, logobook, menu design, and SMM content for Sandwich & Co, a sandwich café in Tashkent."
+      "ru": "SMM для кафе-сэндвичей Sandwich & Co в Ташкенте: посты, сторис, акции и рилсы.",
+      "en": "Social media for Sandwich & Co, a sandwich café in Tashkent: posts, stories, promos and reels."
     },
     "task": {
       "ru": "По брифу заказчика ключевые проблемы — низкая узнаваемость формата «сэндвич» и отсутствие лица компании (мало посадочных мест, съёмки не планировались). Нужен был контент, который продаёт продукт без привязки к людям и без выездных съёмок.",
       "en": "Per the client brief, the main problems were low recognition of the 'sandwich' format and no public face for the brand (few seats, no filming planned). The content needed to sell the product itself, without relying on people or on-site shoots."
     },
     "approach": {
-      "ru": "Разработан визуальный код (тёмно-зелёный/дерево/крафт, курсивный логотип «SCo», serif-заголовки), логобук, меню 62×100, формат «КБЖУ-карточка» (рука с тарелкой + стикеры калорийности) и контент-план сторис, пересобранный под 100%-статику без выездных съёмок — герой контента — продукт, руки, детали.",
-      "en": "Built a visual code (dark green / wood / craft textures, a cursive 'SCo' logo, serif headlines), a logobook, a 62×100 cm menu, a 'nutrition card' format (hand with a plate plus calorie/macro stickers), and a stories content plan rebuilt for pure static content with no shoots — the hero of the content is the product, hands and details."
+      "ru": "Контент-план сторис под полностью статичный формат без выездных съёмок: герой контента — продукт, руки и детали; карточки КБЖУ, акции и праздничные посты.",
+      "en": "A stories content plan built for fully static content with no shoots: the hero is the product, hands and details; nutrition cards, promos and holiday posts."
     },
     "result": null,
     "behance": "https://www.behance.net/deathhueth",
@@ -1560,162 +1556,141 @@
         "type": "images",
         "images": [
           {
-            "src": "assets/img/projects/sandwich-co/sandwich-co-02-1600.webp",
-            "w": 4500,
-            "h": 4500,
+            "src": "assets/img/projects/sandwich-co/sandwich-co-nu3r-01-1600.webp",
+            "w": 1080,
+            "h": 1350,
             "alt": {
-              "ru": "Sandwich & Co",
-              "en": "Sandwich & Co"
+              "ru": "Пост Sandwich & Co",
+              "en": "Sandwich & Co social post"
             }
           },
           {
-            "src": "assets/img/projects/sandwich-co/sandwich-co-05-1600.webp",
-            "w": 4500,
-            "h": 4500,
+            "src": "assets/img/projects/sandwich-co/sandwich-co-nu3r-02-1600.webp",
+            "w": 1600,
+            "h": 1986,
             "alt": {
-              "ru": "Sandwich & Co",
-              "en": "Sandwich & Co"
+              "ru": "Пост Sandwich & Co",
+              "en": "Sandwich & Co social post"
             }
           },
           {
-            "src": "assets/img/projects/sandwich-co/sandwich-co-06-1600.webp",
-            "w": 4500,
-            "h": 4500,
+            "src": "assets/img/projects/sandwich-co/sandwich-co-nu3r-03-1600.webp",
+            "w": 1080,
+            "h": 1350,
             "alt": {
-              "ru": "Sandwich & Co",
-              "en": "Sandwich & Co"
+              "ru": "Пост Sandwich & Co",
+              "en": "Sandwich & Co social post"
+            }
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-nu3r-04-1600.webp",
+            "w": 1080,
+            "h": 1350,
+            "alt": {
+              "ru": "Пост Sandwich & Co",
+              "en": "Sandwich & Co social post"
+            }
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-nu3r-05-1600.webp",
+            "w": 1080,
+            "h": 1350,
+            "alt": {
+              "ru": "Пост Sandwich & Co",
+              "en": "Sandwich & Co social post"
+            }
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-nu3r-06-1600.webp",
+            "w": 1080,
+            "h": 1920,
+            "alt": {
+              "ru": "Пост Sandwich & Co",
+              "en": "Sandwich & Co social post"
+            }
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-nu3r-07-1600.webp",
+            "w": 1080,
+            "h": 1920,
+            "alt": {
+              "ru": "Пост Sandwich & Co",
+              "en": "Sandwich & Co social post"
+            }
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-nu3r-08-1600.webp",
+            "w": 1080,
+            "h": 1920,
+            "alt": {
+              "ru": "Пост Sandwich & Co",
+              "en": "Sandwich & Co social post"
+            }
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-nu3r-09-1600.webp",
+            "w": 1080,
+            "h": 1920,
+            "alt": {
+              "ru": "Пост Sandwich & Co",
+              "en": "Sandwich & Co social post"
+            }
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-nu3r-10-1600.webp",
+            "w": 1600,
+            "h": 1200,
+            "alt": {
+              "ru": "Пост Sandwich & Co",
+              "en": "Sandwich & Co social post"
             }
           }
         ]
       },
       {
-        "type": "pdf",
-        "file": "assets/files/sandwich-co/sandwich-co-03.pdf",
-        "pages": [
-          {
-            "src": "assets/img/projects/sandwich-co/sandwich-co-03-page01-1200.webp",
-            "w": 1172,
-            "h": 759,
-            "alt": {
-              "ru": "Sandwich & Co",
-              "en": "Sandwich & Co"
-            }
-          },
-          {
-            "src": "assets/img/projects/sandwich-co/sandwich-co-03-page02-1200.webp",
-            "w": 1172,
-            "h": 730,
-            "alt": {
-              "ru": "Sandwich & Co",
-              "en": "Sandwich & Co"
-            }
-          },
-          {
-            "src": "assets/img/projects/sandwich-co/sandwich-co-03-page03-1200.webp",
-            "w": 1169,
-            "h": 728,
-            "alt": {
-              "ru": "Sandwich & Co",
-              "en": "Sandwich & Co"
-            }
-          },
-          {
-            "src": "assets/img/projects/sandwich-co/sandwich-co-03-page04-1200.webp",
-            "w": 1169,
-            "h": 728,
-            "alt": {
-              "ru": "Sandwich & Co",
-              "en": "Sandwich & Co"
-            }
-          },
-          {
-            "src": "assets/img/projects/sandwich-co/sandwich-co-03-page05-1200.webp",
-            "w": 1169,
-            "h": 728,
-            "alt": {
-              "ru": "Sandwich & Co",
-              "en": "Sandwich & Co"
-            }
-          },
-          {
-            "src": "assets/img/projects/sandwich-co/sandwich-co-03-page06-1200.webp",
-            "w": 1169,
-            "h": 728,
-            "alt": {
-              "ru": "Sandwich & Co",
-              "en": "Sandwich & Co"
-            }
-          },
-          {
-            "src": "assets/img/projects/sandwich-co/sandwich-co-03-page07-1200.webp",
-            "w": 1169,
-            "h": 728,
-            "alt": {
-              "ru": "Sandwich & Co",
-              "en": "Sandwich & Co"
-            }
-          },
-          {
-            "src": "assets/img/projects/sandwich-co/sandwich-co-03-page08-1200.webp",
-            "w": 1169,
-            "h": 728,
-            "alt": {
-              "ru": "Sandwich & Co",
-              "en": "Sandwich & Co"
-            }
-          },
-          {
-            "src": "assets/img/projects/sandwich-co/sandwich-co-03-page09-1200.webp",
-            "w": 1169,
-            "h": 728,
-            "alt": {
-              "ru": "Sandwich & Co",
-              "en": "Sandwich & Co"
-            }
-          },
-          {
-            "src": "assets/img/projects/sandwich-co/sandwich-co-03-page10-1200.webp",
-            "w": 1169,
-            "h": 728,
-            "alt": {
-              "ru": "Sandwich & Co",
-              "en": "Sandwich & Co"
-            }
-          },
-          {
-            "src": "assets/img/projects/sandwich-co/sandwich-co-03-page11-1200.webp",
-            "w": 1169,
-            "h": 728,
-            "alt": {
-              "ru": "Sandwich & Co",
-              "en": "Sandwich & Co"
-            }
-          },
-          {
-            "src": "assets/img/projects/sandwich-co/sandwich-co-03-page12-1200.webp",
-            "w": 1169,
-            "h": 728,
-            "alt": {
-              "ru": "Sandwich & Co",
-              "en": "Sandwich & Co"
-            }
+        "type": "video",
+        "src": "assets/video/sandwich-co/sandwich-co-nu3r-v1-loop.mp4",
+        "poster": {
+          "src": "assets/img/projects/sandwich-co/sandwich-co-nu3r-v1-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Пост Sandwich & Co",
+            "en": "Sandwich & Co social post"
           }
-        ]
+        },
+        "w": 1080,
+        "h": 1920
       },
       {
-        "type": "pdf",
-        "file": "assets/files/sandwich-co/sandwich-co-04.pdf",
-        "pages": [
-          {
-            "src": "assets/img/projects/sandwich-co/sandwich-co-04-page1-1200.webp",
-            "w": 1200,
-            "h": 1935,
-            "alt": {
-              "ru": "Sandwich & Co",
-              "en": "Sandwich & Co"
-            }
+        "type": "video",
+        "src": "assets/video/sandwich-co/sandwich-co-nu3r-v2-loop.mp4",
+        "poster": {
+          "src": "assets/img/projects/sandwich-co/sandwich-co-nu3r-v2-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Пост Sandwich & Co",
+            "en": "Sandwich & Co social post"
           }
-        ]
+        },
+        "w": 1080,
+        "h": 1920
+      },
+      {
+        "type": "video",
+        "src": "assets/video/sandwich-co/sandwich-co-nu3r-v3-loop.mp4",
+        "poster": {
+          "src": "assets/img/projects/sandwich-co/sandwich-co-nu3r-v3-poster-1600.webp",
+          "w": 1600,
+          "h": 2844,
+          "alt": {
+            "ru": "Пост Sandwich & Co",
+            "en": "Sandwich & Co social post"
+          }
+        },
+        "w": 1600,
+        "h": 2844
       }
     ]
   },
@@ -1770,20 +1745,15 @@
   {
     "slug": "dk-leading",
     "title": {
-      "ru": "DK Leading — бренд, презентация, SMM",
-      "en": "DK Leading — brand, deck, social"
+      "ru": "DK Leading — SMM",
+      "en": "DK Leading — social media"
     },
     "client": "DK Leading (dkleading.com)",
     "directions": [
-      "branding",
-      "motion",
-      "print"
+      "motion"
     ],
     "branches": [
-      "icons",
-      "identity",
-      "smm-graphics",
-      "decks"
+      "smm-graphics"
     ],
     "tags": {
       "industry": [
@@ -1813,8 +1783,8 @@
       }
     },
     "summary": {
-      "ru": "Icon-pack из 537 иконок, брендбук, презентация «О компании» и серия SMM-сторис с разбором кейсов для софтверной студии DK Leading.",
-      "en": "A 537-icon pack, a brand book, a company presentation, and a stories series breaking down case studies for the software studio DK Leading."
+      "ru": "SMM для IT-агентства DK Leading (аутсорс, 1 месяц): карточки кейсов агентства, посты и ролики.",
+      "en": "Social media for the IT agency DK Leading (one-month outsourcing): agency case cards, posts and videos."
     },
     "task": {
       "ru": "Нужно было оформить кейсы компании (банки, госплатформы и др.) и команду в соцсетях честно: без выдуманных метрик результата — такого требования в сторис-ТЗ указано прямо.",
@@ -1898,162 +1868,6 @@
             "src": "assets/img/projects/dk-leading/dk-leading-12-1600.webp",
             "w": 1081,
             "h": 1351,
-            "alt": {
-              "ru": "DK Leading — бренд, презентация, SMM",
-              "en": "DK Leading — brand, deck, social"
-            }
-          }
-        ]
-      },
-      {
-        "type": "pdf",
-        "file": "assets/files/dk-leading/dk-leading-01.pdf",
-        "pages": [
-          {
-            "src": "assets/img/projects/dk-leading/dk-leading-01-page1-1200.webp",
-            "w": 1200,
-            "h": 676,
-            "alt": {
-              "ru": "DK Leading — бренд, презентация, SMM",
-              "en": "DK Leading — brand, deck, social"
-            }
-          },
-          {
-            "src": "assets/img/projects/dk-leading/dk-leading-01-page2-1200.webp",
-            "w": 1200,
-            "h": 676,
-            "alt": {
-              "ru": "DK Leading — бренд, презентация, SMM",
-              "en": "DK Leading — brand, deck, social"
-            }
-          },
-          {
-            "src": "assets/img/projects/dk-leading/dk-leading-01-page3-1200.webp",
-            "w": 1200,
-            "h": 676,
-            "alt": {
-              "ru": "DK Leading — бренд, презентация, SMM",
-              "en": "DK Leading — brand, deck, social"
-            }
-          },
-          {
-            "src": "assets/img/projects/dk-leading/dk-leading-01-page4-1200.webp",
-            "w": 1200,
-            "h": 676,
-            "alt": {
-              "ru": "DK Leading — бренд, презентация, SMM",
-              "en": "DK Leading — brand, deck, social"
-            }
-          },
-          {
-            "src": "assets/img/projects/dk-leading/dk-leading-01-page5-1200.webp",
-            "w": 1200,
-            "h": 676,
-            "alt": {
-              "ru": "DK Leading — бренд, презентация, SMM",
-              "en": "DK Leading — brand, deck, social"
-            }
-          },
-          {
-            "src": "assets/img/projects/dk-leading/dk-leading-01-page6-1200.webp",
-            "w": 1200,
-            "h": 676,
-            "alt": {
-              "ru": "DK Leading — бренд, презентация, SMM",
-              "en": "DK Leading — brand, deck, social"
-            }
-          },
-          {
-            "src": "assets/img/projects/dk-leading/dk-leading-01-page7-1200.webp",
-            "w": 1200,
-            "h": 676,
-            "alt": {
-              "ru": "DK Leading — бренд, презентация, SMM",
-              "en": "DK Leading — brand, deck, social"
-            }
-          },
-          {
-            "src": "assets/img/projects/dk-leading/dk-leading-01-page8-1200.webp",
-            "w": 1200,
-            "h": 676,
-            "alt": {
-              "ru": "DK Leading — бренд, презентация, SMM",
-              "en": "DK Leading — brand, deck, social"
-            }
-          },
-          {
-            "src": "assets/img/projects/dk-leading/dk-leading-01-page9-1200.webp",
-            "w": 1200,
-            "h": 676,
-            "alt": {
-              "ru": "DK Leading — бренд, презентация, SMM",
-              "en": "DK Leading — brand, deck, social"
-            }
-          }
-        ]
-      },
-      {
-        "type": "pdf",
-        "file": "assets/files/dk-leading/dk-leading-02.pdf",
-        "pages": [
-          {
-            "src": "assets/img/projects/dk-leading/dk-leading-02-page1-1200.webp",
-            "w": 828,
-            "h": 1170,
-            "alt": {
-              "ru": "DK Leading — бренд, презентация, SMM",
-              "en": "DK Leading — brand, deck, social"
-            }
-          },
-          {
-            "src": "assets/img/projects/dk-leading/dk-leading-02-page2-1200.webp",
-            "w": 828,
-            "h": 1170,
-            "alt": {
-              "ru": "DK Leading — бренд, презентация, SMM",
-              "en": "DK Leading — brand, deck, social"
-            }
-          },
-          {
-            "src": "assets/img/projects/dk-leading/dk-leading-02-page3-1200.webp",
-            "w": 828,
-            "h": 1170,
-            "alt": {
-              "ru": "DK Leading — бренд, презентация, SMM",
-              "en": "DK Leading — brand, deck, social"
-            }
-          },
-          {
-            "src": "assets/img/projects/dk-leading/dk-leading-02-page4-1200.webp",
-            "w": 828,
-            "h": 1170,
-            "alt": {
-              "ru": "DK Leading — бренд, презентация, SMM",
-              "en": "DK Leading — brand, deck, social"
-            }
-          },
-          {
-            "src": "assets/img/projects/dk-leading/dk-leading-02-page5-1200.webp",
-            "w": 828,
-            "h": 1170,
-            "alt": {
-              "ru": "DK Leading — бренд, презентация, SMM",
-              "en": "DK Leading — brand, deck, social"
-            }
-          },
-          {
-            "src": "assets/img/projects/dk-leading/dk-leading-02-page6-1200.webp",
-            "w": 828,
-            "h": 1170,
-            "alt": {
-              "ru": "DK Leading — бренд, презентация, SMM",
-              "en": "DK Leading — brand, deck, social"
-            }
-          },
-          {
-            "src": "assets/img/projects/dk-leading/dk-leading-02-page7-1200.webp",
-            "w": 828,
-            "h": 1170,
             "alt": {
               "ru": "DK Leading — бренд, презентация, SMM",
               "en": "DK Leading — brand, deck, social"
@@ -3216,20 +3030,26 @@
     },
     "client": "Chitir-Chitir milk",
     "directions": [
-      "branding"
+      "branding",
+      "3d",
+      "motion"
     ],
     "branches": [
-      "mascot"
+      "mascot",
+      "3d-characters",
+      "smm-graphics"
     ],
     "tags": {
       "industry": [
         "food"
       ],
       "format": [
-        "static"
+        "static",
+        "3d"
       ],
       "tools": [
-        "Photoshop"
+        "Photoshop",
+        "Blender"
       ],
       "region": [],
       "lang": [
@@ -3251,8 +3071,8 @@
       "focus": "50% 30%"
     },
     "summary": {
-      "ru": "Маскот молочного бренда Chitir-Chitir и праздничные SMM-постеры с его участием.",
-      "en": "Mascot design for the Chitir-Chitir dairy brand and holiday social posters featuring it."
+      "ru": "SMM для бренда орехов и сухофруктов Chitir-Chitir milk и переработка маскота бренда в 3D.",
+      "en": "Social media for the Chitir-Chitir milk nuts brand and a 3D rebuild of the brand mascot."
     },
     "task": null,
     "approach": null,
@@ -3260,6 +3080,39 @@
     "behance": "https://www.behance.net/deathhueth",
     "aiContent": true,
     "blocks": [
+      {
+        "type": "text",
+        "title": {
+          "ru": "Маскот в 3D",
+          "en": "Mascot in 3D"
+        },
+        "text": {
+          "ru": "Переработка 2D-маскота бренда в 3D-персонажа (Blender).",
+          "en": "The brand’s 2D mascot rebuilt as a 3D character (Blender)."
+        }
+      },
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/chitir-chitir/chitir-chitir-3d-1600.webp",
+            "w": 980,
+            "h": 600,
+            "alt": {
+              "ru": "3D-версия маскота Chitir-Chitir",
+              "en": "3D version of the Chitir-Chitir mascot"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "ru": "SMM",
+          "en": "Social media"
+        },
+        "text": null
+      },
       {
         "type": "images",
         "images": [
