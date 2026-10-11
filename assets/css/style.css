@@ -32,9 +32,9 @@
   /* капс-заголовки подгоняются под ширину экрана:
      --fit (ставит build.js) = длина самого длинного слова */
   --glyph: 1.1;            /* ширина буквы Unbounded 900 в em при letter-spacing 0, с запасом */
-  --fs-hero-max: 188px;
-  --fs-title-max: 168px;
-  --fs-next-max: 140px;
+  --fs-hero-max: 96px;
+  --fs-title-max: 88px;
+  --fs-next-max: 80px;
 
   /* сетка */
   --gut: 16px;
@@ -141,7 +141,7 @@ body::after {
 .h-giant .out { color: var(--ink); }
 
 .h2 {
-  font: 900 clamp(22px, 6.4vw, 96px)/1 var(--f-display);
+  font: 900 clamp(20px, 5vw, 64px)/1 var(--f-display);
   text-transform: uppercase;
   letter-spacing: 0;
   overflow-wrap: break-word;
@@ -277,7 +277,7 @@ body::after {
 .ticker-half { display: flex; flex: none; }
 .ticker-half span {
   white-space: nowrap;
-  font: 900 clamp(18px, 3vw, 34px)/1 var(--f-display);
+  font: 900 clamp(15px, 2.2vw, 24px)/1 var(--f-display);
   text-transform: uppercase; letter-spacing: -0.01em;
   padding: 14px 0 14px 32px;
 }
@@ -383,7 +383,7 @@ body::after {
    ========================================================= */
 .contact { margin-top: 72px; background: var(--acid); color: var(--on-acid); }
 .contact .container { padding-top: 48px; padding-bottom: 40px; }
-.contact .h-giant { --fs-hero-max: 176px; letter-spacing: 0; }
+.contact .h-giant { --fs-hero-max: 84px; letter-spacing: 0; }
 .contact .h-giant .out { color: var(--on-acid); opacity: .55; }
 .contact-links { display: grid; margin-top: 32px; border-top: 2px solid var(--on-acid); }
 .contact-links a {
@@ -481,7 +481,7 @@ body::after {
 .acts { margin-top: 64px; border-top: 1px solid var(--line); }
 .act { display: grid; gap: 14px; padding: 28px 0 32px; border-bottom: 1px solid var(--line); }
 .act-head { display: flex; gap: 16px; align-items: flex-start; }
-.act-n { flex: none; font: 900 clamp(56px, 14vw, 104px)/0.8 var(--f-display); color: var(--acid); letter-spacing: 0; }
+.act-n { flex: none; font: 900 clamp(40px, 9vw, 64px)/0.9 var(--f-display); color: var(--acid); letter-spacing: 0; }
 .act h2 { font: 900 22px/1 var(--f-display); text-transform: uppercase; padding-top: 2px; }
 .act h2 small {
   display: block; margin-bottom: 10px;
@@ -525,7 +525,7 @@ body::after {
 .cta-band { margin-top: 80px; background: var(--acid); color: var(--on-acid); }
 .cta-band .container { display: grid; gap: 24px; padding-top: 44px; padding-bottom: 44px; }
 .cta-title {
-  font: 900 clamp(30px, 8.4vw, 120px)/1 var(--f-display);
+  font: 900 clamp(26px, 6vw, 72px)/1 var(--f-display);
   text-transform: uppercase; letter-spacing: 0;
   overflow-wrap: break-word;
 }
@@ -697,7 +697,7 @@ body::after {
    ========================================================= */
 .who { margin-top: 24px; }
 .who-kicker { font: 700 14px/1 var(--f-display); letter-spacing: 0; color: var(--muted); }
-.who-name, .about-name { --fs-hero-max: 200px; margin: 24px 0 28px; }
+.who-name, .about-name { --fs-hero-max: 96px; margin: 24px 0 28px; }
 .who-grid, .about-grid { display: grid; gap: 28px; align-items: start; }
 .who-photo { position: relative; border: 1px solid var(--line); background: var(--bg-2); }
 .who-photo img { width: 100%; height: auto; }
@@ -720,7 +720,7 @@ body::after {
 .fact-plates li { background: var(--bg); padding: 14px 12px 16px; min-width: 0; }
 .fact-plates b {
   display: block;
-  font: 900 clamp(34px, 8vw, 64px)/1 var(--f-display);
+  font: 900 clamp(28px, 6vw, 48px)/1 var(--f-display);
   color: var(--acid); letter-spacing: 0;
 }
 .fact-plates span {
@@ -792,7 +792,7 @@ body::after {
 
 /* Заголовок раздела внутри кейса (сборные кейсы: Haval и т.п.) */
 .block-text .block-title {
-  font: 900 clamp(26px, 6vw, 56px)/1.05 var(--f-display, "Unbounded", system-ui, sans-serif);
+  font: 900 clamp(22px, 4.4vw, 40px)/1.05 var(--f-display, "Unbounded", system-ui, sans-serif);
   text-transform: uppercase; letter-spacing: 0; margin: 56px 0 8px;
   padding-top: 18px; border-top: 1px solid var(--line, #262626);
 }
@@ -955,7 +955,8 @@ body::after {
   .hero-copy {
     --hfs: min(
       calc((min(100vw, var(--max)) - 2 * var(--gut)) / (var(--fit, 8) * var(--glyph))),
-      calc((86svh - var(--header-h) - 300px) / 3)
+      calc((86svh - var(--header-h) - 320px) / 3.8),
+      96px
     );
     position: absolute; left: 0; right: 0; bottom: 0; z-index: 4;
     margin: 0 auto; padding-bottom: 40px;
@@ -979,7 +980,7 @@ body::after {
     display: grid; grid-template-columns: minmax(0, 1fr) 380px; column-gap: 56px; align-items: end;
   }
   .case-intro .case-head {
-    --tfs: min(116px, calc((min(100vw, var(--max)) - 2 * var(--gut) - 436px) / (var(--fit, 8) * var(--glyph))));
+    --tfs: min(80px, calc((min(100vw, var(--max)) - 2 * var(--gut) - 436px) / (var(--fit, 8) * var(--glyph))));
   }
   .case-aside { padding-bottom: 6px; }
   .case-aside .facts { grid-template-columns: 1fr; margin-top: 0; }
@@ -1007,7 +1008,7 @@ body::after {
 .proof-media { display: block; position: relative; aspect-ratio: var(--ar); background: var(--bg-2); border: 1px solid var(--line); overflow: hidden; }
 .proof-media img { width: 100%; height: 100%; }
 .proof-cap { display: grid; gap: 8px; align-content: start; }
-.proof-n { font: 900 clamp(48px, 12vw, 120px)/1 var(--f-display); color: var(--acid); }
+.proof-n { font: 900 clamp(36px, 8vw, 72px)/1 var(--f-display); color: var(--acid); }
 .proof-title { font: 900 clamp(20px, 4.4vw, 40px)/1.1 var(--f-display); text-transform: uppercase; overflow-wrap: anywhere; }
 .proof-client { color: var(--muted); font-size: 14px; text-transform: uppercase; letter-spacing: 0.1em; }
 .proof-go { margin-top: 8px; font: 700 12px/1 var(--f-display); text-transform: uppercase; color: var(--acid); }
