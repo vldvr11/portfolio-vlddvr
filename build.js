@@ -770,7 +770,10 @@ function renderHead(opts) {
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;700&amp;family=Unbounded:wght@500;700;900&amp;display=swap">
   <link rel="stylesheet" href="${rel("assets/css/style.css", depth)}?v=${assetVer("assets/css/style.css")}">
-  <link rel="icon" href="${rel("assets/img/placeholder/square.svg", depth)}" type="image/svg+xml">
+  <link rel="icon" href="${rel("favicon.ico", depth)}" sizes="any">
+  <link rel="icon" href="${rel("assets/img/icons/favicon-32.png", depth)}" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="${rel("assets/img/icons/apple-touch-icon.png", depth)}">
+  <link rel="manifest" href="${rel("site.webmanifest", depth)}">
   <script>
   /* Вступительный экран «Портфолио»: один раз за сессию, не при reduced-motion */
   (function(){try{var d=document.documentElement;if(sessionStorage.getItem("intro"))return;if(window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches)return;sessionStorage.setItem("intro","1");d.setAttribute("data-intro","${lang === "ru" ? "Портфолио" : "Portfolio"}");d.classList.add("intro");setTimeout(function(){d.classList.add("intro-out")},1900);setTimeout(function(){d.classList.remove("intro","intro-out")},2700);}catch(e){}})();

@@ -16,7 +16,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;700&amp;family=Unbounded:wght@500;700;900&amp;display=swap">
   <link rel="stylesheet" href="../assets/css/style.css?v=b6750a26">
-  <link rel="icon" href="../assets/img/placeholder/square.svg" type="image/svg+xml">
+  <link rel="icon" href="../favicon.ico" sizes="any">
+  <link rel="icon" href="../assets/img/icons/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="../assets/img/icons/apple-touch-icon.png">
+  <link rel="manifest" href="../site.webmanifest">
   <script>
   /* Вступительный экран «Портфолио»: один раз за сессию, не при reduced-motion */
   (function(){try{var d=document.documentElement;if(sessionStorage.getItem("intro"))return;if(window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches)return;sessionStorage.setItem("intro","1");d.setAttribute("data-intro","Портфолио");d.classList.add("intro");setTimeout(function(){d.classList.add("intro-out")},1900);setTimeout(function(){d.classList.remove("intro","intro-out")},2700);}catch(e){}})();
