@@ -1072,4 +1072,6 @@ body::after {
 .logo:not(.logo-live) .logo-ch--x { display: none; }
 .logo-live .logo-ch--x { transform-origin: left center; transform: scaleX(0); margin-right: calc(-1 * var(--w, 0px)); transition: transform .52s cubic-bezier(.2,.8,.2,1), margin-right .52s cubic-bezier(.2,.8,.2,1); }
 .logo-live .logo-ch--x.is-on { transform: scaleX(1); margin-right: 0; }
+.logo-live { display: inline-block; }
 .logo-measure .logo-ch--x { transform: none !important; margin-right: 0 !important; transition: none !important; }
+@media (max-width: 480px) { .logo { font-size: 14px; } }

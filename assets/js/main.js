@@ -493,9 +493,10 @@
     var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (reduce) return; /* без анимации остаётся статичный vlddvr */
     function measure() {
+      logo.style.minWidth = "";
       logo.classList.add("logo-live", "logo-measure");
       extra.forEach(function (el) { el.style.setProperty("--w", el.getBoundingClientRect().width.toFixed(2) + "px"); });
-      void logo.offsetWidth;
+      logo.style.minWidth = Math.ceil(logo.getBoundingClientRect().width) + "px"; /* место под полное слово занято заранее — меню рядом не сдвигается */
       logo.classList.remove("logo-measure");
     }
     measure();
