@@ -5382,6 +5382,22 @@
     "blocks": [
       {
         "type": "video",
+        "src": "assets/video/ev-energy/ev-energy-8bit-v1-loop.mp4",
+        "webm": "assets/video/ev-energy/ev-energy-8bit-v1-full.webm",
+        "poster": {
+          "src": "assets/img/projects/ev-energy/ev-energy-8bit-v1-poster-1600.webp",
+          "w": 1600,
+          "h": 900,
+          "alt": {
+            "ru": "Energy Work — презентация вертикальных роликов",
+            "en": "Energy Work — showcase of vertical videos"
+          }
+        },
+        "w": 1600,
+        "h": 900
+      },
+      {
+        "type": "video",
         "poster": {
           "src": "assets/img/projects/ev-energy/ev-energy-pfk5-v1-poster-1600.webp",
           "w": 1080,
