@@ -463,7 +463,7 @@
   }
 })();
 
-/* Логотип: vlddvr ⇄ vladdiviart — «плавающие» буквы, скрытые раскрываются по таймеру и при наведении */
+/* Логотип: vlddvr ⇄ vladdiviart — медленные горизонтальные растяжения букв (как лотти-анимация), скрытые буквы раскрываются по ширине */
 (function () {
   "use strict";
   var FULL = "vladdiviart", SHORT = "vlddvr";
@@ -475,32 +475,48 @@
     var wrap = document.createElement("span");
     wrap.className = "logo-word";
     wrap.setAttribute("aria-hidden", "true");
-    var si = 0;
+    var chars = [], si = 0;
     FULL.split("").forEach(function (ch, i) {
       var s = document.createElement("span");
       var core = SHORT[si] === ch;
       if (core) si++;
       s.className = "logo-ch" + (core ? "" : " logo-ch--x");
-      s.style.setProperty("--i", i);
       s.textContent = ch;
       wrap.appendChild(s);
+      chars.push({ el: s, core: core, i: i, cur: core ? 1 : 0, w: 0 });
     });
     while (logo.firstChild) logo.removeChild(logo.firstChild);
     logo.appendChild(wrap);
     if (dot) logo.appendChild(dot);
     var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (reduce) return;
-    var timer = null;
-    function open(ms) {
-      logo.classList.add("is-open");
-      clearTimeout(timer);
-      timer = setTimeout(function () { logo.classList.remove("is-open"); }, ms || 3200);
+    if (reduce) return; /* без анимации остаётся статичный vlddvr */
+    logo.classList.add("logo-live");
+    function measure() { chars.forEach(function (c) { c.el.style.transform = ""; c.el.style.marginRight = ""; c.w = c.el.getBoundingClientRect().width; }); }
+    measure();
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(measure);
+    window.addEventListener("resize", measure);
+    var open = false, hover = false, t0 = performance.now(), last = t0;
+    function frame(now) {
+      var dt = Math.min(64, now - last); last = now;
+      var t = (now - t0) / 1000;
+      /* цикл 14 с: 0–5 с короткий логотип, 5–11 с раскрыт, дальше снова короткий */
+      var phase = t % 14;
+      open = hover || (phase > 5 && phase < 11);
+      for (var k = 0; k < chars.length; k++) {
+        var c = chars[k];
+        var target = c.core ? 1 : (open ? 1 : 0);
+        c.cur += (target - c.cur) * (1 - Math.pow(0.0025, dt / 1000));   /* плавное, медленное раскрытие */
+        var wave = 1 + 0.16 * Math.sin(t * 0.9 + c.i * 0.75);             /* медленное горизонтальное «дыхание» */
+        var s = Math.max(0, c.cur * wave);
+        c.el.style.transform = "scaleX(" + s.toFixed(3) + ")";
+        c.el.style.marginRight = (c.w * (s - 1)).toFixed(2) + "px";
+        c.el.style.opacity = c.core ? "" : Math.min(1, c.cur * 1.4).toFixed(2);
+      }
+      if (!document.hidden) requestAnimationFrame(frame); else setTimeout(function () { last = performance.now(); requestAnimationFrame(frame); }, 500);
     }
-    setTimeout(function () { open(3600); }, 900);
-    setInterval(function () { if (!document.hidden) open(3200); }, 9000);
-    logo.addEventListener("mouseenter", function () { clearTimeout(timer); logo.classList.add("is-open"); });
-    logo.addEventListener("mouseleave", function () { logo.classList.remove("is-open"); });
-    logo.addEventListener("focus", function () { open(4000); });
+    requestAnimationFrame(frame);
+    logo.addEventListener("mouseenter", function () { hover = true; });
+    logo.addEventListener("mouseleave", function () { hover = false; });
   }
   function initLogo() { document.querySelectorAll("a.logo").forEach(setup); }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initLogo); else initLogo();
