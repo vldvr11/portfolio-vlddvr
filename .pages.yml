@@ -7,7 +7,7 @@ media:
     output: assets/img/uploads
     extensions: [jpg, jpeg, png, webp, svg]
   - name: video
-    label: Видео (короткие, до 5 МБ, без звука)
+    label: Видео (mp4-луп до 5 МБ без звука; полный ролик WebM до 12 МБ)
     input: assets/video/uploads
     output: assets/video/uploads
     extensions: [mp4, webm]
@@ -106,6 +106,7 @@ content:
             label: Видео
             fields:
               - { name: src, label: 'Файл mp4 (короткий, без звука)', type: file, options: { media: video } }
+              - { name: webm, label: 'Полный ролик WebM со звуком', type: file, options: { media: video } }
               - { name: embed, label: 'ИЛИ YouTube: https://www.youtube-nocookie.com/embed/ID', type: string }
               - { name: poster, label: Постер, component: image }
               - { name: w, label: Ширина, type: number }
