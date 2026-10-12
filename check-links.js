@@ -59,7 +59,7 @@ function main() {
 
     refs.forEach((ref) => {
       if (isSkippable(ref)) return;
-      const withoutHash = ref.split("#")[0];
+      const withoutHash = ref.split("#")[0].split("?")[0];
       if (!withoutHash) return; // ссылка была чисто якорем в пределах той же страницы
       if (ref.startsWith("/")) {
         console.error(`[ABS PATH] ${path.relative(ROOT, file)} -> "${ref}" (путь с ведущим / запрещён)`);
