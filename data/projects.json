@@ -3133,6 +3133,51 @@
               "ru": "DK Leading — бренд, презентация, SMM",
               "en": "DK Leading — brand, deck, social"
             }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-u6oi-01-1600.webp",
+            "w": 1081,
+            "h": 1351,
+            "alt": {
+              "ru": "DK Leading — пост об услугах",
+              "en": "DK Leading — services post"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-u6oi-02-1600.webp",
+            "w": 1081,
+            "h": 1351,
+            "alt": {
+              "ru": "DK Leading — пост об услугах",
+              "en": "DK Leading — services post"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-u6oi-03-1600.webp",
+            "w": 1081,
+            "h": 1351,
+            "alt": {
+              "ru": "DK Leading — пост об услугах",
+              "en": "DK Leading — services post"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-u6oi-04-1600.webp",
+            "w": 1081,
+            "h": 1351,
+            "alt": {
+              "ru": "DK Leading — пост об услугах",
+              "en": "DK Leading — services post"
+            }
+          },
+          {
+            "src": "assets/img/projects/dk-leading/dk-leading-u6oi-05-1600.webp",
+            "w": 1201,
+            "h": 629,
+            "alt": {
+              "ru": "DK Leading — пост об услугах",
+              "en": "DK Leading — services post"
+            }
           }
         ]
       },
@@ -4332,6 +4377,78 @@
               "ru": "SMM-пост",
               "en": "Social media post"
             }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-tt6j-01-1600.webp",
+            "w": 959,
+            "h": 1280,
+            "alt": {
+              "ru": "SMM-графика",
+              "en": "Social media graphics"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-tt6j-02-1600.webp",
+            "w": 300,
+            "h": 600,
+            "alt": {
+              "ru": "SMM-графика",
+              "en": "Social media graphics"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-tt6j-03-1600.webp",
+            "w": 580,
+            "h": 400,
+            "alt": {
+              "ru": "SMM-графика",
+              "en": "Social media graphics"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-tt6j-04-1600.webp",
+            "w": 278,
+            "h": 128,
+            "alt": {
+              "ru": "SMM-графика",
+              "en": "Social media graphics"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-tt6j-05-1600.webp",
+            "w": 278,
+            "h": 128,
+            "alt": {
+              "ru": "SMM-графика",
+              "en": "Social media graphics"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-tt6j-06-1600.webp",
+            "w": 278,
+            "h": 128,
+            "alt": {
+              "ru": "SMM-графика",
+              "en": "Social media graphics"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-tt6j-07-1600.webp",
+            "w": 1080,
+            "h": 1920,
+            "alt": {
+              "ru": "SMM-графика",
+              "en": "Social media graphics"
+            }
+          },
+          {
+            "src": "assets/img/projects/smm-graphics/smm-graphics-tt6j-08-1600.webp",
+            "w": 1080,
+            "h": 1920,
+            "alt": {
+              "ru": "SMM-графика",
+              "en": "Social media graphics"
+            }
           }
         ]
       },
@@ -5096,6 +5213,182 @@
         "h": 1920
       },
       {
+        "type": "video",
+        "src": "assets/video/toretto/toretto-tt6n-v1-loop.mp4",
+        "webm": "assets/video/toretto/toretto-tt6n-v1-full.webm",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-tt6n-v1-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — рекламный ролик",
+            "en": "Toretto ad video"
+          }
+        },
+        "w": 1080,
+        "h": 1920
+      },
+      {
+        "type": "video",
+        "src": "assets/video/toretto/toretto-tt6n-v2-loop.mp4",
+        "webm": "assets/video/toretto/toretto-tt6n-v2-full.webm",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-tt6n-v2-poster-1600.webp",
+          "w": 1080,
+          "h": 1080,
+          "alt": {
+            "ru": "Toretto — рекламный ролик",
+            "en": "Toretto ad video"
+          }
+        },
+        "w": 1080,
+        "h": 1080
+      },
+      {
+        "type": "video",
+        "src": "assets/video/toretto/toretto-tt6n-v3-loop.mp4",
+        "webm": "assets/video/toretto/toretto-tt6n-v3-full.webm",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-tt6n-v3-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — рекламный ролик",
+            "en": "Toretto ad video"
+          }
+        },
+        "w": 1080,
+        "h": 1920
+      },
+      {
+        "type": "video",
+        "src": "assets/video/toretto/toretto-tt6n-v4-loop.mp4",
+        "webm": "assets/video/toretto/toretto-tt6n-v4-full.webm",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-tt6n-v4-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — рекламный ролик",
+            "en": "Toretto ad video"
+          }
+        },
+        "w": 1080,
+        "h": 1920
+      },
+      {
+        "type": "video",
+        "src": "assets/video/toretto/toretto-tt6n-v5-loop.mp4",
+        "webm": "assets/video/toretto/toretto-tt6n-v5-full.webm",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-tt6n-v5-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — рекламный ролик",
+            "en": "Toretto ad video"
+          }
+        },
+        "w": 1080,
+        "h": 1920
+      },
+      {
+        "type": "video",
+        "src": "assets/video/toretto/toretto-tt6n-v6-loop.mp4",
+        "webm": "assets/video/toretto/toretto-tt6n-v6-full.webm",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-tt6n-v6-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — рекламный ролик",
+            "en": "Toretto ad video"
+          }
+        },
+        "w": 1080,
+        "h": 1920
+      },
+      {
+        "type": "video",
+        "src": "assets/video/toretto/toretto-tt6n-v7-loop.mp4",
+        "webm": "assets/video/toretto/toretto-tt6n-v7-full.webm",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-tt6n-v7-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — рекламный ролик",
+            "en": "Toretto ad video"
+          }
+        },
+        "w": 1080,
+        "h": 1920
+      },
+      {
+        "type": "video",
+        "src": "assets/video/toretto/toretto-tt6n-v8-loop.mp4",
+        "webm": "assets/video/toretto/toretto-tt6n-v8-full.webm",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-tt6n-v8-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — рекламный ролик",
+            "en": "Toretto ad video"
+          }
+        },
+        "w": 1080,
+        "h": 1920
+      },
+      {
+        "type": "video",
+        "src": "assets/video/toretto/toretto-tt6n-v9-loop.mp4",
+        "webm": "assets/video/toretto/toretto-tt6n-v9-full.webm",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-tt6n-v9-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — рекламный ролик",
+            "en": "Toretto ad video"
+          }
+        },
+        "w": 1080,
+        "h": 1920
+      },
+      {
+        "type": "video",
+        "src": "assets/video/toretto/toretto-tt6n-v10-loop.mp4",
+        "webm": "assets/video/toretto/toretto-tt6n-v10-full.webm",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-tt6n-v10-poster-1600.webp",
+          "w": 1080,
+          "h": 1080,
+          "alt": {
+            "ru": "Toretto — рекламный ролик",
+            "en": "Toretto ad video"
+          }
+        },
+        "w": 1080,
+        "h": 1080
+      },
+      {
+        "type": "video",
+        "src": "assets/video/toretto/toretto-tt6n-v11-loop.mp4",
+        "webm": "assets/video/toretto/toretto-tt6n-v11-full.webm",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-tt6n-v11-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — рекламный ролик",
+            "en": "Toretto ad video"
+          }
+        },
+        "w": 1080,
+        "h": 1920
+      },
+      {
         "type": "text",
         "title": {
           "ru": "CGI в городе",
@@ -5395,6 +5688,33 @@
         "webm": "assets/video/ertaklar-dunyosi/ertaklar-dunyosi-ml3d-v11-full.webm",
         "embed": null,
         "caption": null
+      },
+      {
+        "type": "text",
+        "title": {
+          "ru": "Баннер на изогнутом LED-экране",
+          "en": "Banner on a curved LED screen"
+        },
+        "text": {
+          "ru": "3D-предпросмотр: как баннер парка ложится на угловой LED-экран.",
+          "en": "A 3D preview of how the park banner wraps around the corner LED screen."
+        }
+      },
+      {
+        "type": "video",
+        "src": "assets/video/ertaklar-dunyosi/ertaklar-dunyosi-unc5-v1-loop.mp4",
+        "webm": "assets/video/ertaklar-dunyosi/ertaklar-dunyosi-unc5-v1-full.webm",
+        "poster": {
+          "src": "assets/img/projects/ertaklar-dunyosi/ertaklar-dunyosi-unc5-v1-poster-1600.webp",
+          "w": 1600,
+          "h": 967,
+          "alt": {
+            "ru": "Ertaklar Dunyosi — 3D-предпросмотр баннера на изогнутом LED-экране",
+            "en": "Ertaklar Dunyosi — 3D preview of the banner on a curved LED screen"
+          }
+        },
+        "w": 1600,
+        "h": 967
       }
     ]
   },
@@ -6029,6 +6349,22 @@
         "webm": "assets/video/ev-energy/ev-energy-pfk5-v8-full.webm",
         "embed": null,
         "caption": null
+      },
+      {
+        "type": "video",
+        "src": "assets/video/ev-energy/ev-energy-ujen-v1-loop.mp4",
+        "webm": "assets/video/ev-energy/ev-energy-ujen-v1-full.webm",
+        "poster": {
+          "src": "assets/img/projects/ev-energy/ev-energy-ujen-v1-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Energy Work — рилс",
+            "en": "Energy Work reel"
+          }
+        },
+        "w": 1080,
+        "h": 1920
       }
     ]
   },
@@ -6817,6 +7153,217 @@
       "description": {
         "ru": "CGI и 3D, вписанные в живую съёмку: объекты на зданиях и улицах города, трекинг камеры и композитинг.",
         "en": "CGI and 3D composited into live footage: objects on city buildings and streets, camera tracking and compositing."
+      }
+    }
+  },
+  {
+    "slug": "pos-3d",
+    "title": {
+      "ru": "POS и промо-оборудование — 3D-анимации",
+      "en": "POS & promo equipment — 3D animations"
+    },
+    "client": null,
+    "directions": [
+      "3d"
+    ],
+    "branches": [
+      "photozones-pos",
+      "3d-objects"
+    ],
+    "tags": {
+      "industry": [
+        "retail"
+      ],
+      "format": [
+        "3d",
+        "video"
+      ],
+      "tools": [
+        "Blender"
+      ],
+      "region": [
+        "uz"
+      ],
+      "lang": []
+    },
+    "personal": false,
+    "featured": false,
+    "order": 6.5,
+    "cover": {
+      "src": "assets/img/projects/pos-3d/pos-3d-ux5b-v1-poster-1600.webp",
+      "w": 1080,
+      "h": 1080,
+      "alt": {
+        "ru": "Промо-стойка — 3D-анимация",
+        "en": "Promo counter — 3D animation"
+      }
+    },
+    "summary": {
+      "ru": "3D-анимации торгового и промо-оборудования для ритейла: промо-стойки, стойки-указатели, брендированные рамки у входа, навигация над стеллажами, брендированная стойка для электроники и новогодняя фигура.",
+      "en": "3D animations of retail and promo equipment: promo counters, sign stands, branded entrance gates, over-shelf navigation, a branded electronics display and a New Year figure."
+    },
+    "task": null,
+    "approach": {
+      "ru": "Каждый объект собран в Blender и показан облётом камеры. Стойки-указатели сделаны в нескольких вариантах — номер варианта вынесен в кадр; в вертикальных роликах оборудование показано в торговом зале рядом с фигурой человека для масштаба.",
+      "en": "Each piece is built in Blender and shown with a camera turnaround. The sign stands come in several versions, with the version number in the frame; the vertical clips place the equipment in a store next to a human figure for scale."
+    },
+    "result": null,
+    "behance": null,
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "video",
+        "src": "assets/video/pos-3d/pos-3d-ux5b-v1-loop.mp4",
+        "webm": "assets/video/pos-3d/pos-3d-ux5b-v1-full.webm",
+        "poster": {
+          "src": "assets/img/projects/pos-3d/pos-3d-ux5b-v1-poster-1600.webp",
+          "w": 1080,
+          "h": 1080,
+          "alt": {
+            "ru": "POS-оборудование — 3D-анимация",
+            "en": "POS equipment — 3D animation"
+          }
+        },
+        "w": 1080,
+        "h": 1080
+      },
+      {
+        "type": "video",
+        "src": "assets/video/pos-3d/pos-3d-ux5b-v2-loop.mp4",
+        "webm": "assets/video/pos-3d/pos-3d-ux5b-v2-full.webm",
+        "poster": {
+          "src": "assets/img/projects/pos-3d/pos-3d-ux5b-v2-poster-1600.webp",
+          "w": 1080,
+          "h": 1080,
+          "alt": {
+            "ru": "POS-оборудование — 3D-анимация",
+            "en": "POS equipment — 3D animation"
+          }
+        },
+        "w": 1080,
+        "h": 1080
+      },
+      {
+        "type": "video",
+        "src": "assets/video/pos-3d/pos-3d-ux5b-v3-loop.mp4",
+        "webm": "assets/video/pos-3d/pos-3d-ux5b-v3-full.webm",
+        "poster": {
+          "src": "assets/img/projects/pos-3d/pos-3d-ux5b-v3-poster-1600.webp",
+          "w": 1080,
+          "h": 1080,
+          "alt": {
+            "ru": "POS-оборудование — 3D-анимация",
+            "en": "POS equipment — 3D animation"
+          }
+        },
+        "w": 1080,
+        "h": 1080
+      },
+      {
+        "type": "video",
+        "src": "assets/video/pos-3d/pos-3d-ux5b-v4-loop.mp4",
+        "webm": "assets/video/pos-3d/pos-3d-ux5b-v4-full.webm",
+        "poster": {
+          "src": "assets/img/projects/pos-3d/pos-3d-ux5b-v4-poster-1600.webp",
+          "w": 1440,
+          "h": 1440,
+          "alt": {
+            "ru": "POS-оборудование — 3D-анимация",
+            "en": "POS equipment — 3D animation"
+          }
+        },
+        "w": 1440,
+        "h": 1440
+      },
+      {
+        "type": "video",
+        "src": "assets/video/pos-3d/pos-3d-ux5b-v5-loop.mp4",
+        "webm": "assets/video/pos-3d/pos-3d-ux5b-v5-full.webm",
+        "poster": {
+          "src": "assets/img/projects/pos-3d/pos-3d-ux5b-v5-poster-1600.webp",
+          "w": 1440,
+          "h": 1440,
+          "alt": {
+            "ru": "POS-оборудование — 3D-анимация",
+            "en": "POS equipment — 3D animation"
+          }
+        },
+        "w": 1440,
+        "h": 1440
+      },
+      {
+        "type": "video",
+        "src": "assets/video/pos-3d/pos-3d-ux5b-v6-loop.mp4",
+        "webm": "assets/video/pos-3d/pos-3d-ux5b-v6-full.webm",
+        "poster": {
+          "src": "assets/img/projects/pos-3d/pos-3d-ux5b-v6-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "POS-оборудование — 3D-анимация",
+            "en": "POS equipment — 3D animation"
+          }
+        },
+        "w": 1080,
+        "h": 1920
+      },
+      {
+        "type": "video",
+        "src": "assets/video/pos-3d/pos-3d-ux5b-v7-loop.mp4",
+        "webm": "assets/video/pos-3d/pos-3d-ux5b-v7-full.webm",
+        "poster": {
+          "src": "assets/img/projects/pos-3d/pos-3d-ux5b-v7-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "POS-оборудование — 3D-анимация",
+            "en": "POS equipment — 3D animation"
+          }
+        },
+        "w": 1080,
+        "h": 1920
+      },
+      {
+        "type": "video",
+        "src": "assets/video/pos-3d/pos-3d-ux5b-v8-loop.mp4",
+        "webm": "assets/video/pos-3d/pos-3d-ux5b-v8-full.webm",
+        "poster": {
+          "src": "assets/img/projects/pos-3d/pos-3d-ux5b-v8-poster-1600.webp",
+          "w": 1080,
+          "h": 1080,
+          "alt": {
+            "ru": "POS-оборудование — 3D-анимация",
+            "en": "POS equipment — 3D animation"
+          }
+        },
+        "w": 1080,
+        "h": 1080
+      },
+      {
+        "type": "video",
+        "src": "assets/video/pos-3d/pos-3d-ux5b-v9-loop.mp4",
+        "webm": "assets/video/pos-3d/pos-3d-ux5b-v9-full.webm",
+        "poster": {
+          "src": "assets/img/projects/pos-3d/pos-3d-ux5b-v9-poster-1600.webp",
+          "w": 1080,
+          "h": 1080,
+          "alt": {
+            "ru": "POS-оборудование — 3D-анимация",
+            "en": "POS equipment — 3D animation"
+          }
+        },
+        "w": 1080,
+        "h": 1080
+      }
+    ],
+    "seo": {
+      "title": {
+        "ru": "POS и промо-оборудование — 3D-анимации · vlddvr",
+        "en": "POS & promo equipment — 3D animations · vlddvr"
+      },
+      "description": {
+        "ru": "3D-анимации торгового и промо-оборудования для ритейла: промо-стойки, стойки-указатели, брендированные рамки у входа, навигация над стеллажами, брендированная стойка для электроники и новогодняя фигура.",
+        "en": "3D animations of retail and promo equipment: promo counters, sign stands, branded entrance gates, over-shelf navigation, a branded electronics display and a New Year figure."
       }
     }
   }
