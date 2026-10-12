@@ -1037,6 +1037,49 @@
         "src": "assets/video/brand-motion/brand-motion-r79o-v8-loop.mp4",
         "embed": null,
         "caption": null
+      },
+      {
+        "type": "text",
+        "title": {
+          "ru": "EastWestUnited — брендинг оптики",
+          "en": "EastWestUnited — optics store branding"
+        },
+        "text": {
+          "ru": "Айдентика оптики EastWestUnited: логотип с отсылкой к таблице проверки зрения, шрифт Lato, монохромная палитра, вывеска и фирменные носители — в составе команды агентства MOLLEQULA.",
+          "en": "Identity for the EastWestUnited optics store: a logo referencing an eye chart, the Lato typeface, a monochrome palette, signage and branded stationery — as part of the MOLLEQULA agency team."
+        }
+      },
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/mollequla/mollequla-mq-01-1600.webp",
+            "w": 408,
+            "h": 138,
+            "alt": {
+              "ru": "EastWestUnited — имиджевое фото бренда",
+              "en": "EastWestUnited — brand image photo"
+            }
+          },
+          {
+            "src": "assets/img/projects/mollequla/mollequla-mq-02-1600.webp",
+            "w": 250,
+            "h": 139,
+            "alt": {
+              "ru": "EastWestUnited — вывеска оптики",
+              "en": "EastWestUnited — optics store signage"
+            }
+          },
+          {
+            "src": "assets/img/projects/mollequla/mollequla-mq-03-1600.webp",
+            "w": 408,
+            "h": 139,
+            "alt": {
+              "ru": "EastWestUnited — фирменные носители: блокнот, визитки, ручка",
+              "en": "EastWestUnited — branded stationery: notebook, cards, pen"
+            }
+          }
+        ]
       }
     ],
     "seo": {
@@ -1192,6 +1235,40 @@
             "alt": {
               "ru": "EXZAP — офис и шоурум",
               "en": "EXZAP — office & showroom"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "ru": "Сайт-магазин EXZAP",
+          "en": "EXZAP online store"
+        },
+        "text": {
+          "ru": "Интернет-магазин EXZAP: каталог, карточки товаров, промоблоки и мобильная версия — в составе команды агентства MOLLEQULA.",
+          "en": "The EXZAP online store: catalog, product cards, promo blocks and a mobile version — as part of the MOLLEQULA agency team."
+        }
+      },
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/exzap-showroom/exzap-showroom-mq-01-1600.webp",
+            "w": 921,
+            "h": 670,
+            "alt": {
+              "ru": "EXZAP — интернет-магазин, главная страница (ноутбук)",
+              "en": "EXZAP — online store home page (laptop)"
+            }
+          },
+          {
+            "src": "assets/img/projects/exzap-showroom/exzap-showroom-mq-02-1600.webp",
+            "w": 627,
+            "h": 520,
+            "alt": {
+              "ru": "EXZAP — мобильная версия магазина",
+              "en": "EXZAP — mobile store"
             }
           }
         ]
@@ -4387,6 +4464,40 @@
         "src": "assets/video/toretto/toretto-ml28-v10-loop.mp4",
         "embed": null,
         "caption": null
+      },
+      {
+        "type": "text",
+        "title": {
+          "ru": "SMM в агентстве MOLLEQULA",
+          "en": "Social media at MOLLEQULA"
+        },
+        "text": {
+          "ru": "Оформление Instagram-профиля и ленты Toretto, публикации с линейками Conus и Quadro — в составе команды агентства MOLLEQULA.",
+          "en": "Instagram profile and feed design for Toretto, plus posts for the Conus and Quadro lines — as part of the MOLLEQULA agency team."
+        }
+      },
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/toretto/toretto-mq-01-1600.webp",
+            "w": 744,
+            "h": 567,
+            "alt": {
+              "ru": "Toretto — оформление Instagram-профиля и ленты (мокапы)",
+              "en": "Toretto — Instagram profile and feed design (mockups)"
+            }
+          },
+          {
+            "src": "assets/img/projects/toretto/toretto-mq-02-1600.webp",
+            "w": 202,
+            "h": 331,
+            "alt": {
+              "ru": "Toretto — пост с продуктом Conus",
+              "en": "Toretto — a post featuring the Conus product"
+            }
+          }
+        ]
       }
     ]
   },
@@ -5358,6 +5469,83 @@
         "src": "assets/video/food-reels/food-reels-pflk-v7-loop.mp4",
         "embed": null,
         "caption": null
+      },
+      {
+        "type": "text",
+        "title": {
+          "ru": "Merhaba Steak House — SMM",
+          "en": "Merhaba Steak House — social media"
+        },
+        "text": {
+          "ru": "Оформление профиля и ленты Instagram ресторана с акцентом на блюда и работу кухни — в составе команды агентства MOLLEQULA.",
+          "en": "Instagram profile and feed design for the restaurant, focused on dishes and the kitchen at work — as part of the MOLLEQULA agency team."
+        }
+      },
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/food-reels/food-reels-mq-01-1600.webp",
+            "w": 655,
+            "h": 551,
+            "alt": {
+              "ru": "Merhaba Steak House — профиль и лента Instagram (мокапы)",
+              "en": "Merhaba Steak House — Instagram profile and feed (mockups)"
+            }
+          },
+          {
+            "src": "assets/img/projects/food-reels/food-reels-mq-02-1600.webp",
+            "w": 202,
+            "h": 331,
+            "alt": {
+              "ru": "Merhaba Steak House — пост: повар готовит блюдо",
+              "en": "Merhaba Steak House — post: a chef cooking a dish"
+            }
+          },
+          {
+            "src": "assets/img/projects/food-reels/food-reels-mq-03-1600.webp",
+            "w": 202,
+            "h": 331,
+            "alt": {
+              "ru": "Merhaba Steak House — пост: стейк с золотым листом",
+              "en": "Merhaba Steak House — post: a steak with gold leaf"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "ru": "Tanho — сайт",
+          "en": "Tanho — website"
+        },
+        "text": {
+          "ru": "Сайт бренда соусов Tanho с адаптацией под мобильные устройства — в составе команды агентства MOLLEQULA.",
+          "en": "Website for the Tanho sauce brand with a mobile version — as part of the MOLLEQULA agency team."
+        }
+      },
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/food-reels/food-reels-mq-04-1600.webp",
+            "w": 897,
+            "h": 625,
+            "alt": {
+              "ru": "Tanho — сайт, главная страница (ноутбук)",
+              "en": "Tanho — website home page (laptop)"
+            }
+          },
+          {
+            "src": "assets/img/projects/food-reels/food-reels-mq-05-1600.webp",
+            "w": 621,
+            "h": 520,
+            "alt": {
+              "ru": "Tanho — мобильная версия сайта",
+              "en": "Tanho — mobile website"
+            }
+          }
+        ]
       }
     ]
   },
@@ -5473,6 +5661,49 @@
         "src": "assets/video/brand-motion/brand-motion-r79o-v12-loop.mp4",
         "embed": null,
         "caption": null
+      },
+      {
+        "type": "text",
+        "title": {
+          "ru": "La Scala — SMM",
+          "en": "La Scala — social media"
+        },
+        "text": {
+          "ru": "Оформление Instagram La Scala и публикации о мебели и интерьерных предметах, в том числе Natuzzi Italia — в составе команды агентства MOLLEQULA.",
+          "en": "Instagram design for La Scala and posts about furniture and interior items, including Natuzzi Italia — as part of the MOLLEQULA agency team."
+        }
+      },
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/la-scala-natuzzi/la-scala-natuzzi-mq-01-1600.webp",
+            "w": 507,
+            "h": 604,
+            "alt": {
+              "ru": "La Scala — Instagram-профиль и лента (мокапы)",
+              "en": "La Scala — Instagram profile and feed (mockups)"
+            }
+          },
+          {
+            "src": "assets/img/projects/la-scala-natuzzi/la-scala-natuzzi-mq-02-1600.webp",
+            "w": 202,
+            "h": 331,
+            "alt": {
+              "ru": "La Scala — пост: зеркала Natuzzi Italia",
+              "en": "La Scala — post: Natuzzi Italia mirrors"
+            }
+          },
+          {
+            "src": "assets/img/projects/la-scala-natuzzi/la-scala-natuzzi-mq-03-1600.webp",
+            "w": 202,
+            "h": 331,
+            "alt": {
+              "ru": "La Scala — пост: кресло Natuzzi",
+              "en": "La Scala — post: a Natuzzi armchair"
+            }
+          }
+        ]
       }
     ]
   },

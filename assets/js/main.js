@@ -364,19 +364,84 @@
     });
   }
 
-  /* ---------- Лупы в сетках кейса: играют без звука, когда видны ---------- */
+  /* ---------- Ролики в сетках кейса ----------
+     Пока ролик виден — тихо играет по кругу без звука (preload="none": файл
+     начинает грузиться только в зоне видимости). Кнопка «Звук» (data-sound)
+     запускает ролик с начала со звуком и включает controls; остальные ролики
+     при этом ставятся на паузу и мьютятся. Где WebM не играет (старые iPhone),
+     остаётся MP4-луп без звука — кнопка убирается, как раньше. */
   function initAutoplay() {
     var vids = toArray(document.querySelectorAll("video[data-autoplay]"));
-    if (!vids.length || reduceMotion || !("IntersectionObserver" in window)) return;
+    if (!vids.length) return;
+    var active = null; // ролик, который сейчас играет со звуком
+
+    function safePlay(v) {
+      var p = v.play();
+      if (p && p.catch) p.catch(function () {});
+    }
+    function quiet(v) { return !reduceMotion && v._inView && v !== active; }
+    function btnOf(v) { return v.parentNode.querySelector("[data-sound]"); }
+
+    // выйти из режима «со звуком»: ролик снова тихий луп с кнопкой
+    function stopSound(v, resume) {
+      if (active !== v) return;
+      active = null;
+      v.muted = true;
+      v.loop = true;
+      v.controls = false;
+      var b = btnOf(v);
+      if (b) b.hidden = false;
+      if (resume) vids.forEach(function (o) { if (quiet(o)) safePlay(o); });
+    }
+
+    function startSound(v) {
+      if (active && active !== v) stopSound(active, false);
+      vids.forEach(function (o) {
+        if (o !== v) { o.muted = true; if (!o.paused) o.pause(); }
+      });
+      active = v;
+      v.loop = false;
+      v.muted = false;
+      v.volume = 1;
+      v.controls = true;
+      try { v.currentTime = 0; } catch (e) {}
+      var b = btnOf(v);
+      if (b) b.hidden = true;
+      safePlay(v);
+      v.focus();
+    }
+
+    var webmOk = (function () {
+      try { return !!document.createElement("video").canPlayType('video/webm; codecs="vp9, opus"'); }
+      catch (e) { return false; }
+    })();
+
+    vids.forEach(function (v) {
+      var b = btnOf(v);
+      if (!b) return;
+      if (!webmOk) { // запасной MP4-луп без звука: кнопка не нужна
+        b.parentNode.removeChild(b);
+        v.controls = true;
+        return;
+      }
+      v.setAttribute("tabindex", "-1");
+      b.addEventListener("click", function () { startSound(v); });
+      v.addEventListener("ended", function () { stopSound(v, true); });
+    });
+
+    if (!("IntersectionObserver" in window)) {
+      vids.forEach(function (v) { v.controls = true; });
+      return;
+    }
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
         var v = en.target;
+        v._inView = en.isIntersecting;
         if (en.isIntersecting) {
-          v.muted = true;
-          var p = v.play();
-          if (p && p.catch) p.catch(function () {});
-        } else if (!v.paused) {
-          v.pause();
+          if (quiet(v) && !active) { v.muted = true; safePlay(v); }
+        } else {
+          if (v === active) stopSound(v, true);
+          if (!v.paused) v.pause();
         }
       });
     }, { threshold: 0.35 });

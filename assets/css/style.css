@@ -829,6 +829,18 @@ body::after {
 }
 .shot--video { background: #000; }
 .shot--video video { width: 100%; height: auto; background: #000; }
+.vid-wrap { position: relative; }
+.vid-sound {
+  position: absolute; left: 8px; bottom: 8px; z-index: 2;
+  display: inline-flex; align-items: center; gap: 8px;
+  min-height: 44px; padding: 10px 14px;
+  font: 700 12px/1 var(--f-display); text-transform: uppercase; letter-spacing: 0.02em;
+  color: var(--on-acid); background: var(--acid);
+  border: 1px solid var(--on-acid); border-radius: 0; cursor: pointer;
+}
+.vid-sound:hover { background: var(--ink); }
+.vid-sound:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+.vid-sound[hidden] { display: none; }
 .shot--video figcaption { padding: 10px 12px; color: var(--muted); font-size: 13px; }
 .block-text + .block-videos, .block-text + .block-images { margin-top: -24px; }
 

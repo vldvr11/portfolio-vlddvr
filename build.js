@@ -197,6 +197,8 @@ const L = {
     hero_slider_label: "Избранные работы",
     hero_slide_go: "Слайд",
     endings_title: "Эндинги для SMM",
+    sound_btn: "Звук",
+    sound_aria: "Включить ролик со звуком с начала",
   },
   en: {
     skip: "Skip to content",
@@ -264,6 +266,8 @@ const L = {
     hero_slider_label: "Featured work",
     hero_slide_go: "Slide",
     endings_title: "SMM endings",
+    sound_btn: "Sound",
+    sound_aria: "Play the video with sound from the start",
   },
 };
 
@@ -581,8 +585,29 @@ function renderShot(img, lang, depth) {
   return `<figure class="shot shape-${shapeOf(img)}">${renderImg(img, lang, depth)}</figure>`;
 }
 
-/* Видео-кадр сетки: свой файл (луп без звука) или постер; пропорции из poster.w/h */
+/* Полный ролик WebM (поле webm): есть ли файл и есть ли в нём звуковая дорожка.
+   Звук определяем по заголовку файла (кодек A_OPUS / A_VORBIS) — без ffprobe, работает и в GitHub Actions. */
+const webmCache = {};
+function webmInfo(file) {
+  if (!file || !/\.webm$/i.test(file)) return null;
+  if (file in webmCache) return webmCache[file];
+  let info = null;
+  try {
+    const fd = fs.openSync(path.join(ROOT, file), "r");
+    const buf = Buffer.alloc(65536);
+    const n = fs.readSync(fd, buf, 0, buf.length, 0);
+    fs.closeSync(fd);
+    const head = buf.toString("latin1", 0, n);
+    info = { audio: head.includes("A_OPUS") || head.includes("A_VORBIS") };
+  } catch (e) { /* файла нет — работаем как раньше, только луп */ }
+  return (webmCache[file] = info);
+}
+const SOUND_ICON = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5z" fill="currentColor"/><path d="M15.5 9a4.2 4.2 0 0 1 0 6M18 6.5a7.8 7.8 0 0 1 0 11"/></svg>';
+
+/* Видео-кадр сетки: полный WebM со звуком (если есть) + MP4-луп как запасной; пропорции из poster.w/h.
+   В сетке ролик играет тихо, пока виден; кнопка «Звук» запускает его с начала со звуком (main.js). */
 function renderVideoShot(block, lang, depth) {
+  const t = L[lang];
   const p = block.poster;
   const shape = shapeOf(p);
   const caption = esc((block.caption && block.caption[lang]) || "");
@@ -591,7 +616,18 @@ function renderVideoShot(block, lang, depth) {
   if (block.src) {
     const ar = p ? ` style="aspect-ratio:${p.w} / ${p.h}"` : "";
     const w = p ? ` width="${p.w}" height="${p.h}"` : "";
-    media = `<video controls muted loop playsinline preload="none" data-autoplay${w}${ar}${alt ? ` aria-label="${alt}"` : ""} poster="${p ? rel(p.src, depth) : ""}"><source src="${rel(block.src, depth)}" type="video/mp4"></video>`;
+    const full = webmInfo(block.webm);
+    const mp4 = `<source src="${rel(block.src, depth)}" type="video/mp4">`;
+    if (full) {
+      // WebM первым; старые iPhone, где WebM не играет, возьмут MP4-луп
+      const sources = `<source src="${rel(block.webm, depth)}" type="video/webm">${mp4}`;
+      const btn = full.audio
+        ? `<button type="button" class="vid-sound" data-sound aria-label="${t.sound_aria}${alt ? ": " + alt : ""}">${SOUND_ICON}<span>${t.sound_btn}</span></button>`
+        : "";
+      media = `<div class="vid-wrap"><video${full.audio ? "" : " controls"} muted loop playsinline preload="none" data-autoplay${full.audio ? " data-full" : ""}${w}${ar}${alt ? ` aria-label="${alt}"` : ""} poster="${p ? rel(p.src, depth) : ""}">${sources}</video>${btn}</div>`;
+    } else {
+      media = `<video controls muted loop playsinline preload="none" data-autoplay${w}${ar}${alt ? ` aria-label="${alt}"` : ""} poster="${p ? rel(p.src, depth) : ""}">${mp4}</video>`;
+    }
   } else {
     media = p ? renderImg(p, lang, depth, { sizes: "(min-width: 1100px) 30vw, (min-width: 720px) 45vw, 100vw" }) : "";
   }
@@ -660,7 +696,7 @@ function renderBlock(block, lang, depth, t) {
       let media = "";
       if (block.src) {
         const ar = block.poster ? ` style="aspect-ratio:${block.poster.w} / ${block.poster.h}"` : "";
-        media = `<video controls preload="none" playsinline${ar} poster="${block.poster ? rel(block.poster.src, depth) : ""}"><source src="${rel(block.src, depth)}"></video>`;
+        media = `<video controls preload="none" playsinline${ar} poster="${block.poster ? rel(block.poster.src, depth) : ""}">${webmInfo(block.webm) ? `<source src="${rel(block.webm, depth)}" type="video/webm">` : ""}<source src="${rel(block.src, depth)}" type="video/mp4"></video>`;
       } else if (block.embed) {
         media = `<div class="video-embed-wrap"><iframe src="${esc(block.embed)}" loading="lazy" allowfullscreen title="video"></iframe></div>`;
       } else {
