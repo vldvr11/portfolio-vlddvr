@@ -7159,10 +7159,10 @@
   {
     "slug": "pos-3d",
     "title": {
-      "ru": "POS и промо-оборудование — 3D-анимации",
-      "en": "POS & promo equipment — 3D animations"
+      "ru": "Nikhan — POS и промо-оборудование",
+      "en": "Nikhan — POS and promo equipment"
     },
-    "client": null,
+    "client": "Nikhan",
     "directions": [
       "3d"
     ],
@@ -7358,8 +7358,8 @@
     ],
     "seo": {
       "title": {
-        "ru": "POS и промо-оборудование — 3D-анимации · vlddvr",
-        "en": "POS & promo equipment — 3D animations · vlddvr"
+        "ru": "Nikhan — POS и промо-оборудование · vlddvr",
+        "en": "Nikhan — POS and promo equipment · vlddvr"
       },
       "description": {
         "ru": "3D-анимации торгового и промо-оборудования для ритейла: промо-стойки, стойки-указатели, брендированные рамки у входа, навигация над стеллажами, брендированная стойка для электроники и новогодняя фигура.",
