@@ -769,7 +769,7 @@ function renderHead(opts) {
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;700&amp;family=Unbounded:wght@500;700;900&amp;display=swap">
-  <link rel="stylesheet" href="${rel("assets/css/style.css", depth)}">
+  <link rel="stylesheet" href="${rel("assets/css/style.css", depth)}?v=${assetVer("assets/css/style.css")}">
   <link rel="icon" href="${rel("assets/img/placeholder/square.svg", depth)}" type="image/svg+xml">
   <script>
   /* Вступительный экран «Портфолио»: один раз за сессию, не при reduced-motion */
@@ -843,7 +843,7 @@ function renderFooter(lang, depth) {
       </span>
     </div>
   </footer>
-  <script src="${rel("assets/js/main.js", depth)}"></script>`;
+  <script src="${rel("assets/js/main.js", depth)}?v=${assetVer("assets/js/main.js")}"></script>`;
 }
 
 /* ------------------------------------------------------------------ */
@@ -1557,3 +1557,6 @@ function main() {
 }
 
 main();
+
+/* Версия файла в адресе (?v=…), чтобы браузеры не держали старые стили и скрипты после обновления */
+function assetVer(p) { return require("crypto").createHash("md5").update(require("fs").readFileSync(require("path").join(__dirname, p))).digest("hex").slice(0, 8); }
