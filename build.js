@@ -385,7 +385,7 @@ function companyYears(c, lang) {
 const ABOUT_TOOLS_SHORT = ["Blender", "Cinema 4D", "After Effects", "Photoshop", "Illustrator", "Figma"];
 const ABOUT_TOOLS_FULL = ["Blender", "Cinema 4D", "Photoshop", "Illustrator", "InDesign", "After Effects", "Premiere Pro", "Figma"];
 
-// Портреты: ч/б дуотон, WebP + JPEG, ширины без апскейла
+// Портреты: ч/б дуотон, только WebP, ширины без апскейла
 const PORTRAITS = {
   main: { base: "assets/img/about/portrait-main", widths: [800, 1159], w: 1159, h: 1449, focus: "56% 40%" },
   alt: { base: "assets/img/about/portrait-alt", widths: [800, 1480], w: 1480, h: 1480, focus: "50% 30%" },
@@ -396,12 +396,7 @@ function renderPortrait(key, alt, depth, sizes, opts) {
   const p = PORTRAITS[key];
   const set = (ext) => p.widths.map((w) => `${rel(`${p.base}-${w}.${ext}`, depth)} ${w}w`).join(", ");
   const loading = opts.eager ? ` fetchpriority="high"` : ` loading="lazy" decoding="async"`;
-  return (
-    `<picture>` +
-    `<source type="image/webp" srcset="${set("webp")}" sizes="${sizes}">` +
-    `<img src="${rel(`${p.base}-${p.widths[0]}.jpg`, depth)}" srcset="${set("jpg")}" sizes="${sizes}" width="${p.w}" height="${p.h}" alt="${esc(alt)}" style="object-position:${p.focus}"${loading}>` +
-    `</picture>`
-  );
+  return `<img src="${rel(`${p.base}-${p.widths[0]}.webp`, depth)}" srcset="${set("webp")}" sizes="${sizes}" width="${p.w}" height="${p.h}" alt="${esc(alt)}" style="object-position:${p.focus}"${loading}>`;
 }
 
 function renderFactPlates(a) {
@@ -536,7 +531,7 @@ function fitOf(text) {
 }
 
 /* ------------------------------------------------------------------ */
-/* Рендер изображений: <picture> webp+jpg, либо прямой <img> для svg  */
+/* Рендер изображений: только WebP (<img> + srcset), прямой <img> для svg */
 /* ------------------------------------------------------------------ */
 function renderImg(img, lang, depth, opts) {
   opts = opts || {};
@@ -550,22 +545,21 @@ function renderImg(img, lang, depth, opts) {
     return `<img src="${srcRel}" width="${img.w}" height="${img.h}" alt="${alt}"${cls}${loading}>`;
   }
 
-  // src может быть «…-1600.webp», «…-1200.webp», «….jpg» — собираем набор из реально существующих файлов
+  // src может быть «…-1600.webp», «…-1200.webp», «….webp» — собираем набор ширин из реально существующих файлов.
+  // JPEG/PNG не выводим: загруженные через админку картинки переводит в WebP scripts/optimize-uploads.js.
   const exists = (p) => fs.existsSync(path.join(__dirname, p));
   const m = srcRoot.match(/^(.*?)(?:-(\d+))?\.(webp|jpe?g|png)$/i);
   const base = m ? m[1] : srcRoot;
   const webps = [800, 1200, 1600].filter((w) => exists(`${base}-${w}.webp`));
-  if (!webps.length && /\.webp$/i.test(srcRoot)) webps.push(null);
-  const jpg = ["1600.jpg", "1200.jpg", "800.jpg"].map((s) => `${base}-${s}`).find(exists) ||
-    (exists(base + ".jpg") ? base + ".jpg" : srcRoot);
-  const srcset = webps.map((w) => (w ? `${rel(`${base}-${w}.webp`, depth)} ${w}w` : rel(srcRoot, depth))).join(", ");
-  const sizes = opts.sizes || "(min-width: 900px) 60vw, 100vw";
-  return (
-    `<picture>` +
-    (srcset ? `<source srcset="${srcset}"${webps[0] ? ` sizes="${sizes}"` : ""} type="image/webp">` : "") +
-    `<img src="${rel(jpg, depth)}" width="${img.w}" height="${img.h}" alt="${alt}"${cls}${loading}>` +
-    `</picture>`
-  );
+  if (webps.length) {
+    const srcset = webps.map((w) => `${rel(`${base}-${w}.webp`, depth)} ${w}w`).join(", ");
+    const sizes = opts.sizes || "(min-width: 900px) 60vw, 100vw";
+    return `<img src="${rel(`${base}-${webps[webps.length - 1]}.webp`, depth)}" srcset="${srcset}" sizes="${sizes}" width="${img.w}" height="${img.h}" alt="${alt}"${cls}${loading}>`;
+  }
+  // один файл: сам src, либо его WebP-двойник, если в данных осталось старое расширение
+  const noExt = srcRoot.replace(/\.(jpe?g|png)$/i, "");
+  const single = noExt !== srcRoot && exists(noExt + ".webp") ? noExt + ".webp" : srcRoot;
+  return `<img src="${rel(single, depth)}" width="${img.w}" height="${img.h}" alt="${alt}"${cls}${loading}>`;
 }
 
 /* ------------------------------------------------------------------ */
@@ -1193,7 +1187,7 @@ function buildAbout(lang) {
     depth,
     kind: "about",
     slug: null,
-    ogImage: `${PORTRAITS.main.base}-800.jpg`,
+    ogImage: `${PORTRAITS.main.base}-800.webp`,
   });
   const header = renderHeader(lang, depth, { kind: "about", slug: null });
   const footer = renderFooter(lang, depth);
