@@ -874,9 +874,9 @@
       ]
     },
     "cover": {
-      "src": "assets/img/projects/brand-motion/brand-motion-r79o-v1-poster-1600.webp",
+      "src": "assets/img/projects/brand-motion/brand-motion-r79o-v2-poster-1600.webp",
       "w": 1080,
-      "h": 1080,
+      "h": 1920,
       "alt": {
         "ru": "Ролик агентства MOLLEQULA",
         "en": "MOLLEQULA agency video"
@@ -903,29 +903,17 @@
       {
         "type": "text",
         "title": {
-          "ru": "Кейсы клиентов агентства",
-          "en": "Agency client cases"
+          "ru": "Кейс клиента агентства",
+          "en": "Agency client case"
         },
         "text": {
-          "ru": "Видеокейсы агентства: Food City, Senior Meat House, Qanot Sharq.",
-          "en": "Agency video case studies: Food City, Senior Meat House, Qanot Sharq."
+          "ru": "Видеокейс агентства: Senior Meat House.",
+          "en": "Agency video case study: Senior Meat House."
         }
       },
       {
         "type": "video",
-        "embed": "https://www.youtube-nocookie.com/embed/nbBhv0DbLW4",
-        "w": 1920,
-        "h": 1080
-      },
-      {
-        "type": "video",
         "embed": "https://www.youtube-nocookie.com/embed/VE5WjTxz3MI",
-        "w": 1920,
-        "h": 1080
-      },
-      {
-        "type": "video",
-        "embed": "https://www.youtube-nocookie.com/embed/CKUgK7sCLQw",
         "w": 1920,
         "h": 1080
       },
@@ -936,21 +924,6 @@
           "en": "Agency videos"
         },
         "text": null
-      },
-      {
-        "type": "video",
-        "poster": {
-          "src": "assets/img/projects/brand-motion/brand-motion-r79o-v1-poster-1600.webp",
-          "w": 1080,
-          "h": 1080,
-          "alt": {
-            "ru": "Ролик агентства MOLLEQULA",
-            "en": "MOLLEQULA agency video"
-          }
-        },
-        "src": "assets/video/brand-motion/brand-motion-r79o-v1-loop.mp4",
-        "embed": null,
-        "caption": null
       },
       {
         "type": "video",
@@ -3354,17 +3327,17 @@
     "featured": false,
     "order": 17,
     "cover": {
-      "src": "assets/img/projects/product-animation/product-animation-01-poster-1200.webp",
-      "w": 1600,
-      "h": 900,
+      "src": "assets/img/projects/product-animation/product-animation-iod0-v1-poster-1600.webp",
+      "w": 1280,
+      "h": 960,
       "alt": {
-        "ru": "FRETTA и Wendy's — продуктовая анимация",
-        "en": "FRETTA & Wendy's — product animation"
+        "ru": "Меню-экраны в кофейне",
+        "en": "Menu screens in the café"
       }
     },
     "summary": {
-      "ru": "Анимация продукции кофейни для LED-экрана и меню-экранов: кофе, напитки, выпечка и десерты в движении.",
-      "en": "Café product animation for LED and menu screens: coffee, drinks, pastries and desserts in motion."
+      "ru": "Анимация меню для LED-экранов кофейни: кофе, напитки и выпечка в движении — и как это выглядит на экранах над стойкой.",
+      "en": "Menu animation for a café’s LED screens: coffee, drinks and pastries in motion — and how it looks on the screens above the counter."
     },
     "task": null,
     "approach": {
@@ -3375,6 +3348,21 @@
     "behance": "https://www.behance.net/deathhueth",
     "aiContent": false,
     "blocks": [
+      {
+        "type": "video",
+        "src": "assets/video/product-animation/product-animation-iod0-v1-loop.mp4",
+        "poster": {
+          "src": "assets/img/projects/product-animation/product-animation-iod0-v1-poster-1600.webp",
+          "w": 1280,
+          "h": 960,
+          "alt": {
+            "ru": "Меню-экраны в кофейне",
+            "en": "Menu screens in the café"
+          }
+        },
+        "w": 1280,
+        "h": 960
+      },
       {
         "type": "video",
         "poster": {
@@ -3453,8 +3441,8 @@
     ],
     "seo": {
       "description": {
-        "ru": "Анимация продукции кофейни для LED-экрана: кофе, выпечка и десерты в движении.",
-        "en": "Café product animation for an LED screen: coffee, pastries and desserts in motion."
+        "ru": "Анимация меню для LED-экранов кофейни: кофе, напитки и выпечка в движении — и как это выглядит на экранах над стойкой.",
+        "en": "Menu animation for a café’s LED screens: coffee, drinks and pastries in motion — and how it looks on the screens above the counter."
       }
     }
   },
