@@ -26,7 +26,7 @@ jobs:
           node-version: 22
       - name: Картинки из админки — в WebP
         run: |
-          if find assets/img/uploads -type f ( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" ) 2>/dev/null | grep -q .; then
+          if find assets/img/uploads -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) 2>/dev/null | grep -q .; then
             npm i --no-save --no-package-lock sharp
             node scripts/optimize-uploads.js
           fi
