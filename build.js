@@ -742,17 +742,17 @@ function renderHead(opts) {
   <link rel="alternate" hreflang="en" href="${BASE_URL}${enRoot}">
   <link rel="alternate" hreflang="x-default" href="${BASE_URL}${ruRoot}">`;
 
-  let og = "";
-  if (PUBLIC) {
-    const selfRoot = rootPathFor(kind, slug, lang);
-    const ogImgAbs = ogImage ? BASE_URL + ogImage : "";
-    og = `<meta property="og:title" content="${esc(title)}">
+  /* Превью ссылки в мессенджерах: заголовок, описание и обложка «vld» есть всегда (на поиск не влияет);
+     адрес страницы и обложка конкретного кейса — только когда сайт открыт (PUBLIC). */
+  const ogImgAbs = BASE_URL + (PUBLIC && ogImage ? ogImage : "assets/img/icons/og-vld.jpg");
+  const og = `<meta property="og:title" content="${esc(title)}">
   <meta property="og:description" content="${esc(description)}">
-  <meta property="og:url" content="${BASE_URL}${selfRoot}">
   <meta property="og:type" content="website">
-  ${ogImgAbs ? `<meta property="og:image" content="${ogImgAbs}">` : ""}
+  <meta property="og:image" content="${ogImgAbs}">${PUBLIC && ogImage ? "" : `
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">`}${PUBLIC ? `
+  <meta property="og:url" content="${BASE_URL}${rootPathFor(kind, slug, lang)}">` : ""}
   <meta name="twitter:card" content="summary_large_image">`;
-  }
 
   return `<!doctype html>
 <html lang="${lang === "ru" ? "ru" : "en"}">
