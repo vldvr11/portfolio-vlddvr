@@ -2729,6 +2729,23 @@
             }
           }
         ]
+      },
+      {
+        "type": "video",
+        "src": "assets/video/3d-objects/3d-objects-nkbk-v1-loop.mp4",
+        "webm": "assets/video/3d-objects/3d-objects-nkbk-v1-full.webm",
+        "poster": {
+          "src": "assets/img/projects/3d-objects/3d-objects-nkbk-v1-poster-1600.webp",
+          "w": 1600,
+          "h": 2844,
+          "alt": {
+            "ru": "Рамадан-фонарь, 3D-анимация",
+            "en": "Ramadan lantern, 3D animation"
+          }
+        },
+        "w": 1600,
+        "h": 2844,
+        "sourceId": 2514
       }
     ],
     "seo": {
@@ -7364,6 +7381,343 @@
       "description": {
         "ru": "3D-анимации торгового и промо-оборудования для ритейла: промо-стойки, стойки-указатели, брендированные рамки у входа, навигация над стеллажами, брендированная стойка для электроники и новогодняя фигура.",
         "en": "3D animations of retail and promo equipment: promo counters, sign stands, branded entrance gates, over-shelf navigation, a branded electronics display and a New Year figure."
+      }
+    }
+  },
+  {
+    "slug": "logo-animations",
+    "title": {
+      "ru": "Логоанимации",
+      "en": "Logo animations"
+    },
+    "client": null,
+    "directions": [
+      "motion",
+      "branding"
+    ],
+    "branches": [
+      "intros",
+      "logo"
+    ],
+    "tags": {
+      "industry": [],
+      "format": [
+        "video"
+      ],
+      "tools": [
+        "After Effects"
+      ],
+      "region": [
+        "uz"
+      ],
+      "lang": []
+    },
+    "personal": false,
+    "featured": false,
+    "order": 17.5,
+    "cover": {
+      "src": "assets/img/projects/logo-animations/logo-animations-ndy0-v1-poster-1600.webp",
+      "w": 1080,
+      "h": 1080,
+      "alt": {
+        "ru": "Анимация логотипа",
+        "en": "Logo animation"
+      }
+    },
+    "summary": {
+      "ru": "Анимация логотипов для брендов: заставки и концовки роликов — TEG FDN, Magnit, «Шале», Epilier и другие.",
+      "en": "Logo animation for brands: intros and endings for videos — TEG FDN, Magnit, Shale, Epilier and others."
+    },
+    "task": null,
+    "approach": {
+      "ru": "Знак собирается из движения: буквы проявляются, вспыхивают бликом или собираются из жидких и ледяных форм, затем фиксируются в финальном кадре. Ролики сделаны под вертикальный и горизонтальный форматы, чтобы их можно было ставить в начало или конец видео.",
+      "en": "The mark is built from motion: letters reveal, catch a glint of light or form out of liquid and ice shapes, then settle into the final frame. The clips come in vertical and horizontal formats so they can open or close a video."
+    },
+    "result": null,
+    "behance": null,
+    "aiContent": false,
+    "blocks": [
+      {
+        "type": "video",
+        "src": "assets/video/logo-animations/logo-animations-ndy0-v1-loop.mp4",
+        "webm": "assets/video/logo-animations/logo-animations-ndy0-v1-full.webm",
+        "poster": {
+          "src": "assets/img/projects/logo-animations/logo-animations-ndy0-v1-poster-1600.webp",
+          "w": 1080,
+          "h": 1080,
+          "alt": {
+            "ru": "Анимация логотипа",
+            "en": "Logo animation"
+          }
+        },
+        "w": 1080,
+        "h": 1080,
+        "sourceId": 533
+      },
+      {
+        "type": "video",
+        "src": "assets/video/logo-animations/logo-animations-ndy0-v2-loop.mp4",
+        "webm": "assets/video/logo-animations/logo-animations-ndy0-v2-full.webm",
+        "poster": {
+          "src": "assets/img/projects/logo-animations/logo-animations-ndy0-v2-poster-1600.webp",
+          "w": 1600,
+          "h": 2844,
+          "alt": {
+            "ru": "Анимация логотипа",
+            "en": "Logo animation"
+          }
+        },
+        "w": 1600,
+        "h": 2844,
+        "sourceId": 479
+      },
+      {
+        "type": "video",
+        "src": "assets/video/logo-animations/logo-animations-ndy0-v3-loop.mp4",
+        "webm": "assets/video/logo-animations/logo-animations-ndy0-v3-full.webm",
+        "poster": {
+          "src": "assets/img/projects/logo-animations/logo-animations-ndy0-v3-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Анимация логотипа",
+            "en": "Logo animation"
+          }
+        },
+        "w": 1080,
+        "h": 1920,
+        "sourceId": 519
+      },
+      {
+        "type": "video",
+        "src": "assets/video/logo-animations/logo-animations-ndy0-v4-loop.mp4",
+        "webm": "assets/video/logo-animations/logo-animations-ndy0-v4-full.webm",
+        "poster": {
+          "src": "assets/img/projects/logo-animations/logo-animations-ndy0-v4-poster-1600.webp",
+          "w": 1600,
+          "h": 900,
+          "alt": {
+            "ru": "Анимация логотипа",
+            "en": "Logo animation"
+          }
+        },
+        "w": 1600,
+        "h": 900,
+        "sourceId": 514
+      },
+      {
+        "type": "video",
+        "src": "assets/video/logo-animations/logo-animations-ndy0-v5-loop.mp4",
+        "webm": "assets/video/logo-animations/logo-animations-ndy0-v5-full.webm",
+        "poster": {
+          "src": "assets/img/projects/logo-animations/logo-animations-ndy0-v5-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Анимация логотипа",
+            "en": "Logo animation"
+          }
+        },
+        "w": 1080,
+        "h": 1920,
+        "sourceId": 107
+      },
+      {
+        "type": "video",
+        "src": "assets/video/logo-animations/logo-animations-ndy0-v6-loop.mp4",
+        "webm": "assets/video/logo-animations/logo-animations-ndy0-v6-full.webm",
+        "poster": {
+          "src": "assets/img/projects/logo-animations/logo-animations-ndy0-v6-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Анимация логотипа",
+            "en": "Logo animation"
+          }
+        },
+        "w": 1080,
+        "h": 1920,
+        "sourceId": 272
+      },
+      {
+        "type": "video",
+        "src": "assets/video/logo-animations/logo-animations-ndy0-v7-loop.mp4",
+        "webm": "assets/video/logo-animations/logo-animations-ndy0-v7-full.webm",
+        "poster": {
+          "src": "assets/img/projects/logo-animations/logo-animations-ndy0-v7-poster-1600.webp",
+          "w": 550,
+          "h": 144,
+          "alt": {
+            "ru": "Анимация логотипа",
+            "en": "Logo animation"
+          }
+        },
+        "w": 550,
+        "h": 144,
+        "sourceId": 350
+      },
+      {
+        "type": "video",
+        "src": "assets/video/logo-animations/logo-animations-ndy0-v8-loop.mp4",
+        "webm": "assets/video/logo-animations/logo-animations-ndy0-v8-full.webm",
+        "poster": {
+          "src": "assets/img/projects/logo-animations/logo-animations-ndy0-v8-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Анимация логотипа",
+            "en": "Logo animation"
+          }
+        },
+        "w": 1080,
+        "h": 1920,
+        "sourceId": 475
+      },
+      {
+        "type": "video",
+        "src": "assets/video/logo-animations/logo-animations-ndy0-v9-loop.mp4",
+        "webm": "assets/video/logo-animations/logo-animations-ndy0-v9-full.webm",
+        "poster": {
+          "src": "assets/img/projects/logo-animations/logo-animations-ndy0-v9-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Анимация логотипа",
+            "en": "Logo animation"
+          }
+        },
+        "w": 1080,
+        "h": 1920,
+        "sourceId": 480
+      },
+      {
+        "type": "video",
+        "src": "assets/video/logo-animations/logo-animations-ndy0-v10-loop.mp4",
+        "webm": "assets/video/logo-animations/logo-animations-ndy0-v10-full.webm",
+        "poster": {
+          "src": "assets/img/projects/logo-animations/logo-animations-ndy0-v10-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Анимация логотипа",
+            "en": "Logo animation"
+          }
+        },
+        "w": 1080,
+        "h": 1920,
+        "sourceId": 516
+      },
+      {
+        "type": "video",
+        "src": "assets/video/logo-animations/logo-animations-ndy0-v11-loop.mp4",
+        "webm": "assets/video/logo-animations/logo-animations-ndy0-v11-full.webm",
+        "poster": {
+          "src": "assets/img/projects/logo-animations/logo-animations-ndy0-v11-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Анимация логотипа",
+            "en": "Logo animation"
+          }
+        },
+        "w": 1080,
+        "h": 1920,
+        "sourceId": 205
+      },
+      {
+        "type": "video",
+        "src": "assets/video/logo-animations/logo-animations-ndy0-v12-loop.mp4",
+        "webm": "assets/video/logo-animations/logo-animations-ndy0-v12-full.webm",
+        "poster": {
+          "src": "assets/img/projects/logo-animations/logo-animations-ndy0-v12-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Анимация логотипа",
+            "en": "Logo animation"
+          }
+        },
+        "w": 1080,
+        "h": 1920,
+        "sourceId": 206
+      },
+      {
+        "type": "video",
+        "src": "assets/video/logo-animations/logo-animations-ndy0-v13-loop.mp4",
+        "webm": "assets/video/logo-animations/logo-animations-ndy0-v13-full.webm",
+        "poster": {
+          "src": "assets/img/projects/logo-animations/logo-animations-ndy0-v13-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Анимация логотипа",
+            "en": "Logo animation"
+          }
+        },
+        "w": 1080,
+        "h": 1920,
+        "sourceId": 557
+      },
+      {
+        "type": "video",
+        "src": "assets/video/logo-animations/logo-animations-ndy0-v14-loop.mp4",
+        "webm": "assets/video/logo-animations/logo-animations-ndy0-v14-full.webm",
+        "poster": {
+          "src": "assets/img/projects/logo-animations/logo-animations-ndy0-v14-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Анимация логотипа",
+            "en": "Logo animation"
+          }
+        },
+        "w": 1080,
+        "h": 1920,
+        "sourceId": 270
+      },
+      {
+        "type": "video",
+        "src": "assets/video/logo-animations/logo-animations-ndy0-v15-loop.mp4",
+        "webm": "assets/video/logo-animations/logo-animations-ndy0-v15-full.webm",
+        "poster": {
+          "src": "assets/img/projects/logo-animations/logo-animations-ndy0-v15-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Анимация логотипа",
+            "en": "Logo animation"
+          }
+        },
+        "w": 1080,
+        "h": 1920,
+        "sourceId": 271
+      },
+      {
+        "type": "video",
+        "src": "assets/video/logo-animations/logo-animations-ndy0-v16-loop.mp4",
+        "webm": "assets/video/logo-animations/logo-animations-ndy0-v16-full.webm",
+        "poster": {
+          "src": "assets/img/projects/logo-animations/logo-animations-ndy0-v16-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Анимация логотипа",
+            "en": "Logo animation"
+          }
+        },
+        "w": 1080,
+        "h": 1920,
+        "sourceId": 207
+      }
+    ],
+    "seo": {
+      "title": {
+        "ru": "Логоанимации · vlddvr",
+        "en": "Logo animations · vlddvr"
+      },
+      "description": {
+        "ru": "Анимация логотипов для брендов: заставки и концовки роликов — TEG FDN, Magnit, «Шале», Epilier и другие.",
+        "en": "Logo animation for brands: intros and endings for videos — TEG FDN, Magnit, Shale, Epilier and others."
       }
     }
   }
