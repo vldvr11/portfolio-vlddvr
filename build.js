@@ -777,6 +777,10 @@ function renderHead(opts) {
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;700&amp;family=Unbounded:wght@500;700;900&amp;display=swap">
   <link rel="stylesheet" href="${rel("assets/css/style.css", depth)}">
   <link rel="icon" href="${rel("assets/img/placeholder/square.svg", depth)}" type="image/svg+xml">
+  <script>
+  /* Вступительный экран «Портфолио»: один раз за сессию, не при reduced-motion */
+  (function(){try{var d=document.documentElement;if(sessionStorage.getItem("intro"))return;if(window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches)return;sessionStorage.setItem("intro","1");d.setAttribute("data-intro","${lang === "ru" ? "Портфолио" : "Portfolio"}");d.classList.add("intro");setTimeout(function(){d.classList.add("intro-out")},1900);setTimeout(function(){d.classList.remove("intro","intro-out")},2700);}catch(e){}})();
+  </script>
 </head>`;
 }
 

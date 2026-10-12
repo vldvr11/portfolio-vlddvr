@@ -1073,3 +1073,28 @@ body::after {
 .logo.is-open .logo-ch--x { max-width: 1.2em; opacity: 1; }
 @keyframes logo-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-2.5px); } }
 @media (prefers-reduced-motion: reduce) { .logo-ch { animation: none; } .logo-ch--x { transition: none; } }
+
+/* Вступительный экран «Портфолио» (класс .intro на <html> ставит скрипт в <head>, один раз за сессию) */
+html.intro { overflow: hidden; }
+html.intro::before {
+  content: ""; position: fixed; inset: 0; z-index: 9998; background: #0a0a0a;
+  background-image: linear-gradient(var(--acid), var(--acid)); background-repeat: no-repeat;
+  background-size: 0% 3px; background-position: left bottom;
+  animation: intro-bar 1.8s cubic-bezier(.7,0,.2,1) forwards;
+}
+html.intro::after {
+  content: "vlddvrA" attr(data-intro); white-space: pre-line; position: fixed; inset: 0; z-index: 9999;
+  display: grid; place-items: center; text-align: center; padding: 0 16px;
+  font: 900 clamp(26px, 8vw, 96px)/1 "Unbounded", system-ui, sans-serif; text-transform: uppercase; letter-spacing: 0;
+  color: #f4f4ef;
+  background: linear-gradient(90deg, #f4f4ef 0 50%, #d4ff00 50% 100%); background-size: 200% 100%; background-position: 0 0;
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+  animation: intro-in .7s cubic-bezier(.7,0,.2,1) both, intro-ink 1.2s .5s cubic-bezier(.7,0,.2,1) forwards;
+}
+html.intro.intro-out::before, html.intro.intro-out::after {
+  animation: intro-out .8s cubic-bezier(.7,0,.2,1) forwards;
+}
+@keyframes intro-bar { to { background-size: 100% 3px; } }
+@keyframes intro-in { from { opacity: 0; transform: translateY(24px); clip-path: inset(0 0 100% 0); } to { opacity: 1; transform: none; clip-path: inset(0 0 0 0); } }
+@keyframes intro-ink { to { background-position: -100% 0; } }
+@keyframes intro-out { to { transform: translateY(-100%); opacity: .98; } }
