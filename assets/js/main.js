@@ -462,3 +462,46 @@
     init();
   }
 })();
+
+/* Логотип: vlddvr ⇄ vladdiviart — «плавающие» буквы, скрытые раскрываются по таймеру и при наведении */
+(function () {
+  "use strict";
+  var FULL = "vladdiviart", SHORT = "vlddvr";
+  function setup(logo) {
+    if (logo.dataset.logoReady) return;
+    logo.dataset.logoReady = "1";
+    var dot = logo.querySelector("b");
+    logo.setAttribute("aria-label", SHORT);
+    var wrap = document.createElement("span");
+    wrap.className = "logo-word";
+    wrap.setAttribute("aria-hidden", "true");
+    var si = 0;
+    FULL.split("").forEach(function (ch, i) {
+      var s = document.createElement("span");
+      var core = SHORT[si] === ch;
+      if (core) si++;
+      s.className = "logo-ch" + (core ? "" : " logo-ch--x");
+      s.style.setProperty("--i", i);
+      s.textContent = ch;
+      wrap.appendChild(s);
+    });
+    while (logo.firstChild) logo.removeChild(logo.firstChild);
+    logo.appendChild(wrap);
+    if (dot) logo.appendChild(dot);
+    var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduce) return;
+    var timer = null;
+    function open(ms) {
+      logo.classList.add("is-open");
+      clearTimeout(timer);
+      timer = setTimeout(function () { logo.classList.remove("is-open"); }, ms || 3200);
+    }
+    setTimeout(function () { open(3600); }, 900);
+    setInterval(function () { if (!document.hidden) open(3200); }, 9000);
+    logo.addEventListener("mouseenter", function () { clearTimeout(timer); logo.classList.add("is-open"); });
+    logo.addEventListener("mouseleave", function () { logo.classList.remove("is-open"); });
+    logo.addEventListener("focus", function () { open(4000); });
+  }
+  function initLogo() { document.querySelectorAll("a.logo").forEach(setup); }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initLogo); else initLogo();
+})();

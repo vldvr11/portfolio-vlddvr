@@ -1064,3 +1064,12 @@ body::after {
 .industry-chips li { font: 700 12px/1 var(--f-display); text-transform: uppercase; letter-spacing: .02em; padding: 12px 14px; border: 1px solid var(--line); color: var(--ink); transition: border-color .2s, color .2s; }
 .industry-chips li:hover { border-color: var(--acid); color: var(--acid); }
 @media (min-width: 1100px) { .industry-chips li { font-size: 13px; padding: 14px 18px; } }
+
+/* Логотип vlddvr ⇄ vladdiviart */
+.logo-word { display: inline-flex; align-items: baseline; }
+.logo-ch { display: inline-block; animation: logo-float 3.6s ease-in-out infinite; animation-delay: calc(var(--i) * -0.33s); }
+.logo-ch--x { max-width: 0; opacity: 0; overflow: hidden; color: var(--acid); transform-origin: bottom;
+  transition: max-width .55s cubic-bezier(.7,0,.2,1), opacity .35s ease; transition-delay: calc(var(--i) * 28ms); }
+.logo.is-open .logo-ch--x { max-width: 1.2em; opacity: 1; }
+@keyframes logo-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-2.5px); } }
+@media (prefers-reduced-motion: reduce) { .logo-ch { animation: none; } .logo-ch--x { transition: none; } }
