@@ -26,6 +26,57 @@ const site = JSON.parse(fs.readFileSync(path.join(DATA_DIR, "site.json"), "utf8"
 const taxonomy = JSON.parse(fs.readFileSync(path.join(DATA_DIR, "taxonomy.json"), "utf8"));
 const projects = JSON.parse(fs.readFileSync(path.join(DATA_DIR, "projects.json"), "utf8"));
 
+// Переключатели из админки (data/settings.json) перекрывают site.json
+try {
+  Object.assign(site, JSON.parse(fs.readFileSync(path.join(DATA_DIR, "settings.json"), "utf8")));
+} catch (e) { /* файла может не быть */ }
+
+/* Размеры картинок: если w/h не заданы (кейс добавлен через админку), читаем их из файла */
+function imageSize(file) {
+  try {
+    const b = fs.readFileSync(path.join(ROOT, file));
+    if (b.toString("ascii", 1, 4) === "PNG") return { w: b.readUInt32BE(16), h: b.readUInt32BE(20) };
+    if (b[0] === 0xff && b[1] === 0xd8) {
+      let i = 2;
+      while (i < b.length) {
+        if (b[i] !== 0xff) { i++; continue; }
+        const m = b[i + 1];
+        if (m >= 0xc0 && m <= 0xcf && m !== 0xc4 && m !== 0xc8 && m !== 0xcc) return { w: b.readUInt16BE(i + 7), h: b.readUInt16BE(i + 5) };
+        i += 2 + b.readUInt16BE(i + 2);
+      }
+    }
+    if (b.toString("ascii", 0, 4) === "RIFF" && b.toString("ascii", 8, 12) === "WEBP") {
+      const t = b.toString("ascii", 12, 16);
+      if (t === "VP8X") return { w: 1 + b.readUIntLE(24, 3), h: 1 + b.readUIntLE(27, 3) };
+      if (t === "VP8 ") return { w: b.readUInt16LE(26) & 0x3fff, h: b.readUInt16LE(28) & 0x3fff };
+      if (t === "VP8L") { const n = b.readUInt32LE(21); return { w: 1 + (n & 0x3fff), h: 1 + ((n >> 14) & 0x3fff) }; }
+    }
+    if (/\.svg$/i.test(file)) {
+      const s = b.toString("utf8"), vb = s.match(/viewBox="[\d.\s-]*?([\d.]+)\s+([\d.]+)"/);
+      if (vb) return { w: Math.round(+vb[1]), h: Math.round(+vb[2]) };
+    }
+  } catch (e) { /* нет файла — оставим значения по умолчанию */ }
+  return null;
+}
+(function normalizeMedia(node) {
+  if (!node || typeof node !== "object") return;
+  if (Array.isArray(node)) return node.forEach(normalizeMedia);
+  if (typeof node.src === "string" && /\.(png|jpe?g|webp|svg)$/i.test(node.src)) {
+    node.src = node.src.replace(/^\/+/, "");
+    if (!node.w || !node.h) Object.assign(node, imageSize(node.src) || { w: 1600, h: 900 });
+    if (!node.alt) node.alt = { ru: "", en: "" };
+  } else if (typeof node.src === "string") {
+    node.src = node.src.replace(/^\/+/, "");
+  }
+  Object.values(node).forEach(normalizeMedia);
+})(projects);
+projects.forEach((p) => {
+  ["directions", "branches", "blocks"].forEach((k) => { if (!Array.isArray(p[k])) p[k] = p[k] ? [p[k]] : []; });
+  if (!p.tags) p.tags = {};
+  if (!p.title) p.title = { ru: p.slug, en: p.slug };
+  if (!p.summary) p.summary = { ru: "", en: "" };
+});
+
 const PUBLIC = site.PUBLIC === true;
 // CONTACTS_ENABLED = false — контакты-заглушки: реальные ссылки/почта в HTML не попадают вообще
 const CONTACTS = site.CONTACTS_ENABLED === true;

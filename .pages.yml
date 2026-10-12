@@ -1,0 +1,136 @@
+# Админка Pages CMS (https://app.pagescms.org) — правка кейсов и настроек сайта с любого устройства.
+# После сохранения GitHub сам пересобирает страницы (.github/workflows/build.yml), сайт обновляется через 1–3 минуты.
+media:
+  - name: images
+    label: Картинки
+    input: assets/img/uploads
+    output: assets/img/uploads
+    extensions: [jpg, jpeg, png, webp, svg]
+  - name: video
+    label: Видео (короткие, до 5 МБ, без звука)
+    input: assets/video/uploads
+    output: assets/video/uploads
+    extensions: [mp4, webm]
+
+components:
+  ru_en:
+    type: object
+    fields:
+      - { name: ru, label: Русский, type: text }
+      - { name: en, label: English, type: text }
+  ru_en_short:
+    type: object
+    fields:
+      - { name: ru, label: Русский, type: string }
+      - { name: en, label: English, type: string }
+  image:
+    type: object
+    fields:
+      - { name: src, label: Файл, type: image, options: { media: images } }
+      - { name: alt, label: Подпись (alt), component: ru_en_short }
+      - { name: w, label: 'Ширина px (можно пусто — определится само)', type: number }
+      - { name: h, label: 'Высота px (можно пусто — определится само)', type: number }
+      - { name: focus, label: 'Точка фокуса для обложки, например 50% 40%', type: string }
+
+content:
+  - name: projects
+    label: Кейсы
+    type: file
+    path: data/projects.json
+    format: json
+    list: true
+    fields:
+      - { name: slug, label: 'Адрес страницы (латиница, через дефис)', type: string, required: true }
+      - { name: title, label: Название, component: ru_en_short }
+      - { name: order, label: 'Порядок (меньше — выше)', type: number }
+      - { name: featured, label: 'Избранное (главная и слайдер)', type: boolean }
+      - { name: heroOrder, label: 'Порядок в слайдере (необязательно)', type: number }
+      - { name: personal, label: Личный проект, type: boolean }
+      - { name: aiContent, label: Сделано с ИИ, type: boolean }
+      - { name: client, label: 'Клиент (пусто — без названия)', type: string }
+      - { name: summary, label: Коротко о кейсе, component: ru_en }
+      - { name: task, label: Задача, component: ru_en }
+      - { name: approach, label: Подход, component: ru_en }
+      - { name: result, label: 'Результат (только факты)', component: ru_en }
+      - name: directions
+        label: Направления
+        type: select
+        options:
+          multiple: true
+          values:
+            - { value: branding, label: Брендинг и айдентика }
+            - { value: 3d, label: 3D и стенды }
+            - { value: motion, label: Моушен и SMM }
+            - { value: print, label: Печать и презентации }
+            - { value: web, label: Веб и инструменты }
+            - { value: ai-fashion, label: AI-фэшн (скрыто) }
+      - name: branches
+        label: Ответвления
+        type: select
+        options:
+          multiple: true
+          values: [logo, identity, icons, mascot, stands, photozones-pos, interiors, 3d-objects, 3d-characters, ads, reels-stories, holidays, intros, smm-graphics, ads-static, brochures, menu, outdoor, awards, decks, sites, tools, extensions, games, lookbooks, campaigns]
+      - { name: cover, label: Обложка, component: image }
+      - { name: behance, label: Ссылка на Behance, type: string }
+      - name: tags
+        label: Теги (служебное)
+        type: object
+        fields:
+          - { name: industry, label: Индустрия, type: string, list: true }
+          - { name: format, label: Формат, type: string, list: true }
+          - { name: tools, label: Инструменты, type: string, list: true }
+          - { name: region, label: Регион, type: string, list: true }
+          - { name: lang, label: Языки, type: string, list: true }
+      - name: seo
+        label: SEO (служебное)
+        type: object
+        fields:
+          - { name: title, label: Заголовок вкладки, component: ru_en_short }
+          - { name: description, label: Описание, component: ru_en }
+      - name: blocks
+        label: Содержимое кейса
+        type: block
+        list: true
+        blockKey: type
+        blocks:
+          - name: text
+            label: Раздел / текст
+            fields:
+              - { name: title, label: Заголовок раздела, component: ru_en_short }
+              - { name: text, label: Текст, component: ru_en }
+          - name: images
+            label: Картинки (сетка)
+            fields:
+              - { name: images, label: Картинки, component: image, list: true }
+          - name: video
+            label: Видео
+            fields:
+              - { name: src, label: 'Файл mp4 (короткий, без звука)', type: file, options: { media: video } }
+              - { name: embed, label: 'ИЛИ YouTube: https://www.youtube-nocookie.com/embed/ID', type: string }
+              - { name: poster, label: Постер, component: image }
+              - { name: w, label: Ширина, type: number }
+              - { name: h, label: Высота, type: number }
+          - name: pdf
+            label: Страницы PDF (картинками)
+            fields:
+              - { name: pages, label: Страницы, component: image, list: true }
+          - name: embed
+            label: Живое демо (iframe)
+            fields:
+              - { name: url, label: Адрес, type: string }
+              - { name: label, label: Подпись кнопки, component: ru_en_short }
+              - { name: caption, label: Пояснение, component: ru_en }
+          - name: sketchfab
+            label: 3D-модель Sketchfab
+            fields:
+              - { name: modelId, label: ID модели, type: string }
+              - { name: title, label: Название, component: ru_en_short }
+
+  - name: settings
+    label: Переключатели сайта
+    type: file
+    path: data/settings.json
+    format: json
+    fields:
+      - { name: PUBLIC, label: 'Сайт открыт для поиска (выкл — закрыт, плашка «тестовый режим»)', type: boolean }
+      - { name: CONTACTS_ENABLED, label: 'Показывать контакты (выкл — заглушки «скоро»)', type: boolean }
