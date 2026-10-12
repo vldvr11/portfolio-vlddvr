@@ -5678,5 +5678,177 @@
         "en": "Personal web tools and a Chrome extension: background removal, cropping, compression, product cards."
       }
     }
+  },
+  {
+    "slug": "vfx",
+    "order": 14.5,
+    "featured": true,
+    "client": null,
+    "personal": false,
+    "aiContent": false,
+    "behance": null,
+    "title": {
+      "ru": "VFX-ролики",
+      "en": "VFX videos"
+    },
+    "summary": {
+      "ru": "CGI и 3D, вписанные в живую съёмку: объекты на зданиях и улицах города, трекинг камеры и композитинг.",
+      "en": "CGI and 3D composited into live footage: objects on city buildings and streets, camera tracking and compositing."
+    },
+    "task": null,
+    "result": null,
+    "approach": {
+      "ru": "Камера трекается по живой съёмке, 3D-объект собирается в Blender и встаёт в сцену с тем же светом и тенями. Финальный композитинг и эффекты — в After Effects.",
+      "en": "The camera is tracked on the live footage, the 3D object is built in Blender and placed in the scene with matching light and shadows. Final compositing and effects are done in After Effects."
+    },
+    "directions": [
+      "motion",
+      "3d"
+    ],
+    "branches": [
+      "ads",
+      "3d-objects"
+    ],
+    "tags": {
+      "industry": [],
+      "format": [
+        "video",
+        "3d"
+      ],
+      "tools": [
+        "Blender",
+        "After Effects"
+      ],
+      "region": [
+        "uz"
+      ],
+      "lang": []
+    },
+    "cover": {
+      "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v9-poster-1600.webp",
+      "w": 1080,
+      "h": 1920,
+      "alt": {
+        "ru": "Рекламный ролик недвижимости",
+        "en": "Real estate ad video"
+      }
+    },
+    "blocks": [
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v9-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "VFX-ролик",
+            "en": "VFX video"
+          }
+        },
+        "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v9-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "src": "assets/video/vfx/vfx-erls-v2-loop.mp4",
+        "poster": {
+          "src": "assets/img/projects/vfx/vfx-erls-v2-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "VFX-ролик",
+            "en": "VFX video"
+          }
+        },
+        "w": 1080,
+        "h": 1920
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-ml28-v9-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "VFX-ролик",
+            "en": "VFX video"
+          }
+        },
+        "src": "assets/video/toretto/toretto-ml28-v9-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "src": "assets/video/vfx/vfx-erls-v1-loop.mp4",
+        "poster": {
+          "src": "assets/img/projects/vfx/vfx-erls-v1-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "VFX-ролик",
+            "en": "VFX video"
+          }
+        },
+        "w": 1080,
+        "h": 1920
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/real-estate-ads/real-estate-ads-ml56-v10-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "VFX-ролик",
+            "en": "VFX video"
+          }
+        },
+        "src": "assets/video/real-estate-ads/real-estate-ads-ml56-v10-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-ml28-v10-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "VFX-ролик",
+            "en": "VFX video"
+          }
+        },
+        "src": "assets/video/toretto/toretto-ml28-v10-loop.mp4",
+        "embed": null,
+        "caption": null
+      },
+      {
+        "type": "video",
+        "src": "assets/video/vfx/vfx-erls-v3-loop.mp4",
+        "poster": {
+          "src": "assets/img/projects/vfx/vfx-erls-v3-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "VFX-ролик",
+            "en": "VFX video"
+          }
+        },
+        "w": 1080,
+        "h": 1920
+      }
+    ],
+    "seo": {
+      "title": {
+        "ru": "VFX-ролики · vlddvr",
+        "en": "VFX videos · vlddvr"
+      },
+      "description": {
+        "ru": "CGI и 3D, вписанные в живую съёмку: объекты на зданиях и улицах города, трекинг камеры и композитинг.",
+        "en": "CGI and 3D composited into live footage: objects on city buildings and streets, camera tracking and compositing."
+      }
+    }
   }
 ]
