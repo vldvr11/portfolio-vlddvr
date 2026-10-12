@@ -4510,6 +4510,86 @@
         "caption": null
       },
       {
+        "type": "video",
+        "src": "assets/video/toretto/toretto-6qb3-v1-loop.mp4",
+        "webm": "assets/video/toretto/toretto-6qb3-v1-full.webm",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-6qb3-v1-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — рекламный ролик",
+            "en": "Toretto ad video"
+          }
+        },
+        "w": 1080,
+        "h": 1920
+      },
+      {
+        "type": "video",
+        "src": "assets/video/toretto/toretto-6qb3-v2-loop.mp4",
+        "webm": "assets/video/toretto/toretto-6qb3-v2-full.webm",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-6qb3-v2-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — рекламный ролик",
+            "en": "Toretto ad video"
+          }
+        },
+        "w": 1080,
+        "h": 1920
+      },
+      {
+        "type": "video",
+        "src": "assets/video/toretto/toretto-6qb3-v3-loop.mp4",
+        "webm": "assets/video/toretto/toretto-6qb3-v3-full.webm",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-6qb3-v3-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — рекламный ролик",
+            "en": "Toretto ad video"
+          }
+        },
+        "w": 1080,
+        "h": 1920
+      },
+      {
+        "type": "video",
+        "src": "assets/video/toretto/toretto-6qb3-v4-loop.mp4",
+        "webm": "assets/video/toretto/toretto-6qb3-v4-full.webm",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-6qb3-v4-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — рекламный ролик",
+            "en": "Toretto ad video"
+          }
+        },
+        "w": 1080,
+        "h": 1920
+      },
+      {
+        "type": "video",
+        "src": "assets/video/toretto/toretto-6qb3-v5-loop.mp4",
+        "webm": "assets/video/toretto/toretto-6qb3-v5-full.webm",
+        "poster": {
+          "src": "assets/img/projects/toretto/toretto-6qb3-v5-poster-1600.webp",
+          "w": 1080,
+          "h": 1920,
+          "alt": {
+            "ru": "Toretto — рекламный ролик",
+            "en": "Toretto ad video"
+          }
+        },
+        "w": 1080,
+        "h": 1920
+      },
+      {
         "type": "text",
         "title": {
           "ru": "CGI в городе",
