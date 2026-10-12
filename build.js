@@ -744,7 +744,7 @@ function renderHead(opts) {
 
   /* Превью ссылки в мессенджерах: заголовок, описание и обложка «vld» есть всегда (на поиск не влияет);
      адрес страницы и обложка конкретного кейса — только когда сайт открыт (PUBLIC). */
-  const ogImgAbs = BASE_URL + (PUBLIC && ogImage ? ogImage : "assets/img/icons/og-vld.jpg");
+  const ogImgAbs = BASE_URL + (PUBLIC && ogImage ? ogImage : "assets/img/icons/og-vlddvr.jpg");
   const og = `<meta property="og:title" content="${esc(title)}">
   <meta property="og:description" content="${esc(description)}">
   <meta property="og:type" content="website">
