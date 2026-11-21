@@ -63,7 +63,7 @@ content:
             - { value: motion, label: Моушен и SMM }
             - { value: print, label: Печать и презентации }
             - { value: web, label: Веб и инструменты }
-            - { value: ai-fashion, label: AI-фэшн (скрыто) }
+            - { value: ai-fashion, label: AI-фэшн }
       - name: branches
         label: Ответвления
         type: select

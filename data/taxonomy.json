@@ -35,7 +35,7 @@
       { "id": "extensions", "ru": "Расширения браузера", "en": "Browser extensions" },
       { "id": "games", "ru": "Игры и интерактив", "en": "Games & Interactive" }
     ]},
-    { "id": "ai-fashion", "ru": "AI-фэшн", "en": "AI Fashion", "hidden": true, "branches": [
+    { "id": "ai-fashion", "ru": "AI-фэшн", "en": "AI Fashion", "hidden": false, "branches": [
       { "id": "lookbooks", "ru": "Лукбуки", "en": "Lookbooks" },
       { "id": "campaigns", "ru": "Кампании", "en": "Campaigns" }
     ]}
@@ -43,6 +43,7 @@
   "tagGroups": {
     "industry": [
       { "id": "auto", "ru": "Авто", "en": "Automotive", "seed": ["Haval / GWM", "MyCar Group", "UCARS"] },
+      { "id": "fashion", "ru": "Одежда и обувь", "en": "Fashion retail", "seed": ["Terra Pro (THE ONE)"] },
       { "id": "food", "ru": "Еда и рестораны", "en": "Food & Restaurants", "seed": ["Sandwich & Co", "KFC", "Krispy", "Wendy's", "Chitir-Chitir milk"] },
       { "id": "finance", "ru": "Финансы и банки", "en": "Finance & Banking", "seed": ["BCC", "Eurasian Bank", "Freedom Finance", "Лизинг / мурабаха"] },
       { "id": "aviation", "ru": "Авиация", "en": "Aviation", "seed": ["Air Astana", "Ochig Avia"] },
