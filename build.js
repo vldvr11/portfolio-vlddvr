@@ -303,7 +303,7 @@ const ABOUT = {
     more: "Подробнее обо мне",
     place: `${AGE} ${ruYears(AGE)} · Ташкент`,
     positioning:
-      "Дизайнер из Ташкента. Больше шести лет работаю в пяти направлениях: моушн-графика, графический дизайн, веб-дизайн, 3D и нейросети — in-house, в агентстве и на аутсорсе.",
+      "Дизайнер из Ташкента. Больше шести лет работаю в пяти направлениях: моушн-графика, графический дизайн, веб-дизайн, 3D и нейросети — in-house, в агентстве и на аутсорсе. Сейчас больше всего работаю с нейросетями и сам собираю себе рабочие инструменты (вайбкодинг).",
     facts: [
       { n: "6+", label: "лет опыта" },
       { n: "5", label: "направлений" },
@@ -316,11 +316,11 @@ const ABOUT = {
     experience_title: "Опыт",
     skills_title: "Навыки",
     present: "н. в.",
-    skills: ["Моушн", "VFX", "Композитинг", "Нейровизуализация", "Веб-дизайн", "Инфографика", "Цветокоррекция"],
+    skills: ["Моушн", "VFX", "Композитинг", "Нейровизуализация", "AI-фото одежды", "Вайбкодинг", "Веб-дизайн", "Инфографика", "Цветокоррекция"],
     photo_alt: "Портрет дизайнера",
     photo2_alt: "Портрет дизайнера в студии",
     timeline: [
-      { from: "апр 2026", to: null, company: "THE ONE (Terra Pro)", note: "Розничная сеть: одежда, обувь, аксессуары", role: "Графический дизайнер (нейросети)", what: "" },
+      { from: "апр 2026", to: null, company: "THE ONE (Terra Pro)", note: "Розничная сеть: одежда, обувь, аксессуары", role: "Графический дизайнер (нейросети)", what: "Фото одежды и лукбуки с моделями через нейросети по реальным вещам, товарные карточки; собрал себе инструменты и автоматизации для этой работы." },
       { from: "дек 2025", to: "фев 2026", company: "Great Wall Motors", note: "", role: "Дизайнер", what: "Идеи и образы, дизайн рекламы для соцсетей, визуальные эффекты в компьютерной графике, презентации." },
       { from: "май 2024", to: "ноя 2025", company: "Dream City", note: "", role: "Моушн-дизайнер", what: "Видео для SMM и офлайн-рекламы; единственный моушн-дизайнер компании за всё время; нейросети и 3D." },
       { from: "май 2023", to: "апр 2024", company: "MOLLEQULA Agency", note: "", role: "Старший дизайнер с основания агентства", what: "Видео, SMM-посты, рилс и сторис, полное оформление бренда: брендбук, логотип, типографика, айдентика." },
@@ -333,7 +333,7 @@ const ABOUT = {
     more: "More about me",
     place: `${AGE} y.o. · Tashkent`,
     positioning:
-      "Designer based in Tashkent. For over six years I've worked across five directions: motion graphics, graphic design, web design, 3D and AI — in-house, in an agency and as an outsourcer.",
+      "Designer based in Tashkent. For over six years I've worked across five directions: motion graphics, graphic design, web design, 3D and AI — in-house, in an agency and as an outsourcer. These days I work mostly with AI and vibe-code my own work tools.",
     facts: [
       { n: "6+", label: "years of experience" },
       { n: "5", label: "directions" },
@@ -346,11 +346,11 @@ const ABOUT = {
     experience_title: "Experience",
     skills_title: "Skills",
     present: "present",
-    skills: ["Motion", "VFX", "Compositing", "AI visualization", "Web design", "Infographics", "Color grading"],
+    skills: ["Motion", "VFX", "Compositing", "AI visualization", "AI fashion photography", "Vibe coding", "Web design", "Infographics", "Color grading"],
     photo_alt: "Designer portrait",
     photo2_alt: "Designer studio portrait",
     timeline: [
-      { from: "Apr 2026", to: null, company: "THE ONE (Terra Pro)", note: "Retail chain: clothing, footwear, accessories", role: "Graphic designer (AI)", what: "" },
+      { from: "Apr 2026", to: null, company: "THE ONE (Terra Pro)", note: "Retail chain: clothing, footwear, accessories", role: "Graphic designer (AI)", what: "AI-generated clothing photos and lookbooks with models based on real garments, product cards; built my own tools and automations for this work." },
       { from: "Dec 2025", to: "Feb 2026", company: "Great Wall Motors", note: "", role: "Designer", what: "Ideas and concepts, social media ad design, CG visual effects, presentations." },
       { from: "May 2024", to: "Nov 2025", company: "Dream City", note: "", role: "Motion designer", what: "Videos for social media and offline ads; the company's only motion designer throughout; AI and 3D." },
       { from: "May 2023", to: "Apr 2024", company: "MOLLEQULA Agency", note: "", role: "Senior designer since the agency's founding", what: "Video, social posts, reels and stories, full brand design: brand book, logo, typography, identity." },
@@ -370,7 +370,7 @@ const INDUSTRIES = [
   { ru: "Мебель и интерьер", en: "Furniture & interiors" }, { ru: "Медицина", en: "Healthcare" },
   { ru: "Оптика", en: "Optics" }, { ru: "Финансы и лизинг", en: "Finance & leasing" },
   { ru: "IT", en: "IT" }, { ru: "Развлечения для детей", en: "Kids entertainment" },
-  { ru: "Мероприятия и выставки", en: "Events & exhibitions" },
+  { ru: "Мероприятия и выставки", en: "Events & exhibitions" }, { ru: "Одежда и обувь", en: "Fashion retail" },
 ];
 const ABOUT_COMPANIES = [
   { name: "THE ONE / Terra Pro", from: "2026", to: null },
@@ -383,7 +383,7 @@ function companyYears(c, lang) {
   return c.to ? `${c.from}–${c.to}` : `${c.from} — ${lang === "ru" ? "н. в." : "now"}`;
 }
 const ABOUT_TOOLS_SHORT = ["Blender", "Cinema 4D", "After Effects", "Photoshop", "Illustrator", "Figma"];
-const ABOUT_TOOLS_FULL = ["Blender", "Cinema 4D", "Photoshop", "Illustrator", "InDesign", "After Effects", "Premiere Pro", "Figma"];
+const ABOUT_TOOLS_FULL = ["Blender", "Cinema 4D", "Photoshop", "Illustrator", "InDesign", "After Effects", "Premiere Pro", "Figma", "Magnific", "ComfyUI", "Claude", "Codex"];
 
 // Портреты: ч/б дуотон, только WebP, ширины без апскейла
 const PORTRAITS = {
