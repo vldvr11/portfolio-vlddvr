@@ -146,7 +146,7 @@ const L = {
     lang_label: "Язык",
     write_btn: "Написать",
     hero_eyebrow: "vlddvr — универсальный дизайнер",
-    hero_lines: ["Стенды.", "Бренды.", "Моушен."],
+    hero_lines: ["Стенды.", "Бренды.", "Моушен.", "ИИ."],
     hero_subtitle:
       "Брендинг, 3D, моушен, печать, веб и AI-визуалы. Ниже — избранные работы по направлениям.",
     contact_btn: "Обсудить проект",
@@ -215,7 +215,7 @@ const L = {
     lang_label: "Language",
     write_btn: "Message",
     hero_eyebrow: "vlddvr — versatile designer",
-    hero_lines: ["Stands.", "Brands.", "Motion."],
+    hero_lines: ["Stands.", "Brands.", "Motion.", "AI."],
     hero_subtitle:
       "Branding, 3D, motion, print, web and AI visuals. Selected work by direction below.",
     contact_btn: "Discuss a project",
