@@ -2685,19 +2685,19 @@
     "order": 9,
     "featured": true,
     "personal": false,
-    "aiContent": false,
+    "aiContent": true,
     "client": "Sandwich & Co",
     "summary": {
-      "ru": "SMM для кафе-сэндвичей Sandwich & Co в Ташкенте: посты, сторис, акции и рилсы.",
-      "en": "Social media for Sandwich & Co, a sandwich café in Tashkent: posts, stories, promos and reels."
+      "ru": "SMM для кафе-сэндвичей Sandwich & Co в Ташкенте: посты, сторис, акции и рилсы. Свежая серия сторис с нейросетями: сцены по реальным фото блюд, вёрстка и фирменный стиль — вручную.",
+      "en": "Social media for Sandwich & Co, a sandwich café in Tashkent: posts, stories, promos and reels. The latest series is AI-assisted stories: scenes built from real dish photos, with layout and brand styling done by hand."
     },
     "task": {
       "ru": "По брифу заказчика ключевые проблемы — низкая узнаваемость формата «сэндвич» и отсутствие лица компании (мало посадочных мест, съёмки не планировались). Нужен был контент, который продаёт продукт без привязки к людям и без выездных съёмок.",
       "en": "Per the client brief, the main problems were low recognition of the 'sandwich' format and no public face for the brand (few seats, no filming planned). The content needed to sell the product itself, without relying on people or on-site shoots."
     },
     "approach": {
-      "ru": "Контент-план сторис под полностью статичный формат без выездных съёмок: герой контента — продукт, руки и детали; карточки КБЖУ, акции и праздничные посты.",
-      "en": "A stories content plan built for fully static content with no shoots: the hero is the product, hands and details; nutrition cards, promos and holiday posts."
+      "ru": "Контент-план сторис под полностью статичный формат без выездных съёмок: герой контента — продукт, руки и детали; карточки КБЖУ, акции и праздничные посты. Позже добавилась серия сторис с нейросетями: GPT дорабатывает сцену по реальному фото блюда, а текст, цены и лого я верстаю вручную в фирменном стиле.",
+      "en": "A stories content plan built for fully static content with no shoots: the hero is the product, hands and details; nutrition cards, promos and holiday posts. Later came a series of AI-assisted stories: GPT builds the scene around a real photo of the dish, while I lay out the text, prices and logo by hand in the brand style."
     },
     "directions": [
       "motion"
@@ -2707,13 +2707,14 @@
       "reels-stories"
     ],
     "cover": {
-      "src": "assets/img/projects/sandwich-co/sandwich-co-nu3r-02-1600.webp",
+      "src": "assets/img/projects/sandwich-co/sandwich-co-ai-01-1600.webp",
+      "w": 1080,
+      "h": 1920,
       "alt": {
-        "ru": "Пост Sandwich & Co",
-        "en": "Sandwich & Co social post"
+        "ru": "Сторис «ГОРЯЧО» для Sandwich & Co",
+        "en": "“HOT” story for Sandwich & Co"
       },
-      "w": 1600,
-      "h": 1986
+      "focus": "50% 40%"
     },
     "behance": "https://www.behance.net/deathhueth",
     "tags": {
@@ -2738,6 +2739,184 @@
       ]
     },
     "blocks": [
+      {
+        "type": "text",
+        "title": {
+          "ru": "Сторис с нейросетями",
+          "en": "AI-assisted stories"
+        },
+        "text": {
+          "ru": "Серия сторис для кафе. Сцены генерировались нейросетью (GPT) по реальным фото блюд кафе, поэтому сам продукт настоящий. Текст, цены и логотип сверстаны вручную в фирменном стиле после ребрендинга: коричневый, тёмно-зелёный и крем, шрифты Fraunces и Montserrat. Для каждой темы своя идея формата: чек, посадочный талон, экран блокировки, погода, обложка журнала, опрос.",
+          "en": "A series of stories for the café. The scenes were generated with a neural network (GPT) from real photos of the café’s dishes, so the food itself is genuine. Text, prices and the logo were laid out by hand in the post-rebrand identity: brown, dark green and cream, set in Fraunces and Montserrat. Each story has its own format idea: a receipt, a boarding pass, a lock screen, a weather forecast, a magazine cover, a poll."
+        }
+      },
+      {
+        "type": "images",
+        "images": [
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-ai-01-1600.webp",
+            "alt": {
+              "ru": "Сторис «ГОРЯЧО» — филичизстейк с паром",
+              "en": "Story “HOT” — a Philly cheesesteak with steam"
+            },
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-ai-02-1600.webp",
+            "alt": {
+              "ru": "Сторис в формате чека — сэндвич с тунцом и тархун",
+              "en": "Receipt-style story — tuna sandwich with tarragon lemonade"
+            },
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-ai-03-1600.webp",
+            "alt": {
+              "ru": "Сторис в формате посадочного талона TAS — ITA, баклажано пармезано",
+              "en": "Boarding-pass story TAS to ITA — eggplant parmigiana sandwich"
+            },
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-ai-04-1600.webp",
+            "alt": {
+              "ru": "Сторис в формате экрана блокировки — сэндвич с грушей",
+              "en": "Lock-screen story — sandwich with pear"
+            },
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-ai-05-1600.webp",
+            "alt": {
+              "ru": "Сторис «Идеальная пара» — сэндвич с лососем и тархун",
+              "en": "Story “Perfect pair” — salmon sandwich with tarragon lemonade"
+            },
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-ai-06-1600.webp",
+            "alt": {
+              "ru": "Сторис «Детокс» — разлёт ингредиентов смузи",
+              "en": "Story “Detox” — smoothie ingredients in mid-air"
+            },
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-ai-07-1600.webp",
+            "alt": {
+              "ru": "Сторис «Кесадилья» с крупной типографикой",
+              "en": "Story “Quesadilla” with bold typography"
+            },
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-ai-08-1600.webp",
+            "alt": {
+              "ru": "Сторис «План на день» — филичизстейк, фри и тархун",
+              "en": "Story “Plan for the day” — cheesesteak, fries and tarragon lemonade"
+            },
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-ai-09-1600.webp",
+            "alt": {
+              "ru": "Сторис «02:00 — мы ещё работаем» — ночная доставка",
+              "en": "Story “02:00 — we are still open” — late-night delivery"
+            },
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-ai-10-1600.webp",
+            "alt": {
+              "ru": "Сторис «Шедевр дня» — капрезе на пьедестале",
+              "en": "Story “Masterpiece of the day” — caprese sandwich on a pedestal"
+            },
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-ai-11-1600.webp",
+            "alt": {
+              "ru": "Сторис Express lunch — Цезарь сэндвич и тархун",
+              "en": "Express lunch story — Caesar sandwich and tarragon lemonade"
+            },
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-ai-12-1600.webp",
+            "alt": {
+              "ru": "Сторис-опрос «Какой ты сегодня?» — четыре сэндвича",
+              "en": "Poll story “Which one are you today?” — four sandwiches"
+            },
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-ai-13-1600.webp",
+            "alt": {
+              "ru": "Сторис в формате прогноза погоды — сэндвич 4 сыра",
+              "en": "Weather-forecast story — four-cheese sandwich"
+            },
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-ai-14-1600.webp",
+            "alt": {
+              "ru": "Сторис в формате обложки журнала — стейк сэндвич",
+              "en": "Magazine-cover story — steak sandwich"
+            },
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-ai-15-1600.webp",
+            "alt": {
+              "ru": "Сторис «Свет горит — мы открылись» — вывеска на новом месте",
+              "en": "Story “The lights are on — we are open” — the sign at the new location"
+            },
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-ai-16-1600.webp",
+            "alt": {
+              "ru": "Сторис «Ужин без готовки» — бон-филе, телефон и доставка",
+              "en": "Story “Dinner without cooking” — fillet sandwich, phone and delivery"
+            },
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-ai-17-1600.webp",
+            "alt": {
+              "ru": "Сторис «Ждём» — стейк сэндвич и адрес",
+              "en": "Story “We are waiting” — steak sandwich and address"
+            },
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "src": "assets/img/projects/sandwich-co/sandwich-co-ai-18-1600.webp",
+            "alt": {
+              "ru": "Сторис «И суши, и сэндвич» — суши-сэндвич с крабом",
+              "en": "Story “Sushi and sandwich” — crab sushi-sandwich"
+            },
+            "w": 1080,
+            "h": 1920
+          }
+        ]
+      },
       {
         "type": "images",
         "images": [
@@ -6253,16 +6432,16 @@
   {
     "slug": "tools",
     "title": {
-      "ru": "Инструменты — личные проекты",
-      "en": "Tools — personal projects"
+      "ru": "Инструменты — вайбкодинг для себя",
+      "en": "Tools — vibe-coded for my own work"
     },
     "order": 23,
     "featured": true,
     "personal": true,
     "aiContent": false,
     "summary": {
-      "ru": "Веб-инструменты и расширение Chrome, которые сделал для себя и использую в работе: вырезка фона, кадрирование и сжатие фото и видео, подготовка товарных карточек.",
-      "en": "Web tools and a Chrome extension I built for myself and use at work: background removal, photo and video cropping and compression, and product card preparation."
+      "ru": "Утилиты и автоматизации, которые собрал с помощью нейросетей (Claude, Codex) под свою работу дизайнера в Terra Pro: вырезка фона, кадрирование и сжатие фото и видео, товарные карточки, подбор цвета и образов, отчёты и выгрузки.",
+      "en": "Utilities and automations I put together with AI coding assistants (Claude, Codex) for my own design work at Terra Pro: background removal, photo and video cropping and compression, product cards, colour matching, outfit picking, reports and data exports."
     },
     "directions": [
       "web"
@@ -6291,15 +6470,26 @@
     },
     "seo": {
       "title": {
-        "ru": "Инструменты — личные проекты · vlddvr",
-        "en": "Tools — personal projects · vlddvr"
+        "ru": "Инструменты — вайбкодинг для себя · vlddvr",
+        "en": "Tools — vibe-coded for my own work · vlddvr"
       },
       "description": {
-        "ru": "Личные веб-инструменты и расширение Chrome: вырезка фона, кадрирование, сжатие, товарные карточки.",
-        "en": "Personal web tools and a Chrome extension: background removal, cropping, compression, product cards."
+        "ru": "Личные веб-инструменты и автоматизации, собранные с нейросетями: вырезка фона, кадрирование, сжатие, товарные карточки, подбор цвета.",
+        "en": "Personal web tools and automations built with AI assistants: background removal, cropping, compression, product cards, colour matching."
       }
     },
     "blocks": [
+      {
+        "type": "text",
+        "title": {
+          "ru": "Как это сделано",
+          "en": "How it was made"
+        },
+        "text": {
+          "ru": "Я не программист: всё ниже собрано в формате вайбкодинга — ставлю задачу нейросети (Claude, Codex), проверяю результат в работе и дорабатываю, пока инструмент не станет удобным. Каждая утилита появилась из конкретной рутины, которую надоело делать руками.",
+          "en": "I am not a developer: everything below is vibe-coded — I describe the task to an AI assistant (Claude, Codex), test the result in real work and iterate until the tool is comfortable to use. Each utility grew out of a specific routine I got tired of doing by hand."
+        }
+      },
       {
         "type": "text",
         "title": {
@@ -6440,6 +6630,17 @@
         "label": {
           "ru": "Открыть p/card",
           "en": "Open p/card"
+        }
+      },
+      {
+        "type": "text",
+        "title": {
+          "ru": "Для работы в Terra Pro",
+          "en": "For my work at Terra Pro"
+        },
+        "text": {
+          "ru": "Под ежедневные задачи в Terra Pro (THE ONE) собрал ещё несколько вещей.\n\nlook — подбор образа: собирает лук из каталога и показывает вещи вместе.\nColorMatch — подгоняет цвет товара на сгенерированном нейросетью фото под оригинал, у него есть локальный API, чтобы им пользовались скрипты и нейросети.\nПанель SCRIPT MENU — локальная панель, из которой запускаются все скрипты.\nАвтоматизации по расписанию: выгрузка остатков из 1С в карточки Trello, отчёты «Готово» по доскам задач, обложка ежедневной отчётки, снимок кредитов Magnific, дайджест новостей с офлайн-переводом.\nСкиллы и MCP-сервер для Claude, чтобы он сам отвечал по остаткам.\n\nДанные компании, ключи и внутренние файлы здесь не показываются.",
+          "en": "For day-to-day work at Terra Pro (THE ONE) I built a few more things.\n\nlook — an outfit picker that puts catalogue items together into a look.\nColorMatch — matches the colour of a product in an AI-generated photo to the real item; it has a local API so scripts and AI assistants can use it.\nSCRIPT MENU — a local dashboard that launches every script.\nScheduled automations: stock exports from 1C into Trello cards, “Done” reports across task boards, a cover for the daily report, a Magnific credits snapshot, and a news digest with offline translation.\nSkills and an MCP server for Claude so it can answer stock questions on its own.\n\nCompany data, keys and internal files are not shown here."
         }
       }
     ]
